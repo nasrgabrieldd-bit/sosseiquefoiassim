@@ -27,9 +27,9 @@ Objetivo: deixar prontos e no GitHub os 14 vídeos da próxima semana (sexta a q
 
 Se a sessão acabar no meio, a rotina diária termina o que faltar.
 
-## 2. Rotina diária (todo dia, ~16:17)
+## 2. Rotina diária (todo dia, ~05:15, logo após a cota do YouTube zerar)
 1. Leia `agenda.json`. Se algum vídeo das próximas 48 h não tiver `.mp4` no repositório, produza (mesmo processo acima) e faça push.
-2. **Publicação** conforme `PUBLICACAO.md` (método configurado). Agende o que estiver pendente para as próximas datas, respeitando os limites da ferramenta. Marque `status: "agendado"` só com o ID devolvido pela API.
+2. **Publicação** conforme `PUBLICACAO.md`: primeiro o YouTube pelo Composio (cota diária), depois Instagram e TikTok pelo Zernio. Agende o que estiver pendente para as próximas datas, respeitando os limites da ferramenta. Marque `status: "agendado"` só com o ID devolvido pela API.
 3. Confira os posts das últimas 48 h (enviados / erro) e anote em `agenda.json`.
 4. Aviso curto ao fundador: o que foi agendado, o que deu erro, o que falta.
 

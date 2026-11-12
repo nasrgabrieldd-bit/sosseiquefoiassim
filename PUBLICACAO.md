@@ -10,6 +10,7 @@ Método definido em 12/11/2026:
 
 - Zernio grátis: 2 perfis, posts ilimitados. **Não conectar um 3º perfil no Zernio** (é pago, US$ 6/mês).
 - O Buffer conectado ao Claude é do Juro que Explico. **Não usar para o Só Sei.**
+- No Composio há duas contas do YouTube. **Sempre passe `account: "youtube_mayo-oscine"`** (a outra, `youtube_housy-wander`, é o Juro que Explico).
 - Perfil Zernio: `6af5c519b02f549528da528a`.
 
 ## Como agendar (Zernio)
@@ -28,17 +29,16 @@ Antes de agendar, confira que as URLs raw respondem HTTP 200. Um teste com `dry_
 Depois de agendar, grave o `_id` do post em `agenda.json` (`zernio_post`). Para conferir o resultado, use `posts_get` ou `posts_list status=failed`. Se falhar, use `posts_retry`. Só diga ao fundador que algo foi publicado depois que o status confirmar.
 
 ## YouTube (Composio)
-No Composio há duas contas de YouTube. **Sempre passe `account="sosei"`** e confira se o `channelId` da resposta é `UCfh_Xgfmf8XSXVZ4MrKSjMQ`. A outra conta (`youtube_housy-wander`) é o Juro que Explico.
+A cota de upload do app do Composio é compartilhada com outros usuários e zera às **05:00 de Brasília**. Por isso a rotina diária roda às 05:15 e sobe primeiro o YouTube.
 
-No workbench (`COMPOSIO_REMOTE_WORKBENCH`):
-1. Baixe o mp4 da URL raw do GitHub e rode `upload_local_file(path)` para obter o `s3key`.
-2. Rode `YOUTUBE_MULTIPART_UPLOAD_VIDEO` com `{title, description, tags, categoryId: "27", privacyStatus: "private", videoFile: {name, mimetype: "video/mp4", s3key}}` e `account="sosei"`. O ID fica em `data.video.id`. **Não use `YOUTUBE_UPLOAD_VIDEO`:** em 12/11 ele deu `uploadStatus: failed` e o YouTube apagou o vídeo.
-3. Rode `proxy_execute('PUT', 'https://www.googleapis.com/youtube/v3/videos', 'youtube', query_params={'part': 'status'}, body={"id": ID, "status": {"privacyStatus": "private", "publishAt": "<UTC>Z", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True, "embeddable": True, "license": "youtube", "publicStatsViewable": True}})`. Use a URL absoluta: o caminho relativo dá 404. 12:00 em Brasília = 15:00Z; 19:00 = 22:00Z.
-4. Confira com GET `videos?part=status&id=...`: `uploadStatus` deve estar `uploaded` ou `processed`, e `publishAt` deve estar preenchido. Grave o `youtube_id` em `agenda.json`.
+Para cada vídeo pendente no YouTube (ordem: data mais próxima primeiro; só os das próximas 48 h):
+1. `COMPOSIO_MULTI_EXECUTE_TOOL` → `YOUTUBE_UPLOAD_VIDEO`, `account: "youtube_mayo-oscine"`, com:
+   - `title` e `description`: seção YouTube de `episodios/<ID>/posts.md`
+   - `tags`: matéria, "curiosidades", "educação", "só sei que foi assim"
+   - `categoryId: "27"`, `privacyStatus: "private"`
+   - `videoFilePath: {name: "<ID>.mp4", mimetype: "video/mp4", s3key: "<URL raw do mp4>"}`
+2. Com o `videoId` devolvido, `COMPOSIO_PROXY_EXECUTE` (toolkit `youtube`) `PUT https://www.googleapis.com/youtube/v3/videos?part=status` com body `{id, status: {privacyStatus: "private", publishAt: "<data em UTC, ex. 2026-11-13T15:00:00Z>", selfDeclaredMadeForKids: false, containsSyntheticMedia: true}}`. O YouTube publica sozinho na hora marcada.
+3. Grave `youtube_video` em `agenda.json` e marque `youtube: "agendado"`.
+4. Erro "upload quota exceeded" (400) ou 429: pare, não tente mais vezes no dia. Mande ao fundador o vídeo (`SendUserFile`) e o texto da seção YouTube para ele subir pelo YouTube Studio, e marque `youtube: "manual"`.
 
-Regras:
-- Na descrição não pode haver `<` nem `>`: o YouTube recusa com "invalid video description". Troque por →.
-- **Limite diário de envios do canal:** em 12/11 entraram 8 vídeos e o 9º deu "exceeded the number of videos they may upload". Suba no máximo cerca de 6 por dia e deixe o resto para o dia seguinte. Os 2 vídeos diários da rotina cabem nesse limite.
-- **Vídeos longos** (16:9, mais de 3 min) seguem o mesmo caminho; o canal está com `longUploadsStatus: eligible`. Para capa personalizada, use `YOUTUBE_UPDATE_THUMBNAIL`, que exige verificação por telefone do canal.
-- Os títulos dos Shorts levam `#shorts`. Os longos, não.
-- Use o texto da seção YouTube de `posts.md` (título e descrição); as tags são as hashtags da descrição sem o `#`.
+Vídeos longos (16:9, ≥ 4 min) sobem pelo mesmo caminho, sem `#shorts` no título. O canal precisa de verificação por telefone para vídeos acima de 15 min.
