@@ -1,0 +1,86 @@
+[
+ {
+  "id": "SSA-001",
+  "data": "2026-11-13",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-002",
+  "data": "2026-11-13",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-003",
+  "data": "2026-11-14",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-004",
+  "data": "2026-11-14",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-005",
+  "data": "2026-11-15",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-006",
+  "data": "2026-11-15",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-007",
+  "data": "2026-11-16",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-008",
+  "data": "2026-11-16",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-009",
+  "data": "2026-11-17",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-010",
+  "data": "2026-11-17",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-011",
+  "data": "2026-11-18",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-012",
+  "data": "2026-11-18",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-013",
+  "data": "2026-11-19",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-014",
+  "data": "2026-11-19",
+  "hora": "19:00",
+  "status": "pendente"
+ }
+]

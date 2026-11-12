@@ -1,0 +1,25 @@
+{
+ "nome": "Só Sei Que Foi Assim",
+ "nome_topo": "só sei que foi assim",
+ "handle": "@sosseiquefoiassim",
+ "assinatura_leg": "A fonte tá na legenda. Só sei que foi assim!",
+ "assinatura_tts": "A fonte tá na legenda. Só sei que foi assim!",
+ "tagline": "Histórias que explicam o mundo.",
+ "cores": {
+  "tinta": [
+   20,
+   18,
+   22
+  ],
+  "destaque": [
+   255,
+   92,
+   38
+  ],
+  "papel": [
+   240,
+   235,
+   222
+  ]
+ }
+}

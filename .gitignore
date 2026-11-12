@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+episodios/*/video_mudo.mp4
+episodios/*/voz_bruta.wav
+episodios/*/trilha.wav
+episodios/*/efeitos.wav
+episodios/*/narra.log
+episodios/*/*_ig.mp4
+episodios/*/voz.wav
+episodios/*/eventos.json
