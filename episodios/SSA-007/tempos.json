@@ -1,0 +1,136 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 87.865,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A maratona tem 42,195 quilômetros. Por que esses 195 metros?",
+     "inicio": 0.1,
+     "dur": 7.644
+    },
+    {
+     "leg": "A resposta tem castelo e camarote real.",
+     "inicio": 8.084,
+     "dur": 2.731
+    }
+   ],
+   "fim": 11.235
+  },
+  {
+   "id": "c2",
+   "inicio": 11.235,
+   "frases": [
+    {
+     "leg": "Nas primeiras Olimpíadas modernas, a maratona não tinha distância fixa.",
+     "inicio": 11.235,
+     "dur": 4.501
+    },
+    {
+     "leg": "Era mais ou menos 40 quilômetros, e mudava de prova pra prova.",
+     "inicio": 15.936,
+     "dur": 3.947
+    }
+   ],
+   "fim": 20.303
+  },
+  {
+   "id": "c3",
+   "inicio": 20.303,
+   "frases": [
+    {
+     "leg": "Em Londres, 1908, a largada foi no Castelo de Windsor.",
+     "inicio": 20.303,
+     "dur": 4.267
+    },
+    {
+     "leg": "E a chegada, no estádio, bem na frente do camarote real.",
+     "inicio": 24.769,
+     "dur": 3.605
+    },
+    {
+     "leg": "Medido assim, deu 26 milhas e 385 jardas: 42,195 quilômetros.",
+     "inicio": 28.575,
+     "dur": 8.469
+    }
+   ],
+   "fim": 37.464
+  },
+  {
+   "id": "c4",
+   "inicio": 37.464,
+   "frases": [
+    {
+     "leg": "Muita gente conta que foi capricho da família real.",
+     "inicio": 37.464,
+     "dur": 3.221
+    },
+    {
+     "leg": "Mas, segundo o Olympedia, a ideia de largar em Windsor partiu dos organizadores.",
+     "inicio": 40.885,
+     "dur": 4.8
+    }
+   ],
+   "fim": 46.105
+  },
+  {
+   "id": "c5",
+   "inicio": 46.105,
+   "frases": [
+    {
+     "leg": "Essa prova ficou famosa: o italiano Dorando Pietri chegou primeiro, mas foi ajudado a cruzar a linha e acabou desclassificado.",
+     "inicio": 46.105,
+     "dur": 7.509
+    },
+    {
+     "leg": "O ouro ficou com o americano Johnny Hayes.",
+     "inicio": 53.815,
+     "dur": 2.56
+    }
+   ],
+   "fim": 56.795
+  },
+  {
+   "id": "c6",
+   "inicio": 56.795,
+   "frases": [
+    {
+     "leg": "Em 1921, a federação internacional de atletismo adotou a distância de Londres como oficial.",
+     "inicio": 56.795,
+     "dur": 7.083
+    },
+    {
+     "leg": "E hoje? Toda maratona oficial tem exatamente 42,195 quilômetros, por causa de um trajeto de 1908.",
+     "inicio": 64.077,
+     "dur": 10.279
+    }
+   ],
+   "fim": 74.776
+  },
+  {
+   "id": "c7",
+   "inicio": 74.776,
+   "frases": [
+    {
+     "leg": "Então, aqueles 195 metros finais têm mais de cem anos de história.",
+     "inicio": 74.776,
+     "dur": 5.248
+    },
+    {
+     "leg": "Quantos quilômetros você aguenta correr? Comenta.",
+     "inicio": 80.224,
+     "dur": 3.772
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 84.196,
+     "dur": 3.249
+    }
+   ],
+   "fim": 87.865
+  }
+ ]
+}

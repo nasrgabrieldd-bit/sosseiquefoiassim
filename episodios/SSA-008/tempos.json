@@ -1,0 +1,126 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 69.588,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Os cadernos de Marie Curie ainda são radioativos, mais de cem anos depois.",
+     "inicio": 0.1,
+     "dur": 4.907
+    },
+    {
+     "leg": "E pra ler, tem regra.",
+     "inicio": 5.207,
+     "dur": 1.493
+    }
+   ],
+   "fim": 7.12
+  },
+  {
+   "id": "c2",
+   "inicio": 7.12,
+   "frases": [
+    {
+     "leg": "Marie Curie é a única mulher a ganhar o Nobel em duas áreas: física e química.",
+     "inicio": 7.12,
+     "dur": 4.437
+    },
+    {
+     "leg": "Com o marido, Pierre, ela descobriu o polônio, em 1898. O nome homenageia a Polônia, terra dela.",
+     "inicio": 11.757,
+     "dur": 7.367
+    }
+   ],
+   "fim": 19.544
+  },
+  {
+   "id": "c3",
+   "inicio": 19.544,
+   "frases": [
+    {
+     "leg": "Na época, ninguém sabia o quanto a radiação era perigosa.",
+     "inicio": 19.544,
+     "dur": 3.477
+    },
+    {
+     "leg": "Poeira de rádio caía nas roupas, nos móveis, nos papéis.",
+     "inicio": 23.221,
+     "dur": 3.371
+    }
+   ],
+   "fim": 27.012
+  },
+  {
+   "id": "c4",
+   "inicio": 27.012,
+   "frases": [
+    {
+     "leg": "Hoje, os cadernos dela ficam em caixas forradas de chumbo, na Biblioteca Nacional da França.",
+     "inicio": 27.012,
+     "dur": 5.781
+    },
+    {
+     "leg": "Quem quer consultar assina um termo de responsabilidade e usa roupa de proteção.",
+     "inicio": 32.993,
+     "dur": 5.099
+    }
+   ],
+   "fim": 38.512
+  },
+  {
+   "id": "c5",
+   "inicio": 38.512,
+   "frases": [
+    {
+     "leg": "E vai longe: o rádio-226 leva uns 1.600 anos pra perder metade da radiação.",
+     "inicio": 38.512,
+     "dur": 6.763
+    }
+   ],
+   "fim": 45.695
+  },
+  {
+   "id": "c6",
+   "inicio": 45.695,
+   "frases": [
+    {
+     "leg": "E hoje? Sabe aquele avental pesado do raio-x?",
+     "inicio": 45.695,
+     "dur": 3.815
+    },
+    {
+     "leg": "É de chumbo, pelo mesmo motivo das caixas dos cadernos: o chumbo segura a radiação.",
+     "inicio": 49.849,
+     "dur": 5.099
+    }
+   ],
+   "fim": 55.368
+  },
+  {
+   "id": "c7",
+   "inicio": 55.368,
+   "frases": [
+    {
+     "leg": "Então: mais de cem anos depois, os papéis de Marie Curie ainda fazem o contador Geiger apitar.",
+     "inicio": 55.368,
+     "dur": 5.909
+    },
+    {
+     "leg": "Você teria coragem de folhear esse caderno? Comenta.",
+     "inicio": 61.477,
+     "dur": 4.241
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 65.919,
+     "dur": 3.249
+    }
+   ],
+   "fim": 69.588
+  }
+ ]
+}

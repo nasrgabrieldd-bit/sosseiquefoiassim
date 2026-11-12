@@ -1,0 +1,136 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 68.289,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "No mapa, a Groenlândia parece do tamanho da África.",
+     "inicio": 0.1,
+     "dur": 3.179
+    },
+    {
+     "leg": "Mas a África é 14 vezes maior.",
+     "inicio": 3.479,
+     "dur": 2.56
+    }
+   ],
+   "fim": 6.459
+  },
+  {
+   "id": "c2",
+   "inicio": 6.459,
+   "frases": [
+    {
+     "leg": "A culpa é de um mapa de 1569, do cartógrafo Gerardus Mercator.",
+     "inicio": 6.459,
+     "dur": 5.397
+    },
+    {
+     "leg": "Ele queria ajudar os navegadores.",
+     "inicio": 12.056,
+     "dur": 2.347
+    }
+   ],
+   "fim": 14.823
+  },
+  {
+   "id": "c3",
+   "inicio": 14.823,
+   "frases": [
+    {
+     "leg": "No mapa dele, seguir uma linha reta é seguir um rumo da bússola. Perfeito pra navegar.",
+     "inicio": 14.823,
+     "dur": 5.233
+    },
+    {
+     "leg": "Mas, pra isso funcionar, ele esticou tudo que fica perto dos polos.",
+     "inicio": 20.256,
+     "dur": 4.053
+    }
+   ],
+   "fim": 24.729
+  },
+  {
+   "id": "c4",
+   "inicio": 24.729,
+   "frases": [
+    {
+     "leg": "Por isso a Groenlândia, lá no norte, ficou gigante.",
+     "inicio": 24.729,
+     "dur": 3.051
+    },
+    {
+     "leg": "Na real, ela tem mais ou menos o tamanho da República Democrática do Congo.",
+     "inicio": 27.98,
+     "dur": 4.48
+    },
+    {
+     "leg": "E o Alasca parece do tamanho do Brasil, que é quase 5 vezes maior.",
+     "inicio": 32.66,
+     "dur": 4.16
+    },
+    {
+     "leg": "E a Antártida? Se o mapa mostrasse tudo, ela ficaria infinita, esticada de ponta a ponta.",
+     "inicio": 37.02,
+     "dur": 6.033
+    }
+   ],
+   "fim": 43.473
+  },
+  {
+   "id": "c5",
+   "inicio": 43.473,
+   "frases": [
+    {
+     "leg": "E hoje? O Google Maps usa uma versão do Mercator.",
+     "inicio": 43.473,
+     "dur": 3.857
+    },
+    {
+     "leg": "No zoom da sua rua, funciona muito bem. No mapa-múndi, engana.",
+     "inicio": 47.531,
+     "dur": 4.359
+    }
+   ],
+   "fim": 52.309
+  },
+  {
+   "id": "c6",
+   "inicio": 52.309,
+   "frases": [
+    {
+     "leg": "Quer ver o tamanho real? Gira um globo: ele não estica nada.",
+     "inicio": 52.309,
+     "dur": 4.305
+    }
+   ],
+   "fim": 57.035
+  },
+  {
+   "id": "c7",
+   "inicio": 57.035,
+   "frases": [
+    {
+     "leg": "Então: a Groenlândia não é gigante, o mapa é que é exagerado.",
+     "inicio": 57.035,
+     "dur": 3.541
+    },
+    {
+     "leg": "Que país você achava maior do que é? Comenta.",
+     "inicio": 60.776,
+     "dur": 3.644
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 64.62,
+     "dur": 3.249
+    }
+   ],
+   "fim": 68.289
+  }
+ ]
+}

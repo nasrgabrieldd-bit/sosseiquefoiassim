@@ -1,0 +1,485 @@
+{
+ "materia": "GEOGRAFIA",
+ "titulo": "O mapa que encolhe a África",
+ "fontes": [
+  "Mental Floss, 'Why Greenland Appears So Large on Maps'.",
+  "Mercator projection (Wikipedia, com referências): exemplos de distorção.",
+  "Inquirer Technology, 'Why Africa looks smaller than it really is on Google Maps' (2026).",
+  "Science ABC, 'What is wrong with all our maps?'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "areas",
+    "a": "ÁFRICA",
+    "b": "GROENLÂNDIA",
+    "ratio": 14,
+    "pos": [
+     520,
+     700
+    ]
+   },
+   {
+    "t": "bloco",
+    "txt": "14 vezes maior",
+    "pos": [
+     520,
+     1140
+    ],
+    "e": null,
+    "size": 86
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "No mapa, a Groenlândia parece do tamanho da África.",
+     "No mapa, a Groenlândia parece do tamanho da África."
+    ],
+    [
+     "Mas a África é 14 vezes maior.",
+     "Mas a África é catorze vezes maior."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 420,
+     "balanca": true,
+     "sai": [
+      1,
+      "África"
+     ]
+    },
+    {
+     "t": "areas",
+     "a": "ÁFRICA",
+     "b": "GROENLÂNDIA",
+     "ratio": 14,
+     "pos": [
+      520,
+      760
+     ],
+     "e": [
+      1,
+      "África"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "14×",
+     "pos": [
+      790,
+      1110
+     ],
+     "e": [
+      1,
+      "14"
+     ],
+     "size": 110
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Mental Floss",
+   "frases": [
+    [
+     "A culpa é de um mapa de 1569, do cartógrafo Gerardus Mercator.",
+     "A culpa é de um mapa de mil quinhentos e sessenta e nove, do cartógrafo Gerárdus Mercátor."
+    ],
+    [
+     "Ele queria ajudar os navegadores.",
+     "Ele queria ajudar os navegadores."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "MERCATOR, 1569",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 56
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      340,
+      760
+     ],
+     "w": 340
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      720,
+      760
+     ],
+     "e": [
+      0,
+      "mapa"
+     ],
+     "w": 300
+    },
+    {
+     "t": "nota",
+     "txt": "pra navegar",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "navegadores"
+     ],
+     "cor": "laranja",
+     "size": 66
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Science ABC",
+   "frases": [
+    [
+     "No mapa dele, seguir uma linha reta é seguir um rumo da bússola. Perfeito pra navegar.",
+     "No mapa dele, seguir uma linha reta é seguir um rumo da bússola. Perfeito pra navegar."
+    ],
+    [
+     "Mas, pra isso funcionar, ele esticou tudo que fica perto dos polos.",
+     "Mas, pra isso funcionar, ele esticou tudo que fica perto dos polos."
+    ]
+   ],
+   "camera": {
+    "push": 0.04,
+    "zooms": [
+     {
+      "e": [
+       1,
+       "esticou"
+      ],
+      "escala": 1.2,
+      "alvo": [
+       520,
+       500
+      ],
+      "dur": 0.8
+     }
+    ]
+   },
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      200,
+      600
+     ],
+     "ate": [
+      860,
+      600
+     ],
+     "pos": [
+      0,
+      0
+     ]
+    },
+    {
+     "t": "nota",
+     "txt": "linha reta = rumo",
+     "pos": [
+      520,
+      500
+     ],
+     "size": 58
+    },
+    {
+     "t": "bloco",
+     "txt": "esticado nos polos",
+     "pos": [
+      520,
+      860
+     ],
+     "e": [
+      1,
+      "esticou"
+     ],
+     "size": 74,
+     "cor": "tinta"
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "polos"
+     ],
+     "w": 200
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Mercator projection (Wikipedia)",
+   "frases": [
+    [
+     "Por isso a Groenlândia, lá no norte, ficou gigante.",
+     "Por isso a Groenlândia, lá no norte, ficou gigante."
+    ],
+    [
+     "Na real, ela tem mais ou menos o tamanho da República Democrática do Congo.",
+     "Na real, ela tem mais ou menos o tamanho da República Democrática do Congo."
+    ],
+    [
+     "E o Alasca parece do tamanho do Brasil, que é quase 5 vezes maior.",
+     "E o Alasca parece do tamanho do Brasil, que é quase cinco vezes maior."
+    ],
+    [
+     "E a Antártida? Se o mapa mostrasse tudo, ela ficaria infinita, esticada de ponta a ponta.",
+     "E a Antártida? Se o mapa mostrasse tudo, ela ficaria infinita, esticada de ponta a ponta."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "GROENLÂNDIA",
+     "pos": [
+      520,
+      460
+     ],
+     "size": 80,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "~ tamanho do Congo",
+     "pos": [
+      520,
+      640
+     ],
+     "e": [
+      1,
+      "Congo"
+     ],
+     "size": 52
+    },
+    {
+     "t": "bloco",
+     "txt": "BRASIL",
+     "pos": [
+      330,
+      880
+     ],
+     "e": [
+      2,
+      "Brasil"
+     ],
+     "size": 96
+    },
+    {
+     "t": "tira",
+     "txt": "5 vezes o Alasca",
+     "pos": [
+      700,
+      1000
+     ],
+     "e": [
+      2,
+      "5"
+     ],
+     "size": 56
+    },
+    {
+     "t": "nota",
+     "txt": "Antártida: infinita!",
+     "pos": [
+      520,
+      1150
+     ],
+     "e": [
+      3,
+      "infinita"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Inquirer Technology (2026)",
+   "frases": [
+    [
+     "E hoje? O Google Maps usa uma versão do Mercator.",
+     "E hoje? O Google Maps usa uma versão do Mercator."
+    ],
+    [
+     "No zoom da sua rua, funciona muito bem. No mapa-múndi, engana.",
+     "No zoom da sua rua, funciona muito bem. No mapa-múndi, engana."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      330,
+      700
+     ],
+     "w": 340,
+     "ang": -4
+    },
+    {
+     "t": "bloco",
+     "txt": "Web Mercator",
+     "pos": [
+      690,
+      560
+     ],
+     "e": [
+      0,
+      "Mercator"
+     ],
+     "size": 64
+    },
+    {
+     "t": "nota",
+     "txt": "rua: ok",
+     "pos": [
+      700,
+      800
+     ],
+     "e": [
+      1,
+      "rua"
+     ],
+     "size": 64
+    },
+    {
+     "t": "nota",
+     "txt": "mundo: engana",
+     "pos": [
+      690,
+      980
+     ],
+     "e": [
+      1,
+      "engana"
+     ],
+     "cor": "laranja",
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "Quer ver o tamanho real? Gira um globo: ele não estica nada.",
+     "Quer ver o tamanho real? Gira um globo: ele não estica nada."
+    ]
+   ],
+   "camera": {
+    "push": 0.1
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      700
+     ],
+     "w": 520,
+     "balanca": true
+    },
+    {
+     "t": "nota",
+     "txt": "não estica nada",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      0,
+      "estica"
+     ],
+     "cor": "laranja",
+     "size": 66
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: a Groenlândia não é gigante, o mapa é que é exagerado.",
+     "Então: a Groenlândia não é gigante, o mapa é que é exagerado."
+    ],
+    [
+     "Que país você achava maior do que é? Comenta.",
+     "Que país você achava maior do que é? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "areas",
+     "a": "ÁFRICA",
+     "b": "GROENLÂNDIA",
+     "ratio": 14,
+     "pos": [
+      520,
+      700
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "qual país te enganou?",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      1,
+      "país"
+     ],
+     "size": 66
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      790,
+      450
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "VOCÊ APRENDEU ISSO ERRADO?",
+ "id": "SSA-009"
+}

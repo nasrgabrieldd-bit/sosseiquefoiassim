@@ -1,0 +1,518 @@
+{
+ "materia": "EDUCAÇÃO FÍSICA",
+ "titulo": "Por que a maratona tem 42,195 km?",
+ "fontes": [
+  "Olympedia, 'Marathon, Men — 1908 Summer Olympics'.",
+  "German Road Races, '100 Years of the Marathon: 42.195 km' (2008).",
+  "Boston.com, 'Why is a marathon 26.2 miles?' (2023)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "corredor",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 440
+   },
+   {
+    "t": "numero",
+    "txt": "42,195",
+    "pos": [
+     520,
+     980
+    ],
+    "e": null,
+    "size": 190
+   },
+   {
+    "t": "tira",
+    "txt": "km",
+    "pos": [
+     860,
+     1090
+    ],
+    "e": null,
+    "size": 50
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A maratona tem 42,195 quilômetros. Por que esses 195 metros?",
+     "A maratona tem quarenta e dois quilômetros e cento e noventa e cinco metros. Por que esses cento e noventa e cinco metros?"
+    ],
+    [
+     "A resposta tem castelo e camarote real.",
+     "A resposta tem castelo e camarote real."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "corredor",
+     "pos": [
+      520,
+      600
+     ],
+     "w": 420,
+     "balanca": true
+    },
+    {
+     "t": "numero",
+     "txt": "42,195",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 190
+    },
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      300,
+      1120
+     ],
+     "e": [
+      1,
+      "castelo"
+     ],
+     "w": 220,
+     "h": 160
+    },
+    {
+     "t": "obj",
+     "nome": "coroa",
+     "pos": [
+      760,
+      1120
+     ],
+     "e": [
+      1,
+      "camarote"
+     ],
+     "w": 170
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Boston.com (2023)",
+   "frases": [
+    [
+     "Nas primeiras Olimpíadas modernas, a maratona não tinha distância fixa.",
+     "Nas primeiras Olimpíadas modernas, a maratona não tinha distância fixa."
+    ],
+    [
+     "Era mais ou menos 40 quilômetros, e mudava de prova pra prova.",
+     "Era mais ou menos quarenta quilômetros, e mudava de prova pra prova."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      520,
+      600
+     ],
+     "w": 300
+    },
+    {
+     "t": "tira",
+     "txt": "~ 40 km",
+     "pos": [
+      340,
+      960
+     ],
+     "e": [
+      1,
+      "40"
+     ],
+     "size": 70
+    },
+    {
+     "t": "nota",
+     "txt": "cada prova\nde um jeito",
+     "pos": [
+      700,
+      1000
+     ],
+     "e": [
+      1,
+      "mudava"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Olympedia; German Road Races",
+   "frases": [
+    [
+     "Em Londres, 1908, a largada foi no Castelo de Windsor.",
+     "Em Londres, mil novecentos e oito, a largada foi no Castelo de Uíndsor."
+    ],
+    [
+     "E a chegada, no estádio, bem na frente do camarote real.",
+     "E a chegada, no estádio, bem na frente do camarote real."
+    ],
+    [
+     "Medido assim, deu 26 milhas e 385 jardas: 42,195 quilômetros.",
+     "Medido assim, deu vinte e seis milhas e trezentas e oitenta e cinco jardas: quarenta e dois quilômetros e cento e noventa e cinco metros."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "LONDRES, 1908",
+     "pos": [
+      520,
+      430
+     ],
+     "size": 50
+    },
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      300,
+      640
+     ],
+     "e": [
+      0,
+      "Windsor"
+     ],
+     "w": 320,
+     "h": 240
+    },
+    {
+     "t": "seta",
+     "de": [
+      470,
+      640
+     ],
+     "ate": [
+      640,
+      760
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      0.0
+     ]
+    },
+    {
+     "t": "obj",
+     "nome": "coroa",
+     "pos": [
+      740,
+      800
+     ],
+     "e": [
+      1,
+      "camarote"
+     ],
+     "w": 220
+    },
+    {
+     "t": "tira",
+     "txt": "26 milhas + 385 jardas",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      2,
+      "milhas"
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "= 42,195 km",
+     "pos": [
+      520,
+      1130
+     ],
+     "e": [
+      2,
+      "42"
+     ],
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Olympedia",
+   "frases": [
+    [
+     "Muita gente conta que foi capricho da família real.",
+     "Muita gente conta que foi capricho da família real."
+    ],
+    [
+     "Mas, segundo o Olympedia, a ideia de largar em Windsor partiu dos organizadores.",
+     "Mas, segundo o Olimpédia, a ideia de largar em Uíndsor partiu dos organizadores."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "capricho da realeza?",
+     "pos": [
+      520,
+      520
+     ],
+     "size": 70,
+     "cor": "tinta"
+    },
+    {
+     "t": "risco",
+     "de": [
+      180,
+      520
+     ],
+     "ate": [
+      860,
+      520
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "organizadores"
+     ]
+    },
+    {
+     "t": "tira",
+     "txt": "OLYMPEDIA",
+     "pos": [
+      330,
+      800
+     ],
+     "e": [
+      1,
+      "Olympedia"
+     ],
+     "size": 50
+    },
+    {
+     "t": "nota",
+     "txt": "ideia dos\norganizadores",
+     "pos": [
+      640,
+      980
+     ],
+     "e": [
+      1,
+      "organizadores"
+     ],
+     "cor": "laranja",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Essa prova ficou famosa: o italiano Dorando Pietri chegou primeiro, mas foi ajudado a cruzar a linha e acabou desclassificado.",
+     "Essa prova ficou famosa: o italiano Dorando Piêtri chegou primeiro, mas foi ajudado a cruzar a linha e acabou desclassificado."
+    ],
+    [
+     "O ouro ficou com o americano Johnny Hayes.",
+     "O ouro ficou com o americano Djóni Reis."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "corredor",
+     "pos": [
+      330,
+      640
+     ],
+     "w": 340,
+     "ang": -4
+    },
+    {
+     "t": "tira",
+     "txt": "DORANDO PIETRI",
+     "pos": [
+      660,
+      480
+     ],
+     "e": [
+      0,
+      "Pietri"
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "DESCLASSIFICADO",
+     "pos": [
+      600,
+      860
+     ],
+     "e": [
+      0,
+      "desclassificado"
+     ],
+     "size": 60,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      740,
+      1080
+     ],
+     "e": [
+      1,
+      "ouro"
+     ],
+     "w": 200
+    },
+    {
+     "t": "tira",
+     "txt": "JOHNNY HAYES",
+     "pos": [
+      380,
+      1120
+     ],
+     "e": [
+      1,
+      "Hayes"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: German Road Races (2008)",
+   "frases": [
+    [
+     "Em 1921, a federação internacional de atletismo adotou a distância de Londres como oficial.",
+     "Em mil novecentos e vinte e um, a federação internacional de atletismo adotou a distância de Londres como oficial."
+    ],
+    [
+     "E hoje? Toda maratona oficial tem exatamente 42,195 quilômetros, por causa de um trajeto de 1908.",
+     "E hoje? Toda maratona oficial tem exatamente quarenta e dois quilômetros e cento e noventa e cinco metros, por causa de um trajeto de mil novecentos e oito."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "1921: distância oficial",
+     "pos": [
+      520,
+      470
+     ],
+     "size": 50
+    },
+    {
+     "t": "obj",
+     "nome": "relogio",
+     "pos": [
+      330,
+      760
+     ],
+     "e": [
+      1,
+      "hoje"
+     ],
+     "w": 280
+    },
+    {
+     "t": "numero",
+     "txt": "42,195",
+     "pos": [
+      640,
+      1040
+     ],
+     "e": [
+      1,
+      "exatamente"
+     ],
+     "size": 150
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então, aqueles 195 metros finais têm mais de cem anos de história.",
+     "Então, aqueles cento e noventa e cinco metros finais têm mais de cem anos de história."
+    ],
+    [
+     "Quantos quilômetros você aguenta correr? Comenta.",
+     "Quantos quilômetros você aguenta correr? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "corredor",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380
+    },
+    {
+     "t": "bloco",
+     "txt": "quantos km você aguenta?",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      "Quantos"
+     ],
+     "size": 66,
+     "maxw": 760
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "POR QUE ESSE NÚMERO?",
+ "id": "SSA-007"
+}

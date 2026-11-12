@@ -1,0 +1,476 @@
+{
+ "materia": "QUÍMICA",
+ "titulo": "Os cadernos de Marie Curie ainda são radioativos",
+ "fontes": [
+  "The Christian Science Monitor, 'Marie Curie: Why her papers are still radioactive' (2011).",
+  "Business Insider, 'These personal effects... will be radioactive for another 1,500 years'.",
+  "My Modern Met, 'Marie Curie’s Papers Are Still Radioactive'.",
+  "IFLScience, 'Marie Curie died from her radioactivity research...'.",
+  "Abakcus, 'Marie Curie’s Radioactive Notebooks'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "caderno",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 460,
+    "h": 560,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "ainda radioativo",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 86
+   },
+   {
+    "t": "tira",
+    "txt": "MARIE CURIE",
+    "pos": [
+     300,
+     420
+    ],
+    "e": null,
+    "size": 56
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Os cadernos de Marie Curie ainda são radioativos, mais de cem anos depois.",
+     "Os cadernos de Marie Curie ainda são radioativos, mais de cem anos depois."
+    ],
+    [
+     "E pra ler, tem regra.",
+     "E pra ler, tem regra."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "caderno",
+     "pos": [
+      520,
+      660
+     ],
+     "w": 460,
+     "h": 560,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "ainda radioativo",
+     "pos": [
+      520,
+      1110
+     ],
+     "size": 80
+    },
+    {
+     "t": "nota",
+     "txt": "tem regra!",
+     "pos": [
+      780,
+      440
+     ],
+     "e": [
+      1,
+      "regra"
+     ],
+     "cor": "laranja",
+     "size": 66
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Business Insider; Abakcus",
+   "frases": [
+    [
+     "Marie Curie é a única mulher a ganhar o Nobel em duas áreas: física e química.",
+     "Marie Curie é a única mulher a ganhar o Nobel em duas áreas: física e química."
+    ],
+    [
+     "Com o marido, Pierre, ela descobriu o polônio, em 1898. O nome homenageia a Polônia, terra dela.",
+     "Com o marido, Pierre, ela descobriu o polônio, em mil oitocentos e noventa e oito. O nome homenageia a Polônia, terra dela."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      300,
+      620
+     ],
+     "w": 280
+    },
+    {
+     "t": "bloco",
+     "txt": "Nobel: física + química",
+     "pos": [
+      620,
+      560
+     ],
+     "e": [
+      0,
+      "física"
+     ],
+     "size": 56,
+     "maxw": 520
+    },
+    {
+     "t": "tira",
+     "txt": "POLÔNIO, 1898",
+     "pos": [
+      600,
+      880
+     ],
+     "e": [
+      1,
+      "polônio"
+     ],
+     "size": 56
+    },
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      330,
+      1020
+     ],
+     "e": [
+      1,
+      "Polônia"
+     ],
+     "w": 250
+    },
+    {
+     "t": "nota",
+     "txt": "homenagem à Polônia",
+     "pos": [
+      680,
+      1050
+     ],
+     "e": [
+      1,
+      "homenageia"
+     ],
+     "cor": "laranja",
+     "size": 52
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: IFLScience",
+   "frases": [
+    [
+     "Na época, ninguém sabia o quanto a radiação era perigosa.",
+     "Na época, ninguém sabia o quanto a radiação era perigosa."
+    ],
+    [
+     "Poeira de rádio caía nas roupas, nos móveis, nos papéis.",
+     "Poeira de rádio caía nas roupas, nos móveis, nos papéis."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 360,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "perigo desconhecido",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      0,
+      "perigosa"
+     ],
+     "size": 70,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "roupas, móveis, papéis...",
+     "pos": [
+      520,
+      1150
+     ],
+     "e": [
+      1,
+      "roupas"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Christian Science Monitor (2011)",
+   "frases": [
+    [
+     "Hoje, os cadernos dela ficam em caixas forradas de chumbo, na Biblioteca Nacional da França.",
+     "Hoje, os cadernos dela ficam em caixas forradas de chumbo, na Biblioteca Nacional da França."
+    ],
+    [
+     "Quem quer consultar assina um termo de responsabilidade e usa roupa de proteção.",
+     "Quem quer consultar assina um termo de responsabilidade e usa roupa de proteção."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "caderno",
+     "pos": [
+      330,
+      680
+     ],
+     "w": 340,
+     "h": 420,
+     "ang": -6
+    },
+    {
+     "t": "bloco",
+     "txt": "CAIXA DE CHUMBO",
+     "pos": [
+      680,
+      560
+     ],
+     "e": [
+      0,
+      "chumbo"
+     ],
+     "size": 56,
+     "cor": "tinta",
+     "ang": 4
+    },
+    {
+     "t": "tira",
+     "txt": "BIBLIOTECA NACIONAL DA FRANÇA",
+     "pos": [
+      520,
+      940
+     ],
+     "e": [
+      0,
+      "Biblioteca"
+     ],
+     "size": 36
+    },
+    {
+     "t": "nota",
+     "txt": "assina o termo\ne se protege",
+     "pos": [
+      540,
+      1110
+     ],
+     "e": [
+      1,
+      "assina"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: My Modern Met",
+   "frases": [
+    [
+     "E vai longe: o rádio-226 leva uns 1.600 anos pra perder metade da radiação.",
+     "E vai longe: o rádio duzentos e vinte e seis leva uns mil e seiscentos anos pra perder metade da radiação."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "RÁDIO-226",
+     "pos": [
+      330,
+      470
+     ],
+     "size": 60
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 1600,
+     "fmt": "{n} anos",
+     "pos": [
+      520,
+      740
+     ],
+     "e": [
+      0,
+      "1.600"
+     ],
+     "size": 110
+    },
+    {
+     "t": "nota",
+     "txt": "...só pra cair pela metade",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      0,
+      "metade"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: My Modern Met",
+   "frases": [
+    [
+     "E hoje? Sabe aquele avental pesado do raio-x?",
+     "E hoje? Sabe aquele avental pesado do raio-x?"
+    ],
+    [
+     "É de chumbo, pelo mesmo motivo das caixas dos cadernos: o chumbo segura a radiação.",
+     "É de chumbo, pelo mesmo motivo das caixas dos cadernos: o chumbo segura a radiação."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "avental do raio-x",
+     "pos": [
+      520,
+      560
+     ],
+     "size": 74
+    },
+    {
+     "t": "tira",
+     "txt": "= chumbo",
+     "pos": [
+      520,
+      760
+     ],
+     "e": [
+      1,
+      "chumbo"
+     ],
+     "size": 70
+    },
+    {
+     "t": "obj",
+     "nome": "caderno",
+     "pos": [
+      700,
+      1020
+     ],
+     "e": [
+      1,
+      "caixas"
+     ],
+     "w": 240,
+     "h": 300,
+     "ang": 5
+    },
+    {
+     "t": "nota",
+     "txt": "segura a radiação",
+     "pos": [
+      330,
+      1040
+     ],
+     "e": [
+      1,
+      "segura"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: mais de cem anos depois, os papéis de Marie Curie ainda fazem o contador Geiger apitar.",
+     "Então: mais de cem anos depois, os papéis de Marie Curie ainda fazem o contador Gáiguer apitar."
+    ],
+    [
+     "Você teria coragem de folhear esse caderno? Comenta.",
+     "Você teria coragem de folhear esse caderno? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "caderno",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 400,
+     "h": 490,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "você folhearia?",
+     "pos": [
+      520,
+      1070
+     ],
+     "e": [
+      1,
+      "coragem"
+     ],
+     "size": 78
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "PERIGO NA BIBLIOTECA",
+ "id": "SSA-008"
+}
