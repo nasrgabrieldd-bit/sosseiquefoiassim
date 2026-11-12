@@ -1,0 +1,456 @@
+{
+ "materia": "HISTÓRIA",
+ "titulo": "O quadro do Grito foi pintado 66 anos depois",
+ "fontes": [
+  "ONO, Rosaria; LIMA, Solange F. de. 'O novo Museu do Ipiranga no bicentenário da Independência do Brasil' (2022).",
+  "CartaCapital, reportagem sobre a restauração do Museu do Ipiranga (2022).",
+  "Revista de Estudios Brasileños (USP/Salamanca), entrevista com o vice-diretor do Museu Paulista (2022).",
+  "SBT News, 'Museu do Ipiranga recebeu 1 milhão de visitantes' (2024).",
+  "ABCdoABC, 'Museu do Ipiranga inaugura três exposições em estações do Metrô' (curadoria de Paulo César Garcez Marins)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "moldura",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 600,
+    "h": 420
+   },
+   {
+    "t": "numero",
+    "txt": "66",
+    "pos": [
+     280,
+     450
+    ],
+    "e": null,
+    "size": 220
+   },
+   {
+    "t": "bloco",
+    "txt": "anos depois do grito",
+    "pos": [
+     540,
+     1110
+    ],
+    "e": null,
+    "size": 72
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "O quadro mais famoso da Independência foi pintado 66 anos depois do grito.",
+     "O quadro mais famoso da Independência foi pintado sessenta e seis anos depois do grito."
+    ],
+    [
+     "E o pintor nem tinha nascido em 1822.",
+     "E o pintor nem tinha nascido em mil oitocentos e vinte e dois."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      660
+     ],
+     "w": 600,
+     "h": 420,
+     "balanca": true
+    },
+    {
+     "t": "numero",
+     "txt": "66",
+     "pos": [
+      260,
+      450
+     ],
+     "size": 200
+    },
+    {
+     "t": "bloco",
+     "txt": "anos depois",
+     "pos": [
+      620,
+      1000
+     ],
+     "size": 80
+    },
+    {
+     "t": "tira",
+     "txt": "1822",
+     "pos": [
+      330,
+      1150
+     ],
+     "e": [
+      1,
+      "1822"
+     ],
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Ono e Lima (2022)",
+   "frases": [
+    [
+     "É Independência ou Morte, de Pedro Américo.",
+     "É Independência ou Morte, de Pedro Américo."
+    ],
+    [
+     "Foi encomendado em 1886 e entregue em 1888.",
+     "Foi encomendado em mil oitocentos e oitenta e seis e entregue em mil oitocentos e oitenta e oito."
+    ],
+    [
+     "Pedro Américo nasceu em 1843. Ele pintou uma cena que nunca viu.",
+     "Pedro Américo nasceu em mil oitocentos e quarenta e três. Ele pintou uma cena que nunca viu."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "\"INDEPENDÊNCIA OU MORTE!\"",
+     "pos": [
+      520,
+      430
+     ],
+     "size": 46
+    },
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      680
+     ],
+     "w": 460,
+     "h": 320
+    },
+    {
+     "t": "tira",
+     "txt": "encomenda: 1886",
+     "pos": [
+      300,
+      920
+     ],
+     "e": [
+      1,
+      "1886"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "entrega: 1888",
+     "pos": [
+      700,
+      980
+     ],
+     "e": [
+      1,
+      "1888"
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "nunca viu a cena",
+     "pos": [
+      520,
+      1150
+     ],
+     "e": [
+      2,
+      "nunca"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: CartaCapital (2022)",
+   "frases": [
+    [
+     "E é enorme: tem 7 metros e 60 de largura por 4 metros e 15 de altura.",
+     "E é enorme: tem sete metros e sessenta de largura por quatro metros e quinze de altura."
+    ],
+    [
+     "Tão grande que, na reforma do museu, não passava pela porta.",
+     "Tão grande que, na reforma do museu, não passava pela porta."
+    ]
+   ],
+   "camera": {
+    "push": 0.04,
+    "zooms": [
+     {
+      "e": [
+       1,
+       "porta"
+      ],
+      "escala": 1.25,
+      "alvo": [
+       520,
+       700
+      ],
+      "dur": 0.8
+     }
+    ]
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      660
+     ],
+     "w": 640,
+     "h": 360
+    },
+    {
+     "t": "bloco",
+     "txt": "7,60 m × 4,15 m",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      0,
+      "7"
+     ],
+     "size": 74
+    },
+    {
+     "t": "nota",
+     "txt": "não passava pela porta!",
+     "pos": [
+      520,
+      1140
+     ],
+     "e": [
+      1,
+      "porta"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: CartaCapital (2022)",
+   "frases": [
+    [
+     "Então ele ficou lá dentro, protegido, no meio das obras.",
+     "Então ele ficou lá dentro, protegido, no meio das obras."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      520,
+      700
+     ],
+     "w": 520,
+     "h": 380
+    },
+    {
+     "t": "bloco",
+     "txt": "ficou lá dentro",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      0,
+      "dentro"
+     ],
+     "size": 80
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Museu do Ipiranga (curadoria) via ABCdoABC",
+   "frases": [
+    [
+     "E o próprio museu lembra: essa imagem é uma construção. O pintor imaginou a cena.",
+     "E o próprio museu lembra: essa imagem é uma construção. O pintor imaginou a cena."
+    ],
+    [
+     "Quadro histórico não é fotografia.",
+     "Quadro histórico não é fotografia."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "imagem = construção",
+     "pos": [
+      520,
+      560
+     ],
+     "size": 76
+    },
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      860
+     ],
+     "e": [
+      0,
+      "imaginou"
+     ],
+     "w": 420,
+     "h": 300,
+     "ang": -3
+    },
+    {
+     "t": "bloco",
+     "txt": "não é foto",
+     "pos": [
+      640,
+      1130
+     ],
+     "e": [
+      1,
+      "fotografia"
+     ],
+     "size": 70,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: USP (REB, 2022); SBT News (2024)",
+   "frases": [
+    [
+     "E hoje? Depois de quase dez anos fechado, o Museu do Ipiranga reabriu em setembro de 2022, no bicentenário da Independência.",
+     "E hoje? Depois de quase dez anos fechado, o Museu do Ipiranga reabriu em setembro de dois mil e vinte e dois, no bicentenário da Independência."
+    ],
+    [
+     "Em menos de dois anos, recebeu 1 milhão de visitantes.",
+     "Em menos de dois anos, recebeu um milhão de visitantes."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 500,
+     "h": 360
+    },
+    {
+     "t": "tira",
+     "txt": "REABERTURA: SET/2022",
+     "pos": [
+      520,
+      900
+     ],
+     "e": [
+      0,
+      "reabriu"
+     ],
+     "size": 50
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 1000000,
+     "fmt": "{n} visitantes",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "milhão"
+     ],
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: a cena do grito que todo mundo conhece foi imaginada décadas depois.",
+     "Então: a cena do grito que todo mundo conhece foi imaginada décadas depois."
+    ],
+    [
+     "Você já foi ao Museu do Ipiranga? Comenta.",
+     "Você já foi ao Museu do Ipiranga? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 520,
+     "h": 360,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "você já foi?",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      "Museu"
+     ],
+     "size": 80
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.7
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "O SEGREDO POR TRÁS DO QUADRO",
+ "id": "SSA-013"
+}

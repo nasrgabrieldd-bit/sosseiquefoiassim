@@ -1,0 +1,518 @@
+{
+ "materia": "MATEMÁTICA",
+ "titulo": "Quem transformou o zero em número",
+ "fontes": [
+  "Discover Magazine, 'How We Discovered the Number Zero'.",
+  "BRAHMAGUPTA. Brahmasphutasiddhanta (628 d.C.).",
+  "FIBONACCI, Leonardo. Liber Abaci (1202).",
+  "SEN, S. K.; AGARWAL, R. P. 'Much ado about zero' (arXiv:1601.05983).",
+  "Kronecker Wallis, artigo sobre a história do zero.",
+  "eCycle, 'Zero: conheça a história do número'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "numero",
+    "txt": "0",
+    "pos": [
+     520,
+     700
+    ],
+    "e": null,
+    "size": 620
+   },
+   {
+    "t": "tira",
+    "txt": "ÍNDIA, 628",
+    "pos": [
+     300,
+     440
+    ],
+    "e": null,
+    "size": 56
+   },
+   {
+    "t": "bloco",
+    "txt": "o nada que virou número",
+    "pos": [
+     520,
+     1130
+    ],
+    "e": null,
+    "size": 70
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Por muito tempo, o zero nem era considerado um número.",
+     "Por muito tempo, o zero nem era considerado um número."
+    ],
+    [
+     "Quem mudou isso foi um matemático da Índia, no ano 628.",
+     "Quem mudou isso foi um matemático da Índia, no ano seiscentos e vinte e oito."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "0",
+     "pos": [
+      520,
+      700
+     ],
+     "size": 620
+    },
+    {
+     "t": "tira",
+     "txt": "ÍNDIA, 628",
+     "pos": [
+      300,
+      440
+     ],
+     "e": [
+      1,
+      "Índia"
+     ],
+     "size": 56
+    },
+    {
+     "t": "bloco",
+     "txt": "nem era número",
+     "pos": [
+      640,
+      1120
+     ],
+     "size": 72,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Discover Magazine",
+   "frases": [
+    [
+     "Antes, povos como os sumérios e os maias já tinham a ideia de nada.",
+     "Antes, povos como os sumérios e os maias já tinham a ideia de nada."
+    ],
+    [
+     "Mas o zero era só um marcador de lugar, um espaço vazio na conta.",
+     "Mas o zero era só um marcador de lugar, um espaço vazio na conta."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "sumérios",
+     "pos": [
+      320,
+      480
+     ],
+     "e": [
+      0,
+      "sumérios"
+     ],
+     "size": 56
+    },
+    {
+     "t": "tira",
+     "txt": "maias",
+     "pos": [
+      700,
+      560
+     ],
+     "e": [
+      0,
+      "maias"
+     ],
+     "size": 56
+    },
+    {
+     "t": "bloco",
+     "txt": "2 _ 5",
+     "pos": [
+      520,
+      820
+     ],
+     "e": [
+      1,
+      "marcador"
+     ],
+     "size": 130,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "marcador de lugar",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      "marcador"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Discover Magazine",
+   "frases": [
+    [
+     "Em 628, Brahmagupta escreveu regras pra fazer conta com o zero.",
+     "Em seiscentos e vinte e oito, Bramagupta escreveu regras pra fazer conta com o zero."
+    ],
+    [
+     "Um número mais zero dá ele mesmo. Um número vezes zero dá zero.",
+     "Um número mais zero dá ele mesmo. Um número vezes zero dá zero."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "BRAHMAGUPTA, 628",
+     "pos": [
+      520,
+      440
+     ],
+     "size": 52
+    },
+    {
+     "t": "bloco",
+     "txt": "5 + 0 = 5",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "mais"
+     ],
+     "size": 110
+    },
+    {
+     "t": "bloco",
+     "txt": "5 × 0 = 0",
+     "pos": [
+      520,
+      950
+     ],
+     "e": [
+      1,
+      "vezes"
+     ],
+     "size": 110,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Kronecker Wallis",
+   "frases": [
+    [
+     "Ele até tentou dividir por zero, e não acertou.",
+     "Ele até tentou dividir por zero, e não acertou."
+    ],
+    [
+     "Essa conta deu dor de cabeça por séculos.",
+     "Essa conta deu dor de cabeça por séculos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "5 ÷ 0 = ?",
+     "pos": [
+      520,
+      640
+     ],
+     "size": 120
+    },
+    {
+     "t": "nota",
+     "txt": "não acertou",
+     "pos": [
+      700,
+      880
+     ],
+     "e": [
+      0,
+      "acertou"
+     ],
+     "cor": "laranja",
+     "size": 66
+    },
+    {
+     "t": "obj",
+     "nome": "lampada",
+     "pos": [
+      320,
+      1000
+     ],
+     "e": [
+      1,
+      "séculos"
+     ],
+     "w": 220
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Discover Magazine; arXiv (2016)",
+   "frases": [
+    [
+     "O zero viajou da Índia pros árabes e chegou à Europa com Fibonacci, num livro de 1202.",
+     "O zero viajou da Índia pros árabes e chegou à Europa com Fibonátchi, num livro de mil duzentos e dois."
+    ],
+    [
+     "O nome veio junto: sunya, vazio, virou sifr, depois zephirum, e enfim zero.",
+     "O nome veio junto: xúnia, vazio, virou sífr, depois zefírum, e enfim zero."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ÍNDIA",
+     "pos": [
+      260,
+      440
+     ],
+     "size": 50
+    },
+    {
+     "t": "seta",
+     "de": [
+      380,
+      460
+     ],
+     "ate": [
+      520,
+      520
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "árabes"
+     ]
+    },
+    {
+     "t": "tira",
+     "txt": "ÁRABES",
+     "pos": [
+      600,
+      540
+     ],
+     "e": [
+      0,
+      "árabes"
+     ],
+     "size": 50
+    },
+    {
+     "t": "seta",
+     "de": [
+      620,
+      600
+     ],
+     "ate": [
+      520,
+      680
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "Europa"
+     ]
+    },
+    {
+     "t": "tira",
+     "txt": "FIBONACCI, 1202",
+     "pos": [
+      420,
+      720
+     ],
+     "e": [
+      0,
+      "Fibonacci"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "sunya",
+     "pos": [
+      300,
+      900
+     ],
+     "e": [
+      1,
+      "sunya"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "sifr",
+     "pos": [
+      560,
+      960
+     ],
+     "e": [
+      1,
+      "sifr"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "zephirum",
+     "pos": [
+      330,
+      1060
+     ],
+     "e": [
+      1,
+      "zephirum"
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "zero",
+     "pos": [
+      700,
+      1120
+     ],
+     "e": [
+      1,
+      "enfim"
+     ],
+     "size": 80
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: eCycle",
+   "frases": [
+    [
+     "E hoje? Seu celular funciona com zeros e uns.",
+     "E hoje? Seu celular funciona com zeros e uns."
+    ],
+    [
+     "Sem o zero, não tinha computador. Nem este vídeo.",
+     "Sem o zero, não tinha computador. Nem este vídeo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "computador",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 460
+    },
+    {
+     "t": "tira",
+     "txt": "0 1 1 0 1 0",
+     "pos": [
+      520,
+      950
+     ],
+     "e": [
+      0,
+      "zeros"
+     ],
+     "size": 60
+    },
+    {
+     "t": "nota",
+     "txt": "nem este vídeo!",
+     "pos": [
+      520,
+      1120
+     ],
+     "e": [
+      1,
+      "vídeo"
+     ],
+     "cor": "laranja",
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o nada virou a base de tudo.",
+     "Então: o nada virou a base de tudo."
+    ],
+    [
+     "Qual número você acha mais importante depois do zero? Comenta.",
+     "Qual número você acha mais importante depois do zero? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "0",
+     "pos": [
+      520,
+      640
+     ],
+     "size": 520
+    },
+    {
+     "t": "bloco",
+     "txt": "o nada virou tudo",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      0,
+      "nada"
+     ],
+     "size": 76
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "QUEM INVENTOU ISSO?",
+ "id": "SSA-014"
+}

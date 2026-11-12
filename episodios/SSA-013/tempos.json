@@ -1,0 +1,131 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 71.745,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "O quadro mais famoso da Independência foi pintado 66 anos depois do grito.",
+     "inicio": 0.1,
+     "dur": 5.461
+    },
+    {
+     "leg": "E o pintor nem tinha nascido em 1822.",
+     "inicio": 5.761,
+     "dur": 3.712
+    }
+   ],
+   "fim": 9.893
+  },
+  {
+   "id": "c2",
+   "inicio": 9.893,
+   "frases": [
+    {
+     "leg": "É Independência ou Morte, de Pedro Américo.",
+     "inicio": 9.893,
+     "dur": 2.688
+    },
+    {
+     "leg": "Foi encomendado em 1886 e entregue em 1888.",
+     "inicio": 12.781,
+     "dur": 6.08
+    },
+    {
+     "leg": "Pedro Américo nasceu em 1843. Ele pintou uma cena que nunca viu.",
+     "inicio": 19.061,
+     "dur": 5.745
+    }
+   ],
+   "fim": 25.227
+  },
+  {
+   "id": "c3",
+   "inicio": 25.227,
+   "frases": [
+    {
+     "leg": "E é enorme: tem 7 metros e 60 de largura por 4 metros e 15 de altura.",
+     "inicio": 25.227,
+     "dur": 5.035
+    },
+    {
+     "leg": "Tão grande que, na reforma do museu, não passava pela porta.",
+     "inicio": 30.461,
+     "dur": 3.456
+    }
+   ],
+   "fim": 34.337
+  },
+  {
+   "id": "c4",
+   "inicio": 34.337,
+   "frases": [
+    {
+     "leg": "Então ele ficou lá dentro, protegido, no meio das obras.",
+     "inicio": 34.337,
+     "dur": 3.328
+    }
+   ],
+   "fim": 38.085
+  },
+  {
+   "id": "c5",
+   "inicio": 38.085,
+   "frases": [
+    {
+     "leg": "E o próprio museu lembra: essa imagem é uma construção. O pintor imaginou a cena.",
+     "inicio": 38.085,
+     "dur": 5.383
+    },
+    {
+     "leg": "Quadro histórico não é fotografia.",
+     "inicio": 43.668,
+     "dur": 2.24
+    }
+   ],
+   "fim": 46.328
+  },
+  {
+   "id": "c6",
+   "inicio": 46.328,
+   "frases": [
+    {
+     "leg": "E hoje? Depois de quase dez anos fechado, o Museu do Ipiranga reabriu em setembro de 2022, no bicentenário da Independência.",
+     "inicio": 46.328,
+     "dur": 9.319
+    },
+    {
+     "leg": "Em menos de dois anos, recebeu 1 milhão de visitantes.",
+     "inicio": 55.847,
+     "dur": 3.477
+    }
+   ],
+   "fim": 59.744
+  },
+  {
+   "id": "c7",
+   "inicio": 59.744,
+   "frases": [
+    {
+     "leg": "Então: a cena do grito que todo mundo conhece foi imaginada décadas depois.",
+     "inicio": 59.744,
+     "dur": 4.565
+    },
+    {
+     "leg": "Você já foi ao Museu do Ipiranga? Comenta.",
+     "inicio": 64.509,
+     "dur": 3.367
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 68.076,
+     "dur": 3.249
+    }
+   ],
+   "fim": 71.745
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 64.471,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Por muito tempo, o zero nem era considerado um número.",
+     "inicio": 0.1,
+     "dur": 3.157
+    },
+    {
+     "leg": "Quem mudou isso foi um matemático da Índia, no ano 628.",
+     "inicio": 3.457,
+     "dur": 4.715
+    }
+   ],
+   "fim": 8.592
+  },
+  {
+   "id": "c2",
+   "inicio": 8.592,
+   "frases": [
+    {
+     "leg": "Antes, povos como os sumérios e os maias já tinham a ideia de nada.",
+     "inicio": 8.592,
+     "dur": 4.075
+    },
+    {
+     "leg": "Mas o zero era só um marcador de lugar, um espaço vazio na conta.",
+     "inicio": 12.867,
+     "dur": 4.053
+    }
+   ],
+   "fim": 17.34
+  },
+  {
+   "id": "c3",
+   "inicio": 17.34,
+   "frases": [
+    {
+     "leg": "Em 628, Brahmagupta escreveu regras pra fazer conta com o zero.",
+     "inicio": 17.34,
+     "dur": 5.227
+    },
+    {
+     "leg": "Um número mais zero dá ele mesmo. Um número vezes zero dá zero.",
+     "inicio": 22.767,
+     "dur": 4.401
+    }
+   ],
+   "fim": 27.588
+  },
+  {
+   "id": "c4",
+   "inicio": 27.588,
+   "frases": [
+    {
+     "leg": "Ele até tentou dividir por zero, e não acertou.",
+     "inicio": 27.588,
+     "dur": 3.115
+    },
+    {
+     "leg": "Essa conta deu dor de cabeça por séculos.",
+     "inicio": 30.903,
+     "dur": 2.773
+    }
+   ],
+   "fim": 34.096
+  },
+  {
+   "id": "c5",
+   "inicio": 34.096,
+   "frases": [
+    {
+     "leg": "O zero viajou da Índia pros árabes e chegou à Europa com Fibonacci, num livro de 1202.",
+     "inicio": 34.096,
+     "dur": 6.421
+    },
+    {
+     "leg": "O nome veio junto: sunya, vazio, virou sifr, depois zephirum, e enfim zero.",
+     "inicio": 40.717,
+     "dur": 4.608
+    }
+   ],
+   "fim": 45.745
+  },
+  {
+   "id": "c6",
+   "inicio": 45.745,
+   "frases": [
+    {
+     "leg": "E hoje? Seu celular funciona com zeros e uns.",
+     "inicio": 45.745,
+     "dur": 3.623
+    },
+    {
+     "leg": "Sem o zero, não tinha computador. Nem este vídeo.",
+     "inicio": 49.568,
+     "dur": 3.569
+    }
+   ],
+   "fim": 53.557
+  },
+  {
+   "id": "c7",
+   "inicio": 53.557,
+   "frases": [
+    {
+     "leg": "Então: o nada virou a base de tudo.",
+     "inicio": 53.557,
+     "dur": 2.24
+    },
+    {
+     "leg": "Qual número você acha mais importante depois do zero? Comenta.",
+     "inicio": 55.997,
+     "dur": 4.604
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 60.801,
+     "dur": 3.249
+    }
+   ],
+   "fim": 64.471
+  }
+ ]
+}
