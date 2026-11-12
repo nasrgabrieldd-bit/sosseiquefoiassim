@@ -1,0 +1,190 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 104.104,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Por que a novela sempre para na melhor parte?",
+     "inicio": 0.1,
+     "dur": 2.923
+    },
+    {
+     "leg": "É um truque de 1836.",
+     "inicio": 3.363,
+     "dur": 2.816
+    }
+   ],
+   "fim": 6.599
+  },
+  {
+   "id": "c2",
+   "inicio": 6.599,
+   "frases": [
+    {
+     "leg": "Paris. Jornal era caro demais pra maioria das pessoas.",
+     "inicio": 6.599,
+     "dur": 3.804
+    },
+    {
+     "leg": "Aí Émile de Girardin lança o La Presse pela metade do preço:",
+     "inicio": 10.603,
+     "dur": 3.605
+    },
+    {
+     "leg": "40 francos por ano, em vez de 80.",
+     "inicio": 14.408,
+     "dur": 2.667
+    }
+   ],
+   "fim": 17.495
+  },
+  {
+   "id": "c3",
+   "inicio": 17.495,
+   "frases": [
+    {
+     "leg": "Quem pagava a diferença? Os anúncios.",
+     "inicio": 17.495,
+     "dur": 3.217
+    },
+    {
+     "leg": "Só que agora ele precisava de muito leitor.",
+     "inicio": 20.912,
+     "dur": 2.688
+    },
+    {
+     "leg": "E onde foi buscar? No rodapé.",
+     "inicio": 23.8,
+     "dur": 3.047
+    }
+   ],
+   "fim": 27.267
+  },
+  {
+   "id": "c4",
+   "inicio": 27.267,
+   "frases": [
+    {
+     "leg": "O rodapé da primeira página era o folhetim: um espaço de entretenimento.",
+     "inicio": 27.267,
+     "dur": 4.608
+    },
+    {
+     "leg": "E ali, em 1836, Balzac estreia um romance publicado em pedaços.",
+     "inicio": 32.075,
+     "dur": 5.483
+    }
+   ],
+   "fim": 37.977
+  },
+  {
+   "id": "c5",
+   "inicio": 37.977,
+   "frases": [
+    {
+     "leg": "E aqui está o truque: cada pedaço terminava no suspense.",
+     "inicio": 37.977,
+     "dur": 3.413
+    },
+    {
+     "leg": "Quer saber o resto? Compra o jornal de amanhã!",
+     "inicio": 41.591,
+     "dur": 3.559
+    }
+   ],
+   "fim": 45.569
+  },
+  {
+   "id": "c6",
+   "inicio": 45.569,
+   "frases": [
+    {
+     "leg": "A moda atravessou o oceano.",
+     "inicio": 45.569,
+     "dur": 1.771
+    },
+    {
+     "leg": "No Rio, em 1857, José de Alencar publicou O Guarani no rodapé do Diário do Rio de Janeiro.",
+     "inicio": 47.54,
+     "dur": 6.997
+    },
+    {
+     "leg": "Foram 52 edições, de janeiro a abril.",
+     "inicio": 54.737,
+     "dur": 3.179
+    }
+   ],
+   "fim": 58.336
+  },
+  {
+   "id": "c7",
+   "inicio": 58.336,
+   "frases": [
+    {
+     "leg": "Depois o folhetim mudou de casa: foi pro rádio e, depois, pra televisão.",
+     "inicio": 58.336,
+     "dur": 4.651
+    },
+    {
+     "leg": "A pesquisadora Marlyse Meyer vê a telenovela como uma tradução atualizada do folhetim.",
+     "inicio": 63.187,
+     "dur": 5.184
+    }
+   ],
+   "fim": 68.791
+  },
+  {
+   "id": "c7b",
+   "inicio": 68.791,
+   "frases": [
+    {
+     "leg": "Lembra de Avenida Brasil? Todo capítulo terminava com a imagem congelada, bem no suspense.",
+     "inicio": 68.791,
+     "dur": 6.353
+    },
+    {
+     "leg": "No último capítulo, em 19 de outubro de 2012, teve bar lotado pra ver o final.",
+     "inicio": 75.344,
+     "dur": 5.931
+    },
+    {
+     "leg": "E nos intervalos? Mais de 500 anunciantes. Igualzinho ao jornal de 1836.",
+     "inicio": 81.475,
+     "dur": 7.448
+    }
+   ],
+   "fim": 89.343
+  },
+  {
+   "id": "c8",
+   "inicio": 89.343,
+   "frases": [
+    {
+     "leg": "Então, quando a novela parar no melhor momento, já sabe:",
+     "inicio": 89.343,
+     "dur": 3.243
+    },
+    {
+     "leg": "o truque tem quase 200 anos.",
+     "inicio": 92.785,
+     "dur": 2.261
+    },
+    {
+     "leg": "Qual final de capítulo te deixou mais aflito? Me conta aqui embaixo.",
+     "inicio": 95.247,
+     "dur": 4.988
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 100.435,
+     "dur": 3.249
+    }
+   ],
+   "fim": 104.104
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 76.157,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Em 1582, 10 dias simplesmente sumiram do calendário.",
+     "inicio": 0.1,
+     "dur": 5.056
+    },
+    {
+     "leg": "E não foi erro de impressão.",
+     "inicio": 5.356,
+     "dur": 1.707
+    }
+   ],
+   "fim": 7.483
+  },
+  {
+   "id": "c2",
+   "inicio": 7.483,
+   "frases": [
+    {
+     "leg": "O problema vinha da Roma antiga.",
+     "inicio": 7.483,
+     "dur": 2.069
+    },
+    {
+     "leg": "O calendário juliano contava o ano com 365 dias e 6 horas.",
+     "inicio": 9.752,
+     "dur": 5.547
+    },
+    {
+     "leg": "Só que o ano do Sol é um pouquinho mais curto.",
+     "inicio": 15.499,
+     "dur": 2.603
+    }
+   ],
+   "fim": 18.521
+  },
+  {
+   "id": "c3",
+   "inicio": 18.521,
+   "frases": [
+    {
+     "leg": "Sobravam uns 11 minutos por ano. Parece nada.",
+     "inicio": 18.521,
+     "dur": 3.505
+    },
+    {
+     "leg": "Mas em séculos, o erro virou 10 dias inteiros.",
+     "inicio": 22.227,
+     "dur": 3.008
+    },
+    {
+     "leg": "E a Páscoa, que depende da primavera, estava saindo do lugar.",
+     "inicio": 25.435,
+     "dur": 3.669
+    }
+   ],
+   "fim": 29.524
+  },
+  {
+   "id": "c4",
+   "inicio": 29.524,
+   "frases": [
+    {
+     "leg": "Aí o papa Gregório 13 assinou uma bula: a Inter gravissimas.",
+     "inicio": 29.524,
+     "dur": 3.819
+    },
+    {
+     "leg": "Depois da quinta-feira, 4 de outubro, veio a sexta, 15 de outubro.",
+     "inicio": 33.543,
+     "dur": 4.544
+    }
+   ],
+   "fim": 38.507
+  },
+  {
+   "id": "c5",
+   "inicio": 38.507,
+   "frases": [
+    {
+     "leg": "Quem dormiu no dia 4 acordou no dia 15.",
+     "inicio": 38.507,
+     "dur": 2.901
+    },
+    {
+     "leg": "E nem todo mundo topou: a Inglaterra só mudou em 1752.",
+     "inicio": 41.608,
+     "dur": 5.035
+    }
+   ],
+   "fim": 47.063
+  },
+  {
+   "id": "c6",
+   "inicio": 47.063,
+   "frases": [
+    {
+     "leg": "E hoje? A regra que veio junto ainda manda no seu calendário.",
+     "inicio": 47.063,
+     "dur": 4.305
+    },
+    {
+     "leg": "Ano bissexto a cada 4 anos, mas virada de século só se der pra dividir por 400.",
+     "inicio": 51.568,
+     "dur": 5.995
+    },
+    {
+     "leg": "Por isso 2000 teve 29 de fevereiro, e 1900 não.",
+     "inicio": 57.763,
+     "dur": 4.309
+    }
+   ],
+   "fim": 62.492
+  },
+  {
+   "id": "c7",
+   "inicio": 62.492,
+   "frases": [
+    {
+     "leg": "Então: 10 dias sumiram por causa de 11 minutos por ano.",
+     "inicio": 62.492,
+     "dur": 3.499
+    },
+    {
+     "leg": "Se você dormisse dia 4 e acordasse dia 15, o que ia fazer primeiro? Comenta aí.",
+     "inicio": 66.191,
+     "dur": 6.097
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 72.488,
+     "dur": 3.249
+    }
+   ],
+   "fim": 76.157
+  }
+ ]
+}

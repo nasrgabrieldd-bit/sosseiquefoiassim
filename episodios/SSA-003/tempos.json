@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 69.459,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "E se tudo que você já viu fosse só sombra?",
+     "inicio": 0.1,
+     "dur": 2.667
+    },
+    {
+     "leg": "Há uns 2.400 anos, Platão contou essa história.",
+     "inicio": 3.107,
+     "dur": 3.669
+    }
+   ],
+   "fim": 7.196
+  },
+  {
+   "id": "c2",
+   "inicio": 7.196,
+   "frases": [
+    {
+     "leg": "Imagina pessoas presas numa caverna desde crianças, olhando só pra parede do fundo.",
+     "inicio": 7.196,
+     "dur": 5.44
+    },
+    {
+     "leg": "Atrás delas tem uma fogueira.",
+     "inicio": 12.836,
+     "dur": 2.005
+    },
+    {
+     "leg": "E entre o fogo e os prisioneiros passam objetos que fazem sombra na parede.",
+     "inicio": 15.041,
+     "dur": 4.587
+    }
+   ],
+   "fim": 20.048
+  },
+  {
+   "id": "c3",
+   "inicio": 20.048,
+   "frases": [
+    {
+     "leg": "Os prisioneiros acham que as sombras são a realidade.",
+     "inicio": 20.048,
+     "dur": 3.136
+    },
+    {
+     "leg": "Afinal, é tudo o que eles conhecem.",
+     "inicio": 23.384,
+     "dur": 2.005
+    }
+   ],
+   "fim": 25.809
+  },
+  {
+   "id": "c4",
+   "inicio": 25.809,
+   "frases": [
+    {
+     "leg": "Um dia, um deles se solta e sai da caverna.",
+     "inicio": 25.809,
+     "dur": 2.56
+    },
+    {
+     "leg": "A luz do sol machuca os olhos. Mas, aos poucos, ele enxerga o mundo de verdade.",
+     "inicio": 28.569,
+     "dur": 5.063
+    }
+   ],
+   "fim": 34.052
+  },
+  {
+   "id": "c5",
+   "inicio": 34.052,
+   "frases": [
+    {
+     "leg": "Ele volta pra contar pros outros. E sabe o que acontece?",
+     "inicio": 34.052,
+     "dur": 4.103
+    },
+    {
+     "leg": "Riem dele, e ninguém quer sair.",
+     "inicio": 38.495,
+     "dur": 2.027
+    },
+    {
+     "leg": "Pra Platão, sair da caverna é aprender.",
+     "inicio": 40.721,
+     "dur": 2.56
+    }
+   ],
+   "fim": 43.701
+  },
+  {
+   "id": "c6",
+   "inicio": 43.701,
+   "frases": [
+    {
+     "leg": "E hoje? Pensa no seu feed.",
+     "inicio": 43.701,
+     "dur": 2.535
+    },
+    {
+     "leg": "Em 2011, o escritor Eli Pariser chamou de bolha de filtros quando o algoritmo te mostra só mais do mesmo.",
+     "inicio": 46.436,
+     "dur": 7.104
+    },
+    {
+     "leg": "Às vezes, a caverna cabe no celular.",
+     "inicio": 53.74,
+     "dur": 2.453
+    }
+   ],
+   "fim": 56.613
+  },
+  {
+   "id": "c7",
+   "inicio": 56.613,
+   "frases": [
+    {
+     "leg": "Então, a pergunta de Platão continua valendo: o que você vê é a coisa, ou só a sombra?",
+     "inicio": 56.613,
+     "dur": 5.248
+    },
+    {
+     "leg": "O que já te fez sair da caverna? Comenta.",
+     "inicio": 62.201,
+     "dur": 3.388
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 65.789,
+     "dur": 3.249
+    }
+   ],
+   "fim": 69.459
+  }
+ ]
+}

@@ -1,0 +1,587 @@
+{
+ "materia": "MATEMÁTICA",
+ "titulo": "Em 1582, 10 dias sumiram do calendário",
+ "fontes": [
+  "Bula Inter gravissimas, papa Gregório XIII, 24/02/1582.",
+  "Correio Braziliense, 'A noite de 4 de outubro de 1582 durou 10 dias' (2025).",
+  "Il Post, 'Quando entrò in vigore il calendario gregoriano' (2016)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "cal",
+    "titulo": "OUTUBRO 1582",
+    "inicio": 1,
+    "riscar": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "pos": [
+     540,
+     700
+    ],
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "10 dias que nunca existiram",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 74,
+    "maxw": 760
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Em 1582, 10 dias simplesmente sumiram do calendário.",
+     "Em mil quinhentos e oitenta e dois, dez dias simplesmente sumiram do calendário."
+    ],
+    [
+     "E não foi erro de impressão.",
+     "E não foi erro de impressão."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "OUTUBRO 1582",
+     "inicio": 1,
+     "riscar": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "riscar_em": [
+      0,
+      "sumiram"
+     ],
+     "pos": [
+      520,
+      700
+     ],
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "não foi erro\nde impressão!",
+     "pos": [
+      740,
+      1120
+     ],
+     "e": [
+      1,
+      0.1
+     ],
+     "cor": "laranja",
+     "ang": -6
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Correio Braziliense (2025)",
+   "frases": [
+    [
+     "O problema vinha da Roma antiga.",
+     "O problema vinha da Roma antiga."
+    ],
+    [
+     "O calendário juliano contava o ano com 365 dias e 6 horas.",
+     "O calendário juliano contava o ano com trezentos e sessenta e cinco dias e seis horas."
+    ],
+    [
+     "Só que o ano do Sol é um pouquinho mais curto.",
+     "Só que o ano do Sol é um pouquinho mais curto."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ROMA ANTIGA",
+     "pos": [
+      300,
+      430
+     ]
+    },
+    {
+     "t": "obj",
+     "nome": "relogio",
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      0,
+      0.3
+     ],
+     "w": 380,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "tira",
+     "txt": "365 dias + 6 horas",
+     "pos": [
+      330,
+      1020
+     ],
+     "e": [
+      1,
+      0.3
+     ]
+    },
+    {
+     "t": "tira",
+     "txt": "ano do Sol: 365 d 5 h 48 min",
+     "pos": [
+      560,
+      1120
+     ],
+     "e": [
+      2,
+      0.5
+     ],
+     "size": 40
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "Sobravam uns 11 minutos por ano. Parece nada.",
+     "Sobravam uns onze minutos por ano. Parece nada."
+    ],
+    [
+     "Mas em séculos, o erro virou 10 dias inteiros.",
+     "Mas em séculos, o erro virou dez dias inteiros."
+    ],
+    [
+     "E a Páscoa, que depende da primavera, estava saindo do lugar.",
+     "E a Páscoa, que depende da primavera, estava saindo do lugar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "11 min",
+     "pos": [
+      520,
+      560
+     ],
+     "size": 200,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "por ano...",
+     "pos": [
+      760,
+      720
+     ],
+     "e": [
+      0,
+      0.5
+     ]
+    },
+    {
+     "t": "contador",
+     "de": 1,
+     "ate": 10,
+     "fmt": "= {n} dias de erro",
+     "pos": [
+      520,
+      900
+     ],
+     "e": [
+      1,
+      0.3
+     ]
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      300,
+      1080
+     ],
+     "e": [
+      2,
+      0.3
+     ],
+     "w": 230
+    },
+    {
+     "t": "nota",
+     "txt": "Páscoa fora\ndo lugar",
+     "pos": [
+      680,
+      1100
+     ],
+     "e": [
+      2,
+      "Páscoa"
+     ],
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: bula Inter gravissimas (1582)",
+   "frases": [
+    [
+     "Aí o papa Gregório 13 assinou uma bula: a Inter gravissimas.",
+     "Aí o papa Gregório Treze assinou uma bula: a Ínter graviíssimas."
+    ],
+    [
+     "Depois da quinta-feira, 4 de outubro, veio a sexta, 15 de outubro.",
+     "Depois da quinta-feira, quatro de outubro, veio a sexta-feira, quinze de outubro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "INTER GRAVISSIMAS · 1582",
+     "pos": [
+      520,
+      470
+     ],
+     "size": 48
+    },
+    {
+     "t": "obj",
+     "nome": "coroa",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      0.2
+     ],
+     "w": 260
+    },
+    {
+     "t": "bloco",
+     "txt": "QUI 4",
+     "pos": [
+      300,
+      1000
+     ],
+     "e": [
+      1,
+      "quinta"
+     ],
+     "size": 90,
+     "cor": "tinta"
+    },
+    {
+     "t": "seta",
+     "de": [
+      440,
+      1000
+     ],
+     "ate": [
+      600,
+      1000
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "veio"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "SEX 15",
+     "pos": [
+      760,
+      1000
+     ],
+     "e": [
+      1,
+      "sexta"
+     ],
+     "size": 90
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Quem dormiu no dia 4 acordou no dia 15.",
+     "Quem dormiu no dia quatro acordou no dia quinze."
+    ],
+    [
+     "E nem todo mundo topou: a Inglaterra só mudou em 1752.",
+     "E nem todo mundo topou: a Inglaterra só mudou em mil setecentos e cinquenta e dois."
+    ]
+   ],
+   "camera": {
+    "push": 0.08
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "lampada",
+     "pos": [
+      330,
+      650
+     ],
+     "w": 260,
+     "ang": -5
+    },
+    {
+     "t": "nota",
+     "txt": "dormiu dia 4...",
+     "pos": [
+      640,
+      560
+     ],
+     "e": [
+      0,
+      0.1
+     ],
+     "size": 62
+    },
+    {
+     "t": "nota",
+     "txt": "...acordou dia 15!",
+     "pos": [
+      620,
+      820
+     ],
+     "e": [
+      0,
+      0.55
+     ],
+     "size": 62,
+     "cor": "laranja"
+    },
+    {
+     "t": "tira",
+     "txt": "INGLATERRA: só em 1752",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "Inglaterra"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Regra do calendário gregoriano (1582)",
+   "frases": [
+    [
+     "E hoje? A regra que veio junto ainda manda no seu calendário.",
+     "E hoje? A regra que veio junto ainda manda no seu calendário."
+    ],
+    [
+     "Ano bissexto a cada 4 anos, mas virada de século só se der pra dividir por 400.",
+     "Ano bissexto a cada quatro anos, mas virada de século só se der pra dividir por quatrocentos."
+    ],
+    [
+     "Por isso 2000 teve 29 de fevereiro, e 1900 não.",
+     "Por isso dois mil teve vinte e nove de fevereiro, e mil e novecentos não."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      300,
+      640
+     ],
+     "w": 300,
+     "ang": -4
+    },
+    {
+     "t": "bloco",
+     "txt": "29 FEV",
+     "pos": [
+      680,
+      560
+     ],
+     "e": [
+      0,
+      0.5
+     ],
+     "size": 80
+    },
+    {
+     "t": "tira",
+     "txt": "a cada 4 anos",
+     "pos": [
+      680,
+      720
+     ],
+     "e": [
+      1,
+      0.1
+     ]
+    },
+    {
+     "t": "tira",
+     "txt": "século: só se ÷ 400",
+     "pos": [
+      640,
+      830
+     ],
+     "e": [
+      1,
+      "século"
+     ],
+     "size": 40
+    },
+    {
+     "t": "tira",
+     "txt": "2000: bissexto",
+     "pos": [
+      330,
+      1050
+     ],
+     "e": [
+      2,
+      "2000"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "1900: não",
+     "pos": [
+      700,
+      1120
+     ],
+     "e": [
+      2,
+      "1900"
+     ],
+     "size": 44
+    },
+    {
+     "t": "risco",
+     "de": [
+      600,
+      1120
+     ],
+     "ate": [
+      800,
+      1120
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      2,
+      "não"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: 10 dias sumiram por causa de 11 minutos por ano.",
+     "Então: dez dias sumiram por causa de onze minutos por ano."
+    ],
+    [
+     "Se você dormisse dia 4 e acordasse dia 15, o que ia fazer primeiro? Comenta aí.",
+     "Se você dormisse dia quatro e acordasse dia quinze, o que ia fazer primeiro? Comenta aí."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "OUTUBRO 1582",
+     "inicio": 1,
+     "riscar": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "pos": [
+      520,
+      640
+     ],
+     "ang": 2,
+     "escala": 0.8
+    },
+    {
+     "t": "bloco",
+     "txt": "o que você faria?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      0.2
+     ],
+     "size": 70
+    },
+    {
+     "t": "nota",
+     "txt": "comenta aí!",
+     "pos": [
+      760,
+      1180
+     ],
+     "e": [
+      1,
+      0.7
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "QUEM APAGOU ESSES DIAS?",
+ "id": "SSA-002"
+}

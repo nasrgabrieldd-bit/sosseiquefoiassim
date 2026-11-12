@@ -1,0 +1,485 @@
+{
+ "materia": "FILOSOFIA",
+ "titulo": "O Mito da Caverna (e o seu feed)",
+ "fontes": [
+  "PLATÃO. A República, Livro VII.",
+  "PARISER, Eli. The Filter Bubble: What the Internet Is Hiding from You. Penguin Press, 2011."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "caverna",
+    "pos": [
+     530,
+     700
+    ],
+    "e": null,
+    "w": 620,
+    "h": 520,
+    "ang": -2
+   },
+   {
+    "t": "bloco",
+    "txt": "e se tudo que você vê for só sombra?",
+    "pos": [
+     520,
+     1160
+    ],
+    "e": null,
+    "size": 70,
+    "maxw": 760
+   },
+   {
+    "t": "tira",
+    "txt": "PLATÃO",
+    "pos": [
+     260,
+     440
+    ],
+    "e": null,
+    "size": 56
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "E se tudo que você já viu fosse só sombra?",
+     "E se tudo que você já viu fosse só sombra?"
+    ],
+    [
+     "Há uns 2.400 anos, Platão contou essa história.",
+     "Há uns dois mil e quatrocentos anos, Platão contou essa história."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "caverna",
+     "pos": [
+      530,
+      680
+     ],
+     "w": 640,
+     "h": 520,
+     "ang": -2,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "e se fosse só sombra?",
+     "pos": [
+      520,
+      1100
+     ],
+     "size": 72
+    },
+    {
+     "t": "tira",
+     "txt": "PLATÃO, A REPÚBLICA",
+     "pos": [
+      700,
+      440
+     ],
+     "e": [
+      1,
+      "Platão"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Platão, A República, Livro VII",
+   "frases": [
+    [
+     "Imagina pessoas presas numa caverna desde crianças, olhando só pra parede do fundo.",
+     "Imagina pessoas presas numa caverna desde crianças, olhando só pra parede do fundo."
+    ],
+    [
+     "Atrás delas tem uma fogueira.",
+     "Atrás delas tem uma fogueira."
+    ],
+    [
+     "E entre o fogo e os prisioneiros passam objetos que fazem sombra na parede.",
+     "E entre o fogo e os prisioneiros passam objetos que fazem sombra na parede."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "caverna",
+     "pos": [
+      520,
+      680
+     ],
+     "w": 740,
+     "h": 580
+    },
+    {
+     "t": "nota",
+     "txt": "presos desde crianças",
+     "pos": [
+      520,
+      1090
+     ],
+     "e": [
+      0,
+      "presas"
+     ],
+     "size": 56,
+     "sai": [
+      1,
+      0.0
+     ]
+    },
+    {
+     "t": "nota",
+     "txt": "fogueira",
+     "pos": [
+      770,
+      1090
+     ],
+     "e": [
+      1,
+      "fogueira"
+     ],
+     "cor": "laranja",
+     "size": 60
+    },
+    {
+     "t": "nota",
+     "txt": "sombras!",
+     "pos": [
+      290,
+      1090
+     ],
+     "e": [
+      2,
+      "sombra"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Platão, A República, Livro VII",
+   "frases": [
+    [
+     "Os prisioneiros acham que as sombras são a realidade.",
+     "Os prisioneiros acham que as sombras são a realidade."
+    ],
+    [
+     "Afinal, é tudo o que eles conhecem.",
+     "Afinal, é tudo o que eles conhecem."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "sombra = realidade?",
+     "pos": [
+      520,
+      560
+     ],
+     "size": 80
+    },
+    {
+     "t": "obj",
+     "nome": "lampada",
+     "pos": [
+      300,
+      880
+     ],
+     "e": [
+      0,
+      0.5
+     ],
+     "w": 240
+    },
+    {
+     "t": "nota",
+     "txt": "é tudo o que\nconhecem",
+     "pos": [
+      650,
+      900
+     ],
+     "e": [
+      1,
+      0.1
+     ],
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "Um dia, um deles se solta e sai da caverna.",
+     "Um dia, um deles se solta e sai da caverna."
+    ],
+    [
+     "A luz do sol machuca os olhos. Mas, aos poucos, ele enxerga o mundo de verdade.",
+     "A luz do sol machuca os olhos. Mas, aos poucos, ele enxerga o mundo de verdade."
+    ]
+   ],
+   "camera": {
+    "push": 0.1
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "caverna",
+     "pos": [
+      300,
+      600
+     ],
+     "w": 420,
+     "h": 340,
+     "ang": -4
+    },
+    {
+     "t": "seta",
+     "de": [
+      480,
+      640
+     ],
+     "ate": [
+      700,
+      560
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "sai"
+     ]
+    },
+    {
+     "t": "obj",
+     "nome": "lampada",
+     "pos": [
+      760,
+      520
+     ],
+     "e": [
+      1,
+      0.05
+     ],
+     "w": 240,
+     "ang": 6
+    },
+    {
+     "t": "bloco",
+     "txt": "o mundo de verdade",
+     "pos": [
+      520,
+      1050
+     ],
+     "e": [
+      1,
+      "enxerga"
+     ],
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Ele volta pra contar pros outros. E sabe o que acontece?",
+     "Ele volta pra contar pros outros. E sabe o que acontece?"
+    ],
+    [
+     "Riem dele, e ninguém quer sair.",
+     "Riem dele, e ninguém quer sair."
+    ],
+    [
+     "Pra Platão, sair da caverna é aprender.",
+     "Pra Platão, sair da caverna é aprender."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "caverna",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 640,
+     "h": 500
+    },
+    {
+     "t": "nota",
+     "txt": "rá rá rá",
+     "pos": [
+      300,
+      430
+     ],
+     "e": [
+      1,
+      0.0
+     ],
+     "cor": "laranja",
+     "size": 66
+    },
+    {
+     "t": "bloco",
+     "txt": "sair da caverna = aprender",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      2,
+      "sair"
+     ],
+     "size": 66,
+     "maxw": 760
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Eli Pariser, The Filter Bubble (2011)",
+   "frases": [
+    [
+     "E hoje? Pensa no seu feed.",
+     "E hoje? Pensa no seu feed."
+    ],
+    [
+     "Em 2011, o escritor Eli Pariser chamou de bolha de filtros quando o algoritmo te mostra só mais do mesmo.",
+     "Em dois mil e onze, o escritor Ilai Párizer chamou de bolha de filtros quando o algoritmo te mostra só mais do mesmo."
+    ],
+    [
+     "Às vezes, a caverna cabe no celular.",
+     "Às vezes, a caverna cabe no celular."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      680
+     ],
+     "w": 360,
+     "balanca": true
+    },
+    {
+     "t": "tira",
+     "txt": "ELI PARISER, 2011",
+     "pos": [
+      300,
+      430
+     ],
+     "e": [
+      1,
+      "Pariser"
+     ],
+     "size": 44
+    },
+    {
+     "t": "bloco",
+     "txt": "bolha de filtros",
+     "pos": [
+      650,
+      1000
+     ],
+     "e": [
+      1,
+      "bolha"
+     ],
+     "size": 70
+    },
+    {
+     "t": "nota",
+     "txt": "a caverna cabe\nno celular",
+     "pos": [
+      330,
+      1120
+     ],
+     "e": [
+      2,
+      0.2
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então, a pergunta de Platão continua valendo: o que você vê é a coisa, ou só a sombra?",
+     "Então, a pergunta de Platão continua valendo: o que você vê é a coisa, ou só a sombra?"
+    ],
+    [
+     "O que já te fez sair da caverna? Comenta.",
+     "O que já te fez sair da caverna? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "caverna",
+     "pos": [
+      520,
+      650
+     ],
+     "w": 600,
+     "h": 480,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "a coisa ou a sombra?",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      0,
+      "coisa"
+     ],
+     "size": 74
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.5
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "VOCÊ ESTÁ NA CAVERNA?",
+ "id": "SSA-003"
+}

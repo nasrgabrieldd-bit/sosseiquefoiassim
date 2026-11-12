@@ -1,0 +1,157 @@
+{
+ "id": "SSA-001",
+ "materia": "LITERATURA",
+ "titulo": "Por que a novela sempre para na melhor parte?",
+ "fontes": [
+  "MEYER, Marlyse. Folhetim: uma história. São Paulo: Companhia das Letras, 1996.",
+  "BnF (classes.bnf.fr), ficha 'La presse' — La Presse, 1836, assinatura pela metade do preço.",
+  "Univ. Paris 1, 'Naissance et essor de la presse écrite' — 1836: jornais a meio preço e roman-feuilleton inaugurado por Balzac.",
+  "Revista Organon (UFRGS) — O Guarani no rodapé do Diário do Rio de Janeiro, 52 edições, 1º/jan a 20/abr de 1857.",
+  "Meio & Mensagem, 19/10/2012: 'Avenida Brasil congestiona com recordes no final' (mais de 500 anunciantes no último capítulo).",
+  "Mais Goiás: 'Avenida Brasil: tudo sobre a novela' (congelamento no fim de cada capítulo; 52 pontos de média em SP no final).",
+  "Guia da Semana, 2012: bares de SP transmitiram o último capítulo (19/10/2012)."
+ ],
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Por que a novela sempre para na melhor parte?",
+     "Sabe por que a novela sempre para na melhor parte?"
+    ],
+    [
+     "É um truque de 1836.",
+     "É um truque de mil oitocentos e trinta e seis."
+    ]
+   ]
+  },
+  {
+   "id": "c2",
+   "frases": [
+    [
+     "Paris. Jornal era caro demais pra maioria das pessoas.",
+     "Paris. Jornal era caro demais pra maioria das pessoas."
+    ],
+    [
+     "Aí Émile de Girardin lança o La Presse pela metade do preço:",
+     "Aí, Emíl de Jirardân lança o La Préss pela metade do preço:"
+    ],
+    [
+     "40 francos por ano, em vez de 80.",
+     "quarenta francos por ano, em vez de oitenta."
+    ]
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "Quem pagava a diferença? Os anúncios.",
+     "Quem pagava a diferença? Os anúncios."
+    ],
+    [
+     "Só que agora ele precisava de muito leitor.",
+     "Só que agora ele precisava de muito leitor."
+    ],
+    [
+     "E onde foi buscar? No rodapé.",
+     "E onde ele foi buscar? No rodapé."
+    ]
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "O rodapé da primeira página era o folhetim: um espaço de entretenimento.",
+     "O rodapé da primeira página era o folhetim: um espaço de entretenimento."
+    ],
+    [
+     "E ali, em 1836, Balzac estreia um romance publicado em pedaços.",
+     "E ali, em mil oitocentos e trinta e seis, Balzác estreia um romance publicado em pedaços."
+    ]
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "E aqui está o truque: cada pedaço terminava no suspense.",
+     "E aqui está o truque: cada pedaço terminava no suspense."
+    ],
+    [
+     "Quer saber o resto? Compra o jornal de amanhã!",
+     "Quer saber o resto? Compra o jornal de amanhã!"
+    ]
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "A moda atravessou o oceano.",
+     "A moda atravessou o oceano."
+    ],
+    [
+     "No Rio, em 1857, José de Alencar publicou O Guarani no rodapé do Diário do Rio de Janeiro.",
+     "No Rio, em mil oitocentos e cinquenta e sete, José de Alencar publicou O Guarani no rodapé do Diário do Rio de Janeiro."
+    ],
+    [
+     "Foram 52 edições, de janeiro a abril.",
+     "Foram cinquenta e duas edições, de janeiro a abril."
+    ]
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Depois o folhetim mudou de casa: foi pro rádio e, depois, pra televisão.",
+     "Depois, o folhetim mudou de casa: foi pro rádio e, depois, pra televisão."
+    ],
+    [
+     "A pesquisadora Marlyse Meyer vê a telenovela como uma tradução atualizada do folhetim.",
+     "A pesquisadora Marlíz Méier vê a telenovela como uma tradução atualizada do folhetim."
+    ]
+   ]
+  },
+  {
+   "id": "c7b",
+   "frases": [
+    [
+     "Lembra de Avenida Brasil? Todo capítulo terminava com a imagem congelada, bem no suspense.",
+     "Lembra de Avenida Brasil? Todo capítulo terminava com a imagem congelada, bem no suspense."
+    ],
+    [
+     "No último capítulo, em 19 de outubro de 2012, teve bar lotado pra ver o final.",
+     "No último capítulo, em dezenove de outubro de dois mil e doze, teve bar lotado pra ver o final."
+    ],
+    [
+     "E nos intervalos? Mais de 500 anunciantes. Igualzinho ao jornal de 1836.",
+     "E nos intervalos? Mais de quinhentos anunciantes. Igualzinho ao jornal de mil oitocentos e trinta e seis."
+    ]
+   ]
+  },
+  {
+   "id": "c8",
+   "frases": [
+    [
+     "Então, quando a novela parar no melhor momento, já sabe:",
+     "Então, quando a novela parar no melhor momento, já sabe:"
+    ],
+    [
+     "o truque tem quase 200 anos.",
+     "o truque tem quase duzentos anos."
+    ],
+    [
+     "Qual final de capítulo te deixou mais aflito? Me conta aqui embaixo.",
+     "Qual final de capítulo te deixou mais aflito? Me conta aqui embaixo."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ]
+  }
+ ]
+}
