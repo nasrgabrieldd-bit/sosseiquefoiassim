@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 69.667,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Toda vez que você fala você, está chamando alguém de Vossa Mercê.",
+     "inicio": 0.1,
+     "dur": 3.861
+    },
+    {
+     "leg": "Exagero? A palavra foi encolhendo durante séculos.",
+     "inicio": 4.161,
+     "dur": 3.9
+    }
+   ],
+   "fim": 8.481
+  },
+  {
+   "id": "c2",
+   "inicio": 8.481,
+   "frases": [
+    {
+     "leg": "Lá no século 14, Vossa Mercê era um tratamento usado com o rei.",
+     "inicio": 8.481,
+     "dur": 4.288
+    },
+    {
+     "leg": "Mercê quer dizer favor, graça.",
+     "inicio": 12.969,
+     "dur": 2.069
+    },
+    {
+     "leg": "Era tipo dizer: Vossa Graça.",
+     "inicio": 15.239,
+     "dur": 2.112
+    },
+    {
+     "leg": "O jeito educado de falar com quem estava acima de você.",
+     "inicio": 17.551,
+     "dur": 3.605
+    }
+   ],
+   "fim": 21.576
+  },
+  {
+   "id": "c3",
+   "inicio": 21.576,
+   "frases": [
+    {
+     "leg": "Com o tempo, a expressão passou a ser usada com muito mais gente.",
+     "inicio": 21.576,
+     "dur": 3.755
+    },
+    {
+     "leg": "E palavra muito usada vai se gastando na boca do povo.",
+     "inicio": 25.531,
+     "dur": 3.413
+    }
+   ],
+   "fim": 29.364
+  },
+  {
+   "id": "c4",
+   "inicio": 29.364,
+   "frases": [
+    {
+     "leg": "Vossa Mercê virou vossemecê. Depois vosmecê. Depois vancê.",
+     "inicio": 29.364,
+     "dur": 5.133
+    },
+    {
+     "leg": "E, no século 17, já aparece escrito: você.",
+     "inicio": 34.697,
+     "dur": 2.987
+    }
+   ],
+   "fim": 38.104
+  },
+  {
+   "id": "c5",
+   "inicio": 38.104,
+   "frases": [
+    {
+     "leg": "E não parou: veio ocê. E depois, cê.",
+     "inicio": 38.104,
+     "dur": 2.929
+    },
+    {
+     "leg": "Cê tá entendendo?",
+     "inicio": 41.233,
+     "dur": 1.515
+    }
+   ],
+   "fim": 43.168
+  },
+  {
+   "id": "c6",
+   "inicio": 43.168,
+   "frases": [
+    {
+     "leg": "E hoje? No celular, virou duas letras: vc.",
+     "inicio": 43.168,
+     "dur": 3.623
+    },
+    {
+     "leg": "De Vossa Mercê pra vc: de dez letras pra duas.",
+     "inicio": 46.991,
+     "dur": 3.264
+    },
+    {
+     "leg": "E tem mais: no Brasil, o você se espalhou bem mais rápido. Em Portugal, o tu continua mais comum no dia a dia.",
+     "inicio": 50.455,
+     "dur": 6.94
+    }
+   ],
+   "fim": 57.815
+  },
+  {
+   "id": "c7",
+   "inicio": 57.815,
+   "frases": [
+    {
+     "leg": "Então, quando alguém disser cê, lembra: tem um rei escondido aí.",
+     "inicio": 57.815,
+     "dur": 3.691
+    },
+    {
+     "leg": "Que outra palavra você acha que encolheu assim? Comenta.",
+     "inicio": 61.705,
+     "dur": 4.092
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 65.997,
+     "dur": 3.249
+    }
+   ],
+   "fim": 69.667
+  }
+ ]
+}

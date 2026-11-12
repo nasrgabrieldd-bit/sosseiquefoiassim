@@ -1,0 +1,136 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 71.527,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Invadiram a prisão mais temida de Paris e acharam só 7 presos.",
+     "inicio": 0.1,
+     "dur": 4.267
+    },
+    {
+     "leg": "Então por que esse dia virou feriado nacional?",
+     "inicio": 4.567,
+     "dur": 2.923
+    }
+   ],
+   "fim": 7.909
+  },
+  {
+   "id": "c2",
+   "inicio": 7.909,
+   "frases": [
+    {
+     "leg": "Paris, 14 de julho de 1789.",
+     "inicio": 7.909,
+     "dur": 3.776
+    },
+    {
+     "leg": "A Bastilha era uma fortaleza-prisão do rei.",
+     "inicio": 11.885,
+     "dur": 2.688
+    },
+    {
+     "leg": "E guardava uma coisa que a multidão queria muito: pólvora.",
+     "inicio": 14.773,
+     "dur": 3.221
+    }
+   ],
+   "fim": 18.415
+  },
+  {
+   "id": "c3",
+   "inicio": 18.415,
+   "frases": [
+    {
+     "leg": "A multidão invadiu a fortaleza, pegou a pólvora e libertou todos os presos.",
+     "inicio": 18.415,
+     "dur": 4.757
+    },
+    {
+     "leg": "E aí veio a surpresa: eram só 7.",
+     "inicio": 23.372,
+     "dur": 2.283
+    }
+   ],
+   "fim": 26.075
+  },
+  {
+   "id": "c4",
+   "inicio": 26.075,
+   "frases": [
+    {
+     "leg": "4 falsificadores, 2 homens considerados loucos e 1 nobre preso a pedido da família.",
+     "inicio": 26.075,
+     "dur": 5.803
+    },
+    {
+     "leg": "Nada de multidão de presos políticos.",
+     "inicio": 32.077,
+     "dur": 2.581
+    }
+   ],
+   "fim": 35.079
+  },
+  {
+   "id": "c5",
+   "inicio": 35.079,
+   "frases": [
+    {
+     "leg": "Mas a Bastilha era um símbolo do poder do rei.",
+     "inicio": 35.079,
+     "dur": 2.731
+    },
+    {
+     "leg": "E tomar o símbolo virou o grande marco da Revolução Francesa.",
+     "inicio": 38.009,
+     "dur": 3.733
+    }
+   ],
+   "fim": 42.163
+  },
+  {
+   "id": "c6",
+   "inicio": 42.163,
+   "frases": [
+    {
+     "leg": "E hoje? O 14 de julho é a festa nacional da França desde 1880.",
+     "inicio": 42.163,
+     "dur": 6.268
+    },
+    {
+     "leg": "E a lei nem diz qual 14 de julho comemora: a tomada da Bastilha, de 1789, ou a festa da Federação, de 1790.",
+     "inicio": 48.631,
+     "dur": 9.813
+    }
+   ],
+   "fim": 58.864
+  },
+  {
+   "id": "c7",
+   "inicio": 58.864,
+   "frases": [
+    {
+     "leg": "Então: 7 presos, e um feriado que já dura quase 150 anos.",
+     "inicio": 58.864,
+     "dur": 4.501
+    },
+    {
+     "leg": "Que outro símbolo você acha maior do que o fato? Comenta.",
+     "inicio": 63.565,
+     "dur": 4.092
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 67.857,
+     "dur": 3.249
+    }
+   ],
+   "fim": 71.527
+  }
+ ]
+}

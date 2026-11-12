@@ -1,0 +1,522 @@
+{
+ "materia": "LÍNGUA PORTUGUESA",
+ "titulo": "\"Você\" veio de \"Vossa Mercê\"",
+ "fontes": [
+  "LOPES, Célia R. S. A gramaticalização de Vossa Mercê. Soletras (UERJ).",
+  "Revista Diadorim (UFRJ): implementação de você no Brasil e em Portugal.",
+  "Working Papers em Linguística (UFSC), 2019: Vossa Mercê > Você.",
+  "Cadernos de Estudos Linguísticos (UNICAMP): Vossa Mercê > vossemecê > vosmecê > vancê > você."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "coroa",
+    "pos": [
+     520,
+     600
+    ],
+    "e": null,
+    "w": 420
+   },
+   {
+    "t": "bloco",
+    "txt": "\"você\" já foi \"Vossa Mercê\"",
+    "pos": [
+     520,
+     1100
+    ],
+    "e": null,
+    "size": 78,
+    "maxw": 760
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Toda vez que você fala você, está chamando alguém de Vossa Mercê.",
+     "Toda vez que você fala você, está chamando alguém de Vossa Mercê."
+    ],
+    [
+     "Exagero? A palavra foi encolhendo durante séculos.",
+     "Exagero? A palavra foi encolhendo durante séculos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coroa",
+     "pos": [
+      520,
+      600
+     ],
+     "w": 420,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "você = Vossa Mercê",
+     "pos": [
+      520,
+      1060
+     ],
+     "size": 80
+    },
+    {
+     "t": "nota",
+     "txt": "encolheu!",
+     "pos": [
+      780,
+      430
+     ],
+     "e": [
+      1,
+      "encolhendo"
+     ],
+     "cor": "laranja",
+     "size": 66
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Lopes (UERJ); Lopes e Brocardo (2016)",
+   "frases": [
+    [
+     "Lá no século 14, Vossa Mercê era um tratamento usado com o rei.",
+     "Lá no século quatorze, Vossa Mercê era um tratamento usado com o rei."
+    ],
+    [
+     "Mercê quer dizer favor, graça.",
+     "Mercê quer dizer favor, graça."
+    ],
+    [
+     "Era tipo dizer: Vossa Graça.",
+     "Era tipo dizer: Vossa Graça."
+    ],
+    [
+     "O jeito educado de falar com quem estava acima de você.",
+     "O jeito educado de falar com quem estava acima de você."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "SÉCULO XIV",
+     "pos": [
+      300,
+      430
+     ],
+     "size": 50
+    },
+    {
+     "t": "obj",
+     "nome": "coroa",
+     "pos": [
+      700,
+      600
+     ],
+     "e": [
+      0,
+      "rei"
+     ],
+     "w": 300,
+     "ang": 6
+    },
+    {
+     "t": "verbete",
+     "palavra": "mercê",
+     "classe": "subst. fem.",
+     "w": 660,
+     "pos": [
+      500,
+      960
+     ],
+     "e": [
+      1,
+      0.1
+     ],
+     "def": "graça, favor, benefício concedido por alguém poderoso."
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Revista Linguística (UFRJ)",
+   "frases": [
+    [
+     "Com o tempo, a expressão passou a ser usada com muito mais gente.",
+     "Com o tempo, a expressão passou a ser usada com muito mais gente."
+    ],
+    [
+     "E palavra muito usada vai se gastando na boca do povo.",
+     "E palavra muito usada vai se gastando na boca do povo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "Vossa Mercê",
+     "pos": [
+      520,
+      560
+     ],
+     "size": 92
+    },
+    {
+     "t": "nota",
+     "txt": "usada com todo mundo",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      0,
+      "muito"
+     ],
+     "size": 60
+    },
+    {
+     "t": "nota",
+     "txt": "...gastando...",
+     "pos": [
+      520,
+      1050
+     ],
+     "e": [
+      1,
+      "gastando"
+     ],
+     "cor": "laranja",
+     "size": 70
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: UNICAMP; UFSC (2019)",
+   "frases": [
+    [
+     "Vossa Mercê virou vossemecê. Depois vosmecê. Depois vancê.",
+     "Vossa Mercê virou vossemecê. Depois vosmecê. Depois vancê."
+    ],
+    [
+     "E, no século 17, já aparece escrito: você.",
+     "E, no século dezessete, já aparece escrito: você."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "Vossa Mercê",
+     "pos": [
+      300,
+      420
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "vossemecê",
+     "pos": [
+      640,
+      540
+     ],
+     "e": [
+      0,
+      "vossemecê"
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "vosmecê",
+     "pos": [
+      340,
+      680
+     ],
+     "e": [
+      0,
+      "vosmecê."
+     ],
+     "size": 54
+    },
+    {
+     "t": "tira",
+     "txt": "vancê",
+     "pos": [
+      680,
+      820
+     ],
+     "e": [
+      0,
+      "vancê"
+     ],
+     "size": 58
+    },
+    {
+     "t": "bloco",
+     "txt": "você",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      1,
+      "você"
+     ],
+     "size": 110
+    },
+    {
+     "t": "tira",
+     "txt": "SÉCULO XVII",
+     "pos": [
+      800,
+      1170
+     ],
+     "e": [
+      1,
+      "17"
+     ],
+     "size": 36
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "E não parou: veio ocê. E depois, cê.",
+     "E não parou: veio ocê. E depois, cê."
+    ],
+    [
+     "Cê tá entendendo?",
+     "Cê tá entendendo?"
+    ]
+   ],
+   "camera": {
+    "push": 0.1
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "você",
+     "pos": [
+      300,
+      520
+     ],
+     "size": 80,
+     "cor": "tinta"
+    },
+    {
+     "t": "seta",
+     "de": [
+      420,
+      600
+     ],
+     "ate": [
+      560,
+      700
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "ocê"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "ocê",
+     "pos": [
+      640,
+      760
+     ],
+     "e": [
+      0,
+      "ocê"
+     ],
+     "size": 90
+    },
+    {
+     "t": "seta",
+     "de": [
+      600,
+      860
+     ],
+     "ate": [
+      460,
+      960
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "cê."
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "cê",
+     "pos": [
+      380,
+      1060
+     ],
+     "e": [
+      0,
+      "depois"
+     ],
+     "size": 110
+    },
+    {
+     "t": "nota",
+     "txt": "cê tá entendendo?",
+     "pos": [
+      720,
+      1170
+     ],
+     "e": [
+      1,
+      0.0
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Diadorim (UFRJ)",
+   "frases": [
+    [
+     "E hoje? No celular, virou duas letras: vc.",
+     "E hoje? No celular, virou duas letras: vc."
+    ],
+    [
+     "De Vossa Mercê pra vc: de dez letras pra duas.",
+     "De Vossa Mercê pra vc: de dez letras pra duas."
+    ],
+    [
+     "E tem mais: no Brasil, o você se espalhou bem mais rápido. Em Portugal, o tu continua mais comum no dia a dia.",
+     "E tem mais: no Brasil, o você se espalhou bem mais rápido. Em Portugal, o tu continua mais comum no dia a dia."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      330,
+      720
+     ],
+     "w": 340,
+     "ang": -4
+    },
+    {
+     "t": "bloco",
+     "txt": "vc",
+     "pos": [
+      720,
+      600
+     ],
+     "e": [
+      0,
+      "vc"
+     ],
+     "size": 130
+    },
+    {
+     "t": "tira",
+     "txt": "10 letras viram 2",
+     "pos": [
+      700,
+      900
+     ],
+     "e": [
+      1,
+      "dez"
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "Brasil: você · Portugal: tu",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      2,
+      "Portugal"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então, quando alguém disser cê, lembra: tem um rei escondido aí.",
+     "Então, quando alguém disser cê, lembra: tem um rei escondido aí."
+    ],
+    [
+     "Que outra palavra você acha que encolheu assim? Comenta.",
+     "Que outra palavra você acha que encolheu assim? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coroa",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": -3
+    },
+    {
+     "t": "bloco",
+     "txt": "tem um rei escondido no \"cê\"",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      0,
+      "rei"
+     ],
+     "size": 66,
+     "maxw": 760
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "VOCÊ FALA ISSO TODO DIA",
+ "id": "SSA-005"
+}

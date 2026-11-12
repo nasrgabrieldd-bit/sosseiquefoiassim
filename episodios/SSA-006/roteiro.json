@@ -1,0 +1,469 @@
+{
+ "materia": "HISTÓRIA",
+ "titulo": "A Bastilha tinha só 7 presos",
+ "fontes": [
+  "Encyclopaedia Britannica, 'Storming of the Bastille'.",
+  "Vie-publique.fr (governo francês), 'Que célèbre-t-on le 14 juillet ?'.",
+  "Ministère des Armées, '14 Juillet. Jour de la fête nationale'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "castelo",
+    "pos": [
+     520,
+     720
+    ],
+    "e": null,
+    "w": 640,
+    "h": 460
+   },
+   {
+    "t": "numero",
+    "txt": "7",
+    "pos": [
+     300,
+     470
+    ],
+    "e": null,
+    "size": 300
+   },
+   {
+    "t": "bloco",
+    "txt": "presos. Só isso.",
+    "pos": [
+     600,
+     1120
+    ],
+    "e": null,
+    "size": 80
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Invadiram a prisão mais temida de Paris e acharam só 7 presos.",
+     "Invadiram a prisão mais temida de Paris e acharam só sete presos."
+    ],
+    [
+     "Então por que esse dia virou feriado nacional?",
+     "Então por que esse dia virou feriado nacional?"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      520,
+      700
+     ],
+     "w": 640,
+     "h": 460,
+     "balanca": true
+    },
+    {
+     "t": "numero",
+     "txt": "7",
+     "pos": [
+      790,
+      460
+     ],
+     "size": 280
+    },
+    {
+     "t": "bloco",
+     "txt": "feriado nacional?",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "feriado"
+     ],
+     "size": 74
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "Paris, 14 de julho de 1789.",
+     "Paris, catorze de julho de mil setecentos e oitenta e nove."
+    ],
+    [
+     "A Bastilha era uma fortaleza-prisão do rei.",
+     "A Bastilha era uma fortaleza-prisão do rei."
+    ],
+    [
+     "E guardava uma coisa que a multidão queria muito: pólvora.",
+     "E guardava uma coisa que a multidão queria muito: pólvora."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "PARIS · 14/07/1789",
+     "pos": [
+      520,
+      430
+     ],
+     "size": 50
+    },
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "Bastilha"
+     ],
+     "w": 600,
+     "h": 430
+    },
+    {
+     "t": "bloco",
+     "txt": "PÓLVORA",
+     "pos": [
+      600,
+      1080
+     ],
+     "e": [
+      2,
+      "pólvora"
+     ],
+     "size": 90,
+     "cor": "tinta",
+     "ang": -4
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "A multidão invadiu a fortaleza, pegou a pólvora e libertou todos os presos.",
+     "A multidão invadiu a fortaleza, pegou a pólvora e libertou todos os presos."
+    ],
+    [
+     "E aí veio a surpresa: eram só 7.",
+     "E aí veio a surpresa: eram só sete."
+    ]
+   ],
+   "camera": {
+    "push": 0.04,
+    "zooms": [
+     {
+      "e": [
+       1,
+       "surpresa"
+      ],
+      "escala": 1.25,
+      "alvo": [
+       520,
+       700
+      ],
+      "dur": 0.6
+     }
+    ]
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      520,
+      700
+     ],
+     "w": 600,
+     "h": 430,
+     "ang": -2
+    },
+    {
+     "t": "numero",
+     "txt": "7",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "só 7"
+     ],
+     "size": 420
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "4 falsificadores, 2 homens considerados loucos e 1 nobre preso a pedido da família.",
+     "Quatro falsificadores, dois homens considerados loucos e um nobre preso a pedido da família."
+    ],
+    [
+     "Nada de multidão de presos políticos.",
+     "Nada de multidão de presos políticos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "4 falsificadores",
+     "pos": [
+      380,
+      500
+     ],
+     "size": 56
+    },
+    {
+     "t": "tira",
+     "txt": "2 considerados \"loucos\"",
+     "pos": [
+      560,
+      680
+     ],
+     "e": [
+      0,
+      "loucos"
+     ],
+     "size": 52
+    },
+    {
+     "t": "tira",
+     "txt": "1 nobre",
+     "pos": [
+      380,
+      860
+     ],
+     "e": [
+      0,
+      "nobre"
+     ],
+     "size": 56
+    },
+    {
+     "t": "bloco",
+     "txt": "presos políticos? não.",
+     "pos": [
+      560,
+      1080
+     ],
+     "e": [
+      1,
+      "políticos"
+     ],
+     "size": 64,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "Mas a Bastilha era um símbolo do poder do rei.",
+     "Mas a Bastilha era um símbolo do poder do rei."
+    ],
+    [
+     "E tomar o símbolo virou o grande marco da Revolução Francesa.",
+     "E tomar o símbolo virou o grande marco da Revolução Francesa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coroa",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380
+    },
+    {
+     "t": "bloco",
+     "txt": "SÍMBOLO",
+     "pos": [
+      520,
+      920
+     ],
+     "e": [
+      0,
+      "símbolo"
+     ],
+     "size": 100
+    },
+    {
+     "t": "tira",
+     "txt": "REVOLUÇÃO FRANCESA",
+     "pos": [
+      520,
+      1120
+     ],
+     "e": [
+      1,
+      "Revolução"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: vie-publique.fr; Ministère des Armées",
+   "frases": [
+    [
+     "E hoje? O 14 de julho é a festa nacional da França desde 1880.",
+     "E hoje? O catorze de julho é a festa nacional da França desde mil oitocentos e oitenta."
+    ],
+    [
+     "E a lei nem diz qual 14 de julho comemora: a tomada da Bastilha, de 1789, ou a festa da Federação, de 1790.",
+     "E a lei nem diz qual catorze de julho comemora: a tomada da Bastilha, de mil setecentos e oitenta e nove, ou a festa da Federação, de mil setecentos e noventa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "LOI DU 6 JUILLET 1880",
+     "pos": [
+      520,
+      440
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "14 de julho",
+     "pos": [
+      520,
+      640
+     ],
+     "e": [
+      0,
+      "festa"
+     ],
+     "size": 96
+    },
+    {
+     "t": "nota",
+     "txt": "qual deles?",
+     "pos": [
+      760,
+      830
+     ],
+     "e": [
+      1,
+      "nem diz"
+     ],
+     "cor": "laranja",
+     "size": 64
+    },
+    {
+     "t": "tira",
+     "txt": "1789",
+     "pos": [
+      330,
+      1000
+     ],
+     "e": [
+      1,
+      "Bastilha,"
+     ],
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "1790",
+     "pos": [
+      700,
+      1060
+     ],
+     "e": [
+      1,
+      "Federação"
+     ],
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: 7 presos, e um feriado que já dura quase 150 anos.",
+     "Então: sete presos, e um feriado que já dura quase cento e cinquenta anos."
+    ],
+    [
+     "Que outro símbolo você acha maior do que o fato? Comenta.",
+     "Que outro símbolo você acha maior do que o fato? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "7",
+     "pos": [
+      330,
+      620
+     ],
+     "size": 300
+    },
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      700,
+      700
+     ],
+     "w": 380,
+     "h": 280
+    },
+    {
+     "t": "bloco",
+     "txt": "símbolo > fato?",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      "símbolo"
+     ],
+     "size": 76
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "A REVOLUÇÃO QUE MUDOU TUDO",
+ "id": "SSA-006"
+}

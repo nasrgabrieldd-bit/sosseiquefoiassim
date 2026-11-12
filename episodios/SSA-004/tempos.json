@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 76.919,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A Mona Lisa ficou famosa de verdade depois de ser roubada.",
+     "inicio": 0.1,
+     "dur": 3.968
+    },
+    {
+     "leg": "E muita gente foi ao museu só pra ver a parede vazia.",
+     "inicio": 4.268,
+     "dur": 3.392
+    }
+   ],
+   "fim": 8.08
+  },
+  {
+   "id": "c2",
+   "inicio": 8.08,
+   "frases": [
+    {
+     "leg": "Paris, 21 de agosto de 1911.",
+     "inicio": 8.08,
+     "dur": 3.328
+    },
+    {
+     "leg": "Era segunda-feira, e o Louvre estava fechado.",
+     "inicio": 11.608,
+     "dur": 2.688
+    },
+    {
+     "leg": "Vincenzo Peruggia, que já tinha trabalhado no museu, tira o quadro da parede e sai com ele escondido debaixo da roupa.",
+     "inicio": 14.496,
+     "dur": 7.083
+    }
+   ],
+   "fim": 21.999
+  },
+  {
+   "id": "c3",
+   "inicio": 21.999,
+   "frases": [
+    {
+     "leg": "Por mais de um dia, ninguém percebe.",
+     "inicio": 21.999,
+     "dur": 2.24
+    },
+    {
+     "leg": "O museu achou que o quadro tinha ido ser fotografado.",
+     "inicio": 24.439,
+     "dur": 3.264
+    }
+   ],
+   "fim": 28.123
+  },
+  {
+   "id": "c4",
+   "inicio": 28.123,
+   "frases": [
+    {
+     "leg": "Quando o Louvre reabriu, uma semana depois, milhares de pessoas foram olhar o espaço vazio.",
+     "inicio": 28.123,
+     "dur": 5.291
+    },
+    {
+     "leg": "Na parede, só quatro ganchos de ferro.",
+     "inicio": 33.613,
+     "dur": 2.453
+    },
+    {
+     "leg": "Até o escritor Franz Kafka foi ver.",
+     "inicio": 36.267,
+     "dur": 2.304
+    }
+   ],
+   "fim": 38.991
+  },
+  {
+   "id": "c5",
+   "inicio": 38.991,
+   "frases": [
+    {
+     "leg": "O quadro ficou sumido por mais de dois anos.",
+     "inicio": 38.991,
+     "dur": 2.88
+    },
+    {
+     "leg": "Em 1913, Peruggia tentou vender a obra pra um negociante de arte em Florença, e acabou preso.",
+     "inicio": 42.071,
+     "dur": 6.677
+    },
+    {
+     "leg": "Na volta ao Louvre, pelo menos 120 mil pessoas foram ver a Mona Lisa em dois dias.",
+     "inicio": 48.948,
+     "dur": 5.312
+    }
+   ],
+   "fim": 54.68
+  },
+  {
+   "id": "c6",
+   "inicio": 54.68,
+   "frases": [
+    {
+     "leg": "E hoje? A revista Smithsonian estima uns 8 milhões de visitas à Mona Lisa por ano.",
+     "inicio": 54.68,
+     "dur": 5.863
+    },
+    {
+     "leg": "Um sumiço transformou um quadro em celebridade.",
+     "inicio": 60.743,
+     "dur": 2.944
+    }
+   ],
+   "fim": 64.107
+  },
+  {
+   "id": "c7",
+   "inicio": 64.107,
+   "frases": [
+    {
+     "leg": "Então: às vezes, o que deixa algo famoso é justamente a falta dele.",
+     "inicio": 64.107,
+     "dur": 4.203
+    },
+    {
+     "leg": "Você iria a um museu só pra ver uma parede vazia? Comenta.",
+     "inicio": 68.509,
+     "dur": 4.54
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 73.249,
+     "dur": 3.249
+    }
+   ],
+   "fim": 76.919
+  }
+ ]
+}

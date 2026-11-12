@@ -1,0 +1,522 @@
+{
+ "materia": "ARTE",
+ "titulo": "A Mona Lisa ficou famosa porque foi roubada",
+ "fontes": [
+  "Smithsonian Magazine, 'The Theft That Made the Mona Lisa a Masterpiece' (James Zug, 2011).",
+  "History.com, 'The Heist that Made the Mona Lisa Famous' (Evan Andrews).",
+  "TheCollector, 'The Man Who Stole the Mona Lisa: What Happened to Vincenzo Peruggia?'"
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "moldura",
+    "pos": [
+     520,
+     680
+    ],
+    "e": null,
+    "w": 560,
+    "h": 640
+   },
+   {
+    "t": "bloco",
+    "txt": "a parede vazia que lotou o museu",
+    "pos": [
+     520,
+     1160
+    ],
+    "e": null,
+    "size": 70,
+    "maxw": 760
+   },
+   {
+    "t": "tira",
+    "txt": "LOUVRE, 1911",
+    "pos": [
+     300,
+     410
+    ],
+    "e": null,
+    "size": 52
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A Mona Lisa ficou famosa de verdade depois de ser roubada.",
+     "A Mona Lisa ficou famosa de verdade depois de ser roubada."
+    ],
+    [
+     "E muita gente foi ao museu só pra ver a parede vazia.",
+     "E muita gente foi ao museu só pra ver a parede vazia."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      680
+     ],
+     "w": 560,
+     "h": 640,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "ROUBADA",
+     "pos": [
+      730,
+      470
+     ],
+     "size": 70,
+     "cor": "tinta",
+     "ang": 8
+    },
+    {
+     "t": "nota",
+     "txt": "a parede vazia",
+     "pos": [
+      520,
+      1120
+     ],
+     "e": [
+      1,
+      "parede"
+     ],
+     "cor": "laranja",
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Smithsonian Magazine; History.com",
+   "frases": [
+    [
+     "Paris, 21 de agosto de 1911.",
+     "Paris, vinte e um de agosto de mil novecentos e onze."
+    ],
+    [
+     "Era segunda-feira, e o Louvre estava fechado.",
+     "Era segunda-feira, e o Louvre estava fechado."
+    ],
+    [
+     "Vincenzo Peruggia, que já tinha trabalhado no museu, tira o quadro da parede e sai com ele escondido debaixo da roupa.",
+     "Vinchênzo Perúdja, que já tinha trabalhado no museu, tira o quadro da parede e sai com ele escondido debaixo da roupa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "PARIS · 21/08/1911",
+     "pos": [
+      520,
+      430
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "FECHADO",
+     "pos": [
+      330,
+      640
+     ],
+     "e": [
+      1,
+      "fechado"
+     ],
+     "size": 76,
+     "cor": "tinta",
+     "ang": -5
+    },
+    {
+     "t": "nota",
+     "txt": "segunda-feira",
+     "pos": [
+      700,
+      620
+     ],
+     "e": [
+      1,
+      "segunda"
+     ],
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "VINCENZO PERUGGIA",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      2,
+      "Peruggia"
+     ],
+     "size": 50
+    },
+    {
+     "t": "nota",
+     "txt": "debaixo da roupa!",
+     "pos": [
+      560,
+      1080
+     ],
+     "e": [
+      2,
+      "debaixo"
+     ],
+     "cor": "laranja",
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: History.com; TheCollector",
+   "frases": [
+    [
+     "Por mais de um dia, ninguém percebe.",
+     "Por mais de um dia, ninguém percebe."
+    ],
+    [
+     "O museu achou que o quadro tinha ido ser fotografado.",
+     "O museu achou que o quadro tinha ido ser fotografado."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      660
+     ],
+     "w": 500,
+     "h": 570
+    },
+    {
+     "t": "nota",
+     "txt": "...cadê?",
+     "pos": [
+      760,
+      1000
+     ],
+     "e": [
+      0,
+      0.4
+     ],
+     "cor": "laranja",
+     "size": 70
+    },
+    {
+     "t": "tira",
+     "txt": "\"foi pra foto\"",
+     "pos": [
+      400,
+      1120
+     ],
+     "e": [
+      1,
+      "fotografado"
+     ],
+     "size": 52
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Smithsonian Magazine",
+   "frases": [
+    [
+     "Quando o Louvre reabriu, uma semana depois, milhares de pessoas foram olhar o espaço vazio.",
+     "Quando o Louvre reabriu, uma semana depois, milhares de pessoas foram olhar o espaço vazio."
+    ],
+    [
+     "Na parede, só quatro ganchos de ferro.",
+     "Na parede, só quatro ganchos de ferro."
+    ],
+    [
+     "Até o escritor Franz Kafka foi ver.",
+     "Até o escritor Franz Cáfka foi ver."
+    ]
+   ],
+   "camera": {
+    "push": 0.04,
+    "zooms": [
+     {
+      "e": [
+       1,
+       0.1
+      ],
+      "escala": 1.3,
+      "alvo": [
+       520,
+       680
+      ],
+      "dur": 1.0
+     }
+    ]
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      680
+     ],
+     "w": 560,
+     "h": 640
+    },
+    {
+     "t": "bloco",
+     "txt": "fila pra ver o nada",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      0,
+      "milhares"
+     ],
+     "size": 70
+    },
+    {
+     "t": "nota",
+     "txt": "4 ganchos",
+     "pos": [
+      800,
+      440
+     ],
+     "e": [
+      1,
+      "ganchos"
+     ],
+     "cor": "laranja",
+     "size": 62
+    },
+    {
+     "t": "tira",
+     "txt": "FRANZ KAFKA esteve lá",
+     "pos": [
+      330,
+      440
+     ],
+     "e": [
+      2,
+      "Kafka"
+     ],
+     "size": 40
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: TheCollector; History.com",
+   "frases": [
+    [
+     "O quadro ficou sumido por mais de dois anos.",
+     "O quadro ficou sumido por mais de dois anos."
+    ],
+    [
+     "Em 1913, Peruggia tentou vender a obra pra um negociante de arte em Florença, e acabou preso.",
+     "Em mil novecentos e treze, Perúdja tentou vender a obra pra um negociante de arte em Florença, e acabou preso."
+    ],
+    [
+     "Na volta ao Louvre, pelo menos 120 mil pessoas foram ver a Mona Lisa em dois dias.",
+     "Na volta ao Louvre, pelo menos cento e vinte mil pessoas foram ver a Mona Lisa em dois dias."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "PROCURA-SE",
+     "pos": [
+      520,
+      470
+     ],
+     "size": 84,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "tira",
+     "txt": "FLORENÇA, 1913",
+     "pos": [
+      330,
+      700
+     ],
+     "e": [
+      1,
+      "Florença"
+     ],
+     "size": 50
+    },
+    {
+     "t": "nota",
+     "txt": "preso!",
+     "pos": [
+      740,
+      720
+     ],
+     "e": [
+      1,
+      "preso"
+     ],
+     "cor": "laranja",
+     "size": 72
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 120000,
+     "fmt": "{n} visitantes",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      2,
+      "120"
+     ],
+     "size": 72
+    },
+    {
+     "t": "tira",
+     "txt": "em 2 dias",
+     "pos": [
+      520,
+      1140
+     ],
+     "e": [
+      2,
+      "dois dias"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Smithsonian Magazine",
+   "frases": [
+    [
+     "E hoje? A revista Smithsonian estima uns 8 milhões de visitas à Mona Lisa por ano.",
+     "E hoje? A revista Smithsonian estima uns oito milhões de visitas à Mona Lisa por ano."
+    ],
+    [
+     "Um sumiço transformou um quadro em celebridade.",
+     "Um sumiço transformou um quadro em celebridade."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      300,
+      700
+     ],
+     "w": 300,
+     "ang": -5
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 8,
+     "fmt": "{n} milhões/ano",
+     "pos": [
+      680,
+      620
+     ],
+     "e": [
+      0,
+      "milhões"
+     ],
+     "size": 70
+    },
+    {
+     "t": "bloco",
+     "txt": "celebridade",
+     "pos": [
+      640,
+      960
+     ],
+     "e": [
+      1,
+      "celebridade"
+     ],
+     "size": 80,
+     "cor": "tinta",
+     "ang": 3
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: às vezes, o que deixa algo famoso é justamente a falta dele.",
+     "Então: às vezes, o que deixa algo famoso é justamente a falta dele."
+    ],
+    [
+     "Você iria a um museu só pra ver uma parede vazia? Comenta.",
+     "Você iria a um museu só pra ver uma parede vazia? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      650
+     ],
+     "w": 480,
+     "h": 550,
+     "ang": -2
+    },
+    {
+     "t": "bloco",
+     "txt": "você iria?",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      0.2
+     ],
+     "size": 80
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "O ROUBO QUE MUDOU TUDO",
+ "id": "SSA-004"
+}
