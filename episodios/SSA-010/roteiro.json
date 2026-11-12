@@ -1,0 +1,481 @@
+{
+ "materia": "LÍNGUA PORTUGUESA",
+ "titulo": "O mito do \"feito nas coxas\"",
+ "fontes": [
+  "LA PASTINA FILHO, José. 'Eram as telhas feitas nas coxas das escravas?' Arqueologia, Curitiba, v. 10, p. 17-21, 2006.",
+  "ABILIO, G. C.; SILVA, E. M. 'A falsa origem do forró: pseudoetimologia...'. Revista Espacialidades (UFRN), 2024.",
+  "Agência Brasil, 'Forró may be declared Brazil's intangible heritage' (2019)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "telha",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 420,
+    "h": 420,
+    "ang": -5
+   },
+   {
+    "t": "bloco",
+    "txt": "MITO",
+    "pos": [
+     740,
+     460
+    ],
+    "e": null,
+    "size": 110,
+    "cor": "tinta",
+    "ang": 8
+   },
+   {
+    "t": "bloco",
+    "txt": "a história das telhas é falsa",
+    "pos": [
+     520,
+     1110
+    ],
+    "e": null,
+    "size": 68,
+    "maxw": 760
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Você já ouviu que feito nas coxas vem de telhas moldadas nas pernas de pessoas escravizadas?",
+     "Você já ouviu que feito nas coxas vem de telhas moldadas nas pernas de pessoas escravizadas?"
+    ],
+    [
+     "Essa história é falsa.",
+     "Essa história é falsa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "telha",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 420,
+     "h": 420,
+     "ang": -5,
+     "balanca": true
+    },
+    {
+     "t": "verbete",
+     "palavra": "nas coxas",
+     "classe": "loc. adv. (informal)",
+     "w": 600,
+     "pos": [
+      520,
+      1040
+     ],
+     "def": "de qualquer jeito, malfeito."
+    },
+    {
+     "t": "bloco",
+     "txt": "FALSO",
+     "pos": [
+      760,
+      450
+     ],
+     "e": [
+      1,
+      "falsa"
+     ],
+     "size": 110,
+     "cor": "tinta",
+     "ang": 8
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Revista Espacialidades (UFRN), 2024",
+   "frases": [
+    [
+     "Ela é repetida há décadas, até em passeio por cidade histórica.",
+     "Ela é repetida há décadas, até em passeio por cidade histórica."
+    ],
+    [
+     "E soa convincente: telha torta, feita de qualquer jeito.",
+     "E soa convincente: telha torta, feita de qualquer jeito."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "telha",
+     "pos": [
+      340,
+      700
+     ],
+     "w": 340,
+     "h": 340,
+     "ang": -8
+    },
+    {
+     "t": "nota",
+     "txt": "todo mundo\nconta...",
+     "pos": [
+      720,
+      560
+     ],
+     "e": [
+      0,
+      "repetida"
+     ],
+     "size": 62
+    },
+    {
+     "t": "bloco",
+     "txt": "soa convincente",
+     "pos": [
+      640,
+      1000
+     ],
+     "e": [
+      1,
+      "convincente"
+     ],
+     "size": 66
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: La Pastina Filho, Arqueologia (2006)",
+   "frases": [
+    [
+     "Em 2006, o arquiteto José La Pastina Filho publicou um estudo pra checar essa história.",
+     "Em dois mil e seis, o arquiteto José La Pastína Filho publicou um estudo pra checar essa história."
+    ],
+    [
+     "Ele mediu a coxa de um homem de 1,80 metro e fez as contas.",
+     "Ele mediu a coxa de um homem de um metro e oitenta e fez as contas."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "LA PASTINA FILHO, 2006",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 46
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      340,
+      740
+     ],
+     "e": [
+      0,
+      "estudo"
+     ],
+     "w": 320
+    },
+    {
+     "t": "nota",
+     "txt": "mediu de\nverdade",
+     "pos": [
+      720,
+      700
+     ],
+     "e": [
+      1,
+      "mediu"
+     ],
+     "cor": "laranja",
+     "size": 62
+    },
+    {
+     "t": "tira",
+     "txt": "homem de 1,80 m",
+     "pos": [
+      560,
+      1060
+     ],
+     "e": [
+      1,
+      "1,80"
+     ],
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: La Pastina Filho, Arqueologia (2006)",
+   "frases": [
+    [
+     "Não fecha. Uma pessoa teria que ficar parada com barro nas pernas, e outras carregando cada telha.",
+     "Não fecha. Uma pessoa teria que ficar parada com barro nas pernas, e outras carregando cada telha."
+    ],
+    [
+     "Pra uma obra inteira? Não se sustenta.",
+     "Pra uma obra inteira? Não se sustenta."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "não fecha",
+     "pos": [
+      520,
+      500
+     ],
+     "size": 96,
+     "cor": "tinta"
+    },
+    {
+     "t": "obj",
+     "nome": "telha",
+     "pos": [
+      330,
+      800
+     ],
+     "e": [
+      0,
+      "barro"
+     ],
+     "w": 260,
+     "h": 260,
+     "ang": 6
+    },
+    {
+     "t": "nota",
+     "txt": "1 parado +\nvários carregando",
+     "pos": [
+      700,
+      820
+     ],
+     "e": [
+      0,
+      "carregando"
+     ],
+     "size": 56
+    },
+    {
+     "t": "bloco",
+     "txt": "não se sustenta",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "sustenta"
+     ],
+     "size": 70
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Então de onde vem a expressão? A verdade é que ninguém sabe ao certo.",
+     "Então de onde vem a expressão? A verdade é que ninguém sabe ao certo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "origem?",
+     "pos": [
+      520,
+      600
+     ],
+     "size": 120
+    },
+    {
+     "t": "nota",
+     "txt": "ninguém sabe ao certo",
+     "pos": [
+      520,
+      900
+     ],
+     "e": [
+      0,
+      "ninguém"
+     ],
+     "cor": "laranja",
+     "size": 70
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Agência Brasil (2019); Espacialidades (UFRN)",
+   "frases": [
+    [
+     "E hoje? Origem inventada viraliza fácil.",
+     "E hoje? Origem inventada viraliza fácil."
+    ],
+    [
+     "O forró, por exemplo: dizem que vem do inglês for all. Mas a explicação mais aceita é outra: forrobodó.",
+     "O forró, por exemplo: dizem que vem do inglês for ól. Mas a explicação mais aceita é outra: forrobodó."
+    ],
+    [
+     "Um dicionário de 1912 já trazia forrobodó. Na edição seguinte, apareceu forró.",
+     "Um dicionário de mil novecentos e doze já trazia forrobodó. Na edição seguinte, apareceu forró."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      320,
+      560
+     ],
+     "w": 260,
+     "ang": -5
+    },
+    {
+     "t": "nota",
+     "txt": "viraliza!",
+     "pos": [
+      700,
+      500
+     ],
+     "e": [
+      0,
+      "viraliza"
+     ],
+     "cor": "laranja",
+     "size": 66
+    },
+    {
+     "t": "tira",
+     "txt": "for all",
+     "pos": [
+      380,
+      800
+     ],
+     "e": [
+      1,
+      "for all"
+     ],
+     "size": 60
+    },
+    {
+     "t": "risco",
+     "de": [
+      270,
+      800
+     ],
+     "ate": [
+      490,
+      800
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "Mas"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "forrobodó",
+     "pos": [
+      680,
+      860
+     ],
+     "e": [
+      1,
+      "forrobodó"
+     ],
+     "size": 74
+    },
+    {
+     "t": "tira",
+     "txt": "dicionário, 1912",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      2,
+      "1912"
+     ],
+     "size": 50
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: antes de compartilhar a origem de uma expressão, desconfia de história boa demais.",
+     "Então: antes de compartilhar a origem de uma expressão, desconfia de história boa demais."
+    ],
+    [
+     "Que expressão você quer que a gente investigue? Comenta.",
+     "Que expressão você quer que a gente investigue? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "desconfia de história boa demais",
+     "pos": [
+      520,
+      620
+     ],
+     "size": 72,
+     "maxw": 760
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      920
+     ],
+     "e": [
+      1,
+      0.0
+     ],
+     "w": 280
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1170
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "MITO OU VERDADE?",
+ "id": "SSA-010"
+}

@@ -1,0 +1,507 @@
+{
+ "materia": "FÍSICA",
+ "titulo": "A maçã nunca caiu na cabeça do Newton",
+ "fontes": [
+  "STUKELEY, William. Memoirs of Sir Isaac Newton's Life (1752) — Royal Society.",
+  "History.com, 'Did an apple really fall on Isaac Newton’s head?'.",
+  "National Trust, Woolsthorpe Manor.",
+  "Big Think, 'Newton’s apple tree has descendants and clones all over the world'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "maca",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 420
+   },
+   {
+    "t": "bloco",
+    "txt": "nunca caiu na cabeça",
+    "pos": [
+     520,
+     1100
+    ],
+    "e": null,
+    "size": 76
+   },
+   {
+    "t": "tira",
+    "txt": "NEWTON",
+    "pos": [
+     300,
+     430
+    ],
+    "e": null,
+    "size": 60
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A maçã nunca caiu na cabeça do Newton.",
+     "A maçã nunca caiu na cabeça do Newton."
+    ],
+    [
+     "Mas a história da maçã é real. E é até melhor.",
+     "Mas a história da maçã é real. E é até melhor."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "maca",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 420,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "na cabeça? não.",
+     "pos": [
+      520,
+      1080
+     ],
+     "size": 80,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "mas é real!",
+     "pos": [
+      780,
+      440
+     ],
+     "e": [
+      1,
+      "real"
+     ],
+     "cor": "laranja",
+     "size": 66
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Stukeley (1752); History.com",
+   "frases": [
+    [
+     "Quem contou foi o próprio Newton, em 1726, ao amigo William Stukeley.",
+     "Quem contou foi o próprio Newton, em mil setecentos e vinte e seis, ao amigo Uíliam Stiúkli."
+    ],
+    [
+     "Os dois tomavam chá no jardim, debaixo de umas macieiras.",
+     "Os dois tomavam chá no jardim, debaixo de umas macieiras."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "LONDRES, 1726",
+     "pos": [
+      300,
+      440
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "WILLIAM STUKELEY",
+     "pos": [
+      620,
+      560
+     ],
+     "e": [
+      0,
+      "Stukeley"
+     ],
+     "size": 46
+    },
+    {
+     "t": "obj",
+     "nome": "arvore",
+     "pos": [
+      520,
+      860
+     ],
+     "e": [
+      1,
+      "macieiras"
+     ],
+     "w": 420
+    },
+    {
+     "t": "nota",
+     "txt": "chá no jardim",
+     "pos": [
+      760,
+      1150
+     ],
+     "e": [
+      1,
+      "chá"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Stukeley (1752)",
+   "frases": [
+    [
+     "E Newton lembrou: foi vendo uma maçã cair que a ideia da gravidade veio à cabeça dele.",
+     "E Newton lembrou: foi vendo uma maçã cair que a ideia da gravidade veio à cabeça dele."
+    ],
+    [
+     "A pergunta era: por que a maçã cai sempre reta pro chão, e não pro lado ou pra cima?",
+     "A pergunta era: por que a maçã cai sempre reta pro chão, e não pro lado ou pra cima?"
+    ]
+   ],
+   "camera": {
+    "push": 0.05
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "maca",
+     "pos": [
+      520,
+      520
+     ],
+     "w": 260
+    },
+    {
+     "t": "seta",
+     "de": [
+      520,
+      660
+     ],
+     "ate": [
+      520,
+      960
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "cair"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "por que reta pro chão?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "reta"
+     ],
+     "size": 68
+    },
+    {
+     "t": "nota",
+     "txt": "e não pro lado?",
+     "pos": [
+      760,
+      700
+     ],
+     "e": [
+      1,
+      "lado"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "A resposta: a Terra puxa a maçã.",
+     "A resposta: a Terra puxa a maçã."
+    ],
+    [
+     "E a mesma força que puxa a maçã segura a Lua no céu.",
+     "E a mesma força que puxa a maçã segura a Lua no céu."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      400,
+      820
+     ],
+     "w": 420
+    },
+    {
+     "t": "obj",
+     "nome": "maca",
+     "pos": [
+      760,
+      480
+     ],
+     "w": 180
+    },
+    {
+     "t": "seta",
+     "de": [
+      700,
+      560
+     ],
+     "ate": [
+      540,
+      680
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "puxa"
+     ]
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      800,
+      1100
+     ],
+     "e": [
+      1,
+      "Lua"
+     ],
+     "w": 150
+    },
+    {
+     "t": "nota",
+     "txt": "a Lua também!",
+     "pos": [
+      700,
+      950
+     ],
+     "e": [
+      1,
+      "Lua"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Stukeley (1752); History.com",
+   "frases": [
+    [
+     "Stukeley publicou essa conversa em 1752, nas memórias sobre Newton.",
+     "Stukeley publicou essa conversa em mil setecentos e cinquenta e dois, nas memórias sobre Newton."
+    ],
+    [
+     "E em momento nenhum a maçã bate na cabeça. Esse pedaço veio depois.",
+     "E em momento nenhum a maçã bate na cabeça. Esse pedaço veio depois."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380
+    },
+    {
+     "t": "tira",
+     "txt": "MEMÓRIAS, 1752",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      0,
+      "1752"
+     ],
+     "size": 56
+    },
+    {
+     "t": "bloco",
+     "txt": "maçã na cabeça",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "cabeça"
+     ],
+     "size": 70,
+     "cor": "tinta"
+    },
+    {
+     "t": "risco",
+     "de": [
+      230,
+      1080
+     ],
+     "ate": [
+      810,
+      1080
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "depois"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: National Trust; Big Think",
+   "frases": [
+    [
+     "E hoje? A macieira ainda está lá, na casa onde Newton cresceu, na Inglaterra.",
+     "E hoje? A macieira ainda está lá, na casa onde Newton cresceu, na Inglaterra."
+    ],
+    [
+     "Ela tombou numa tempestade, mas rebrotou da raiz.",
+     "Ela tombou numa tempestade, mas rebrotou da raiz."
+    ],
+    [
+     "E tem mudas dela em universidades pelo mundo.",
+     "E tem mudas dela em universidades pelo mundo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "arvore",
+     "pos": [
+      520,
+      700
+     ],
+     "w": 460,
+     "balanca": true
+    },
+    {
+     "t": "tira",
+     "txt": "WOOLSTHORPE, INGLATERRA",
+     "pos": [
+      520,
+      430
+     ],
+     "size": 42
+    },
+    {
+     "t": "nota",
+     "txt": "tombou e rebrotou",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      1,
+      "rebrotou"
+     ],
+     "cor": "laranja",
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "mudas pelo mundo",
+     "pos": [
+      520,
+      1140
+     ],
+     "e": [
+      2,
+      "mudas"
+     ],
+     "size": 50
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: a maçã não bateu na cabeça, mas bateu na ideia.",
+     "Então: a maçã não bateu na cabeça, mas bateu na ideia."
+    ],
+    [
+     "Que outra história de cientista você acha exagerada? Comenta.",
+     "Que outra história de cientista você acha exagerada? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "maca",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": 4
+    },
+    {
+     "t": "bloco",
+     "txt": "bateu na ideia",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      0,
+      "ideia"
+     ],
+     "size": 84
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "VOCÊ APRENDEU ISSO ERRADO?",
+ "id": "SSA-011"
+}

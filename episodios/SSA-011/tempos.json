@@ -1,0 +1,136 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 68.553,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A maçã nunca caiu na cabeça do Newton.",
+     "inicio": 0.1,
+     "dur": 2.475
+    },
+    {
+     "leg": "Mas a história da maçã é real. E é até melhor.",
+     "inicio": 2.775,
+     "dur": 3.505
+    }
+   ],
+   "fim": 6.7
+  },
+  {
+   "id": "c2",
+   "inicio": 6.7,
+   "frases": [
+    {
+     "leg": "Quem contou foi o próprio Newton, em 1726, ao amigo William Stukeley.",
+     "inicio": 6.7,
+     "dur": 5.355
+    },
+    {
+     "leg": "Os dois tomavam chá no jardim, debaixo de umas macieiras.",
+     "inicio": 12.255,
+     "dur": 3.755
+    }
+   ],
+   "fim": 16.429
+  },
+  {
+   "id": "c3",
+   "inicio": 16.429,
+   "frases": [
+    {
+     "leg": "E Newton lembrou: foi vendo uma maçã cair que a ideia da gravidade veio à cabeça dele.",
+     "inicio": 16.429,
+     "dur": 5.269
+    },
+    {
+     "leg": "A pergunta era: por que a maçã cai sempre reta pro chão, e não pro lado ou pra cima?",
+     "inicio": 21.899,
+     "dur": 4.821
+    }
+   ],
+   "fim": 27.14
+  },
+  {
+   "id": "c4",
+   "inicio": 27.14,
+   "frases": [
+    {
+     "leg": "A resposta: a Terra puxa a maçã.",
+     "inicio": 27.14,
+     "dur": 2.176
+    },
+    {
+     "leg": "E a mesma força que puxa a maçã segura a Lua no céu.",
+     "inicio": 29.516,
+     "dur": 3.093
+    }
+   ],
+   "fim": 33.029
+  },
+  {
+   "id": "c5",
+   "inicio": 33.029,
+   "frases": [
+    {
+     "leg": "Stukeley publicou essa conversa em 1752, nas memórias sobre Newton.",
+     "inicio": 33.029,
+     "dur": 5.781
+    },
+    {
+     "leg": "E em momento nenhum a maçã bate na cabeça. Esse pedaço veio depois.",
+     "inicio": 39.011,
+     "dur": 4.849
+    }
+   ],
+   "fim": 44.28
+  },
+  {
+   "id": "c6",
+   "inicio": 44.28,
+   "frases": [
+    {
+     "leg": "E hoje? A macieira ainda está lá, na casa onde Newton cresceu, na Inglaterra.",
+     "inicio": 44.28,
+     "dur": 5.137
+    },
+    {
+     "leg": "Ela tombou numa tempestade, mas rebrotou da raiz.",
+     "inicio": 49.617,
+     "dur": 3.264
+    },
+    {
+     "leg": "E tem mudas dela em universidades pelo mundo.",
+     "inicio": 53.081,
+     "dur": 3.093
+    }
+   ],
+   "fim": 56.595
+  },
+  {
+   "id": "c7",
+   "inicio": 56.595,
+   "frases": [
+    {
+     "leg": "Então: a maçã não bateu na cabeça, mas bateu na ideia.",
+     "inicio": 56.595,
+     "dur": 3.285
+    },
+    {
+     "leg": "Que outra história de cientista você acha exagerada? Comenta.",
+     "inicio": 60.08,
+     "dur": 4.604
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 64.884,
+     "dur": 3.249
+    }
+   ],
+   "fim": 68.553
+  }
+ ]
+}

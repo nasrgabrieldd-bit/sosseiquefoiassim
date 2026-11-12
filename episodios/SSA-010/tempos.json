@@ -1,0 +1,131 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 73.036,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Você já ouviu que feito nas coxas vem de telhas moldadas nas pernas de pessoas escravizadas?",
+     "inicio": 0.1,
+     "dur": 6.037
+    },
+    {
+     "leg": "Essa história é falsa.",
+     "inicio": 6.477,
+     "dur": 1.579
+    }
+   ],
+   "fim": 8.476
+  },
+  {
+   "id": "c2",
+   "inicio": 8.476,
+   "frases": [
+    {
+     "leg": "Ela é repetida há décadas, até em passeio por cidade histórica.",
+     "inicio": 8.476,
+     "dur": 3.84
+    },
+    {
+     "leg": "E soa convincente: telha torta, feita de qualquer jeito.",
+     "inicio": 12.516,
+     "dur": 3.477
+    }
+   ],
+   "fim": 16.413
+  },
+  {
+   "id": "c3",
+   "inicio": 16.413,
+   "frases": [
+    {
+     "leg": "Em 2006, o arquiteto José La Pastina Filho publicou um estudo pra checar essa história.",
+     "inicio": 16.413,
+     "dur": 5.952
+    },
+    {
+     "leg": "Ele mediu a coxa de um homem de 1,80 metro e fez as contas.",
+     "inicio": 22.565,
+     "dur": 4.117
+    }
+   ],
+   "fim": 27.103
+  },
+  {
+   "id": "c4",
+   "inicio": 27.103,
+   "frases": [
+    {
+     "leg": "Não fecha. Uma pessoa teria que ficar parada com barro nas pernas, e outras carregando cada telha.",
+     "inicio": 27.103,
+     "dur": 6.364
+    },
+    {
+     "leg": "Pra uma obra inteira? Não se sustenta.",
+     "inicio": 33.667,
+     "dur": 3.025
+    }
+   ],
+   "fim": 37.112
+  },
+  {
+   "id": "c5",
+   "inicio": 37.112,
+   "frases": [
+    {
+     "leg": "Então de onde vem a expressão? A verdade é que ninguém sabe ao certo.",
+     "inicio": 37.112,
+     "dur": 4.817
+    }
+   ],
+   "fim": 42.349
+  },
+  {
+   "id": "c6",
+   "inicio": 42.349,
+   "frases": [
+    {
+     "leg": "E hoje? Origem inventada viraliza fácil.",
+     "inicio": 42.349,
+     "dur": 3.644
+    },
+    {
+     "leg": "O forró, por exemplo: dizem que vem do inglês for all. Mas a explicação mais aceita é outra: forrobodó.",
+     "inicio": 46.193,
+     "dur": 6.407
+    },
+    {
+     "leg": "Um dicionário de 1912 já trazia forrobodó. Na edição seguinte, apareceu forró.",
+     "inicio": 52.8,
+     "dur": 6.343
+    }
+   ],
+   "fim": 59.563
+  },
+  {
+   "id": "c7",
+   "inicio": 59.563,
+   "frases": [
+    {
+     "leg": "Então: antes de compartilhar a origem de uma expressão, desconfia de história boa demais.",
+     "inicio": 59.563,
+     "dur": 5.419
+    },
+    {
+     "leg": "Que expressão você quer que a gente investigue? Comenta.",
+     "inicio": 65.181,
+     "dur": 3.985
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 69.367,
+     "dur": 3.249
+    }
+   ],
+   "fim": 73.036
+  }
+ ]
+}

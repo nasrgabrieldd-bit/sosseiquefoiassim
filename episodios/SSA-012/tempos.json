@@ -1,0 +1,131 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 65.803,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "O polvo tem três corações. E o sangue dele é azul.",
+     "inicio": 0.1,
+     "dur": 3.804
+    },
+    {
+     "leg": "E quando ele nada, um dos corações para.",
+     "inicio": 4.104,
+     "dur": 2.261
+    }
+   ],
+   "fim": 6.785
+  },
+  {
+   "id": "c2",
+   "inicio": 6.785,
+   "frases": [
+    {
+     "leg": "Vamos por partes. Dois corações trabalham só nas brânquias, que fazem o papel do nosso pulmão.",
+     "inicio": 6.785,
+     "dur": 5.852
+    },
+    {
+     "leg": "Eles empurram o sangue pra pegar oxigênio da água.",
+     "inicio": 12.837,
+     "dur": 3.008
+    },
+    {
+     "leg": "O terceiro manda esse sangue pro resto do corpo.",
+     "inicio": 16.045,
+     "dur": 2.773
+    }
+   ],
+   "fim": 19.239
+  },
+  {
+   "id": "c3",
+   "inicio": 19.239,
+   "frases": [
+    {
+     "leg": "E por que azul? Nosso sangue usa ferro pra levar oxigênio. O do polvo usa cobre.",
+     "inicio": 19.239,
+     "dur": 5.976
+    },
+    {
+     "leg": "A molécula se chama hemocianina. Com oxigênio, ela fica azulada.",
+     "inicio": 25.415,
+     "dur": 4.359
+    }
+   ],
+   "fim": 30.193
+  },
+  {
+   "id": "c4",
+   "inicio": 30.193,
+   "frases": [
+    {
+     "leg": "A hemocianina funciona bem no frio e onde tem pouco oxigênio, como no fundo do mar.",
+     "inicio": 30.193,
+     "dur": 4.971
+    },
+    {
+     "leg": "É uma adaptação perfeita pra quem mora lá embaixo.",
+     "inicio": 35.364,
+     "dur": 3.115
+    }
+   ],
+   "fim": 38.899
+  },
+  {
+   "id": "c5",
+   "inicio": 38.899,
+   "frases": [
+    {
+     "leg": "Agora, o coração que para: quando o polvo nada, o coração principal para de bater por um tempo.",
+     "inicio": 38.899,
+     "dur": 5.291
+    },
+    {
+     "leg": "Por isso ele prefere andar pelo fundo do que nadar.",
+     "inicio": 44.389,
+     "dur": 2.944
+    }
+   ],
+   "fim": 47.753
+  },
+  {
+   "id": "c6",
+   "inicio": 47.753,
+   "frases": [
+    {
+     "leg": "E hoje? O polvo virou estrela: o documentário Professor Polvo ganhou o Oscar de 2021.",
+     "inicio": 47.753,
+     "dur": 6.673
+    }
+   ],
+   "fim": 54.847
+  },
+  {
+   "id": "c7",
+   "inicio": 54.847,
+   "frases": [
+    {
+     "leg": "Então: três corações, e um deles tira folga quando o polvo nada.",
+     "inicio": 54.847,
+     "dur": 3.776
+    },
+    {
+     "leg": "Que bicho você quer ver aqui? Comenta.",
+     "inicio": 58.823,
+     "dur": 3.111
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 62.133,
+     "dur": 3.249
+    }
+   ],
+   "fim": 65.803
+  }
+ ]
+}

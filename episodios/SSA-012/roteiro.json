@@ -1,0 +1,511 @@
+{
+ "materia": "BIOLOGIA",
+ "titulo": "O polvo tem 3 corações e sangue azul",
+ "fontes": [
+  "National Aquarium, 'An Ode to the Octopus' (2020).",
+  "Live Science, 'How many hearts does an octopus have?'.",
+  "Smithsonian Magazine, 'Ten Wild Facts About Octopuses'.",
+  "Academia de Artes e Ciências Cinematográficas: 'Professor Polvo' (My Octopus Teacher), Oscar de Melhor Documentário em 2021."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "polvo",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 480
+   },
+   {
+    "t": "numero",
+    "txt": "3",
+    "pos": [
+     260,
+     460
+    ],
+    "e": null,
+    "size": 260
+   },
+   {
+    "t": "bloco",
+    "txt": "corações e sangue azul",
+    "pos": [
+     520,
+     1110
+    ],
+    "e": null,
+    "size": 72
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "O polvo tem três corações. E o sangue dele é azul.",
+     "O polvo tem três corações. E o sangue dele é azul."
+    ],
+    [
+     "E quando ele nada, um dos corações para.",
+     "E quando ele nada, um dos corações para."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "polvo",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 480,
+     "balanca": true
+    },
+    {
+     "t": "numero",
+     "txt": "3",
+     "pos": [
+      250,
+      460
+     ],
+     "size": 240
+    },
+    {
+     "t": "bloco",
+     "txt": "sangue azul",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      0,
+      "azul"
+     ],
+     "size": 80,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "um coração para!",
+     "pos": [
+      760,
+      1180
+     ],
+     "e": [
+      1,
+      "para"
+     ],
+     "cor": "laranja",
+     "size": 52
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: National Aquarium (2020)",
+   "frases": [
+    [
+     "Vamos por partes. Dois corações trabalham só nas brânquias, que fazem o papel do nosso pulmão.",
+     "Vamos por partes. Dois corações trabalham só nas brânquias, que fazem o papel do nosso pulmão."
+    ],
+    [
+     "Eles empurram o sangue pra pegar oxigênio da água.",
+     "Eles empurram o sangue pra pegar oxigênio da água."
+    ],
+    [
+     "O terceiro manda esse sangue pro resto do corpo.",
+     "O terceiro manda esse sangue pro resto do corpo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      300,
+      560
+     ],
+     "e": [
+      0,
+      "Dois"
+     ],
+     "w": 220
+    },
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      560,
+      560
+     ],
+     "e": [
+      0,
+      "Dois"
+     ],
+     "w": 220
+    },
+    {
+     "t": "tira",
+     "txt": "brânquias",
+     "pos": [
+      430,
+      760
+     ],
+     "e": [
+      0,
+      "brânquias"
+     ],
+     "size": 52
+    },
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      700,
+      960
+     ],
+     "e": [
+      2,
+      "terceiro"
+     ],
+     "w": 260
+    },
+    {
+     "t": "tira",
+     "txt": "corpo todo",
+     "pos": [
+      330,
+      1060
+     ],
+     "e": [
+      2,
+      "corpo"
+     ],
+     "size": 52
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Smithsonian Magazine",
+   "frases": [
+    [
+     "E por que azul? Nosso sangue usa ferro pra levar oxigênio. O do polvo usa cobre.",
+     "E por que azul? Nosso sangue usa ferro pra levar oxigênio. O do polvo usa cobre."
+    ],
+    [
+     "A molécula se chama hemocianina. Com oxigênio, ela fica azulada.",
+     "A molécula se chama hemocianína. Com oxigênio, ela fica azulada."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "nós: FERRO",
+     "pos": [
+      330,
+      500
+     ],
+     "e": [
+      0,
+      "ferro"
+     ],
+     "size": 56
+    },
+    {
+     "t": "tira",
+     "txt": "polvo: COBRE",
+     "pos": [
+      680,
+      640
+     ],
+     "e": [
+      0,
+      "cobre"
+     ],
+     "size": 56
+    },
+    {
+     "t": "bloco",
+     "txt": "hemocianina",
+     "pos": [
+      520,
+      920
+     ],
+     "e": [
+      1,
+      "hemocianina"
+     ],
+     "size": 84,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "= azul",
+     "pos": [
+      760,
+      1100
+     ],
+     "e": [
+      1,
+      "azulada"
+     ],
+     "cor": "laranja",
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: National Aquarium (2020)",
+   "frases": [
+    [
+     "A hemocianina funciona bem no frio e onde tem pouco oxigênio, como no fundo do mar.",
+     "A hemocianina funciona bem no frio e onde tem pouco oxigênio, como no fundo do mar."
+    ],
+    [
+     "É uma adaptação perfeita pra quem mora lá embaixo.",
+     "É uma adaptação perfeita pra quem mora lá embaixo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "polvo",
+     "pos": [
+      520,
+      700
+     ],
+     "w": 420
+    },
+    {
+     "t": "nota",
+     "txt": "frio",
+     "pos": [
+      260,
+      480
+     ],
+     "e": [
+      0,
+      "frio"
+     ],
+     "size": 70
+    },
+    {
+     "t": "nota",
+     "txt": "pouco oxigênio",
+     "pos": [
+      700,
+      480
+     ],
+     "e": [
+      0,
+      "pouco"
+     ],
+     "size": 60
+    },
+    {
+     "t": "bloco",
+     "txt": "fundo do mar",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      0,
+      "fundo"
+     ],
+     "size": 80
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Live Science",
+   "frases": [
+    [
+     "Agora, o coração que para: quando o polvo nada, o coração principal para de bater por um tempo.",
+     "Agora, o coração que para: quando o polvo nada, o coração principal para de bater por um tempo."
+    ],
+    [
+     "Por isso ele prefere andar pelo fundo do que nadar.",
+     "Por isso ele prefere andar pelo fundo do que nadar."
+    ]
+   ],
+   "camera": {
+    "push": 0.04,
+    "congela": {
+     "de": [
+      0,
+      "para de bater"
+     ],
+     "ate": [
+      1,
+      0.0
+     ]
+    }
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 320
+    },
+    {
+     "t": "bloco",
+     "txt": "PAUSA",
+     "pos": [
+      520,
+      940
+     ],
+     "e": [
+      0,
+      "para de bater"
+     ],
+     "size": 100,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "prefere andar",
+     "pos": [
+      520,
+      1130
+     ],
+     "e": [
+      1,
+      "andar"
+     ],
+     "cor": "laranja",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "E hoje? O polvo virou estrela: o documentário Professor Polvo ganhou o Oscar de 2021.",
+     "E hoje? O polvo virou estrela: o documentário Professor Polvo ganhou o Oscar de dois mil e vinte e um."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "polvo",
+     "pos": [
+      340,
+      720
+     ],
+     "w": 360,
+     "ang": -5
+    },
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      740,
+      620
+     ],
+     "e": [
+      0,
+      "Oscar"
+     ],
+     "w": 240
+    },
+    {
+     "t": "tira",
+     "txt": "OSCAR 2021",
+     "pos": [
+      700,
+      900
+     ],
+     "e": [
+      0,
+      "Oscar"
+     ],
+     "size": 56
+    },
+    {
+     "t": "nota",
+     "txt": "estrela!",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      0,
+      "estrela"
+     ],
+     "cor": "laranja",
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: três corações, e um deles tira folga quando o polvo nada.",
+     "Então: três corações, e um deles tira folga quando o polvo nada."
+    ],
+    [
+     "Que bicho você quer ver aqui? Comenta.",
+     "Que bicho você quer ver aqui? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "A fonte tá na legenda. Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "polvo",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 440,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "que bicho é o próximo?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "bicho"
+     ],
+     "size": 68
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      450
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ],
+ "chamada": "POR QUE ISSO ACONTECE?",
+ "id": "SSA-012"
+}
