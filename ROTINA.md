@@ -38,3 +38,7 @@ Se a sessão acabar no meio, a rotina diária termina o que faltar.
 - Roteiro com menos de ~175 palavras faladas fica abaixo de 61 s: alongue antes de narrar.
 - Glifos `→` e `≈` não existem nas fontes: use palavras ("viram", "~").
 - Zoom de câmera no máximo 1,18 e sempre ancorado no alvo; elementos perto da borda saem da tela.
+
+## Aprendizados (2) — instabilidade do raw.githubusercontent.com no Instagram
+- 13/11: o SSA-001 falhou no Instagram ("couldn't fetch your media"), mas o TikTok saiu normal com a mesma URL. O erro era na capa (instagramThumbnail), não no vídeo. Recriar o post só para o Instagram, com a mesma URL, funcionou de primeira — foi falha passageira do GitHub ao servir para o buscador do Meta, não um problema permanente de content-type.
+- Se um post ficar "partial" com falha no Instagram citando a URL da mídia: espere 1–2 min e crie um post novo só com a plataforma Instagram, mesmo conteúdo e mesma URL (publish_now). Não precisa trocar de CDN.
