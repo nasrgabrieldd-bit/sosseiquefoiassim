@@ -42,3 +42,8 @@ Se a sessão acabar no meio, a rotina diária termina o que faltar.
 ## Aprendizados (2) — instabilidade do raw.githubusercontent.com no Instagram
 - 13/11: o SSA-001 falhou no Instagram ("couldn't fetch your media"), mas o TikTok saiu normal com a mesma URL. O erro era na capa (instagramThumbnail), não no vídeo. Recriar o post só para o Instagram, com a mesma URL, funcionou de primeira — foi falha passageira do GitHub ao servir para o buscador do Meta, não um problema permanente de content-type.
 - Se um post ficar "partial" com falha no Instagram citando a URL da mídia: espere 1–2 min e crie um post novo só com a plataforma Instagram, mesmo conteúdo e mesma URL (publish_now). Não precisa trocar de CDN.
+
+## Aprendizados (3) — variedade de CTA e hashtags
+- Lote 1 (SSA-001 a 014) terminou 12 dos 14 vídeos com "X? Comenta." e hashtags quase idênticos — risco de parecer template repetido. Corrigido: ver PRODUCAO.md (CTA) e pipeline/posts.py (rodízio de hashtags). Builders novos devem variar a estrutura do CTA, nunca repetindo a mesma abertura duas vezes seguidas.
+- Nenhum vídeo do lote 1 estava ligado a evento da semana (meta é ≥5) porque foi produzido antes da rotina semanal existir. A partir do lote de 21–27/11 (produzido na quarta 18/11), aplicar a meta normalmente.
+

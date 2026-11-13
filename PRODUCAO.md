@@ -12,8 +12,17 @@ Estrutura obrigatória (6 a 8 cenas):
 2. Contexto (começa antes de 8 s).
 3. a 5. Desenvolvimento, com a resposta só a partir da cena 3–4.
 6. **"E hoje?"**: ligação com o presente (evento da semana, celular, novela, futebol, meme), com fonte.
-7. CTA: retoma o gancho + pergunta para comentar + assinatura `A fonte tá na legenda. Só sei que foi assim!`.
+7. CTA: retoma o gancho + convite para interagir + assinatura `A fonte tá na legenda. Só sei que foi assim!`.
 Entre 175 e 230 palavras faladas.
+
+**Variedade no CTA (regra fixa, desde 13/11):** nunca termine dois vídeos seguidos com a mesma estrutura. Alterne entre formatos como:
+- Pergunta direta: "Qual [x] você faria?"
+- Pedido de opinião/voto: "Time A ou time B? Comenta."
+- Pedido de marcação: "Marca aquele amigo que [faz x]."
+- Afirmação sem pergunta: "Agora você sabe de onde vem [x]." (sem CTA de comentário)
+- Convite a salvar/compartilhar: "Salva esse pra lembrar na prova."
+- Pergunta sobre experiência própria: "Isso já te aconteceu?"
+`pipeline/posts.py` já roda os hashtags de preenchimento em um pequeno rodízio; a parte manual é o texto do CTA em si — escreva pensando na última vez que terminou um vídeo e evite repetir a abertura.
 
 ## Elementos (`t`)
 `obj` (desenho em retícula: ver `pipeline/objetos.py: OBJ`, além de `tv`, `radio`), `jornal` (titulo, data, rodape, `marca`=[frase, palavra] para o marca-texto), `tira` (etiqueta de máquina de escrever), `bloco` (título rasgado laranja/grafite), `nota` (manuscrito), `numero` (Anton gigante), `verbete` (cartão de dicionário), `cal` (calendário com `riscar`), `areas` (comparação de tamanho), `contador`, `seta` (à mão), `risco`.

@@ -12,7 +12,9 @@ cta=cta[0] if cta else 'Comenta aí!'
 fontes='\n'.join('• '+x for x in r['fontes'])
 import re
 fontes_curtas='; '.join(re.split(r'[,(]',x)[0].strip().rstrip('.') for x in r['fontes'])
-tags=f"{TAG.get(r['materia'],'')} #curiosidades #educacao #aprendendo #sosseiquefoiassim"
+FILLER=['#curiosidades #aprenda #vocesabia','#curiosidades #educacao #aprendizado','#fatoscuriosos #curiosidades #aprenda','#curiosidades #cultura #aprendizado']
+filler=FILLER[sum(ord(c) for c in r['id'])%len(FILLER)]
+tags=f"{TAG.get(r['materia'],'')} {filler} #sosseiquefoiassim"
 yt=f"""## YouTube (Shorts)
 **Título:** {r['titulo']} #shorts
 **Descrição:**
