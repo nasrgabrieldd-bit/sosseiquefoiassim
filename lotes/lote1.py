@@ -1,7 +1,7 @@
 """Gera os roteiros do lote 1 (SSA-002 a SSA-014). Não rode depois de produzir: sobrescreve roteiros."""
 import json,os,sys
 BASE=__import__('os').path.dirname(__import__('os').path.dirname(__import__('os').path.abspath(__file__)))+'/episodios'
-ASS=["A fonte tá na legenda. Só sei que foi assim!","A fonte tá na legenda. Só sei que foi assim!"]
+ASS=["A fonte tá na legenda. Só sei que foi assim!","Só sei que foi assim!"]  # leg mostra a fonte; tts não fala isso (16/11)
 def f(leg,tts=None): return [leg,tts or leg]
 def tira(txt,pos,e=None,**k): return dict(t='tira',txt=txt,pos=pos,e=e,**k)
 def bloco(txt,pos,e=None,**k): return dict(t='bloco',txt=txt,pos=pos,e=e,**k)

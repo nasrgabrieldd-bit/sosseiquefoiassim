@@ -12,7 +12,7 @@ Estrutura obrigatória (6 a 8 cenas):
 2. Contexto (começa antes de 8 s).
 3. a 5. Desenvolvimento, com a resposta só a partir da cena 3–4.
 6. **"E hoje?"**: ligação com o presente (evento da semana, celular, novela, futebol, meme), com fonte.
-7. CTA: retoma o gancho + convite para interagir + assinatura `A fonte tá na legenda. Só sei que foi assim!`.
+7. CTA: retoma o gancho + convite para interagir + assinatura `Só sei que foi assim!`. Não falar que "a fonte tá na legenda" (ou qualquer variação) na narração — a fonte já aparece escrita em cada cena (`fonte`), não precisa ser dita. (Regra alterada em 16/11: antes a assinatura mencionava a fonte na fala.)
 Entre 175 e 230 palavras faladas.
 
 **Variedade no CTA (regra fixa, desde 13/11):** nunca termine dois vídeos seguidos com a mesma estrutura. Alterne entre formatos como:
@@ -23,6 +23,11 @@ Entre 175 e 230 palavras faladas.
 - Convite a salvar/compartilhar: "Salva esse pra lembrar na prova."
 - Pergunta sobre experiência própria: "Isso já te aconteceu?"
 `pipeline/posts.py` já roda os hashtags de preenchimento em um pequeno rodízio; a parte manual é o texto do CTA em si — escreva pensando na última vez que terminou um vídeo e evite repetir a abertura.
+
+**Loop (regra fixa, desde 16/11):** TikTok/Reels/Shorts repetem o vídeo sozinhos quando ele acaba; o objetivo é que essa repetição pareça proposital, não um corte seco, porque isso aumenta o replay. Por isso:
+- O CTA (item 7) sempre retoma o gancho/número da cena 1 — a última frase falada deve fazer sentido emendada com a primeira frase do vídeo.
+- A última cena termina em um quadro de conteúdo (número, objeto, assinatura), nunca em tela preta, "FIM" ou logo sozinho — o motor já não aplica fade-out geral, então um corte seco no fim está correto, não "consertar" isso adicionando fade.
+- Sem silêncio nem música sumindo nos últimos ~0,5 s; o áudio corta junto com a imagem.
 
 ## Elementos (`t`)
 `obj` (desenho em retícula: ver `pipeline/objetos.py: OBJ`, além de `tv`, `radio`), `jornal` (titulo, data, rodape, `marca`=[frase, palavra] para o marca-texto), `tira` (etiqueta de máquina de escrever), `bloco` (título rasgado laranja/grafite), `nota` (manuscrito), `numero` (Anton gigante), `verbete` (cartão de dicionário), `cal` (calendário com `riscar`), `areas` (comparação de tamanho), `contador`, `seta` (à mão), `risco`.
