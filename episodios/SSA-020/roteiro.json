@@ -1,0 +1,314 @@
+{
+ "id": "SSA-020",
+ "chamada": "OS BRAÇOS NUNCA VOLTARAM",
+ "materia": "ARTE",
+ "titulo": "A Vênus de Milo perdeu os braços, e ninguém sabe onde foram parar",
+ "fontes": [
+  "Museu do Louvre, ficha da obra 'Vênus de Milo'.",
+  "History.com, 'What happened to the Venus de Milo's arms?' (2015).",
+  "Todamatéria, 'Vênus de Milo' (biografia e contexto)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "moldura",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 480,
+    "ang": -2
+   },
+   {
+    "t": "bloco",
+    "txt": "ninguém sabe onde foram parar os braços",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 56,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Uma das estátuas mais famosas do mundo não tem braços. E ninguém nunca os encontrou.",
+     "Uma das estátuas mais famosas do mundo não tem braços. E ninguém nunca os encontrou."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 500,
+     "ang": -2,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "sem braços.\nnunca encontrados",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 62,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Museu do Louvre",
+   "frases": [
+    [
+     "É a Vênus de Milo, descoberta em 1820 por um fazendeiro grego na ilha de Milos.",
+     "É a Vênus de Milo, descoberta em mil oitocentos e vinte por um fazendeiro grego na ilha de Milos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ILHA DE MILOS · 1820",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      780
+     ],
+     "e": [
+      0,
+      "1820"
+     ],
+     "w": 300,
+     "ang": 3
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "Ela já estava partida em pedaços quando foi achada, enterrada havia uns 2 mil anos.",
+     "Ela já estava partida em pedaços quando foi achada, enterrada havia uns dois mil anos."
+    ],
+    [
+     "A estátua tem quase 2 metros de altura e pesa cerca de 900 quilos de mármore.",
+     "A estátua tem quase dois metros de altura e pesa cerca de novecentos quilos de mármore."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "2.000 anos",
+     "pos": [
+      520,
+      600
+     ],
+     "e": null,
+     "size": 110,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "enterrada,\npartida",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      0,
+      0.4
+     ],
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: History.com (2015)",
+   "frases": [
+    [
+     "Os braços sumiram antes mesmo de ela chegar à França.",
+     "Os braços sumiram antes mesmo de ela chegar à França."
+    ],
+    [
+     "Há marcas nos ombros, mas nenhum pedaço de braço jamais apareceu.",
+     "Há marcas nos ombros, mas nenhum pedaço de braço jamais apareceu."
+    ],
+    [
+     "Furos no corpo da estátua sugerem que ela usava joias, como brincos e um bracelete, que também nunca foram achados.",
+     "Furos no corpo da estátua sugerem que ela usava joias, como brincos e um bracelete, que também nunca foram achados."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "risco",
+     "de": [
+      300,
+      500
+     ],
+     "ate": [
+      740,
+      500
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "nenhum pedaço\njamais apareceu",
+     "pos": [
+      520,
+      900
+     ],
+     "e": [
+      1,
+      0.2
+     ],
+     "size": 58,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Mesmo assim, em 1821, ela foi parar no Museu do Louvre, em Paris, onde está até hoje.",
+     "Mesmo assim, em mil oitocentos e vinte e um, ela foi parar no Museu do Louvre, em Paris, onde está até hoje."
+    ]
+   ],
+   "camera": {
+    "push": 0.08
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      680
+     ],
+     "e": null,
+     "w": 460
+    },
+    {
+     "t": "tira",
+     "txt": "MUSEU DO LOUVRE",
+     "pos": [
+      520,
+      1120
+     ],
+     "e": [
+      0,
+      "Louvre"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "E hoje? Milhões de turistas tiram foto dela todo ano, braços ausentes e tudo.",
+     "E hoje? Milhões de turistas tiram foto dela todo ano, braços ausentes e tudo."
+    ],
+    [
+     "Ela é, hoje, uma das obras mais reproduzidas em pôsteres e livros de arte do mundo.",
+     "Ela é, hoje, uma das obras mais reproduzidas em pôsteres e livros de arte do mundo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 300,
+     "ang": -3
+    },
+    {
+     "t": "bloco",
+     "txt": "milhões de fotos\npor ano",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 58,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: a estátua mais fotografada do Louvre guarda, até hoje, um mistério sem solução.",
+     "Então: a estátua mais fotografada do Louvre guarda, até hoje, um mistério sem solução."
+    ],
+    [
+     "Time A: braços colados. Time B: deixa assim mesmo. Comenta.",
+     "Time A: braços colados. Time B: deixa assim mesmo. Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 440,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "time A ou time B?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "time"
+     ],
+     "size": 64
+    }
+   ]
+  }
+ ]
+}

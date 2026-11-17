@@ -1,0 +1,289 @@
+{
+ "id": "SSA-022",
+ "chamada": "PRA PROVAR QUE NÃO TINHA ARMA",
+ "materia": "SOCIOLOGIA",
+ "titulo": "O aperto de mão nasceu pra provar que você não tinha arma",
+ "fontes": [
+  "Encyclopaedia Britannica, 'handshake' (história do gesto).",
+  "Smithsonian Magazine, 'A Brief History of the Handshake' (2014).",
+  "BBC Future, 'The ancient history of the handshake' (2020)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "nota",
+    "txt": "aperto de mão\n= \"olha, sem arma\"",
+    "pos": [
+     520,
+     700
+    ],
+    "e": null,
+    "size": 60,
+    "maxw": 760,
+    "cor": "laranja"
+   },
+   {
+    "t": "bloco",
+    "txt": "o aperto de mão nasceu pra provar isso",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 58,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "O aperto de mão começou como uma prova: 'olha, não tô armado'.",
+     "O aperto de mão começou como uma prova: 'olha, não tô armado'."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "\"olha, não tô\narmado\"",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 70,
+     "maxw": 720
+    },
+    {
+     "t": "nota",
+     "txt": "aperto de mão",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Smithsonian Magazine (2014)",
+   "frases": [
+    [
+     "Historiadores encontraram representações do gesto em esculturas da Grécia antiga, com quase 2.400 anos.",
+     "Historiadores encontraram representações do gesto em esculturas da Grécia antiga, com quase dois mil e quatrocentos anos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "GRÉCIA ANTIGA",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "numero",
+     "txt": "2.400 anos",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      0,
+      "2.400"
+     ],
+     "size": 140,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "A ideia era simples: estender a mão direita, a mão da espada, mostrava que você vinha em paz.",
+     "A ideia era simples: estender a mão direita, a mão da espada, mostrava que você vinha em paz."
+    ],
+    [
+     "Guerreiros de exércitos diferentes usavam o gesto pra negociar tréguas sem arriscar um ataque surpresa.",
+     "Guerreiros de exércitos diferentes usavam o gesto pra negociar tréguas sem arriscar um ataque surpresa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      300,
+      650
+     ],
+     "ate": [
+      740,
+      650
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "mão direita\n= mão da espada",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": null,
+     "size": 58,
+     "maxw": 760
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "O movimento de sacudir a mão teria vindo de testar se a outra pessoa escondia uma faca na manga.",
+     "O movimento de sacudir a mão teria vindo de testar se a outra pessoa escondia uma faca na manga."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "sacudir =\ntestar a manga",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "manga"
+     ],
+     "size": 58,
+     "maxw": 700,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Em algumas culturas, o gesto virou até parte de rituais e cerimônias de amizade entre povos diferentes.",
+     "Em algumas culturas, o gesto virou até parte de rituais e cerimônias de amizade entre povos diferentes."
+    ],
+    [
+     "Já em outras culturas, como partes do Japão e da Tailândia, a reverência sempre foi mais comum do que o toque de mãos.",
+     "Já em outras culturas, como partes do Japão e da Tailândia, a reverência sempre foi mais comum do que o toque de mãos."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "virou ritual\nde amizade",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 62,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: BBC Future (2020)",
+   "frases": [
+    [
+     "E hoje? Durante a pandemia, muita gente trocou o aperto de mão pelo toque de cotovelo, por medo de contágio.",
+     "E hoje? Durante a pandemia, muita gente trocou o aperto de mão pelo toque de cotovelo, por medo de contágio."
+    ],
+    [
+     "Alguns ambientes de trabalho mantiveram esse hábito até depois da pandemia passar.",
+     "Alguns ambientes de trabalho mantiveram esse hábito até depois da pandemia passar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 300
+    },
+    {
+     "t": "bloco",
+     "txt": "cotovelo no\nlugar da mão",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 58,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: um gesto que virou educação começou como uma forma de dizer 'pode confiar em mim'.",
+     "Então: um gesto que virou educação começou como uma forma de dizer 'pode confiar em mim'."
+    ],
+    [
+     "Qual outro cumprimento você acha estranho? Comenta.",
+     "Qual outro cumprimento você acha estranho? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "qual cumprimento\nvocê acha estranho?",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "estranho"
+     ],
+     "size": 58,
+     "maxw": 760
+    },
+    {
+     "t": "nota",
+     "txt": "comenta aí!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ]
+}

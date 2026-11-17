@@ -1,0 +1,121 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 71.223,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Só de ler a palavra bocejo, seu cérebro já pode estar se preparando pra bocejar.",
+     "inicio": 0.1,
+     "dur": 4.992
+    }
+   ],
+   "fim": 5.512
+  },
+  {
+   "id": "c2",
+   "inicio": 5.512,
+   "frases": [
+    {
+     "leg": "Bocejo contagioso existe de verdade, e cientistas estudam isso há décadas.",
+     "inicio": 5.512,
+     "dur": 5.013
+    },
+    {
+     "leg": "Cerca de 60% das pessoas bocejam ao ver outra pessoa bocejando.",
+     "inicio": 10.725,
+     "dur": 4.885
+    }
+   ],
+   "fim": 16.031
+  },
+  {
+   "id": "c3",
+   "inicio": 16.031,
+   "frases": [
+    {
+     "leg": "A explicação mais aceita é a empatia: quanto mais ligado você é à pessoa, mais fácil pegar o bocejo dela.",
+     "inicio": 16.031,
+     "dur": 6.699
+    }
+   ],
+   "fim": 23.149
+  },
+  {
+   "id": "c4",
+   "inicio": 23.149,
+   "frases": [
+    {
+     "leg": "Numa pesquisa de 2010, pessoas com mais empatia bocejavam mais ao ver vídeos de outras pessoas bocejando.",
+     "inicio": 23.149,
+     "dur": 7.275
+    }
+   ],
+   "fim": 30.844
+  },
+  {
+   "id": "c5",
+   "inicio": 30.844,
+   "frases": [
+    {
+     "leg": "Até cachorros bocejam quando veem o dono bocejando.",
+     "inicio": 30.844,
+     "dur": 3.307
+    },
+    {
+     "leg": "E bebês recém-nascidos ainda não pegam o contágio: isso só aparece depois dos 4 ou 5 anos.",
+     "inicio": 34.351,
+     "dur": 6.293
+    },
+    {
+     "leg": "Pessoas com certas condições que afetam a empatia também bocejam menos ao ver outras bocejando.",
+     "inicio": 40.844,
+     "dur": 6.251
+    }
+   ],
+   "fim": 47.515
+  },
+  {
+   "id": "c6",
+   "inicio": 47.515,
+   "frases": [
+    {
+     "leg": "E hoje? Em reunião, aula ou live, repara: um bocejo costuma puxar outro pela sala inteira.",
+     "inicio": 47.515,
+     "dur": 6.417
+    },
+    {
+     "leg": "Até ver alguém bocejando numa tela de vídeo já é o suficiente pra ativar o contágio.",
+     "inicio": 54.132,
+     "dur": 5.376
+    }
+   ],
+   "fim": 59.928
+  },
+  {
+   "id": "c7",
+   "inicio": 59.928,
+   "frases": [
+    {
+     "leg": "Então: bocejo pode ser, no fundo, um sinal de quanto você se conecta com quem tá do seu lado.",
+     "inicio": 59.928,
+     "dur": 5.504
+    },
+    {
+     "leg": "Salva esse vídeo pra lembrar na próxima vez que bocejar.",
+     "inicio": 65.632,
+     "dur": 3.541
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 69.373,
+     "dur": 1.429
+    }
+   ],
+   "fim": 71.223
+  }
+ ]
+}

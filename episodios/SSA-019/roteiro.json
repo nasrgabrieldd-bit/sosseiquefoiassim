@@ -1,0 +1,338 @@
+{
+ "id": "SSA-019",
+ "chamada": "VOCÊ JÁ TÁ BOCEJANDO",
+ "materia": "BIOLOGIA",
+ "titulo": "Por que bocejo é contagioso (até ler isso pode te dar um)",
+ "fontes": [
+  "Baylor College of Medicine, 'Yawning: an exercise in empathy' (2016).",
+  "University of Nottingham, pesquisa de Catriona Morrison sobre bocejo contagioso (2010).",
+  "Scientific American, 'Why Is Yawning Contagious?' (2007)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "bloco",
+    "txt": "bocejo é contagioso.\naté ler isso pode dar um",
+    "pos": [
+     520,
+     700
+    ],
+    "e": null,
+    "size": 58,
+    "maxw": 820
+   },
+   {
+    "t": "nota",
+    "txt": "...",
+    "pos": [
+     520,
+     1100
+    ],
+    "e": null,
+    "size": 120,
+    "cor": "laranja"
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Só de ler a palavra bocejo, seu cérebro já pode estar se preparando pra bocejar.",
+     "Só de ler a palavra bocejo, seu cérebro já pode estar se preparando pra bocejar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "seu cérebro já\ntá se preparando",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "size": 66,
+     "maxw": 760
+    },
+    {
+     "t": "nota",
+     "txt": "bocejo",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": null,
+     "cor": "laranja",
+     "size": 90
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Scientific American (2007)",
+   "frases": [
+    [
+     "Bocejo contagioso existe de verdade, e cientistas estudam isso há décadas.",
+     "Bocejo contagioso existe de verdade, e cientistas estudam isso há décadas."
+    ],
+    [
+     "Cerca de 60% das pessoas bocejam ao ver outra pessoa bocejando.",
+     "Cerca de sessenta por cento das pessoas bocejam ao ver outra pessoa bocejando."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "60%",
+     "pos": [
+      520,
+      600
+     ],
+     "e": null,
+     "size": 200,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "bocejam ao ver\noutra pessoa",
+     "pos": [
+      520,
+      1050
+     ],
+     "e": [
+      1,
+      0.3
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Baylor College of Medicine (2016)",
+   "frases": [
+    [
+     "A explicação mais aceita é a empatia: quanto mais ligado você é à pessoa, mais fácil pegar o bocejo dela.",
+     "A explicação mais aceita é a empatia: quanto mais ligado você é à pessoa, mais fácil pegar o bocejo dela."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      300,
+      650
+     ],
+     "e": null,
+     "w": 260,
+     "ang": -4
+    },
+    {
+     "t": "seta",
+     "de": [
+      420,
+      650
+     ],
+     "ate": [
+      680,
+      650
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      760,
+      650
+     ],
+     "e": [
+      0,
+      0.6
+     ],
+     "w": 260,
+     "ang": 4
+    },
+    {
+     "t": "bloco",
+     "txt": "empatia",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      0,
+      "empatia"
+     ],
+     "size": 70
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Universidade de Nottingham (2010)",
+   "frases": [
+    [
+     "Numa pesquisa de 2010, pessoas com mais empatia bocejavam mais ao ver vídeos de outras pessoas bocejando.",
+     "Numa pesquisa de dois mil e dez, pessoas com mais empatia bocejavam mais ao ver vídeos de outras pessoas bocejando."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "NOTTINGHAM · 2010",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "nota",
+     "txt": "mais empatia =\nmais bocejo",
+     "pos": [
+      520,
+      860
+     ],
+     "e": [
+      0,
+      0.4
+     ],
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Até cachorros bocejam quando veem o dono bocejando.",
+     "Até cachorros bocejam quando veem o dono bocejando."
+    ],
+    [
+     "E bebês recém-nascidos ainda não pegam o contágio: isso só aparece depois dos 4 ou 5 anos.",
+     "E bebês recém-nascidos ainda não pegam o contágio: isso só aparece depois dos quatro ou cinco anos."
+    ],
+    [
+     "Pessoas com certas condições que afetam a empatia também bocejam menos ao ver outras bocejando.",
+     "Pessoas com certas condições que afetam a empatia também bocejam menos ao ver outras bocejando."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "cachorros\ntambém pegam",
+     "pos": [
+      300,
+      700
+     ],
+     "e": null,
+     "size": 56,
+     "maxw": 560
+    },
+    {
+     "t": "numero",
+     "txt": "4-5 anos",
+     "pos": [
+      760,
+      900
+     ],
+     "e": [
+      1,
+      0.5
+     ],
+     "size": 80,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "E hoje? Em reunião, aula ou live, repara: um bocejo costuma puxar outro pela sala inteira.",
+     "E hoje? Em reunião, aula ou live, repara: um bocejo costuma puxar outro pela sala inteira."
+    ],
+    [
+     "Até ver alguém bocejando numa tela de vídeo já é o suficiente pra ativar o contágio.",
+     "Até ver alguém bocejando numa tela de vídeo já é o suficiente pra ativar o contágio."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 320
+    },
+    {
+     "t": "bloco",
+     "txt": "repara na\npróxima reunião",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 58,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: bocejo pode ser, no fundo, um sinal de quanto você se conecta com quem tá do seu lado.",
+     "Então: bocejo pode ser, no fundo, um sinal de quanto você se conecta com quem tá do seu lado."
+    ],
+    [
+     "Salva esse vídeo pra lembrar na próxima vez que bocejar.",
+     "Salva esse vídeo pra lembrar na próxima vez que bocejar."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 300,
+     "ang": -2
+    },
+    {
+     "t": "bloco",
+     "txt": "salva pra lembrar",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "salva"
+     ],
+     "size": 64
+    }
+   ]
+  }
+ ]
+}

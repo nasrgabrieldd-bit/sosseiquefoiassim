@@ -1,0 +1,121 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 68.725,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Uma das estátuas mais famosas do mundo não tem braços. E ninguém nunca os encontrou.",
+     "inicio": 0.1,
+     "dur": 5.617
+    }
+   ],
+   "fim": 6.137
+  },
+  {
+   "id": "c2",
+   "inicio": 6.137,
+   "frases": [
+    {
+     "leg": "É a Vênus de Milo, descoberta em 1820 por um fazendeiro grego na ilha de Milos.",
+     "inicio": 6.137,
+     "dur": 5.909
+    }
+   ],
+   "fim": 12.467
+  },
+  {
+   "id": "c3",
+   "inicio": 12.467,
+   "frases": [
+    {
+     "leg": "Ela já estava partida em pedaços quando foi achada, enterrada havia uns 2 mil anos.",
+     "inicio": 12.467,
+     "dur": 5.184
+    },
+    {
+     "leg": "A estátua tem quase 2 metros de altura e pesa cerca de 900 quilos de mármore.",
+     "inicio": 17.851,
+     "dur": 5.312
+    }
+   ],
+   "fim": 23.583
+  },
+  {
+   "id": "c4",
+   "inicio": 23.583,
+   "frases": [
+    {
+     "leg": "Os braços sumiram antes mesmo de ela chegar à França.",
+     "inicio": 23.583,
+     "dur": 3.328
+    },
+    {
+     "leg": "Há marcas nos ombros, mas nenhum pedaço de braço jamais apareceu.",
+     "inicio": 27.111,
+     "dur": 4.16
+    },
+    {
+     "leg": "Furos no corpo da estátua sugerem que ela usava joias, como brincos e um bracelete, que também nunca foram achados.",
+     "inicio": 31.471,
+     "dur": 6.933
+    }
+   ],
+   "fim": 38.824
+  },
+  {
+   "id": "c5",
+   "inicio": 38.824,
+   "frases": [
+    {
+     "leg": "Mesmo assim, em 1821, ela foi parar no Museu do Louvre, em Paris, onde está até hoje.",
+     "inicio": 38.824,
+     "dur": 5.995
+    }
+   ],
+   "fim": 45.239
+  },
+  {
+   "id": "c6",
+   "inicio": 45.239,
+   "frases": [
+    {
+     "leg": "E hoje? Milhões de turistas tiram foto dela todo ano, braços ausentes e tudo.",
+     "inicio": 45.239,
+     "dur": 5.735
+    },
+    {
+     "leg": "Ela é, hoje, uma das obras mais reproduzidas em pôsteres e livros de arte do mundo.",
+     "inicio": 51.173,
+     "dur": 4.971
+    }
+   ],
+   "fim": 56.564
+  },
+  {
+   "id": "c7",
+   "inicio": 56.564,
+   "frases": [
+    {
+     "leg": "Então: a estátua mais fotografada do Louvre guarda, até hoje, um mistério sem solução.",
+     "inicio": 56.564,
+     "dur": 5.077
+    },
+    {
+     "leg": "Time A: braços colados. Time B: deixa assim mesmo. Comenta.",
+     "inicio": 61.841,
+     "dur": 4.835
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 66.876,
+     "dur": 1.429
+    }
+   ],
+   "fim": 68.725
+  }
+ ]
+}

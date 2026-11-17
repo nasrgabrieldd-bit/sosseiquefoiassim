@@ -1,0 +1,121 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 61.519,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Tem país em que o réveillon demora 10 horas pra acabar.",
+     "inicio": 0.1,
+     "dur": 3.285
+    }
+   ],
+   "fim": 3.805
+  },
+  {
+   "id": "c2",
+   "inicio": 3.805,
+   "frases": [
+    {
+     "leg": "É a Rússia: o maior país do mundo tem 11 fusos horários diferentes.",
+     "inicio": 3.805,
+     "dur": 4.309
+    }
+   ],
+   "fim": 8.535
+  },
+  {
+   "id": "c3",
+   "inicio": 8.535,
+   "frases": [
+    {
+     "leg": "Ela atravessa a Europa e a Ásia inteiras, de Kaliningrado até a Kamtchatka.",
+     "inicio": 8.535,
+     "dur": 4.416
+    },
+    {
+     "leg": "São quase 9 mil quilômetros de ponta a ponta.",
+     "inicio": 13.151,
+     "dur": 2.965
+    },
+    {
+     "leg": "Pra comparar: isso é mais do que o dobro da distância entre Oiapoque e Chuí, no Brasil.",
+     "inicio": 16.316,
+     "dur": 4.715
+    }
+   ],
+   "fim": 21.451
+  },
+  {
+   "id": "c4",
+   "inicio": 21.451,
+   "frases": [
+    {
+     "leg": "Enquanto um lado do país já tá dormindo, o outro ainda tá almoçando.",
+     "inicio": 21.451,
+     "dur": 3.968
+    },
+    {
+     "leg": "A diferença entre o leste e o oeste chega a 10 horas.",
+     "inicio": 25.619,
+     "dur": 3.456
+    },
+    {
+     "leg": "Mesmo assim, o país inteiro usa o mesmo horário de verão: nenhum.",
+     "inicio": 29.275,
+     "dur": 3.563
+    }
+   ],
+   "fim": 33.257
+  },
+  {
+   "id": "c5",
+   "inicio": 33.257,
+   "frases": [
+    {
+     "leg": "Em 2010, o governo tentou reduzir o número de fusos pra facilitar os negócios do país. Não pegou, e voltaram os 11.",
+     "inicio": 33.257,
+     "dur": 8.369
+    }
+   ],
+   "fim": 42.047
+  },
+  {
+   "id": "c6",
+   "inicio": 42.047,
+   "frases": [
+    {
+     "leg": "E hoje? O discurso de fim de ano do presidente russo é gravado uma vez e exibido 11 vezes, uma pra cada fuso.",
+     "inicio": 42.047,
+     "dur": 7.932
+    }
+   ],
+   "fim": 50.399
+  },
+  {
+   "id": "c7",
+   "inicio": 50.399,
+   "frases": [
+    {
+     "leg": "Então: um país só, 11 fusos, e uma meia-noite que não acaba nunca de uma vez.",
+     "inicio": 50.399,
+     "dur": 4.757
+    },
+    {
+     "leg": "Você toparia morar num país com tantos fusos? Comenta.",
+     "inicio": 55.356,
+     "dur": 4.113
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 59.669,
+     "dur": 1.429
+    }
+   ],
+   "fim": 61.519
+  }
+ ]
+}

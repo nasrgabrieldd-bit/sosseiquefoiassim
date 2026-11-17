@@ -1,0 +1,116 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 69.717,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "O aperto de mão começou como uma prova: 'olha, não tô armado'.",
+     "inicio": 0.1,
+     "dur": 3.648
+    }
+   ],
+   "fim": 4.168
+  },
+  {
+   "id": "c2",
+   "inicio": 4.168,
+   "frases": [
+    {
+     "leg": "Historiadores encontraram representações do gesto em esculturas da Grécia antiga, com quase 2.400 anos.",
+     "inicio": 4.168,
+     "dur": 7.381
+    }
+   ],
+   "fim": 11.969
+  },
+  {
+   "id": "c3",
+   "inicio": 11.969,
+   "frases": [
+    {
+     "leg": "A ideia era simples: estender a mão direita, a mão da espada, mostrava que você vinha em paz.",
+     "inicio": 11.969,
+     "dur": 5.461
+    },
+    {
+     "leg": "Guerreiros de exércitos diferentes usavam o gesto pra negociar tréguas sem arriscar um ataque surpresa.",
+     "inicio": 17.631,
+     "dur": 6.571
+    }
+   ],
+   "fim": 24.621
+  },
+  {
+   "id": "c4",
+   "inicio": 24.621,
+   "frases": [
+    {
+     "leg": "O movimento de sacudir a mão teria vindo de testar se a outra pessoa escondia uma faca na manga.",
+     "inicio": 24.621,
+     "dur": 5.888
+    }
+   ],
+   "fim": 30.929
+  },
+  {
+   "id": "c5",
+   "inicio": 30.929,
+   "frases": [
+    {
+     "leg": "Em algumas culturas, o gesto virou até parte de rituais e cerimônias de amizade entre povos diferentes.",
+     "inicio": 30.929,
+     "dur": 6.741
+    },
+    {
+     "leg": "Já em outras culturas, como partes do Japão e da Tailândia, a reverência sempre foi mais comum do que o toque de mãos.",
+     "inicio": 37.871,
+     "dur": 7.211
+    }
+   ],
+   "fim": 45.501
+  },
+  {
+   "id": "c6",
+   "inicio": 45.501,
+   "frases": [
+    {
+     "leg": "E hoje? Durante a pandemia, muita gente trocou o aperto de mão pelo toque de cotovelo, por medo de contágio.",
+     "inicio": 45.501,
+     "dur": 7.121
+    },
+    {
+     "leg": "Alguns ambientes de trabalho mantiveram esse hábito até depois da pandemia passar.",
+     "inicio": 52.823,
+     "dur": 5.141
+    }
+   ],
+   "fim": 58.384
+  },
+  {
+   "id": "c7",
+   "inicio": 58.384,
+   "frases": [
+    {
+     "leg": "Então: um gesto que virou educação começou como uma forma de dizer 'pode confiar em mim'.",
+     "inicio": 58.384,
+     "dur": 5.248
+    },
+    {
+     "leg": "Qual outro cumprimento você acha estranho? Comenta.",
+     "inicio": 63.832,
+     "dur": 3.836
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 67.868,
+     "dur": 1.429
+    }
+   ],
+   "fim": 69.717
+  }
+ ]
+}

@@ -1,0 +1,331 @@
+{
+ "id": "SSA-021",
+ "chamada": "UM PAÍS, 11 FUSOS",
+ "materia": "GEOGRAFIA",
+ "titulo": "Na Rússia, o réveillon dura 10 horas",
+ "fontes": [
+  "dadosmundiais.com, 'Fusos horários da Rússia'.",
+  "dateandtime.info, 'Hora local atual em Rússia'.",
+  "Diario de Pernambuco, 'O país que tem 11 fusos horários e atravessa dois continentes' (2026)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "globo",
+    "pos": [
+     520,
+     650
+    ],
+    "e": null,
+    "w": 440,
+    "ang": -3
+   },
+   {
+    "t": "numero",
+    "txt": "11",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 220,
+    "cor": "laranja"
+   },
+   {
+    "t": "bloco",
+    "txt": "fusos horários num país só",
+    "pos": [
+     520,
+     1330
+    ],
+    "e": null,
+    "size": 50
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Tem país em que o réveillon demora 10 horas pra acabar.",
+     "Tem país em que o réveillon demora dez horas pra acabar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 460,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "numero",
+     "txt": "10h",
+     "pos": [
+      520,
+      1130
+     ],
+     "e": null,
+     "size": 180,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: dadosmundiais.com",
+   "frases": [
+    [
+     "É a Rússia: o maior país do mundo tem 11 fusos horários diferentes.",
+     "É a Rússia: o maior país do mundo tem onze fusos horários diferentes."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "RÚSSIA · 17 MILHÕES DE KM²",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null,
+     "size": 40
+    },
+    {
+     "t": "numero",
+     "txt": "11 fusos",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      0,
+      "11"
+     ],
+     "size": 150,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "Ela atravessa a Europa e a Ásia inteiras, de Kaliningrado até a Kamtchatka.",
+     "Ela atravessa a Europa e a Ásia inteiras, de Kaliningrado até a Kamtchatka."
+    ],
+    [
+     "São quase 9 mil quilômetros de ponta a ponta.",
+     "São quase nove mil quilômetros de ponta a ponta."
+    ],
+    [
+     "Pra comparar: isso é mais do que o dobro da distância entre Oiapoque e Chuí, no Brasil.",
+     "Pra comparar: isso é mais do que o dobro da distância entre Oiapoque e Chuí, no Brasil."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      260,
+      700
+     ],
+     "ate": [
+      780,
+      700
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "numero",
+     "txt": "9.000 km",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      0.3
+     ],
+     "size": 120,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: dateandtime.info",
+   "frases": [
+    [
+     "Enquanto um lado do país já tá dormindo, o outro ainda tá almoçando.",
+     "Enquanto um lado do país já tá dormindo, o outro ainda tá almoçando."
+    ],
+    [
+     "A diferença entre o leste e o oeste chega a 10 horas.",
+     "A diferença entre o leste e o oeste chega a dez horas."
+    ],
+    [
+     "Mesmo assim, o país inteiro usa o mesmo horário de verão: nenhum.",
+     "Mesmo assim, o país inteiro usa o mesmo horário de verão: nenhum."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "dormindo de\num lado...",
+     "pos": [
+      280,
+      650
+     ],
+     "e": null,
+     "size": 52,
+     "maxw": 520
+    },
+    {
+     "t": "bloco",
+     "txt": "...almoçando\ndo outro",
+     "pos": [
+      760,
+      900
+     ],
+     "e": [
+      0,
+      0.5
+     ],
+     "size": 52,
+     "maxw": 520,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Em 2010, o governo tentou reduzir o número de fusos pra facilitar os negócios do país. Não pegou, e voltaram os 11.",
+     "Em dois mil e dez, o governo tentou reduzir o número de fusos pra facilitar os negócios do país. Não pegou, e voltaram os onze."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "contador",
+     "de": 9,
+     "ate": 11,
+     "fmt": "{n} fusos",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      0.5
+     ]
+    },
+    {
+     "t": "nota",
+     "txt": "não pegou!",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      0,
+      0.8
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "E hoje? O discurso de fim de ano do presidente russo é gravado uma vez e exibido 11 vezes, uma pra cada fuso.",
+     "E hoje? O discurso de fim de ano do presidente russo é gravado uma vez e exibido onze vezes, uma pra cada fuso."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 320
+    },
+    {
+     "t": "bloco",
+     "txt": "11 transmissões\nna mesma noite",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 56,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: um país só, 11 fusos, e uma meia-noite que não acaba nunca de uma vez.",
+     "Então: um país só, onze fusos, e uma meia-noite que não acaba nunca de uma vez."
+    ],
+    [
+     "Você toparia morar num país com tantos fusos? Comenta.",
+     "Você toparia morar num país com tantos fusos? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 420,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "você toparia?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "toparia"
+     ],
+     "size": 68
+    }
+   ]
+  }
+ ]
+}
