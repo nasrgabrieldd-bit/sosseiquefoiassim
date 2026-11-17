@@ -1,0 +1,121 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 65.608,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Se você trocar toda peça de um navio, ele ainda é o mesmo navio?",
+     "inicio": 0.1,
+     "dur": 3.712
+    }
+   ],
+   "fim": 4.232
+  },
+  {
+   "id": "c2",
+   "inicio": 4.232,
+   "frases": [
+    {
+     "leg": "Essa pergunta vem de Plutarco, biógrafo grego, falando do navio do herói Teseu.",
+     "inicio": 4.232,
+     "dur": 4.715
+    }
+   ],
+   "fim": 9.367
+  },
+  {
+   "id": "c3",
+   "inicio": 9.367,
+   "frases": [
+    {
+     "leg": "Os atenienses guardavam o navio como relíquia e iam trocando as tábuas podres, uma por uma, com o tempo.",
+     "inicio": 9.367,
+     "dur": 6.059
+    },
+    {
+     "leg": "Esse barco, segundo a lenda, era o mesmo usado por Teseu para derrotar o Minotauro em Creta.",
+     "inicio": 15.625,
+     "dur": 5.333
+    }
+   ],
+   "fim": 21.379
+  },
+  {
+   "id": "c4",
+   "inicio": 21.379,
+   "frases": [
+    {
+     "leg": "Depois de anos, nenhuma peça original restava.",
+     "inicio": 21.379,
+     "dur": 2.88
+    },
+    {
+     "leg": "Era ainda o navio de Teseu, ou um navio totalmente novo?",
+     "inicio": 24.459,
+     "dur": 3.435
+    }
+   ],
+   "fim": 28.313
+  },
+  {
+   "id": "c5",
+   "inicio": 28.313,
+   "frases": [
+    {
+     "leg": "Alguns filósofos dizem que sim, continua o mesmo, porque a forma e a função não mudaram.",
+     "inicio": 28.313,
+     "dur": 5.205
+    },
+    {
+     "leg": "Outros dizem que não: identidade depende da matéria, não só da forma.",
+     "inicio": 33.719,
+     "dur": 4.459
+    },
+    {
+     "leg": "Filósofos modernos ainda usam esse exemplo pra discutir o que realmente faz algo continuar sendo a mesma coisa com o tempo.",
+     "inicio": 38.377,
+     "dur": 7.957
+    }
+   ],
+   "fim": 46.755
+  },
+  {
+   "id": "c6",
+   "inicio": 46.755,
+   "frases": [
+    {
+     "leg": "E hoje? Seu corpo troca a maior parte das células em poucos anos, e seu celular já trocou de tela, bateria e capa.",
+     "inicio": 46.755,
+     "dur": 7.74
+    }
+   ],
+   "fim": 54.915
+  },
+  {
+   "id": "c7",
+   "inicio": 54.915,
+   "frases": [
+    {
+     "leg": "Então: a pergunta de Plutarco ainda não tem resposta certa, só respostas possíveis.",
+     "inicio": 54.915,
+     "dur": 4.992
+    },
+    {
+     "leg": "Pra você, ainda seria o mesmo navio? Comenta.",
+     "inicio": 60.107,
+     "dur": 3.452
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 63.759,
+     "dur": 1.429
+    }
+   ],
+   "fim": 65.608
+  }
+ ]
+}

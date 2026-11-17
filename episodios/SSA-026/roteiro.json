@@ -1,0 +1,286 @@
+{
+ "id": "SSA-026",
+ "chamada": "NINGUÉM VÊ DO ESPAÇO",
+ "materia": "HISTÓRIA",
+ "titulo": "A Grande Muralha da China não dá pra ver do espaço",
+ "fontes": [
+  "NASA, 'Is the Great Wall of China really visible from space?' (perguntas frequentes).",
+  "Scientific American, 'Fact or Fiction: The Great Wall of China is visible from space'.",
+  "China Daily, declarações do astronauta chinês Yang Liwei (2003)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "globo",
+    "pos": [
+     520,
+     650
+    ],
+    "e": null,
+    "w": 420,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "a Muralha da China não dá pra ver do espaço",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 58,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Todo mundo repete que a Muralha da China é a única obra humana visível do espaço.",
+     "Todo mundo repete que a Muralha da China é a única obra humana visível do espaço."
+    ],
+    [
+     "É mito.",
+     "É mito."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 440,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "É MITO",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 100,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: NASA",
+   "frases": [
+    [
+     "Segundo a própria NASA, a muralha é estreita demais, com uns 6 a 9 metros de largura, pra ser vista a olho nu de órbita.",
+     "Segundo a própria NASA, a muralha é estreita demais, com uns seis a nove metros de largura, pra ser vista a olho nu de órbita."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "NASA",
+     "pos": [
+      520,
+      440
+     ],
+     "e": null
+    },
+    {
+     "t": "numero",
+     "txt": "6-9 m",
+     "pos": [
+      520,
+      820
+     ],
+     "e": [
+      0,
+      "9"
+     ],
+     "size": 150,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: China Daily (2003)",
+   "frases": [
+    [
+     "Em 2003, o primeiro astronauta chinês no espaço, Yang Liwei, disse publicamente que não conseguiu ver a muralha.",
+     "Em dois mil e três, o primeiro astronauta chinês no espaço, Iang Livei, disse publicamente que não conseguiu ver a muralha."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "\"não consegui\nver a muralha\"",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "muralha"
+     ],
+     "size": 56,
+     "cor": "laranja"
+    },
+    {
+     "t": "tira",
+     "txt": "YANG LIWEI · 2003",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      0,
+      "2003"
+     ],
+     "size": 42
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "Da órbita baixa, coisas como rodovias largas, represas e cidades iluminadas à noite aparecem bem mais fácil.",
+     "Da órbita baixa, coisas como rodovias largas, represas e cidades iluminadas à noite aparecem bem mais fácil."
+    ],
+    [
+     "A muralha some porque a cor dela se mistura com o solo ao redor, mesmo sendo enorme em comprimento.",
+     "A muralha some porque a cor dela se mistura com o solo ao redor, mesmo sendo enorme em comprimento."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "rodovias e represas\naparecem mais fácil",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 56,
+     "maxw": 760
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "O mito provavelmente nasceu décadas antes de qualquer humano ir ao espaço, em livros e colunas de jornal do início do século 20.",
+     "O mito provavelmente nasceu décadas antes de qualquer humano ir ao espaço, em livros e colunas de jornal do início do século vinte."
+    ],
+    [
+     "Mesmo assim, a muralha continua visível em fotos tiradas de altitudes bem mais baixas, como de avião.",
+     "Mesmo assim, a muralha continua visível em fotos tiradas de altitudes bem mais baixas, como de avião."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "nasceu antes\ndo espaço existir\npra gente",
+     "pos": [
+      520,
+      750
+     ],
+     "e": [
+      0,
+      "espaço"
+     ],
+     "size": 52,
+     "maxw": 720,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Scientific American",
+   "frases": [
+    [
+     "E hoje? O mito continua em livros didáticos e memes, décadas depois de ser desmentido.",
+     "E hoje? O mito continua em livros didáticos e memes, décadas depois de ser desmentido."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 300
+    },
+    {
+     "t": "bloco",
+     "txt": "ainda repetido\nem memes",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 58,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: a Muralha é gigante, mas 'gigante' e 'visível do espaço' são coisas bem diferentes.",
+     "Então: a Muralha é gigante, mas 'gigante' e 'visível do espaço' são coisas bem diferentes."
+    ],
+    [
+     "Agora você sabe outro mito pra desmentir na próxima conversa.",
+     "Agora você sabe outro mito pra desmentir na próxima conversa."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 420,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "agora você sabe",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "sabe"
+     ],
+     "size": 64
+    }
+   ]
+  }
+ ]
+}

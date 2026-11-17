@@ -1,0 +1,116 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 67.78,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Todo mundo repete que a Muralha da China é a única obra humana visível do espaço.",
+     "inicio": 0.1,
+     "dur": 4.757
+    },
+    {
+     "leg": "É mito.",
+     "inicio": 5.057,
+     "dur": 0.768
+    }
+   ],
+   "fim": 6.245
+  },
+  {
+   "id": "c2",
+   "inicio": 6.245,
+   "frases": [
+    {
+     "leg": "Segundo a própria NASA, a muralha é estreita demais, com uns 6 a 9 metros de largura, pra ser vista a olho nu de órbita.",
+     "inicio": 6.245,
+     "dur": 7.125
+    }
+   ],
+   "fim": 13.791
+  },
+  {
+   "id": "c3",
+   "inicio": 13.791,
+   "frases": [
+    {
+     "leg": "Em 2003, o primeiro astronauta chinês no espaço, Yang Liwei, disse publicamente que não conseguiu ver a muralha.",
+     "inicio": 13.791,
+     "dur": 7.083
+    }
+   ],
+   "fim": 21.293
+  },
+  {
+   "id": "c4",
+   "inicio": 21.293,
+   "frases": [
+    {
+     "leg": "Da órbita baixa, coisas como rodovias largas, represas e cidades iluminadas à noite aparecem bem mais fácil.",
+     "inicio": 21.293,
+     "dur": 7.168
+    },
+    {
+     "leg": "A muralha some porque a cor dela se mistura com o solo ao redor, mesmo sendo enorme em comprimento.",
+     "inicio": 28.661,
+     "dur": 5.845
+    }
+   ],
+   "fim": 34.927
+  },
+  {
+   "id": "c5",
+   "inicio": 34.927,
+   "frases": [
+    {
+     "leg": "O mito provavelmente nasceu décadas antes de qualquer humano ir ao espaço, em livros e colunas de jornal do início do século 20.",
+     "inicio": 34.927,
+     "dur": 7.808
+    },
+    {
+     "leg": "Mesmo assim, a muralha continua visível em fotos tiradas de altitudes bem mais baixas, como de avião.",
+     "inicio": 42.935,
+     "dur": 6.187
+    }
+   ],
+   "fim": 49.541
+  },
+  {
+   "id": "c6",
+   "inicio": 49.541,
+   "frases": [
+    {
+     "leg": "E hoje? O mito continua em livros didáticos e memes, décadas depois de ser desmentido.",
+     "inicio": 49.541,
+     "dur": 6.311
+    }
+   ],
+   "fim": 56.272
+  },
+  {
+   "id": "c7",
+   "inicio": 56.272,
+   "frases": [
+    {
+     "leg": "Então: a Muralha é gigante, mas 'gigante' e 'visível do espaço' são coisas bem diferentes.",
+     "inicio": 56.272,
+     "dur": 5.205
+    },
+    {
+     "leg": "Agora você sabe outro mito pra desmentir na próxima conversa.",
+     "inicio": 61.677,
+     "dur": 4.053
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 65.931,
+     "dur": 1.429
+    }
+   ],
+   "fim": 67.78
+  }
+ ]
+}

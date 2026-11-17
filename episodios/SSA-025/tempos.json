@@ -1,0 +1,111 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 63.032,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Solta um gato de cabeça pra baixo, de uma altura segura, e ele quase sempre cai em pé.",
+     "inicio": 0.1,
+     "dur": 5.184
+    }
+   ],
+   "fim": 5.704
+  },
+  {
+   "id": "c2",
+   "inicio": 5.704,
+   "frases": [
+    {
+     "leg": "Isso se chama reflexo de endireitamento, e começa a funcionar quando o gato ainda é filhote, com poucas semanas de vida.",
+     "inicio": 5.704,
+     "dur": 7.125
+    }
+   ],
+   "fim": 13.249
+  },
+  {
+   "id": "c3",
+   "inicio": 13.249,
+   "frases": [
+    {
+     "leg": "A coluna do gato é extremamente flexível, então ele gira a parte da frente do corpo pra um lado e a de trás pro outro.",
+     "inicio": 13.249,
+     "dur": 7.125
+    }
+   ],
+   "fim": 20.795
+  },
+  {
+   "id": "c4",
+   "inicio": 20.795,
+   "frases": [
+    {
+     "leg": "Ele faz tudo isso sem nenhum ponto de apoio no ar, usando só a física do próprio corpo.",
+     "inicio": 20.795,
+     "dur": 5.12
+    },
+    {
+     "leg": "É o mesmo princípio que ginastas e mergulhadores usam pra girar o corpo no ar sem nenhum apoio.",
+     "inicio": 26.115,
+     "dur": 5.867
+    }
+   ],
+   "fim": 32.401
+  },
+  {
+   "id": "c5",
+   "inicio": 32.401,
+   "frases": [
+    {
+     "leg": "As patas e o rabo ajudam a ajustar a rotação, como um equilibrista corrigindo o giro no ar.",
+     "inicio": 32.401,
+     "dur": 5.589
+    },
+    {
+     "leg": "Quanto maior a altura da queda, dentro de um limite seguro, mais tempo o gato tem pra se ajustar.",
+     "inicio": 38.191,
+     "dur": 5.611
+    }
+   ],
+   "fim": 44.221
+  },
+  {
+   "id": "c6",
+   "inicio": 44.221,
+   "frases": [
+    {
+     "leg": "E hoje? Vídeos de gatos caindo em pé fazem sucesso desde os primeiros filmes, no fim do século 19.",
+     "inicio": 44.221,
+     "dur": 7.271
+    }
+   ],
+   "fim": 51.912
+  },
+  {
+   "id": "c7",
+   "inicio": 51.912,
+   "frases": [
+    {
+     "leg": "Então: o gato não tem sorte, ele tem uma coluna que funciona como física aplicada.",
+     "inicio": 51.912,
+     "dur": 5.056
+    },
+    {
+     "leg": "Seu gato (ou o de algum amigo) já fez isso? Comenta.",
+     "inicio": 57.168,
+     "dur": 3.815
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 61.183,
+     "dur": 1.429
+    }
+   ],
+   "fim": 63.032
+  }
+ ]
+}

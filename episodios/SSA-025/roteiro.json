@@ -1,0 +1,286 @@
+{
+ "id": "SSA-025",
+ "chamada": "A FÍSICA DO GATO",
+ "materia": "FÍSICA",
+ "titulo": "Por que o gato quase sempre cai em pé",
+ "fontes": [
+  "NASA, 'The Physics of a Falling Cat' (artigo de divulgação).",
+  "Scientific American, 'Why Do Cats Always Land on Their Feet?' (2006).",
+  "Encyclopaedia Britannica, 'cat righting reflex'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "bloco",
+    "txt": "por que o gato quase sempre cai em pé?",
+    "pos": [
+     520,
+     700
+    ],
+    "e": null,
+    "size": 64,
+    "maxw": 800
+   },
+   {
+    "t": "nota",
+    "txt": "sem bater a cabeça",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "cor": "laranja",
+    "size": 50
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Solta um gato de cabeça pra baixo, de uma altura segura, e ele quase sempre cai em pé.",
+     "Solta um gato de cabeça pra baixo, de uma altura segura, e ele quase sempre cai em pé."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "cai de\ncabeça pra baixo...",
+     "pos": [
+      300,
+      650
+     ],
+     "e": null,
+     "size": 52,
+     "maxw": 540
+    },
+    {
+     "t": "bloco",
+     "txt": "...e aterrissa\nem pé",
+     "pos": [
+      760,
+      950
+     ],
+     "e": [
+      0,
+      0.6
+     ],
+     "size": 52,
+     "maxw": 540,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Scientific American (2006)",
+   "frases": [
+    [
+     "Isso se chama reflexo de endireitamento, e começa a funcionar quando o gato ainda é filhote, com poucas semanas de vida.",
+     "Isso se chama reflexo de endireitamento, e começa a funcionar quando o gato ainda é filhote, com poucas semanas de vida."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "REFLEXO DE ENDIREITAMENTO",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null,
+     "size": 38
+    },
+    {
+     "t": "nota",
+     "txt": "já funciona\nfilhote",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "filhote"
+     ],
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: NASA, \"The Physics of a Falling Cat\"",
+   "frases": [
+    [
+     "A coluna do gato é extremamente flexível, então ele gira a parte da frente do corpo pra um lado e a de trás pro outro.",
+     "A coluna do gato é extremamente flexível, então ele gira a parte da frente do corpo pra um lado e a de trás pro outro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      300,
+      650
+     ],
+     "ate": [
+      740,
+      650
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "gira a frente\ne a traseira\nseparadas",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": null,
+     "size": 50,
+     "maxw": 760
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "Ele faz tudo isso sem nenhum ponto de apoio no ar, usando só a física do próprio corpo.",
+     "Ele faz tudo isso sem nenhum ponto de apoio no ar, usando só a física do próprio corpo."
+    ],
+    [
+     "É o mesmo princípio que ginastas e mergulhadores usam pra girar o corpo no ar sem nenhum apoio.",
+     "É o mesmo princípio que ginastas e mergulhadores usam pra girar o corpo no ar sem nenhum apoio."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "sem nenhum\nponto de apoio",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 62,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "As patas e o rabo ajudam a ajustar a rotação, como um equilibrista corrigindo o giro no ar.",
+     "As patas e o rabo ajudam a ajustar a rotação, como um equilibrista corrigindo o giro no ar."
+    ],
+    [
+     "Quanto maior a altura da queda, dentro de um limite seguro, mais tempo o gato tem pra se ajustar.",
+     "Quanto maior a altura da queda, dentro de um limite seguro, mais tempo o gato tem pra se ajustar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "equilibrista\nno ar",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "equilibrista"
+     ],
+     "size": 60,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "E hoje? Vídeos de gatos caindo em pé fazem sucesso desde os primeiros filmes, no fim do século 19.",
+     "E hoje? Vídeos de gatos caindo em pé fazem sucesso desde os primeiros filmes, no fim do século dezenove."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 300
+    },
+    {
+     "t": "bloco",
+     "txt": "sucesso desde\no século 19",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 56,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o gato não tem sorte, ele tem uma coluna que funciona como física aplicada.",
+     "Então: o gato não tem sorte, ele tem uma coluna que funciona como física aplicada."
+    ],
+    [
+     "Seu gato (ou o de algum amigo) já fez isso? Comenta.",
+     "Seu gato (ou o de algum amigo) já fez isso? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "seu gato já\nfez isso?",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "gato"
+     ],
+     "size": 66
+    },
+    {
+     "t": "nota",
+     "txt": "comenta aí!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ]
+}

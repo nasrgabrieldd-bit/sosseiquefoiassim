@@ -1,0 +1,304 @@
+{
+ "id": "SSA-024",
+ "chamada": "A SOMBRA DO SOL DECIDIU",
+ "materia": "MATEMÁTICA",
+ "titulo": "Por que todo relógio gira pro mesmo lado",
+ "fontes": [
+  "Scientific American, 'Why Do Clocks Go Clockwise?' (2013).",
+  "Encyclopaedia Britannica, verbete 'sundial'.",
+  "Smithsonian Magazine, 'Why Do Clocks Run Clockwise?' (2015)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "relogio",
+    "pos": [
+     520,
+     650
+    ],
+    "e": null,
+    "w": 400,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "por que todo relógio gira pro mesmo lado?",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 58,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Todo relógio do mundo gira pro mesmo lado. Isso não é acaso.",
+     "Todo relógio do mundo gira pro mesmo lado. Isso não é acaso."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "relogio",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 420,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "não é\nacaso!",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 74
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "Antes do relógio mecânico, as pessoas usavam relógios de sol pra marcar a hora.",
+     "Antes do relógio mecânico, as pessoas usavam relógios de sol pra marcar a hora."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "RELÓGIO DE SOL",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "obj",
+     "nome": "relogio",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      0,
+      "sol"
+     ],
+     "w": 320,
+     "ang": 4
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Scientific American (2013)",
+   "frases": [
+    [
+     "No hemisfério norte, onde os relógios mecânicos foram inventados, a sombra do relógio de sol se move nesse mesmo sentido.",
+     "No hemisfério norte, onde os relógios mecânicos foram inventados, a sombra do relógio de sol se move nesse mesmo sentido."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      300,
+      600
+     ],
+     "ate": [
+      760,
+      750
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "sombra se move\nnesse sentido",
+     "pos": [
+      520,
+      1050
+     ],
+     "e": [
+      0,
+      "sombra"
+     ],
+     "size": 56,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "Os primeiros relógios mecânicos, feitos na Europa, copiaram esse movimento da sombra pra fazer sentido pra quem já usava relógio de sol.",
+     "Os primeiros relógios mecânicos, feitos na Europa, copiaram esse movimento da sombra pra fazer sentido pra quem já usava relógio de sol."
+    ],
+    [
+     "Se tivessem sido inventados mais ao sul, talvez chamássemos de 'sentido horário' justamente o lado contrário.",
+     "Se tivessem sido inventados mais ao sul, talvez chamássemos de 'sentido horário' justamente o lado contrário."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "relogio",
+     "pos": [
+      520,
+      680
+     ],
+     "e": null,
+     "w": 380
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "No hemisfério sul, onde o Brasil fica, a sombra do relógio de sol gira pro lado contrário.",
+     "No hemisfério sul, onde o Brasil fica, a sombra do relógio de sol gira pro lado contrário."
+    ],
+    [
+     "Mas os relógios continuaram no padrão europeu mesmo assim.",
+     "Mas os relógios continuaram no padrão europeu mesmo assim."
+    ],
+    [
+     "Quem inventa um relógio novo hoje em dia nem pensa duas vezes nisso: o padrão já virou universal.",
+     "Quem inventa um relógio novo hoje em dia nem pensa duas vezes nisso: o padrão já virou universal."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "risco",
+     "de": [
+      300,
+      500
+     ],
+     "ate": [
+      740,
+      500
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "nota",
+     "txt": "no hemisfério sul,\nseria ao contrário",
+     "pos": [
+      520,
+      900
+     ],
+     "e": [
+      0,
+      0.5
+     ],
+     "size": 54,
+     "maxw": 760,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Smithsonian Magazine (2015)",
+   "frases": [
+    [
+     "E hoje? É por isso que a expressão 'sentido horário' é a mesma em qualquer lugar do planeta, mesmo no hemisfério sul.",
+     "E hoje? É por isso que a expressão 'sentido horário' é a mesma em qualquer lugar do planeta, mesmo no hemisfério sul."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 340,
+     "ang": -2
+    },
+    {
+     "t": "bloco",
+     "txt": "o mesmo em\nqualquer lugar",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 58,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o jeito que o relógio gira é, na verdade, um registro de onde ele foi inventado.",
+     "Então: o jeito que o relógio gira é, na verdade, um registro de onde ele foi inventado."
+    ],
+    [
+     "Agora você sabe por que todo relógio copia a sombra do sol.",
+     "Agora você sabe por que todo relógio copia a sombra do sol."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "relogio",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 400,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "agora você sabe",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "sabe"
+     ],
+     "size": 66
+    }
+   ]
+  }
+ ]
+}

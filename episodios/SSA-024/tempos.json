@@ -1,0 +1,116 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 68.235,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Todo relógio do mundo gira pro mesmo lado. Isso não é acaso.",
+     "inicio": 0.1,
+     "dur": 4.38
+    }
+   ],
+   "fim": 4.9
+  },
+  {
+   "id": "c2",
+   "inicio": 4.9,
+   "frases": [
+    {
+     "leg": "Antes do relógio mecânico, as pessoas usavam relógios de sol pra marcar a hora.",
+     "inicio": 4.9,
+     "dur": 4.971
+    }
+   ],
+   "fim": 10.291
+  },
+  {
+   "id": "c3",
+   "inicio": 10.291,
+   "frases": [
+    {
+     "leg": "No hemisfério norte, onde os relógios mecânicos foram inventados, a sombra do relógio de sol se move nesse mesmo sentido.",
+     "inicio": 10.291,
+     "dur": 7.531
+    }
+   ],
+   "fim": 18.241
+  },
+  {
+   "id": "c4",
+   "inicio": 18.241,
+   "frases": [
+    {
+     "leg": "Os primeiros relógios mecânicos, feitos na Europa, copiaram esse movimento da sombra pra fazer sentido pra quem já usava relógio de sol.",
+     "inicio": 18.241,
+     "dur": 8.384
+    },
+    {
+     "leg": "Se tivessem sido inventados mais ao sul, talvez chamássemos de 'sentido horário' justamente o lado contrário.",
+     "inicio": 26.825,
+     "dur": 6.549
+    }
+   ],
+   "fim": 33.795
+  },
+  {
+   "id": "c5",
+   "inicio": 33.795,
+   "frases": [
+    {
+     "leg": "No hemisfério sul, onde o Brasil fica, a sombra do relógio de sol gira pro lado contrário.",
+     "inicio": 33.795,
+     "dur": 5.419
+    },
+    {
+     "leg": "Mas os relógios continuaram no padrão europeu mesmo assim.",
+     "inicio": 39.413,
+     "dur": 3.541
+    },
+    {
+     "leg": "Quem inventa um relógio novo hoje em dia nem pensa duas vezes nisso: o padrão já virou universal.",
+     "inicio": 43.155,
+     "dur": 5.973
+    }
+   ],
+   "fim": 49.548
+  },
+  {
+   "id": "c6",
+   "inicio": 49.548,
+   "frases": [
+    {
+     "leg": "E hoje? É por isso que a expressão 'sentido horário' é a mesma em qualquer lugar do planeta, mesmo no hemisfério sul.",
+     "inicio": 49.548,
+     "dur": 7.185
+    }
+   ],
+   "fim": 57.153
+  },
+  {
+   "id": "c7",
+   "inicio": 57.153,
+   "frases": [
+    {
+     "leg": "Então: o jeito que o relógio gira é, na verdade, um registro de onde ele foi inventado.",
+     "inicio": 57.153,
+     "dur": 5.056
+    },
+    {
+     "leg": "Agora você sabe por que todo relógio copia a sombra do sol.",
+     "inicio": 62.409,
+     "dur": 3.776
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 66.385,
+     "dur": 1.429
+    }
+   ],
+   "fim": 68.235
+  }
+ ]
+}
