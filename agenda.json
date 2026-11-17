@@ -14,10 +14,10 @@
   "id": "SSA-002",
   "data": "2026-11-13",
   "hora": "19:00",
-  "status": "agendado IG+TikTok+YouTube",
+  "status": "publicado IG+TikTok, YouTube agendado",
   "zernio_post": "6af5c6968f0914636f851e0c",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "agendado",
   "youtube_id": "IS5OjF4xrJI"
  },
@@ -25,10 +25,10 @@
   "id": "SSA-003",
   "data": "2026-11-14",
   "hora": "12:00",
-  "status": "agendado IG+TikTok+YouTube",
+  "status": "publicado IG+TikTok, YouTube agendado",
   "zernio_post": "6af5c6980b73f7b0965d4b6d",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "agendado",
   "youtube_id": "E4ztQQ9kNgg"
  },
@@ -36,10 +36,10 @@
   "id": "SSA-004",
   "data": "2026-11-14",
   "hora": "19:00",
-  "status": "agendado IG+TikTok+YouTube",
+  "status": "publicado IG+TikTok, YouTube agendado",
   "zernio_post": "6af5c69b0ca4fd361173751b",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "agendado",
   "youtube_id": "-z5pycj8iTA"
  },
@@ -47,10 +47,10 @@
   "id": "SSA-005",
   "data": "2026-11-15",
   "hora": "12:00",
-  "status": "agendado IG+TikTok+YouTube",
+  "status": "publicado IG+TikTok, YouTube agendado",
   "zernio_post": "6af5c6a14365d910d55dbbf8",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "agendado",
   "youtube_id": "stM3B9Tf56Y"
  },
@@ -58,10 +58,10 @@
   "id": "SSA-006",
   "data": "2026-11-15",
   "hora": "19:00",
-  "status": "agendado IG+TikTok+YouTube",
+  "status": "publicado IG+TikTok, YouTube agendado",
   "zernio_post": "6af5c6a34365d910d55dbc0a",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "agendado",
   "youtube_id": "lpL_HoB9ykg"
  },
@@ -69,10 +69,10 @@
   "id": "SSA-007",
   "data": "2026-11-16",
   "hora": "12:00",
-  "status": "agendado IG+TikTok+YouTube",
+  "status": "publicado IG+TikTok, YouTube agendado",
   "zernio_post": "6af5c6a548efaad7a8a7e4ea",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "agendado",
   "youtube_id": "3PU5iaUEaJU"
  },
@@ -80,10 +80,10 @@
   "id": "SSA-008",
   "data": "2026-11-16",
   "hora": "19:00",
-  "status": "agendado IG+TikTok+YouTube",
+  "status": "publicado IG+TikTok, YouTube agendado",
   "zernio_post": "6af5c6a648efaad7a8a7e504",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "agendado",
   "youtube_id": "kyMT_PKtBHE"
  },
@@ -91,41 +91,41 @@
   "id": "SSA-009",
   "data": "2026-11-17",
   "hora": "12:00",
-  "status": "agendado IG+TikTok",
+  "status": "agendado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6a7cae903d82c385eba",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente: subir pelo Composio (cota diária)"
+  "youtube": "manual: upload via Composio descartado pelo YouTube em 17/11 (nenhum video ficou no canal); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-010",
   "data": "2026-11-17",
   "hora": "19:00",
-  "status": "agendado IG+TikTok",
+  "status": "agendado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6a84365d910d55dbc38",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente: subir pelo Composio (cota diária)"
+  "youtube": "manual: upload via Composio descartado pelo YouTube em 17/11 (nenhum video ficou no canal); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-011",
   "data": "2026-11-18",
   "hora": "12:00",
-  "status": "agendado IG+TikTok",
+  "status": "agendado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6aa4365d910d55dbc43",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente: subir pelo Composio (cota diária)"
+  "youtube": "manual: upload via Composio descartado pelo YouTube em 17/11 (nenhum video ficou no canal); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-012",
   "data": "2026-11-18",
   "hora": "19:00",
-  "status": "agendado IG+TikTok",
+  "status": "agendado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6ab4365d910d55dbc50",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente: subir pelo Composio (cota diária)"
+  "youtube": "manual: upload via Composio descartado pelo YouTube em 17/11 (nenhum video ficou no canal); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-013",
@@ -135,7 +135,7 @@
   "zernio_post": "6af5c6accae903d82c385ed5",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente: subir pelo Composio (cota diária)"
+  "youtube": "pendente: subir pelo Composio quando entrar nas 48 h (upload de 17/11 falhou, ver SSA-009)"
  },
  {
   "id": "SSA-014",
@@ -145,55 +145,75 @@
   "zernio_post": "6af5c6ad4365d910d55dbc69",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente: subir pelo Composio (cota diária)"
+  "youtube": "pendente: subir pelo Composio quando entrar nas 48 h (upload de 17/11 falhou, ver SSA-009)"
  },
  {
   "id": "SSA-015",
   "data": "2026-11-20",
   "hora": "12:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok",
+  "zernio_post": "6afc0e607e77647d41a8cab2",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "pendente"
  },
  {
   "id": "SSA-016",
   "data": "2026-11-20",
   "hora": "19:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok",
+  "zernio_post": "6afc0e707e77647d41a8cae4",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "pendente"
  },
  {
   "id": "SSA-017",
   "data": "2026-11-21",
   "hora": "12:00",
-  "status": "pendente"
+  "status": "retido: revisar antes de agendar",
+  "motivo": "roteiro com erros de fato (13 paises/Guiana Francesa; Libertadores e Sul-Americana sao de clubes, nao selecoes)"
  },
  {
   "id": "SSA-018",
   "data": "2026-11-21",
   "hora": "19:00",
-  "status": "pendente"
+  "status": "retido: revisar antes de agendar",
+  "motivo": "afirmacao legal \"chocolate branco nao e chocolate\" nao verificada (Anvisa RDC 264 define chocolate branco; ha lei nova 15.404/2026)"
  },
  {
   "id": "SSA-019",
   "data": "2026-11-22",
   "hora": "12:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok",
+  "zernio_post": "6afc0e71f15709d2a5bae104",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "pendente"
  },
  {
   "id": "SSA-020",
   "data": "2026-11-22",
   "hora": "19:00",
-  "status": "pendente"
+  "status": "retido: revisar antes de agendar",
+  "motivo": "duvida: bracos da Venus de Milo (fragmentos podem ter sido achados na descoberta)"
  },
  {
   "id": "SSA-021",
   "data": "2026-11-23",
   "hora": "12:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok",
+  "zernio_post": "6afc0e7200bc7ddb01acaa5a",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "pendente"
  },
  {
   "id": "SSA-022",
   "data": "2026-11-23",
   "hora": "19:00",
-  "status": "pendente"
+  "status": "retido: revisar antes de agendar",
+  "motivo": "duvida: origem do aperto de mao e teoria, nao fato comprovado"
  },
  {
   "id": "SSA-023",
