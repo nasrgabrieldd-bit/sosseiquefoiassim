@@ -1,0 +1,390 @@
+{
+ "id": "SSA-015",
+ "chamada": "NEM É PALAVRA PORTUGUESA",
+ "materia": "LÍNGUA PORTUGUESA",
+ "titulo": "A palavra \"quilombo\" nem é portuguesa",
+ "fontes": [
+  "Houaiss, Dicionário da Língua Portuguesa, verbete 'quilombo'.",
+  "Museu Afro Brasil, 'Palavras de origem africana no português' (2023).",
+  "Instituto Federal de Alagoas, 'Serra da Barriga e o legado de Palmares' (2021)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "livro",
+    "pos": [
+     520,
+     650
+    ],
+    "e": null,
+    "w": 420,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "a palavra \"quilombo\" nem é portuguesa",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 66,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "\"Quilombo\" não é uma palavra portuguesa. Nunca foi.",
+     "\"Quilombo\" não é uma palavra portuguesa. Nunca foi."
+    ],
+    [
+     "E isso conta uma história inteira.",
+     "E isso conta uma história inteira."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 420,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "não é palavra\nportuguesa!",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": null,
+     "size": 68,
+     "maxw": 700
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Houaiss, verbete \"quilombo\"",
+   "frases": [
+    [
+     "Ela vem do kimbundu, língua falada em Angola.",
+     "Ela vem do kimbundu, língua falada em Angola."
+    ],
+    [
+     "'Kilombo' queria dizer acampamento de guerreiros.",
+     "'Kilombo' queria dizer acampamento de guerreiros."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "KIMBUNDU · ANGOLA",
+     "pos": [
+      300,
+      430
+     ],
+     "e": null
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      750
+     ],
+     "e": [
+      0,
+      0.1
+     ],
+     "w": 340,
+     "ang": -4
+    },
+    {
+     "t": "tira",
+     "txt": "kilombo = acampamento de guerreiros",
+     "pos": [
+      560,
+      1120
+     ],
+     "e": [
+      1,
+      0.1
+     ],
+     "size": 42
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "No Brasil colonial, virou o nome dado às comunidades de pessoas escravizadas que fugiam e se organizavam livres.",
+     "No Brasil colonial, virou o nome dado às comunidades de pessoas escravizadas que fugiam e se organizavam livres."
+    ],
+    [
+     "Existiram centenas desses quilombos espalhados pelo país, de tamanhos bem diferentes.",
+     "Existiram centenas desses quilombos espalhados pelo país, de tamanhos bem diferentes."
+    ],
+    [
+     "O mais famoso de todos foi o Quilombo dos Palmares.",
+     "O mais famoso de todos foi o Quilombo dos Palmares."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "comunidades livres",
+     "pos": [
+      520,
+      560
+     ],
+     "e": null,
+     "size": 70
+    },
+    {
+     "t": "nota",
+     "txt": "o mais famoso:\nPalmares",
+     "pos": [
+      600,
+      900
+     ],
+     "e": [
+      2,
+      "Palmares"
+     ],
+     "size": 56,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Museu Afro Brasil (2023)",
+   "frases": [
+    [
+     "E não é a única: moleque, cafuné, caçula e curinga também vieram de línguas africanas.",
+     "E não é a única: moleque, cafuné, caçula e curinga também vieram de línguas africanas."
+    ],
+    [
+     "Muita gente fala essas palavras todo dia sem saber a origem.",
+     "Muita gente fala essas palavras todo dia sem saber a origem."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "moleque",
+     "pos": [
+      260,
+      460
+     ],
+     "e": [
+      0,
+      "moleque"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "cafuné",
+     "pos": [
+      760,
+      560
+     ],
+     "e": [
+      0,
+      "cafuné"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "caçula",
+     "pos": [
+      300,
+      700
+     ],
+     "e": [
+      0,
+      "caçula"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "curinga",
+     "pos": [
+      720,
+      800
+     ],
+     "e": [
+      0,
+      "curinga"
+     ],
+     "size": 48
+    },
+    {
+     "t": "nota",
+     "txt": "todo dia, sem saber!",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      0.3
+     ],
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Dá pra pensar assim: parte do português do Brasil é africano antes de ser europeu.",
+     "Dá pra pensar assim: parte do português do Brasil é africano antes de ser europeu."
+    ],
+    [
+     "Estima-se que mais de 200 línguas africanas diferentes chegaram ao Brasil durante o período da escravidão.",
+     "Estima-se que mais de duzentas línguas africanas diferentes chegaram ao Brasil durante o período da escravidão."
+    ]
+   ],
+   "camera": {
+    "push": 0.08
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      650
+     ],
+     "e": null,
+     "w": 460
+    },
+    {
+     "t": "bloco",
+     "txt": "português do Brasil\ntambém é africano",
+     "pos": [
+      520,
+      1120
+     ],
+     "e": null,
+     "size": 58,
+     "maxw": 780
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Lei 14.759/2023",
+   "frases": [
+    [
+     "E hoje? Hoje, 20 de novembro, é Dia da Consciência Negra, feriado nacional desde 2023.",
+     "E hoje? Hoje, vinte de novembro, é Dia da Consciência Negra, feriado nacional desde dois mil e vinte e três."
+    ],
+    [
+     "A data lembra Zumbi dos Palmares, morto nesse dia em 1695.",
+     "A data lembra Zumbi dos Palmares, morto nesse dia em mil seiscentos e noventa e cinco."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "NOVEMBRO",
+     "inicio": 1,
+     "riscar": [
+      20
+     ],
+     "pos": [
+      520,
+      680
+     ],
+     "ang": -2
+    },
+    {
+     "t": "tira",
+     "txt": "ZUMBI DOS PALMARES · 1695",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "Zumbi"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: uma palavra de guerra virou símbolo de resistência, e ainda mora no seu vocabulário.",
+     "Então: uma palavra de guerra virou símbolo de resistência, e ainda mora no seu vocabulário."
+    ],
+    [
+     "Que outra palavra brasileira você acha que pode ter vindo da África? Comenta.",
+     "Que outra palavra brasileira você acha que pode ter vindo da África? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 420,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "qual outra palavra?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      0.1
+     ],
+     "size": 68
+    },
+    {
+     "t": "nota",
+     "txt": "comenta aí!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ]
+}

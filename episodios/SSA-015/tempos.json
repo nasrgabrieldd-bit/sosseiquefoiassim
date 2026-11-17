@@ -1,0 +1,136 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 77.521,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "\"Quilombo\" não é uma palavra portuguesa. Nunca foi.",
+     "inicio": 0.1,
+     "dur": 3.612
+    },
+    {
+     "leg": "E isso conta uma história inteira.",
+     "inicio": 3.912,
+     "dur": 1.963
+    }
+   ],
+   "fim": 6.295
+  },
+  {
+   "id": "c2",
+   "inicio": 6.295,
+   "frases": [
+    {
+     "leg": "Ela vem do kimbundu, língua falada em Angola.",
+     "inicio": 6.295,
+     "dur": 2.859
+    },
+    {
+     "leg": "'Kilombo' queria dizer acampamento de guerreiros.",
+     "inicio": 9.353,
+     "dur": 3.029
+    }
+   ],
+   "fim": 12.803
+  },
+  {
+   "id": "c3",
+   "inicio": 12.803,
+   "frases": [
+    {
+     "leg": "No Brasil colonial, virou o nome dado às comunidades de pessoas escravizadas que fugiam e se organizavam livres.",
+     "inicio": 12.803,
+     "dur": 6.933
+    },
+    {
+     "leg": "Existiram centenas desses quilombos espalhados pelo país, de tamanhos bem diferentes.",
+     "inicio": 19.936,
+     "dur": 5.44
+    },
+    {
+     "leg": "O mais famoso de todos foi o Quilombo dos Palmares.",
+     "inicio": 25.576,
+     "dur": 3.115
+    }
+   ],
+   "fim": 29.111
+  },
+  {
+   "id": "c4",
+   "inicio": 29.111,
+   "frases": [
+    {
+     "leg": "E não é a única: moleque, cafuné, caçula e curinga também vieram de línguas africanas.",
+     "inicio": 29.111,
+     "dur": 5.248
+    },
+    {
+     "leg": "Muita gente fala essas palavras todo dia sem saber a origem.",
+     "inicio": 34.559,
+     "dur": 4.053
+    }
+   ],
+   "fim": 39.032
+  },
+  {
+   "id": "c5",
+   "inicio": 39.032,
+   "frases": [
+    {
+     "leg": "Dá pra pensar assim: parte do português do Brasil é africano antes de ser europeu.",
+     "inicio": 39.032,
+     "dur": 5.013
+    },
+    {
+     "leg": "Estima-se que mais de 200 línguas africanas diferentes chegaram ao Brasil durante o período da escravidão.",
+     "inicio": 44.245,
+     "dur": 6.592
+    }
+   ],
+   "fim": 51.257
+  },
+  {
+   "id": "c6",
+   "inicio": 51.257,
+   "frases": [
+    {
+     "leg": "E hoje? Hoje, 20 de novembro, é Dia da Consciência Negra, feriado nacional desde 2023.",
+     "inicio": 51.257,
+     "dur": 7.399
+    },
+    {
+     "leg": "A data lembra Zumbi dos Palmares, morto nesse dia em 1695.",
+     "inicio": 58.856,
+     "dur": 5.163
+    }
+   ],
+   "fim": 64.439
+  },
+  {
+   "id": "c7",
+   "inicio": 64.439,
+   "frases": [
+    {
+     "leg": "Então: uma palavra de guerra virou símbolo de resistência, e ainda mora no seu vocabulário.",
+     "inicio": 64.439,
+     "dur": 5.355
+    },
+    {
+     "leg": "Que outra palavra brasileira você acha que pode ter vindo da África? Comenta.",
+     "inicio": 69.993,
+     "dur": 5.479
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 75.672,
+     "dur": 1.429
+    }
+   ],
+   "fim": 77.521
+  }
+ ]
+}

@@ -1,0 +1,380 @@
+{
+ "id": "SSA-016",
+ "chamada": "QUASE 100 ANOS LIVRES",
+ "materia": "HISTÓRIA",
+ "titulo": "Palmares resistiu quase 100 anos. Alagoas inteira tremeu",
+ "fontes": [
+  "EBSCO Research Starters, 'Slaves Resist Europeans at Palmares'.",
+  "Cultural Survival Quarterly, 'Quilombo: Brazilian Maroons during slavery'.",
+  "Wikipedia/estudiosos citados, estimativa de população de Palmares (1690s)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "castelo",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 560,
+    "ang": -2
+   },
+   {
+    "t": "numero",
+    "txt": "100",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 200,
+    "cor": "tinta"
+   },
+   {
+    "t": "bloco",
+    "txt": "anos resistindo",
+    "pos": [
+     520,
+     1330
+    ],
+    "e": null,
+    "size": 56
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Teve um lugar no Brasil que resistiu a exércitos por quase 100 anos. Sem presidente, sem exército oficial.",
+     "Teve um lugar no Brasil que resistiu a exércitos por quase cem anos. Sem presidente, sem exército oficial."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 580,
+     "ang": -2,
+     "balanca": true
+    },
+    {
+     "t": "numero",
+     "txt": "100",
+     "pos": [
+      520,
+      1120
+     ],
+     "e": null,
+     "size": 220,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Cultural Survival Quarterly",
+   "frases": [
+    [
+     "Era o Quilombo dos Palmares, fundado por volta de 1605, na Serra da Barriga, em Alagoas.",
+     "Era o Quilombo dos Palmares, fundado por volta de mil seiscentos e cinco, na Serra da Barriga, em Alagoas."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "SERRA DA BARRIGA · ALAGOAS",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      780
+     ],
+     "e": [
+      0,
+      0.3
+     ],
+     "w": 320,
+     "ang": 3
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: EBSCO Research Starters",
+   "frases": [
+    [
+     "Em seu auge, chegou a ter mais de 20 mil pessoas vivendo lá.",
+     "Em seu auge, chegou a ter mais de vinte mil pessoas vivendo lá."
+    ],
+    [
+     "Isso era mais gente do que várias cidades europeias da época.",
+     "Isso era mais gente do que várias cidades europeias da época."
+    ],
+    [
+     "Palmares tinha até divisão entre vilas, cada uma com seu próprio chefe local.",
+     "Palmares tinha até divisão entre vilas, cada uma com seu próprio chefe local."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "20 mil",
+     "pos": [
+      520,
+      600
+     ],
+     "e": null,
+     "size": 160,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "pessoas vivendo\nlivres",
+     "pos": [
+      300,
+      1000
+     ],
+     "e": [
+      0,
+      0.1
+     ],
+     "size": 58
+    },
+    {
+     "t": "contador",
+     "de": 1,
+     "ate": 20,
+     "fmt": "+ {n} mil pessoas",
+     "pos": [
+      700,
+      1120
+     ],
+     "e": [
+      0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "Os moradores plantavam, criavam animais e treinavam seus próprios guerreiros.",
+     "Os moradores plantavam, criavam animais e treinavam seus próprios guerreiros."
+    ],
+    [
+     "Pelo menos seis expedições portuguesas tentaram destruir Palmares e fracassaram.",
+     "Pelo menos seis expedições portuguesas tentaram destruir Palmares e fracassaram."
+    ],
+    [
+     "Alguns relatos da época chegaram a chamar os moradores de Palmares de 'invencíveis'.",
+     "Alguns relatos da época chegaram a chamar os moradores de Palmares de 'invencíveis'."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      260,
+      700
+     ],
+     "ate": [
+      780,
+      700
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "6 expedições\nfalharam",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "seis"
+     ],
+     "size": 64,
+     "maxw": 700
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: almapreta.com.br, \"Há exatos 327 anos\" (2021)",
+   "frases": [
+    [
+     "Só caiu em 1694, numa madrugada de ataque surpresa com tropas e canhões.",
+     "Só caiu em mil seiscentos e noventa e quatro, numa madrugada de ataque surpresa com tropas e canhões."
+    ],
+    [
+     "Zumbi, o último líder, foi morto no ano seguinte, em 20 de novembro de 1695.",
+     "Zumbi, o último líder, foi morto no ano seguinte, em vinte de novembro de mil seiscentos e noventa e cinco."
+    ]
+   ],
+   "camera": {
+    "push": 0.08
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 560,
+     "ang": 4
+    },
+    {
+     "t": "risco",
+     "de": [
+      320,
+      900
+     ],
+     "ate": [
+      760,
+      900
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "morto"
+     ]
+    },
+    {
+     "t": "nota",
+     "txt": "20/11/1695",
+     "pos": [
+      520,
+      1150
+     ],
+     "e": [
+      1,
+      "1695"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Lei 14.759/2023",
+   "frases": [
+    [
+     "E hoje? Esse dia virou o Dia da Consciência Negra, feriado nacional em todo o país desde 2023.",
+     "E hoje? Esse dia virou o Dia da Consciência Negra, feriado nacional em todo o país desde dois mil e vinte e três."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "NOVEMBRO",
+     "inicio": 1,
+     "riscar": [
+      20
+     ],
+     "pos": [
+      520,
+      700
+     ],
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "feriado nacional",
+     "pos": [
+      520,
+      1150
+     ],
+     "e": null,
+     "size": 66
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: quase 100 anos de resistência por uma comunidade inteira, livre, no meio do Brasil colonial.",
+     "Então: quase cem anos de resistência por uma comunidade inteira, livre, no meio do Brasil colonial."
+    ],
+    [
+     "Marca aquele amigo que precisa conhecer essa história.",
+     "Marca aquele amigo que precisa conhecer essa história."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "castelo",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 520,
+     "ang": -3
+    },
+    {
+     "t": "bloco",
+     "txt": "marca um amigo",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "amigo"
+     ],
+     "size": 66
+    },
+    {
+     "t": "nota",
+     "txt": "essa história\nprecisa rodar",
+     "pos": [
+      760,
+      1180
+     ],
+     "e": [
+      0,
+      0.6
+     ],
+     "cor": "laranja",
+     "size": 46
+    }
+   ]
+  }
+ ]
+}
