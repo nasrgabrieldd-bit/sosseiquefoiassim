@@ -1,0 +1,111 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 67.981,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A primeira final da Libertadores da história foi no mesmo estádio da final de 2026: o Centenário, em Montevidéu.",
+     "inicio": 0.1,
+     "dur": 7.68
+    }
+   ],
+   "fim": 8.2
+  },
+  {
+   "id": "c2",
+   "inicio": 8.2,
+   "frases": [
+    {
+     "leg": "Foi em 1960, quando a competição ainda se chamava Copa dos Clubes Campeões da América.",
+     "inicio": 8.2,
+     "dur": 6.357
+    }
+   ],
+   "fim": 14.977
+  },
+  {
+   "id": "c3",
+   "inicio": 14.977,
+   "frases": [
+    {
+     "leg": "O campeão foi o Peñarol, do Uruguai, que venceu o Olimpia, do Paraguai, em duas partidas.",
+     "inicio": 14.977,
+     "dur": 5.035
+    }
+   ],
+   "fim": 20.432
+  },
+  {
+   "id": "c4",
+   "inicio": 20.432,
+   "frases": [
+    {
+     "leg": "O Peñarol disputou a primeira partida da história da competição toda no próprio Centenário, contra um time boliviano.",
+     "inicio": 20.432,
+     "dur": 6.933
+    },
+    {
+     "leg": "O placar foi uma goleada: 7 a 1.",
+     "inicio": 27.565,
+     "dur": 2.325
+    }
+   ],
+   "fim": 30.311
+  },
+  {
+   "id": "c5",
+   "inicio": 30.311,
+   "frases": [
+    {
+     "leg": "Na época, só 7 clubes disputaram o torneio inteiro, porque nem todo país mandou representante.",
+     "inicio": 30.311,
+     "dur": 5.824
+    },
+    {
+     "leg": "O Peñarol ainda ganharia o título seguinte, em 1961, virando o primeiro bicampeão da história da taça.",
+     "inicio": 36.335,
+     "dur": 7.509
+    }
+   ],
+   "fim": 44.264
+  },
+  {
+   "id": "c6",
+   "inicio": 44.264,
+   "frases": [
+    {
+     "leg": "E hoje? Hoje, 28 de novembro, é a final da Libertadores de 2026, Palmeiras contra Estudiantes, de novo no Centenário, em Montevidéu.",
+     "inicio": 44.264,
+     "dur": 10.449
+    }
+   ],
+   "fim": 55.133
+  },
+  {
+   "id": "c7",
+   "inicio": 55.133,
+   "frases": [
+    {
+     "leg": "Então: 66 anos depois, a decisão do futebol sul-americano volta pro mesmo palco onde tudo começou.",
+     "inicio": 55.133,
+     "dur": 6.741
+    },
+    {
+     "leg": "Qual time você acha que leva essa final? Comenta.",
+     "inicio": 62.075,
+     "dur": 3.857
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 66.132,
+     "dur": 1.429
+    }
+   ],
+   "fim": 67.981
+  }
+ ]
+}

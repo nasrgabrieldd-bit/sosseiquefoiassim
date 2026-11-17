@@ -1,0 +1,106 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 65.864,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "'Black Friday' não nasceu como festa de desconto. Nasceu como reclamação de policial.",
+     "inicio": 0.1,
+     "dur": 5.361
+    }
+   ],
+   "fim": 5.881
+  },
+  {
+   "id": "c2",
+   "inicio": 5.881,
+   "frases": [
+    {
+     "leg": "Nos anos 1960, na Filadélfia, o dia depois do feriado de Ação de Graças virava um caos de trânsito.",
+     "inicio": 5.881,
+     "dur": 7.552
+    }
+   ],
+   "fim": 13.853
+  },
+  {
+   "id": "c3",
+   "inicio": 13.853,
+   "frases": [
+    {
+     "leg": "A polícia usava 'sexta-feira negra' pra descrever aquele caos de gente nas ruas, não como elogio.",
+     "inicio": 13.853,
+     "dur": 5.781
+    },
+    {
+     "leg": "Os lojistas, inclusive, tentaram outro nome: 'big Friday'. Não emplacou.",
+     "inicio": 19.835,
+     "dur": 4.892
+    }
+   ],
+   "fim": 25.147
+  },
+  {
+   "id": "c4",
+   "inicio": 25.147,
+   "frases": [
+    {
+     "leg": "Existe outra versão ainda mais velha: em 1869, especuladores tentaram manipular o preço do ouro em Nova York, e isso também ficou conhecido como uma sexta-feira negra.",
+     "inicio": 25.147,
+     "dur": 11.776
+    }
+   ],
+   "fim": 37.343
+  },
+  {
+   "id": "c5",
+   "inicio": 37.343,
+   "frases": [
+    {
+     "leg": "Com o tempo, o varejo abraçou o nome e inventou outro sentido: o dia em que as contas saíam do vermelho e iam pro azul... ou pro preto.",
+     "inicio": 37.343,
+     "dur": 8.476
+    }
+   ],
+   "fim": 46.239
+  },
+  {
+   "id": "c6",
+   "inicio": 46.239,
+   "frases": [
+    {
+     "leg": "E hoje? No Brasil, a Black Friday chegou só em 2010 e hoje, 27 de novembro, é a data oficial de 2026.",
+     "inicio": 46.239,
+     "dur": 8.849
+    }
+   ],
+   "fim": 55.508
+  },
+  {
+   "id": "c7",
+   "inicio": 55.508,
+   "frases": [
+    {
+     "leg": "Então: antes de ser sinônimo de desconto, 'Black Friday' foi sinônimo de dor de cabeça.",
+     "inicio": 55.508,
+     "dur": 4.992
+    },
+    {
+     "leg": "Marca aquele amigo que vive esperando a Black Friday.",
+     "inicio": 60.7,
+     "dur": 3.115
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 64.015,
+     "dur": 1.429
+    }
+   ],
+   "fim": 65.864
+  }
+ ]
+}

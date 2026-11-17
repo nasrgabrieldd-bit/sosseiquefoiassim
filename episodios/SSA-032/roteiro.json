@@ -1,0 +1,297 @@
+{
+ "id": "SSA-032",
+ "chamada": "A FÍSICA DA FOLHA SECA",
+ "materia": "FÍSICA",
+ "titulo": "Por que a bola de futebol curva no ar",
+ "fontes": [
+  "Scientific American, 'The Physics of Soccer'.",
+  "Deutsches Museum / Newton, descrição original do efeito Magnus (1671).",
+  "Smithsonian Magazine, 'The Science of the Banana Kick' (2014)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "bloco",
+    "txt": "por que a bola de futebol curva no ar?",
+    "pos": [
+     520,
+     700
+    ],
+    "e": null,
+    "size": 64,
+    "maxw": 800
+   },
+   {
+    "t": "nota",
+    "txt": "efeito Magnus",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "cor": "laranja",
+    "size": 56
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Quando um jogador chuta uma bola com efeito, ela curva no ar como se desviasse de alguma coisa.",
+     "Quando um jogador chuta uma bola com efeito, ela curva no ar como se desviasse de alguma coisa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      300,
+      650
+     ],
+     "ate": [
+      740,
+      500
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "a bola\ndesvia sozinha",
+     "pos": [
+      520,
+      950
+     ],
+     "e": null,
+     "size": 62,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Scientific American",
+   "frases": [
+    [
+     "O nome disso é efeito Magnus, batizado em homenagem ao físico alemão Gustav Magnus, no século 19.",
+     "O nome disso é efeito Magnus, batizado em homenagem ao físico alemão Gustav Mágnus, no século dezenove."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "EFEITO MAGNUS",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "nota",
+     "txt": "Gustav Magnus,\nséc. 19",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "Magnus"
+     ],
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "Quando a bola gira, o ar passa mais rápido de um lado e mais devagar do outro.",
+     "Quando a bola gira, o ar passa mais rápido de um lado e mais devagar do outro."
+    ],
+    [
+     "Isso cria uma diferença de pressão: mais pressão de um lado empurra a bola pro outro.",
+     "Isso cria uma diferença de pressão: mais pressão de um lado empurra a bola pro outro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "ar rápido\nde um lado...",
+     "pos": [
+      280,
+      650
+     ],
+     "e": null,
+     "size": 50,
+     "maxw": 520
+    },
+    {
+     "t": "bloco",
+     "txt": "...ar lento\ndo outro",
+     "pos": [
+      760,
+      950
+     ],
+     "e": [
+      0,
+      0.6
+     ],
+     "size": 50,
+     "maxw": 520,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: descrição original de Isaac Newton (1671)",
+   "frases": [
+    [
+     "O próprio Isaac Newton já tinha anotado esse efeito observando bolas de tênis, em 1671.",
+     "O próprio Isaac Newton já tinha anotado esse efeito observando bolas de tênis, em mil seiscentos e setenta e um."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ISAAC NEWTON · 1671",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "viu isso\nno tênis",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "tênis"
+     ],
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Quanto mais giro o jogador dá na bola, maior a curva, e é por isso que craques treinam esse chute à exaustão.",
+     "Quanto mais giro o jogador dá na bola, maior a curva, e é por isso que craques treinam esse chute à exaustão."
+    ],
+    [
+     "O mesmo efeito explica por que uma bola de tênis com efeito ou uma bola de beisebol curva também fazem curvas parecidas.",
+     "O mesmo efeito explica por que uma bola de tênis com efeito ou uma bola de beisebol curva também fazem curvas parecidas."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "mais giro =\nmais curva",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "giro"
+     ],
+     "size": 60,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Smithsonian Magazine (2014)",
+   "frases": [
+    [
+     "E hoje? O chute conhecido como 'folha seca', famoso no futebol brasileiro, usa exatamente essa física.",
+     "E hoje? O chute conhecido como 'folha seca', famoso no futebol brasileiro, usa exatamente essa física."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 300
+    },
+    {
+     "t": "bloco",
+     "txt": "\"folha seca\" =\nefeito Magnus",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 56,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: aquele chute impossível de defender é, na verdade, física básica bem treinada.",
+     "Então: aquele chute impossível de defender é, na verdade, física básica bem treinada."
+    ],
+    [
+     "Qual é o chute mais bonito que você já viu? Comenta.",
+     "Qual é o chute mais bonito que você já viu? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "qual o chute\nmais bonito?",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "chute"
+     ],
+     "size": 62,
+     "maxw": 740
+    },
+    {
+     "t": "nota",
+     "txt": "comenta aí!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ]
+}

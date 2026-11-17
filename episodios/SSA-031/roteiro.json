@@ -1,0 +1,303 @@
+{
+ "id": "SSA-031",
+ "chamada": "O MESMO ESTÁDIO, 66 ANOS DEPOIS",
+ "materia": "HISTÓRIA",
+ "titulo": "A primeira final da Libertadores também foi no Uruguai, 66 anos antes",
+ "fontes": [
+  "ESPN Deportes, 'Las Copas CONMEBOL Libertadores que ganó Peñarol'.",
+  "La Nación, 'Sesenta años, Copa Libertadores, primer partido' (2020).",
+  "Conmebol.com, calendário oficial 2026 (final da Libertadores, 28/11, Estádio Centenário)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "medalha",
+    "pos": [
+     520,
+     650
+    ],
+    "e": null,
+    "w": 380,
+    "ang": -3
+   },
+   {
+    "t": "numero",
+    "txt": "66",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 220,
+    "cor": "laranja"
+   },
+   {
+    "t": "bloco",
+    "txt": "anos depois, no mesmo estádio",
+    "pos": [
+     520,
+     1330
+    ],
+    "e": null,
+    "size": 50
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A primeira final da Libertadores da história foi no mesmo estádio da final de 2026: o Centenário, em Montevidéu.",
+     "A primeira final da Libertadores da história foi no mesmo estádio da final de dois mil e vinte e seis: o Centenário, em Montevidéu."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 400,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "tira",
+     "txt": "ESTÁDIO CENTENÁRIO",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": null,
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: La Nación (2020)",
+   "frases": [
+    [
+     "Foi em 1960, quando a competição ainda se chamava Copa dos Clubes Campeões da América.",
+     "Foi em mil novecentos e sessenta, quando a competição ainda se chamava Copa dos Clubes Campeões da América."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "1960",
+     "pos": [
+      520,
+      600
+     ],
+     "e": null,
+     "size": 180,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "COPA DOS CLUBES CAMPEÕES",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      0,
+      "1960"
+     ],
+     "size": 38
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: ESPN Deportes",
+   "frases": [
+    [
+     "O campeão foi o Peñarol, do Uruguai, que venceu o Olimpia, do Paraguai, em duas partidas.",
+     "O campeão foi o Peñarol, do Uruguai, que venceu o Olimpia, do Paraguai, em duas partidas."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "PEÑAROL (URU) x OLIMPIA (PAR)",
+     "pos": [
+      520,
+      480
+     ],
+     "e": null,
+     "size": 38
+    },
+    {
+     "t": "nota",
+     "txt": "campeão:\nPeñarol",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "Peñarol"
+     ],
+     "size": 60,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "O Peñarol disputou a primeira partida da história da competição toda no próprio Centenário, contra um time boliviano.",
+     "O Peñarol disputou a primeira partida da história da competição toda no próprio Centenário, contra um time boliviano."
+    ],
+    [
+     "O placar foi uma goleada: 7 a 1.",
+     "O placar foi uma goleada: sete a um."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "primeiro jogo\nda história,\nno Centenário",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 56,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Na época, só 7 clubes disputaram o torneio inteiro, porque nem todo país mandou representante.",
+     "Na época, só sete clubes disputaram o torneio inteiro, porque nem todo país mandou representante."
+    ],
+    [
+     "O Peñarol ainda ganharia o título seguinte, em 1961, virando o primeiro bicampeão da história da taça.",
+     "O Peñarol ainda ganharia o título seguinte, em mil novecentos e sessenta e um, virando o primeiro bicampeão da história da taça."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "7 clubes",
+     "pos": [
+      520,
+      600
+     ],
+     "e": null,
+     "size": 140,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "hoje são\nbem mais",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      0,
+      0.6
+     ],
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: calendário oficial Conmebol 2026",
+   "frases": [
+    [
+     "E hoje? Hoje, 28 de novembro, é a final da Libertadores de 2026, Palmeiras contra Estudiantes, de novo no Centenário, em Montevidéu.",
+     "E hoje? Hoje, vinte e oito de novembro, é a final da Libertadores de dois mil e vinte e seis, Palmeiras contra Estudiantes, de novo no Centenário, em Montevidéu."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "NOVEMBRO",
+     "inicio": 1,
+     "riscar": [
+      28
+     ],
+     "pos": [
+      520,
+      680
+     ],
+     "ang": -2
+    },
+    {
+     "t": "tira",
+     "txt": "PALMEIRAS x ESTUDIANTES",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      0,
+      "Estudiantes"
+     ],
+     "size": 40
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: 66 anos depois, a decisão do futebol sul-americano volta pro mesmo palco onde tudo começou.",
+     "Então: sessenta e seis anos depois, a decisão do futebol sul-americano volta pro mesmo palco onde tudo começou."
+    ],
+    [
+     "Qual time você acha que leva essa final? Comenta.",
+     "Qual time você acha que leva essa final? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 380,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "qual time leva?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "leva"
+     ],
+     "size": 66
+    }
+   ]
+  }
+ ]
+}

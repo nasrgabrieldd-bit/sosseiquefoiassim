@@ -1,0 +1,280 @@
+{
+ "id": "SSA-029",
+ "chamada": "NASCEU COMO XINGAMENTO",
+ "materia": "HISTÓRIA",
+ "titulo": "\"Black Friday\" nasceu como xingamento de policial, não de loja",
+ "fontes": [
+  "CNN Brasil, 'Black Friday: entenda a origem do nome e da data' .",
+  "tmc.com.br, 'Do desastre ao desconto: a origem caótica da Black Friday'.",
+  "bpmoney.com.br, 'De onde vem o nome Black Friday' (2026)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "jornal",
+    "titulo": "SEXTA-FEIRA NEGRA",
+    "data": "FILADÉLFIA · ANOS 1960",
+    "rodape": "CAOS NO TRÂNSITO DO CENTRO",
+    "pos": [
+     520,
+     700
+    ],
+    "e": null,
+    "w": 600
+   },
+   {
+    "t": "bloco",
+    "txt": "nasceu como xingamento, não desconto",
+    "pos": [
+     520,
+     1300
+    ],
+    "e": null,
+    "size": 52,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "'Black Friday' não nasceu como festa de desconto. Nasceu como reclamação de policial.",
+     "'Black Friday' não nasceu como festa de desconto. Nasceu como reclamação de policial."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "nasceu como\nreclamação!",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 66,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: tmc.com.br",
+   "frases": [
+    [
+     "Nos anos 1960, na Filadélfia, o dia depois do feriado de Ação de Graças virava um caos de trânsito.",
+     "Nos anos mil novecentos e sessenta, na Filadélfia, o dia depois do feriado de Ação de Graças virava um caos de trânsito."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "CAOS NO CENTRO",
+     "data": "FILADÉLFIA · 1960s",
+     "rodape": "RUAS TOMADAS DE COMPRADORES",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "Filadélfia"
+     ],
+     "w": 560
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: CNN Brasil",
+   "frases": [
+    [
+     "A polícia usava 'sexta-feira negra' pra descrever aquele caos de gente nas ruas, não como elogio.",
+     "A polícia usava 'sexta-feira negra' pra descrever aquele caos de gente nas ruas, não como elogio."
+    ],
+    [
+     "Os lojistas, inclusive, tentaram outro nome: 'big Friday'. Não emplacou.",
+     "Os lojistas, inclusive, tentaram outro nome: 'big Friday'. Não emplacou."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "\"sexta-feira\nnegra\" = caos",
+     "pos": [
+      300,
+      650
+     ],
+     "e": [
+      0,
+      "caos"
+     ],
+     "size": 50,
+     "maxw": 560
+    },
+    {
+     "t": "risco",
+     "de": [
+      600,
+      900
+     ],
+     "ate": [
+      900,
+      900
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "emplacou"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "Existe outra versão ainda mais velha: em 1869, especuladores tentaram manipular o preço do ouro em Nova York, e isso também ficou conhecido como uma sexta-feira negra.",
+     "Existe outra versão ainda mais velha: em mil oitocentos e sessenta e nove, especuladores tentaram manipular o preço do ouro em Nova York, e isso também ficou conhecido como uma sexta-feira negra."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "NOVA YORK · 1869",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "crise do ouro",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "ouro"
+     ],
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Com o tempo, o varejo abraçou o nome e inventou outro sentido: o dia em que as contas saíam do vermelho e iam pro azul... ou pro preto.",
+     "Com o tempo, o varejo abraçou o nome e inventou outro sentido: o dia em que as contas saíam do vermelho e iam pro azul... ou pro preto."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "do vermelho\npro preto",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 60,
+     "maxw": 720,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: bpmoney.com.br (2026)",
+   "frases": [
+    [
+     "E hoje? No Brasil, a Black Friday chegou só em 2010 e hoje, 27 de novembro, é a data oficial de 2026.",
+     "E hoje? No Brasil, a Black Friday chegou só em dois mil e dez e hoje, vinte e sete de novembro, é a data oficial de dois mil e vinte e seis."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "NOVEMBRO",
+     "inicio": 1,
+     "riscar": [
+      27
+     ],
+     "pos": [
+      520,
+      680
+     ],
+     "ang": 2
+    },
+    {
+     "t": "tira",
+     "txt": "BRASIL · DESDE 2010",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      0,
+      "2010"
+     ],
+     "size": 42
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: antes de ser sinônimo de desconto, 'Black Friday' foi sinônimo de dor de cabeça.",
+     "Então: antes de ser sinônimo de desconto, 'Black Friday' foi sinônimo de dor de cabeça."
+    ],
+    [
+     "Marca aquele amigo que vive esperando a Black Friday.",
+     "Marca aquele amigo que vive esperando a Black Friday."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "marca um amigo",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "amigo"
+     ],
+     "size": 66
+    },
+    {
+     "t": "nota",
+     "txt": "comenta/marca!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      0,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ]
+}

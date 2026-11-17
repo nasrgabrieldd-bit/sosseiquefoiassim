@@ -1,0 +1,111 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 64.077,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Quando um jogador chuta uma bola com efeito, ela curva no ar como se desviasse de alguma coisa.",
+     "inicio": 0.1,
+     "dur": 5.717
+    }
+   ],
+   "fim": 6.237
+  },
+  {
+   "id": "c2",
+   "inicio": 6.237,
+   "frases": [
+    {
+     "leg": "O nome disso é efeito Magnus, batizado em homenagem ao físico alemão Gustav Magnus, no século 19.",
+     "inicio": 6.237,
+     "dur": 6.699
+    }
+   ],
+   "fim": 13.356
+  },
+  {
+   "id": "c3",
+   "inicio": 13.356,
+   "frases": [
+    {
+     "leg": "Quando a bola gira, o ar passa mais rápido de um lado e mais devagar do outro.",
+     "inicio": 13.356,
+     "dur": 4.437
+    },
+    {
+     "leg": "Isso cria uma diferença de pressão: mais pressão de um lado empurra a bola pro outro.",
+     "inicio": 17.993,
+     "dur": 5.077
+    }
+   ],
+   "fim": 23.491
+  },
+  {
+   "id": "c4",
+   "inicio": 23.491,
+   "frases": [
+    {
+     "leg": "O próprio Isaac Newton já tinha anotado esse efeito observando bolas de tênis, em 1671.",
+     "inicio": 23.491,
+     "dur": 6.571
+    }
+   ],
+   "fim": 30.481
+  },
+  {
+   "id": "c5",
+   "inicio": 30.481,
+   "frases": [
+    {
+     "leg": "Quanto mais giro o jogador dá na bola, maior a curva, e é por isso que craques treinam esse chute à exaustão.",
+     "inicio": 30.481,
+     "dur": 6.208
+    },
+    {
+     "leg": "O mesmo efeito explica por que uma bola de tênis com efeito ou uma bola de beisebol curva também fazem curvas parecidas.",
+     "inicio": 36.889,
+     "dur": 7.509
+    }
+   ],
+   "fim": 44.819
+  },
+  {
+   "id": "c6",
+   "inicio": 44.819,
+   "frases": [
+    {
+     "leg": "E hoje? O chute conhecido como 'folha seca', famoso no futebol brasileiro, usa exatamente essa física.",
+     "inicio": 44.819,
+     "dur": 7.313
+    }
+   ],
+   "fim": 52.552
+  },
+  {
+   "id": "c7",
+   "inicio": 52.552,
+   "frases": [
+    {
+     "leg": "Então: aquele chute impossível de defender é, na verdade, física básica bem treinada.",
+     "inicio": 52.552,
+     "dur": 5.248
+    },
+    {
+     "leg": "Qual é o chute mais bonito que você já viu? Comenta.",
+     "inicio": 58.0,
+     "dur": 4.028
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 62.228,
+     "dur": 1.429
+    }
+   ],
+   "fim": 64.077
+  }
+ ]
+}

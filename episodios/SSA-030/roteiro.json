@@ -1,0 +1,288 @@
+{
+ "id": "SSA-030",
+ "chamada": "SEU CÉREBRO É ENGANADO",
+ "materia": "QUÍMICA",
+ "titulo": "A pimenta não queima sua boca de verdade (seu cérebro é enganado)",
+ "fontes": [
+  "Scientific American, 'Why Does Spicy Food Cause Pain?'.",
+  "National Institutes of Health (NIH), estudos sobre capsaicina e receptores TRPV1.",
+  "Harvard Health Publishing, 'The science of spicy food' (2021)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "frasco",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 360,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "a pimenta não queima sua boca de verdade",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 58,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Pimenta não queima sua boca de verdade. Seu cérebro é que é enganado.",
+     "Pimenta não queima sua boca de verdade. Seu cérebro é que é enganado."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 380,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "seu cérebro\né enganado",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 64,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: NIH, estudos sobre receptores TRPV1",
+   "frases": [
+    [
+     "A culpa é da capsaicina, substância da pimenta que gruda num receptor da boca chamado TRPV1.",
+     "A culpa é da capsaicina, substância da pimenta que gruda num receptor da boca chamado TRPV1."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "CAPSAICINA → RECEPTOR TRPV1",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null,
+     "size": 40
+    },
+    {
+     "t": "nota",
+     "txt": "o mesmo receptor\ndo calor de verdade",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "receptor"
+     ],
+     "size": 50,
+     "maxw": 700
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Harvard Health Publishing (2021)",
+   "frases": [
+    [
+     "Esse receptor é o mesmo que avisa o cérebro quando você encosta em algo quente de verdade, acima de uns 43 graus.",
+     "Esse receptor é o mesmo que avisa o cérebro quando você encosta em algo quente de verdade, acima de uns quarenta e três graus."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "43°C",
+     "pos": [
+      520,
+      600
+     ],
+     "e": null,
+     "size": 160,
+     "cor": "laranja"
+    },
+    {
+     "t": "bloco",
+     "txt": "mesmo alarme\ndo calor real",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      0,
+      0.4
+     ],
+     "size": 54,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "A capsaicina ativa esse alarme sem esquentar nada de verdade. Seu cérebro recebe o sinal de queimadura, mas não existe dano real.",
+     "A capsaicina ativa esse alarme sem esquentar nada de verdade. Seu cérebro recebe o sinal de queimadura, mas não existe dano real."
+    ],
+    [
+     "É esse mesmo mecanismo que faz algumas pessoas sentirem até uma sensação de prazer depois da ardência passar.",
+     "É esse mesmo mecanismo que faz algumas pessoas sentirem até uma sensação de prazer depois da ardência passar."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "alarme falso,\nsem dano real",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 58,
+     "maxw": 760
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "É por isso que leite ajuda a aliviar mais que água: ele tem gordura, que dissolve a capsaicina melhor que a água sozinha.",
+     "É por isso que leite ajuda a aliviar mais que água: ele tem gordura, que dissolve a capsaicina melhor que a água sozinha."
+    ],
+    [
+     "Beber água, na verdade, só espalha a capsaicina pela boca inteira e pode até piorar a sensação por um instante.",
+     "Beber água, na verdade, só espalha a capsaicina pela boca inteira e pode até piorar a sensação por um instante."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "LEITE > ÁGUA PRA ALIVIAR",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null,
+     "size": 38
+    },
+    {
+     "t": "nota",
+     "txt": "a gordura\ndissolve melhor",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "gordura"
+     ],
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "E hoje? Competições de comer pimenta, muito populares em vídeos, usam variedades bem mais fortes que a pimenta de cozinha comum.",
+     "E hoje? Competições de comer pimenta, muito populares em vídeos, usam variedades bem mais fortes que a pimenta de cozinha comum."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 300
+    },
+    {
+     "t": "bloco",
+     "txt": "vídeos de\ncomer pimenta",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 56,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: a ardência da pimenta é real como sensação, mas é um alarme disparado à toa.",
+     "Então: a ardência da pimenta é real como sensação, mas é um alarme disparado à toa."
+    ],
+    [
+     "Qual é seu limite de pimenta? Comenta.",
+     "Qual é seu limite de pimenta? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 360,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "qual seu limite?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "limite"
+     ],
+     "size": 66
+    }
+   ]
+  }
+ ]
+}

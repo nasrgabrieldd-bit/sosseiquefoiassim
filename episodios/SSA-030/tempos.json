@@ -1,0 +1,111 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 70.704,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Pimenta não queima sua boca de verdade. Seu cérebro é que é enganado.",
+     "inicio": 0.1,
+     "dur": 4.828
+    }
+   ],
+   "fim": 5.348
+  },
+  {
+   "id": "c2",
+   "inicio": 5.348,
+   "frases": [
+    {
+     "leg": "A culpa é da capsaicina, substância da pimenta que gruda num receptor da boca chamado TRPV1.",
+     "inicio": 5.348,
+     "dur": 6.357
+    }
+   ],
+   "fim": 12.125
+  },
+  {
+   "id": "c3",
+   "inicio": 12.125,
+   "frases": [
+    {
+     "leg": "Esse receptor é o mesmo que avisa o cérebro quando você encosta em algo quente de verdade, acima de uns 43 graus.",
+     "inicio": 12.125,
+     "dur": 7.723
+    }
+   ],
+   "fim": 20.268
+  },
+  {
+   "id": "c4",
+   "inicio": 20.268,
+   "frases": [
+    {
+     "leg": "A capsaicina ativa esse alarme sem esquentar nada de verdade. Seu cérebro recebe o sinal de queimadura, mas não existe dano real.",
+     "inicio": 20.268,
+     "dur": 8.327
+    },
+    {
+     "leg": "É esse mesmo mecanismo que faz algumas pessoas sentirem até uma sensação de prazer depois da ardência passar.",
+     "inicio": 28.795,
+     "dur": 6.912
+    }
+   ],
+   "fim": 36.127
+  },
+  {
+   "id": "c5",
+   "inicio": 36.127,
+   "frases": [
+    {
+     "leg": "É por isso que leite ajuda a aliviar mais que água: ele tem gordura, que dissolve a capsaicina melhor que a água sozinha.",
+     "inicio": 36.127,
+     "dur": 6.997
+    },
+    {
+     "leg": "Beber água, na verdade, só espalha a capsaicina pela boca inteira e pode até piorar a sensação por um instante.",
+     "inicio": 43.324,
+     "dur": 6.912
+    }
+   ],
+   "fim": 50.656
+  },
+  {
+   "id": "c6",
+   "inicio": 50.656,
+   "frases": [
+    {
+     "leg": "E hoje? Competições de comer pimenta, muito populares em vídeos, usam variedades bem mais fortes que a pimenta de cozinha comum.",
+     "inicio": 50.656,
+     "dur": 8.828
+    }
+   ],
+   "fim": 59.904
+  },
+  {
+   "id": "c7",
+   "inicio": 59.904,
+   "frases": [
+    {
+     "leg": "Então: a ardência da pimenta é real como sensação, mas é um alarme disparado à toa.",
+     "inicio": 59.904,
+     "dur": 5.291
+    },
+    {
+     "leg": "Qual é seu limite de pimenta? Comenta.",
+     "inicio": 65.395,
+     "dur": 3.26
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 68.855,
+     "dur": 1.429
+    }
+   ],
+   "fim": 70.704
+  }
+ ]
+}
