@@ -1,0 +1,116 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 63.388,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A medalha de ouro olímpica quase não tem ouro.",
+     "inicio": 0.1,
+     "dur": 2.816
+    },
+    {
+     "leg": "De verdade.",
+     "inicio": 3.116,
+     "dur": 1.173
+    }
+   ],
+   "fim": 4.709
+  },
+  {
+   "id": "c2",
+   "inicio": 4.709,
+   "frases": [
+    {
+     "leg": "Na Olimpíada de Paris, a medalha pesava 529 gramas no total.",
+     "inicio": 4.709,
+     "dur": 4.971
+    }
+   ],
+   "fim": 10.1
+  },
+  {
+   "id": "c3",
+   "inicio": 10.1,
+   "frases": [
+    {
+     "leg": "Só que, dessas 529 gramas, apenas 6 gramas são de ouro puro.",
+     "inicio": 10.1,
+     "dur": 4.949
+    }
+   ],
+   "fim": 15.469
+  },
+  {
+   "id": "c4",
+   "inicio": 15.469,
+   "frases": [
+    {
+     "leg": "O resto, mais de 500 gramas, é prata. A medalha de ouro é, na prática, uma medalha de prata banhada a ouro.",
+     "inicio": 15.469,
+     "dur": 6.855
+    },
+    {
+     "leg": "A medalha de prata, por sua vez, é feita quase inteiramente de prata pura de verdade.",
+     "inicio": 22.524,
+     "dur": 5.184
+    }
+   ],
+   "fim": 28.128
+  },
+  {
+   "id": "c5",
+   "inicio": 28.128,
+   "frases": [
+    {
+     "leg": "A regra existe desde 1912: o ouro puro saiu de circulação nas medalhas há mais de um século.",
+     "inicio": 28.128,
+     "dur": 6.656
+    },
+    {
+     "leg": "Antes disso, algumas poucas edições chegaram a usar medalhas de ouro maciço, sem nenhuma prata por dentro.",
+     "inicio": 34.984,
+     "dur": 6.677
+    }
+   ],
+   "fim": 42.081
+  },
+  {
+   "id": "c6",
+   "inicio": 42.081,
+   "frases": [
+    {
+     "leg": "E hoje? Com o ouro mais caro, uma medalha de Paris 2024 já vale mais de 950 dólares só em metal.",
+     "inicio": 42.081,
+     "dur": 8.935
+    }
+   ],
+   "fim": 51.436
+  },
+  {
+   "id": "c7",
+   "inicio": 51.436,
+   "frases": [
+    {
+     "leg": "Então: o valor de verdade de uma medalha de ouro nunca esteve no metal, e sim no que ela representa.",
+     "inicio": 51.436,
+     "dur": 5.611
+    },
+    {
+     "leg": "Você já sabia que o ouro era só 6 gramas? Comenta.",
+     "inicio": 57.247,
+     "dur": 4.092
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 61.539,
+     "dur": 1.429
+    }
+   ],
+   "fim": 63.388
+  }
+ ]
+}

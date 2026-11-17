@@ -1,0 +1,280 @@
+{
+ "id": "SSA-027",
+ "chamada": "TALVEZ NEM TEVE PERU",
+ "materia": "SOCIOLOGIA",
+ "titulo": "A primeira Ação de Graças pode não ter tido peru nenhum",
+ "fontes": [
+  "Smithsonian Magazine, 'What Was on the Menu at the First Thanksgiving?' (2011).",
+  "History.com, 'What Was on the Menu at the First Thanksgiving?'.",
+  "Plimoth Patuxet Museums, registros históricos da colheita de 1621."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "bloco",
+    "txt": "a primeira Ação de Graças pode não ter tido peru nenhum",
+    "pos": [
+     520,
+     750
+    ],
+    "e": null,
+    "size": 58,
+    "maxw": 820
+   },
+   {
+    "t": "nota",
+    "txt": "é mito",
+    "pos": [
+     520,
+     1180
+    ],
+    "e": null,
+    "cor": "laranja",
+    "size": 60
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A primeira Ação de Graças, em 1621, talvez nem tenha tido peru na mesa.",
+     "A primeira Ação de Graças, em mil seiscentos e vinte e um, talvez nem tenha tido peru na mesa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "talvez não teve\nperu nenhum",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 62,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Plimoth Patuxet Museums",
+   "frases": [
+    [
+     "O único relato direto da época, escrito pelo colono Edward Winslow, fala em caça de aves e veados.",
+     "O único relato direto da época, escrito pelo colono Edward Winslow, fala em caça de aves e veados."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "EDWARD WINSLOW · 1621",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "nota",
+     "txt": "aves e veados,\nsegundo o relato",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "veados"
+     ],
+     "size": 52,
+     "maxw": 700
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Smithsonian Magazine (2011)",
+   "frases": [
+    [
+     "Os colonos ingleses de Plymouth e os indígenas wampanoag dividiram a mesa por três dias inteiros.",
+     "Os colonos ingleses de Plymouth e os indígenas wampanoag dividiram a mesa por três dias inteiros."
+    ],
+    [
+     "Historiadores dizem que o prato principal pode ter sido veado, levado pelos próprios wampanoag.",
+     "Historiadores dizem que o prato principal pode ter sido veado, levado pelos próprios wampanoag."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      300,
+      650
+     ],
+     "ate": [
+      740,
+      650
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "3 dias de\nrefeições juntos",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": [
+      0,
+      "três"
+     ],
+     "size": 58,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "Peru selvagem existia na região e pode ter entrado no cardápio, mas não tem prova de que foi o prato central.",
+     "Peru selvagem existia na região e pode ter entrado no cardápio, mas não tem prova de que foi o prato central."
+    ],
+    [
+     "Também é provável que tenham comido milho, abóbora e frutos do mar, comuns na região na época.",
+     "Também é provável que tenham comido milho, abóbora e frutos do mar, comuns na região na época."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "talvez entrasse...\nmas não era\no prato central",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "prato"
+     ],
+     "size": 52,
+     "maxw": 720,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "O peru só virou símbolo obrigatório da data séculos depois, puxado por revistas e depois pela publicidade do século 20.",
+     "O peru só virou símbolo obrigatório da data séculos depois, puxado por revistas e depois pela publicidade do século vinte."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "virou símbolo\nséculos depois",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 60,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: History.com",
+   "frases": [
+    [
+     "E hoje? Hoje, 26 de novembro, é dia de Ação de Graças nos Estados Unidos, com peru garantido na mesa de quase todo mundo.",
+     "E hoje? Hoje, vinte e seis de novembro, é dia de Ação de Graças nos Estados Unidos, com peru garantido na mesa de quase todo mundo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "NOVEMBRO",
+     "inicio": 1,
+     "riscar": [
+      26
+     ],
+     "pos": [
+      520,
+      680
+     ],
+     "ang": -2
+    },
+    {
+     "t": "tira",
+     "txt": "AÇÃO DE GRAÇAS · EUA",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      0,
+      "Graças"
+     ],
+     "size": 42
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: a tradição que achamos antiga, às vezes, é bem mais recente do que parece.",
+     "Então: a tradição que achamos antiga, às vezes, é bem mais recente do que parece."
+    ],
+    [
+     "Você comeria veado no lugar do peru? Comenta.",
+     "Você comeria veado no lugar do peru? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "veado ou peru?",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "veado"
+     ],
+     "size": 68
+    },
+    {
+     "t": "nota",
+     "txt": "comenta aí!",
+     "pos": [
+      780,
+      1180
+     ],
+     "e": [
+      1,
+      0.6
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ]
+}

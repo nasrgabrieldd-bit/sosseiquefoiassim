@@ -1,0 +1,111 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 66.765,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A primeira Ação de Graças, em 1621, talvez nem tenha tido peru na mesa.",
+     "inicio": 0.1,
+     "dur": 5.525
+    }
+   ],
+   "fim": 6.045
+  },
+  {
+   "id": "c2",
+   "inicio": 6.045,
+   "frases": [
+    {
+     "leg": "O único relato direto da época, escrito pelo colono Edward Winslow, fala em caça de aves e veados.",
+     "inicio": 6.045,
+     "dur": 6.464
+    }
+   ],
+   "fim": 12.929
+  },
+  {
+   "id": "c3",
+   "inicio": 12.929,
+   "frases": [
+    {
+     "leg": "Os colonos ingleses de Plymouth e os indígenas wampanoag dividiram a mesa por três dias inteiros.",
+     "inicio": 12.929,
+     "dur": 6.315
+    },
+    {
+     "leg": "Historiadores dizem que o prato principal pode ter sido veado, levado pelos próprios wampanoag.",
+     "inicio": 19.444,
+     "dur": 5.76
+    }
+   ],
+   "fim": 25.624
+  },
+  {
+   "id": "c4",
+   "inicio": 25.624,
+   "frases": [
+    {
+     "leg": "Peru selvagem existia na região e pode ter entrado no cardápio, mas não tem prova de que foi o prato central.",
+     "inicio": 25.624,
+     "dur": 6.805
+    },
+    {
+     "leg": "Também é provável que tenham comido milho, abóbora e frutos do mar, comuns na região na época.",
+     "inicio": 32.629,
+     "dur": 5.568
+    }
+   ],
+   "fim": 38.617
+  },
+  {
+   "id": "c5",
+   "inicio": 38.617,
+   "frases": [
+    {
+     "leg": "O peru só virou símbolo obrigatório da data séculos depois, puxado por revistas e depois pela publicidade do século 20.",
+     "inicio": 38.617,
+     "dur": 7.68
+    }
+   ],
+   "fim": 46.717
+  },
+  {
+   "id": "c6",
+   "inicio": 46.717,
+   "frases": [
+    {
+     "leg": "E hoje? Hoje, 26 de novembro, é dia de Ação de Graças nos Estados Unidos, com peru garantido na mesa de quase todo mundo.",
+     "inicio": 46.717,
+     "dur": 8.785
+    }
+   ],
+   "fim": 55.923
+  },
+  {
+   "id": "c7",
+   "inicio": 55.923,
+   "frases": [
+    {
+     "leg": "Então: a tradição que achamos antiga, às vezes, é bem mais recente do que parece.",
+     "inicio": 55.923,
+     "dur": 4.928
+    },
+    {
+     "leg": "Você comeria veado no lugar do peru? Comenta.",
+     "inicio": 61.051,
+     "dur": 3.665
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 64.916,
+     "dur": 1.429
+    }
+   ],
+   "fim": 66.765
+  }
+ ]
+}

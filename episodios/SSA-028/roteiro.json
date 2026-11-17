@@ -1,0 +1,310 @@
+{
+ "id": "SSA-028",
+ "chamada": "SÓ 6 GRAMAS DE OURO",
+ "materia": "EDUCAÇÃO FÍSICA",
+ "titulo": "A medalha de ouro olímpica tem só 6 gramas de ouro de verdade",
+ "fontes": [
+  "Comitê Olímpico Internacional, regras de fabricação das medalhas (Carta Olímpica).",
+  "Forbes Brasil, 'Medalha de ouro: confira o valor do prêmio máximo da Olimpíada de Paris' (2024).",
+  "Bloomberg Línea, 'Quanto vale uma medalha de ouro?' (2024)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "medalha",
+    "pos": [
+     520,
+     650
+    ],
+    "e": null,
+    "w": 380,
+    "ang": -3
+   },
+   {
+    "t": "numero",
+    "txt": "6g",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 220,
+    "cor": "laranja"
+   },
+   {
+    "t": "bloco",
+    "txt": "de ouro de verdade",
+    "pos": [
+     520,
+     1330
+    ],
+    "e": null,
+    "size": 54
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A medalha de ouro olímpica quase não tem ouro.",
+     "A medalha de ouro olímpica quase não tem ouro."
+    ],
+    [
+     "De verdade.",
+     "De verdade."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 400,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "quase não\ntem ouro!",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 68,
+     "maxw": 700
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Forbes Brasil (2024)",
+   "frases": [
+    [
+     "Na Olimpíada de Paris, a medalha pesava 529 gramas no total.",
+     "Na Olimpíada de Paris, a medalha pesava quinhentos e vinte e nove gramas no total."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "529g",
+     "pos": [
+      520,
+      600
+     ],
+     "e": null,
+     "size": 170,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "PESO TOTAL",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      0,
+      "total"
+     ],
+     "size": 42
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Comitê Olímpico Internacional",
+   "frases": [
+    [
+     "Só que, dessas 529 gramas, apenas 6 gramas são de ouro puro.",
+     "Só que, dessas quinhentos e vinte e nove gramas, apenas seis gramas são de ouro puro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "risco",
+     "de": [
+      300,
+      500
+     ],
+     "ate": [
+      740,
+      500
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "numero",
+     "txt": "6g",
+     "pos": [
+      520,
+      900
+     ],
+     "e": [
+      0,
+      "6"
+     ],
+     "size": 200,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "O resto, mais de 500 gramas, é prata. A medalha de ouro é, na prática, uma medalha de prata banhada a ouro.",
+     "O resto, mais de quinhentas gramas, é prata. A medalha de ouro é, na prática, uma medalha de prata banhada a ouro."
+    ],
+    [
+     "A medalha de prata, por sua vez, é feita quase inteiramente de prata pura de verdade.",
+     "A medalha de prata, por sua vez, é feita quase inteiramente de prata pura de verdade."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "prata banhada\na ouro",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 64,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "A regra existe desde 1912: o ouro puro saiu de circulação nas medalhas há mais de um século.",
+     "A regra existe desde mil novecentos e doze: o ouro puro saiu de circulação nas medalhas há mais de um século."
+    ],
+    [
+     "Antes disso, algumas poucas edições chegaram a usar medalhas de ouro maciço, sem nenhuma prata por dentro.",
+     "Antes disso, algumas poucas edições chegaram a usar medalhas de ouro maciço, sem nenhuma prata por dentro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "REGRA DESDE 1912",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "nota",
+     "txt": "mais de um\nséculo assim",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "século"
+     ],
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Bloomberg Línea (2024)",
+   "frases": [
+    [
+     "E hoje? Com o ouro mais caro, uma medalha de Paris 2024 já vale mais de 950 dólares só em metal.",
+     "E hoje? Com o ouro mais caro, uma medalha de Paris dois mil e vinte e quatro já vale mais de novecentos e cinquenta dólares só em metal."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 300
+    },
+    {
+     "t": "numero",
+     "txt": "US$ 950",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      0,
+      "950"
+     ],
+     "size": 100,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o valor de verdade de uma medalha de ouro nunca esteve no metal, e sim no que ela representa.",
+     "Então: o valor de verdade de uma medalha de ouro nunca esteve no metal, e sim no que ela representa."
+    ],
+    [
+     "Você já sabia que o ouro era só 6 gramas? Comenta.",
+     "Você já sabia que o ouro era só 6 gramas? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 380,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "você já sabia?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "sabia"
+     ],
+     "size": 66
+    }
+   ]
+  }
+ ]
+}
