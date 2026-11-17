@@ -146,5 +146,125 @@
   "instagram": "agendado",
   "tiktok": "agendado",
   "youtube": "pendente: subir pelo Composio (cota diária)"
+ },
+ {
+  "id": "SSA-015",
+  "data": "2026-11-20",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-016",
+  "data": "2026-11-20",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-017",
+  "data": "2026-11-21",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-018",
+  "data": "2026-11-21",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-019",
+  "data": "2026-11-22",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-020",
+  "data": "2026-11-22",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-021",
+  "data": "2026-11-23",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-022",
+  "data": "2026-11-23",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-023",
+  "data": "2026-11-24",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-024",
+  "data": "2026-11-24",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-025",
+  "data": "2026-11-25",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-026",
+  "data": "2026-11-25",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-027",
+  "data": "2026-11-26",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-028",
+  "data": "2026-11-26",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-029",
+  "data": "2026-11-27",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-030",
+  "data": "2026-11-27",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-031",
+  "data": "2026-11-28",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-032",
+  "data": "2026-11-28",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-033",
+  "data": "2026-11-29",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-034",
+  "data": "2026-11-29",
+  "hora": "19:00",
+  "status": "pendente"
  }
 ]
