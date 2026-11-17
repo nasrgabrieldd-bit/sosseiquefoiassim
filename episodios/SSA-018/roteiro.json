@@ -1,0 +1,328 @@
+{
+ "id": "SSA-018",
+ "chamada": "NÃO É CHOCOLATE DE VERDADE",
+ "materia": "QUÍMICA",
+ "titulo": "Chocolate branco não é chocolate, segundo a lei",
+ "fontes": [
+  "Codex Alimentarius (FAO/OMS), norma para produtos de cacau e chocolate.",
+  "Anvisa, RDC 264/2005, padrão de identidade e qualidade de produtos de cacau.",
+  "Enciclopédia Britannica, verbete 'white chocolate'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "frasco",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 380,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "chocolate branco não é chocolate",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 62,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Chocolate branco, pela lei, não é chocolate.",
+     "Chocolate branco, pela lei, não é chocolate."
+    ],
+    [
+     "E não é força de expressão.",
+     "E não é força de expressão."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 400,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "não é chocolate\nde verdade!",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 66,
+     "maxw": 700
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Anvisa, RDC 264/2005",
+   "frases": [
+    [
+     "Pra se chamar chocolate, um produto precisa ter sólidos de cacau: a parte sólida e marrom da amêndoa, cheia de cacau em pó.",
+     "Pra se chamar chocolate, um produto precisa ter sólidos de cacau: a parte sólida e marrom da amêndoa, cheia de cacau em pó."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "CHOCOLATE = SÓLIDOS DE CACAU",
+     "pos": [
+      520,
+      480
+     ],
+     "e": null,
+     "size": 42
+    },
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      0,
+      "sólidos"
+     ],
+     "w": 320,
+     "ang": 4
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "O chocolate branco não leva nada disso.",
+     "O chocolate branco não leva nada disso."
+    ],
+    [
+     "Ele é feito só de manteiga de cacau, açúcar e leite em pó.",
+     "Ele é feito só de manteiga de cacau, açúcar e leite em pó."
+    ],
+    [
+     "Essa mistura, inclusive, foi criada originalmente como um jeito de aproveitar sobras da produção de chocolate normal.",
+     "Essa mistura, inclusive, foi criada originalmente como um jeito de aproveitar sobras da produção de chocolate normal."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "risco",
+     "de": [
+      300,
+      500
+     ],
+     "ate": [
+      740,
+      500
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "tira",
+     "txt": "manteiga de cacau + açúcar + leite",
+     "pos": [
+      520,
+      900
+     ],
+     "e": [
+      1,
+      0.2
+     ],
+     "size": 40
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "A manteiga de cacau é a gordura da amêndoa, sem cor, sem sabor de chocolate e sem cafeína.",
+     "A manteiga de cacau é a gordura da amêndoa, sem cor, sem sabor de chocolate e sem cafeína."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "é só gordura\naromatizada",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 64,
+     "maxw": 720
+    },
+    {
+     "t": "nota",
+     "txt": "zero cafeína",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      0,
+      0.7
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "Por isso órgãos como a Anvisa e o Codex Alimentarius, que regula alimentos no mundo todo, exigem a palavra 'branco' no rótulo.",
+     "Por isso órgãos como a Anvisa e o Codex Alimentarius, que regula alimentos no mundo todo, exigem a palavra 'branco' no rótulo."
+    ],
+    [
+     "Sem sólidos de cacau, legalmente, o produto não pode nem se chamar 'chocolate' sozinho no nome.",
+     "Sem sólidos de cacau, legalmente, o produto não pode nem se chamar 'chocolate' sozinho no nome."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "CODEX ALIMENTARIUS",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "\"branco\" é\nobrigatório no rótulo",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      0,
+      "rótulo"
+     ],
+     "size": 56,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "E hoje? Supermercados brasileiros vendem o chocolate branco do lado do chocolate de verdade, com o mesmo cheiro de doce.",
+     "E hoje? Supermercados brasileiros vendem o chocolate branco do lado do chocolate de verdade, com o mesmo cheiro de doce."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      300,
+      650
+     ],
+     "e": null,
+     "w": 300,
+     "ang": -3
+    },
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      760,
+      650
+     ],
+     "e": [
+      0,
+      0.6
+     ],
+     "w": 300,
+     "ang": 3,
+     "cor": "laranja"
+    },
+    {
+     "t": "bloco",
+     "txt": "lado a lado\nna prateleira",
+     "pos": [
+      520,
+      1120
+     ],
+     "e": null,
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o chocolate branco nunca viu a parte do cacau que dá o gosto de chocolate.",
+     "Então: o chocolate branco nunca viu a parte do cacau que dá o gosto de chocolate."
+    ],
+    [
+     "Agora você sabe por que o chocolate branco é tão diferente dos outros.",
+     "Agora você sabe por que o chocolate branco é tão diferente dos outros."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      650
+     ],
+     "e": null,
+     "w": 380,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "agora você sabe",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "sabe"
+     ],
+     "size": 66
+    }
+   ]
+  }
+ ]
+}

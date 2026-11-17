@@ -1,0 +1,121 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 69.049,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A América do Sul tem 13 países. A Conmebol só tem 10.",
+     "inicio": 0.1,
+     "dur": 4.188
+    }
+   ],
+   "fim": 4.708
+  },
+  {
+   "id": "c2",
+   "inicio": 4.708,
+   "frases": [
+    {
+     "leg": "A Conmebol é a confederação de futebol do continente, fundada em Buenos Aires em 1916.",
+     "inicio": 4.708,
+     "dur": 6.699
+    }
+   ],
+   "fim": 11.827
+  },
+  {
+   "id": "c3",
+   "inicio": 11.827,
+   "frases": [
+    {
+     "leg": "Ela é mais velha que a própria Copa do Mundo, que só nasceu em 1930.",
+     "inicio": 11.827,
+     "dur": 4.736
+    },
+    {
+     "leg": "É a confederação continental de futebol mais antiga do planeta.",
+     "inicio": 16.763,
+     "dur": 4.16
+    }
+   ],
+   "fim": 21.343
+  },
+  {
+   "id": "c4",
+   "inicio": 21.343,
+   "frases": [
+    {
+     "leg": "Mas Guiana, Suriname e Guiana Francesa ficam de fora.",
+     "inicio": 21.343,
+     "dur": 3.392
+    },
+    {
+     "leg": "Historicamente, jogam mais perto das confederações do Caribe e da América Central do que da Conmebol.",
+     "inicio": 24.935,
+     "dur": 6.144
+    },
+    {
+     "leg": "A Guiana Francesa, inclusive, nem é um país independente: é um território da França.",
+     "inicio": 31.279,
+     "dur": 4.992
+    }
+   ],
+   "fim": 36.691
+  },
+  {
+   "id": "c5",
+   "inicio": 36.691,
+   "frases": [
+    {
+     "leg": "Por isso só 10 seleções disputam a Libertadores, a Sul-Americana e a Copa América.",
+     "inicio": 36.691,
+     "dur": 5.077
+    },
+    {
+     "leg": "A Copa América, inclusive, é a competição de seleções mais antiga do mundo ainda em disputa.",
+     "inicio": 41.968,
+     "dur": 5.717
+    }
+   ],
+   "fim": 48.105
+  },
+  {
+   "id": "c6",
+   "inicio": 48.105,
+   "frases": [
+    {
+     "leg": "E hoje? Hoje, 21 de novembro, é a final da Copa Sul-Americana de 2026, em Barranquilla, na Colômbia.",
+     "inicio": 48.105,
+     "dur": 7.996
+    }
+   ],
+   "fim": 56.521
+  },
+  {
+   "id": "c7",
+   "inicio": 56.521,
+   "frases": [
+    {
+     "leg": "Então: o mapa da América do Sul e o mapa do futebol sul-americano não são exatamente o mesmo mapa.",
+     "inicio": 56.521,
+     "dur": 6.016
+    },
+    {
+     "leg": "Você sabia que tinha só 10 países na Conmebol? Comenta.",
+     "inicio": 62.737,
+     "dur": 4.263
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 67.2,
+     "dur": 1.429
+    }
+   ],
+   "fim": 69.049
+  }
+ ]
+}

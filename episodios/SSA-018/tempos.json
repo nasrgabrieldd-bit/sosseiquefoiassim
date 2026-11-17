@@ -1,0 +1,121 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 67.596,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Chocolate branco, pela lei, não é chocolate.",
+     "inicio": 0.1,
+     "dur": 2.603
+    },
+    {
+     "leg": "E não é força de expressão.",
+     "inicio": 2.903,
+     "dur": 1.749
+    }
+   ],
+   "fim": 5.072
+  },
+  {
+   "id": "c2",
+   "inicio": 5.072,
+   "frases": [
+    {
+     "leg": "Pra se chamar chocolate, um produto precisa ter sólidos de cacau: a parte sólida e marrom da amêndoa, cheia de cacau em pó.",
+     "inicio": 5.072,
+     "dur": 7.467
+    }
+   ],
+   "fim": 12.959
+  },
+  {
+   "id": "c3",
+   "inicio": 12.959,
+   "frases": [
+    {
+     "leg": "O chocolate branco não leva nada disso.",
+     "inicio": 12.959,
+     "dur": 2.709
+    },
+    {
+     "leg": "Ele é feito só de manteiga de cacau, açúcar e leite em pó.",
+     "inicio": 15.868,
+     "dur": 3.627
+    },
+    {
+     "leg": "Essa mistura, inclusive, foi criada originalmente como um jeito de aproveitar sobras da produção de chocolate normal.",
+     "inicio": 19.695,
+     "dur": 7.232
+    }
+   ],
+   "fim": 27.347
+  },
+  {
+   "id": "c4",
+   "inicio": 27.347,
+   "frases": [
+    {
+     "leg": "A manteiga de cacau é a gordura da amêndoa, sem cor, sem sabor de chocolate e sem cafeína.",
+     "inicio": 27.347,
+     "dur": 5.781
+    }
+   ],
+   "fim": 33.548
+  },
+  {
+   "id": "c5",
+   "inicio": 33.548,
+   "frases": [
+    {
+     "leg": "Por isso órgãos como a Anvisa e o Codex Alimentarius, que regula alimentos no mundo todo, exigem a palavra 'branco' no rótulo.",
+     "inicio": 33.548,
+     "dur": 7.296
+    },
+    {
+     "leg": "Sem sólidos de cacau, legalmente, o produto não pode nem se chamar 'chocolate' sozinho no nome.",
+     "inicio": 41.044,
+     "dur": 6.037
+    }
+   ],
+   "fim": 47.501
+  },
+  {
+   "id": "c6",
+   "inicio": 47.501,
+   "frases": [
+    {
+     "leg": "E hoje? Supermercados brasileiros vendem o chocolate branco do lado do chocolate de verdade, com o mesmo cheiro de doce.",
+     "inicio": 47.501,
+     "dur": 8.359
+    }
+   ],
+   "fim": 56.28
+  },
+  {
+   "id": "c7",
+   "inicio": 56.28,
+   "frases": [
+    {
+     "leg": "Então: o chocolate branco nunca viu a parte do cacau que dá o gosto de chocolate.",
+     "inicio": 56.28,
+     "dur": 4.651
+    },
+    {
+     "leg": "Agora você sabe por que o chocolate branco é tão diferente dos outros.",
+     "inicio": 61.131,
+     "dur": 4.416
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 65.747,
+     "dur": 1.429
+    }
+   ],
+   "fim": 67.596
+  }
+ ]
+}
