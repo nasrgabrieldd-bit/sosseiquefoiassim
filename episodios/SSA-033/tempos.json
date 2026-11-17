@@ -1,0 +1,121 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 68.879,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Frankenstein nunca foi o nome do monstro. É o nome do cientista que o criou.",
+     "inicio": 0.1,
+     "dur": 4.828
+    }
+   ],
+   "fim": 5.348
+  },
+  {
+   "id": "c2",
+   "inicio": 5.348,
+   "frases": [
+    {
+     "leg": "O livro é de 1818, escrito pela britânica Mary Shelley, quando ela tinha só 18 anos.",
+     "inicio": 5.348,
+     "dur": 6.571
+    }
+   ],
+   "fim": 12.339
+  },
+  {
+   "id": "c3",
+   "inicio": 12.339,
+   "frases": [
+    {
+     "leg": "Victor Frankenstein é o estudante que monta uma criatura com partes de corpos e dá vida a ela.",
+     "inicio": 12.339,
+     "dur": 5.803
+    },
+    {
+     "leg": "A criatura, no livro inteiro, nunca ganha um nome próprio.",
+     "inicio": 18.341,
+     "dur": 3.243
+    },
+    {
+     "leg": "No romance original, ela aprende sozinha a falar e a ler, observando uma família escondida.",
+     "inicio": 21.784,
+     "dur": 5.547
+    }
+   ],
+   "fim": 27.751
+  },
+  {
+   "id": "c4",
+   "inicio": 27.751,
+   "frases": [
+    {
+     "leg": "Ela é chamada de 'a criatura', 'o monstro' ou 'o demônio', dependendo do trecho.",
+     "inicio": 27.751,
+     "dur": 4.181
+    },
+    {
+     "leg": "No livro original, ela também é descrita como extremamente inteligente, bem diferente da imagem de monstro bruto do cinema.",
+     "inicio": 32.132,
+     "dur": 7.573
+    }
+   ],
+   "fim": 40.125
+  },
+  {
+   "id": "c5",
+   "inicio": 40.125,
+   "frases": [
+    {
+     "leg": "A confusão começou ainda no século 19, em peças de teatro que adaptavam o livro.",
+     "inicio": 40.125,
+     "dur": 5.483
+    },
+    {
+     "leg": "O público passou a chamar a criatura pelo sobrenome do criador.",
+     "inicio": 45.808,
+     "dur": 3.691
+    }
+   ],
+   "fim": 49.919
+  },
+  {
+   "id": "c6",
+   "inicio": 49.919,
+   "frases": [
+    {
+     "leg": "E hoje? Em fantasias, desenhos e memes, 'Frankenstein' virou sinônimo da criatura, mesmo sendo o nome errado.",
+     "inicio": 49.919,
+     "dur": 7.207
+    }
+   ],
+   "fim": 57.545
+  },
+  {
+   "id": "c7",
+   "inicio": 57.545,
+   "frases": [
+    {
+     "leg": "Então: há mais de 200 anos, o criador e a criatura dividem um nome que, no livro, era só de um deles.",
+     "inicio": 57.545,
+     "dur": 6.187
+    },
+    {
+     "leg": "Você já sabia dessa? Comenta.",
+     "inicio": 63.932,
+     "dur": 2.897
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 67.029,
+     "dur": 1.429
+    }
+   ],
+   "fim": 68.879
+  }
+ ]
+}

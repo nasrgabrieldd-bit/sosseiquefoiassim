@@ -1,0 +1,116 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 68.38,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Aquele frio na barriga antes de uma notícia importante tem explicação científica. E não começa no estômago.",
+     "inicio": 0.1,
+     "dur": 6.961
+    }
+   ],
+   "fim": 7.481
+  },
+  {
+   "id": "c2",
+   "inicio": 7.481,
+   "frases": [
+    {
+     "leg": "Quando você se assusta ou se emociona, o corpo libera adrenalina de uma vez.",
+     "inicio": 7.481,
+     "dur": 4.672
+    }
+   ],
+   "fim": 12.573
+  },
+  {
+   "id": "c3",
+   "inicio": 12.573,
+   "frases": [
+    {
+     "leg": "Pra preparar o corpo pra reagir rápido, o sangue é desviado do sistema digestivo pros músculos e pro coração.",
+     "inicio": 12.573,
+     "dur": 6.656
+    }
+   ],
+   "fim": 19.649
+  },
+  {
+   "id": "c4",
+   "inicio": 19.649,
+   "frases": [
+    {
+     "leg": "Com menos sangue circulando ali, o estômago e o intestino ficam temporariamente mais lentos.",
+     "inicio": 19.649,
+     "dur": 5.611
+    },
+    {
+     "leg": "É esse 'desligar parcial' que a gente sente como frio ou aperto na barriga.",
+     "inicio": 25.46,
+     "dur": 4.437
+    },
+    {
+     "leg": "O coração também acelera nesse momento, o que reforça ainda mais a sensação no peito e na barriga.",
+     "inicio": 30.097,
+     "dur": 6.016
+    }
+   ],
+   "fim": 36.533
+  },
+  {
+   "id": "c5",
+   "inicio": 36.533,
+   "frases": [
+    {
+     "leg": "O intestino tem tanto neurônio que alguns cientistas chamam ele de 'segundo cérebro' do corpo.",
+     "inicio": 36.533,
+     "dur": 5.461
+    },
+    {
+     "leg": "É por isso que emoções fortes também mexem tanto com o apetite de muita gente.",
+     "inicio": 42.195,
+     "dur": 4.864
+    }
+   ],
+   "fim": 47.479
+  },
+  {
+   "id": "c6",
+   "inicio": 47.479,
+   "frases": [
+    {
+     "leg": "E hoje? Paixão, prova, entrevista de emprego ou aquele vídeo que viraliza: qualquer emoção forte dispara o mesmo mecanismo.",
+     "inicio": 47.479,
+     "dur": 8.316
+    }
+   ],
+   "fim": 56.215
+  },
+  {
+   "id": "c7",
+   "inicio": 56.215,
+   "frases": [
+    {
+     "leg": "Então: o frio na barriga é o seu corpo se preparando pra agir, não um aviso de que algo vai dar errado.",
+     "inicio": 56.215,
+     "dur": 5.931
+    },
+    {
+     "leg": "Quando foi a última vez que você sentiu isso? Comenta.",
+     "inicio": 62.345,
+     "dur": 3.985
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 66.531,
+     "dur": 1.429
+    }
+   ],
+   "fim": 68.38
+  }
+ ]
+}

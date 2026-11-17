@@ -1,0 +1,277 @@
+{
+ "id": "SSA-033",
+ "chamada": "O NOME ERA DO CIENTISTA",
+ "materia": "LITERATURA",
+ "titulo": "Frankenstein nunca foi o nome do monstro",
+ "fontes": [
+  "SHELLEY, Mary. Frankenstein; or, The Modern Prometheus (1818).",
+  "Encyclopaedia Britannica, verbete 'Frankenstein'.",
+  "British Library, 'Mary Shelley and Frankenstein'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "livro",
+    "pos": [
+     520,
+     650
+    ],
+    "e": null,
+    "w": 400,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "Frankenstein nunca foi o nome do monstro",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 60,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Frankenstein nunca foi o nome do monstro. É o nome do cientista que o criou.",
+     "Frankenstein nunca foi o nome do monstro. É o nome do cientista que o criou."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 420,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "é o cientista,\nnão o monstro!",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 62,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Mary Shelley, Frankenstein (1818)",
+   "frases": [
+    [
+     "O livro é de 1818, escrito pela britânica Mary Shelley, quando ela tinha só 18 anos.",
+     "O livro é de mil oitocentos e dezoito, escrito pela britânica Mary Shelley, quando ela tinha só dezoito anos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "MARY SHELLEY · 1818",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "nota",
+     "txt": "ela tinha\nsó 18 anos",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "18"
+     ],
+     "size": 58,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "Victor Frankenstein é o estudante que monta uma criatura com partes de corpos e dá vida a ela.",
+     "Victor Frankenstein é o estudante que monta uma criatura com partes de corpos e dá vida a ela."
+    ],
+    [
+     "A criatura, no livro inteiro, nunca ganha um nome próprio.",
+     "A criatura, no livro inteiro, nunca ganha um nome próprio."
+    ],
+    [
+     "No romance original, ela aprende sozinha a falar e a ler, observando uma família escondida.",
+     "No romance original, ela aprende sozinha a falar e a ler, observando uma família escondida."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "Victor Frankenstein\n= o cientista",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "Victor"
+     ],
+     "size": 56,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "Ela é chamada de 'a criatura', 'o monstro' ou 'o demônio', dependendo do trecho.",
+     "Ela é chamada de 'a criatura', 'o monstro' ou 'o demônio', dependendo do trecho."
+    ],
+    [
+     "No livro original, ela também é descrita como extremamente inteligente, bem diferente da imagem de monstro bruto do cinema.",
+     "No livro original, ela também é descrita como extremamente inteligente, bem diferente da imagem de monstro bruto do cinema."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "\"a criatura\" · \"o monstro\" · \"o demônio\"",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 36,
+     "maxw": 760
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "A confusão começou ainda no século 19, em peças de teatro que adaptavam o livro.",
+     "A confusão começou ainda no século dezenove, em peças de teatro que adaptavam o livro."
+    ],
+    [
+     "O público passou a chamar a criatura pelo sobrenome do criador.",
+     "O público passou a chamar a criatura pelo sobrenome do criador."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "o público trocou\no nome sozinho",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "público"
+     ],
+     "size": 54,
+     "maxw": 720,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: British Library",
+   "frases": [
+    [
+     "E hoje? Em fantasias, desenhos e memes, 'Frankenstein' virou sinônimo da criatura, mesmo sendo o nome errado.",
+     "E hoje? Em fantasias, desenhos e memes, 'Frankenstein' virou sinônimo da criatura, mesmo sendo o nome errado."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 300
+    },
+    {
+     "t": "bloco",
+     "txt": "o nome errado\nvirou padrão",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 56,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: há mais de 200 anos, o criador e a criatura dividem um nome que, no livro, era só de um deles.",
+     "Então: há mais de duzentos anos, o criador e a criatura dividem um nome que, no livro, era só de um deles."
+    ],
+    [
+     "Você já sabia dessa? Comenta.",
+     "Você já sabia dessa? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 400,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "você já sabia?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "sabia"
+     ],
+     "size": 66
+    }
+   ]
+  }
+ ]
+}

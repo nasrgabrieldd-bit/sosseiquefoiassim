@@ -1,0 +1,286 @@
+{
+ "id": "SSA-034",
+ "chamada": "NÃO COMEÇA NO ESTÔMAGO",
+ "materia": "BIOLOGIA",
+ "titulo": "O \"frio na barriga\" tem explicação, e não é no estômago",
+ "fontes": [
+  "Harvard Medical School, 'Understanding the stress response'.",
+  "Cleveland Clinic, 'Why Do We Get Butterflies in Our Stomach?' (2022).",
+  "Scientific American, 'The Gut's Little Brain'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "coracao",
+    "pos": [
+     520,
+     650
+    ],
+    "e": null,
+    "w": 380,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "o \"frio na barriga\" tem explicação",
+    "pos": [
+     520,
+     1150
+    ],
+    "e": null,
+    "size": 62,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Aquele frio na barriga antes de uma notícia importante tem explicação científica. E não começa no estômago.",
+     "Aquele frio na barriga antes de uma notícia importante tem explicação científica. E não começa no estômago."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 400,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "não começa\nno estômago!",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 62,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Harvard Medical School",
+   "frases": [
+    [
+     "Quando você se assusta ou se emociona, o corpo libera adrenalina de uma vez.",
+     "Quando você se assusta ou se emociona, o corpo libera adrenalina de uma vez."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ADRENALINA",
+     "pos": [
+      520,
+      460
+     ],
+     "e": null
+    },
+    {
+     "t": "nota",
+     "txt": "liberada\nde uma vez",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "adrenalina"
+     ],
+     "size": 58,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Cleveland Clinic (2022)",
+   "frases": [
+    [
+     "Pra preparar o corpo pra reagir rápido, o sangue é desviado do sistema digestivo pros músculos e pro coração.",
+     "Pra preparar o corpo pra reagir rápido, o sangue é desviado do sistema digestivo pros músculos e pro coração."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      300,
+      650
+     ],
+     "ate": [
+      740,
+      650
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": null
+    },
+    {
+     "t": "bloco",
+     "txt": "sangue sai do\nestômago e vai\npros músculos",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": null,
+     "size": 54,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "Com menos sangue circulando ali, o estômago e o intestino ficam temporariamente mais lentos.",
+     "Com menos sangue circulando ali, o estômago e o intestino ficam temporariamente mais lentos."
+    ],
+    [
+     "É esse 'desligar parcial' que a gente sente como frio ou aperto na barriga.",
+     "É esse 'desligar parcial' que a gente sente como frio ou aperto na barriga."
+    ],
+    [
+     "O coração também acelera nesse momento, o que reforça ainda mais a sensação no peito e na barriga.",
+     "O coração também acelera nesse momento, o que reforça ainda mais a sensação no peito e na barriga."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "estômago fica\nmais lento",
+     "pos": [
+      520,
+      700
+     ],
+     "e": null,
+     "size": 60,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Scientific American",
+   "frases": [
+    [
+     "O intestino tem tanto neurônio que alguns cientistas chamam ele de 'segundo cérebro' do corpo.",
+     "O intestino tem tanto neurônio que alguns cientistas chamam ele de 'segundo cérebro' do corpo."
+    ],
+    [
+     "É por isso que emoções fortes também mexem tanto com o apetite de muita gente.",
+     "É por isso que emoções fortes também mexem tanto com o apetite de muita gente."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "o \"segundo\ncérebro\"",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "cérebro"
+     ],
+     "size": 62,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "E hoje? Paixão, prova, entrevista de emprego ou aquele vídeo que viraliza: qualquer emoção forte dispara o mesmo mecanismo.",
+     "E hoje? Paixão, prova, entrevista de emprego ou aquele vídeo que viraliza: qualquer emoção forte dispara o mesmo mecanismo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      660
+     ],
+     "e": null,
+     "w": 300
+    },
+    {
+     "t": "bloco",
+     "txt": "qualquer emoção\nforte dispara isso",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": null,
+     "size": 56,
+     "maxw": 740
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o frio na barriga é o seu corpo se preparando pra agir, não um aviso de que algo vai dar errado.",
+     "Então: o frio na barriga é o seu corpo se preparando pra agir, não um aviso de que algo vai dar errado."
+    ],
+    [
+     "Quando foi a última vez que você sentiu isso? Comenta.",
+     "Quando foi a última vez que você sentiu isso? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 380,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "quando foi\na última vez?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "última"
+     ],
+     "size": 58,
+     "maxw": 740
+    }
+   ]
+  }
+ ]
+}
