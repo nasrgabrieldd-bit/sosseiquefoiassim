@@ -1,0 +1,531 @@
+{
+ "id": "SSA-037",
+ "chamada": "POR QUE FEIRA?",
+ "materia": "LÍNGUA PORTUGUESA",
+ "titulo": "Por que só o português tem \"segunda-feira\"",
+ "fontes": [
+  "Catholic Encyclopedia, 'St. Martin of Braga'.",
+  "MARTINHO DE DUME (Braga). De correctione rusticorum, séc. VI (trad. inglesa de A. Graham).",
+  "Marco Neves (Universidade NOVA de Lisboa), em Xataka Brasil: de onde vem o 'feira' dos dias da semana.",
+  "Instituto da Lingua Galega (Univ. de Santiago de Compostela): os nomes dos dias em galego."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "cal",
+    "titulo": "SEGUNDA-FEIRA",
+    "inicio": 0,
+    "ndias": 7,
+    "pos": [
+     520,
+     760
+    ],
+    "ang": -3,
+    "escala": 0.7
+   },
+   {
+    "t": "bloco",
+    "txt": "um bispo apagou os deuses da semana",
+    "pos": [
+     520,
+     1130
+    ],
+    "e": null,
+    "size": 64,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "As outras grandes línguas latinas dão aos dias nomes de deuses. O português, não.",
+     "As outras grandes línguas latinas dão aos dias nomes de deuses. O português, não."
+    ],
+    [
+     "A culpa é de um bispo do século 6.",
+     "A culpa é de um bispo do século seis."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "SEGUNDA-FEIRA",
+     "pos": [
+      520,
+      560
+     ],
+     "size": 90,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "sem deuses?",
+     "pos": [
+      720,
+      760
+     ],
+     "cor": "laranja",
+     "size": 64
+    },
+    {
+     "t": "tira",
+     "txt": "SÉCULO VI",
+     "pos": [
+      330,
+      1000
+     ],
+     "e": [
+      1,
+      "bispo"
+     ],
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Marco Neves (Univ. NOVA de Lisboa), via Xataka",
+   "frases": [
+    [
+     "Em espanhol, segunda é lunes. Em francês, lundi. Em italiano, lunedì.",
+     "Em espanhol, segunda é lúnes. Em francês, lã-dí. Em italiano, lunedí."
+    ],
+    [
+     "Todos querem dizer: dia da Lua.",
+     "Todos querem dizer: dia da Lua."
+    ],
+    [
+     "E em espanhol, terça é de Marte, quarta de Mercúrio, quinta de Júpiter, sexta de Vênus.",
+     "E em espanhol, terça é de Marte, quarta de Mercúrio, quinta de Júpiter, sexta de Vênus."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "lunes",
+     "pos": [
+      260,
+      470
+     ],
+     "e": [
+      0,
+      "lunes"
+     ],
+     "size": 52
+    },
+    {
+     "t": "tira",
+     "txt": "lundi",
+     "pos": [
+      520,
+      560
+     ],
+     "e": [
+      0,
+      "lundi"
+     ],
+     "size": 52
+    },
+    {
+     "t": "tira",
+     "txt": "lunedì",
+     "pos": [
+      780,
+      470
+     ],
+     "e": [
+      0,
+      "lunedì"
+     ],
+     "size": 52
+    },
+    {
+     "t": "bloco",
+     "txt": "= dia da Lua",
+     "pos": [
+      520,
+      760
+     ],
+     "e": [
+      1,
+      "Lua"
+     ],
+     "size": 80
+    },
+    {
+     "t": "tira",
+     "txt": "martes · miércoles · jueves · viernes",
+     "pos": [
+      520,
+      1050
+     ],
+     "e": [
+      2,
+      "Marte"
+     ],
+     "size": 36
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Catholic Encyclopedia",
+   "frases": [
+    [
+     "No século 6, um bispo chamado Martinho de Dume pregava na região de Braga, hoje em Portugal.",
+     "No século seis, um bispo chamado Martinho de Dúme pregava na região de Braga, hoje em Portugal."
+    ],
+    [
+     "E ele achava um absurdo cristão chamar os dias pelos nomes de deuses pagãos.",
+     "E ele achava um absurdo cristão chamar os dias pelos nomes de deuses pagãos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "MARTINHO DE DUME",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 52
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      340,
+      760
+     ],
+     "e": [
+      0,
+      "Braga"
+     ],
+     "w": 320,
+     "ang": -4
+    },
+    {
+     "t": "tira",
+     "txt": "BRAGA",
+     "pos": [
+      720,
+      700
+     ],
+     "e": [
+      0,
+      "Braga"
+     ],
+     "size": 50
+    },
+    {
+     "t": "nota",
+     "txt": "um absurdo!",
+     "pos": [
+      640,
+      1060
+     ],
+     "e": [
+      1,
+      "absurdo"
+     ],
+     "cor": "laranja",
+     "size": 70
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Martinho de Dume, De correctione rusticorum",
+   "frases": [
+    [
+     "Num sermão, ele condenou batizar os dias de Marte, Mercúrio, Júpiter, Vênus e Saturno.",
+     "Num sermão, ele condenou batizar os dias de Marte, Mercúrio, Júpiter, Vênus e Saturno."
+    ],
+    [
+     "E defendeu o jeito da Igreja: contar os dias em ordem.",
+     "E defendeu o jeito da Igreja: contar os dias em ordem."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "Marte",
+     "pos": [
+      260,
+      480
+     ],
+     "e": [
+      0,
+      "Marte"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "Mercúrio",
+     "pos": [
+      560,
+      520
+     ],
+     "e": [
+      0,
+      "Mercúrio"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "Júpiter",
+     "pos": [
+      820,
+      600
+     ],
+     "e": [
+      0,
+      "Júpiter"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "Vênus",
+     "pos": [
+      330,
+      640
+     ],
+     "e": [
+      0,
+      "Vênus"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "Saturno",
+     "pos": [
+      620,
+      700
+     ],
+     "e": [
+      0,
+      "Saturno"
+     ],
+     "size": 48
+    },
+    {
+     "t": "bloco",
+     "txt": "contar em ordem",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "ordem"
+     ],
+     "size": 80,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Marco Neves (Univ. NOVA de Lisboa), via Xataka",
+   "frases": [
+    [
+     "A Igreja chamava os dias de feria: segunda feria, terceira feria...",
+     "A Igreja chamava os dias de feria: segunda feria, terceira feria..."
+    ],
+    [
+     "Feria, em latim, era dia de festa, dia livre.",
+     "Feria, em latim, era dia de festa, dia livre."
+    ],
+    [
+     "Com o tempo, virou segunda-feira, terça-feira, quarta-feira.",
+     "Com o tempo, virou segunda-feira, terça-feira, quarta-feira."
+    ],
+    [
+     "Domingo é o dia do Senhor. E o sábado veio do shabat, dos hebreus.",
+     "Domingo é o dia do Senhor. E o sábado veio do xabát, dos hebreus."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "verbete",
+     "palavra": "feria",
+     "classe": "latim, subst. fem.",
+     "pos": [
+      520,
+      540
+     ],
+     "e": [
+      0,
+      "feria"
+     ],
+     "w": 640,
+     "def": "dia de festa; dia livre."
+    },
+    {
+     "t": "tira",
+     "txt": "segunda feria",
+     "pos": [
+      300,
+      820
+     ],
+     "e": [
+      0,
+      "segunda"
+     ],
+     "size": 44
+    },
+    {
+     "t": "seta",
+     "de": [
+      470,
+      830
+     ],
+     "ate": [
+      580,
+      900
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      2,
+      "virou"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "segunda-feira",
+     "pos": [
+      640,
+      960
+     ],
+     "e": [
+      2,
+      "segunda-feira"
+     ],
+     "size": 64
+    },
+    {
+     "t": "tira",
+     "txt": "domingo = dia do Senhor",
+     "pos": [
+      400,
+      1120
+     ],
+     "e": [
+      3,
+      "Domingo"
+     ],
+     "size": 38
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Instituto da Lingua Galega (USC)",
+   "frases": [
+    [
+     "E hoje? Até o galego, o primo mais próximo do português, usa oficialmente luns e martes.",
+     "E hoje? Até o galego, o primo mais próximo do português, usa oficialmente lúns e martes."
+    ],
+    [
+     "Toda vez que você reclama da segunda-feira, está usando um calendário de igreja de quase 1.500 anos.",
+     "Toda vez que você reclama da segunda-feira, está usando um calendário de igreja de quase mil e quinhentos anos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "GALEGO: luns, martes...",
+     "pos": [
+      520,
+      460
+     ],
+     "size": 46
+    },
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      330,
+      800
+     ],
+     "e": [
+      1,
+      "reclama"
+     ],
+     "w": 280,
+     "ang": -4
+    },
+    {
+     "t": "bloco",
+     "txt": "quase\n1.500 anos",
+     "pos": [
+      680,
+      820
+     ],
+     "e": [
+      1,
+      "1.500"
+     ],
+     "size": 72,
+     "maxw": 420
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o português trocou a Lua pela segunda por causa de um sermão.",
+     "Então: o português trocou a Lua pela segunda por causa de um sermão."
+    ],
+    [
+     "Marca aquele amigo que odeia segunda-feira e manda essa história pra ele.",
+     "Marca aquele amigo que odeia segunda-feira e manda essa história pra ele."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "SEGUNDA-FEIRA",
+     "inicio": 0,
+     "ndias": 7,
+     "pos": [
+      520,
+      760
+     ],
+     "ang": 2,
+     "escala": 0.6
+    },
+    {
+     "t": "bloco",
+     "txt": "marca quem odeia segunda",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      "Marca"
+     ],
+     "size": 64,
+     "maxw": 780
+    }
+   ]
+  }
+ ]
+}

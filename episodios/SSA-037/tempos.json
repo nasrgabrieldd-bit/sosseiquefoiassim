@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 83.001,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "As outras grandes línguas latinas dão aos dias nomes de deuses. O português, não.",
+     "inicio": 0.1,
+     "dur": 5.724
+    },
+    {
+     "leg": "A culpa é de um bispo do século 6.",
+     "inicio": 6.024,
+     "dur": 2.304
+    }
+   ],
+   "fim": 8.748
+  },
+  {
+   "id": "c2",
+   "inicio": 8.748,
+   "frases": [
+    {
+     "leg": "Em espanhol, segunda é lunes. Em francês, lundi. Em italiano, lunedì.",
+     "inicio": 8.748,
+     "dur": 5.539
+    },
+    {
+     "leg": "Todos querem dizer: dia da Lua.",
+     "inicio": 14.487,
+     "dur": 2.219
+    },
+    {
+     "leg": "E em espanhol, terça é de Marte, quarta de Mercúrio, quinta de Júpiter, sexta de Vênus.",
+     "inicio": 16.905,
+     "dur": 5.056
+    }
+   ],
+   "fim": 22.381
+  },
+  {
+   "id": "c3",
+   "inicio": 22.381,
+   "frases": [
+    {
+     "leg": "No século 6, um bispo chamado Martinho de Dume pregava na região de Braga, hoje em Portugal.",
+     "inicio": 22.381,
+     "dur": 5.653
+    },
+    {
+     "leg": "E ele achava um absurdo cristão chamar os dias pelos nomes de deuses pagãos.",
+     "inicio": 28.235,
+     "dur": 4.821
+    }
+   ],
+   "fim": 33.476
+  },
+  {
+   "id": "c4",
+   "inicio": 33.476,
+   "frases": [
+    {
+     "leg": "Num sermão, ele condenou batizar os dias de Marte, Mercúrio, Júpiter, Vênus e Saturno.",
+     "inicio": 33.476,
+     "dur": 5.269
+    },
+    {
+     "leg": "E defendeu o jeito da Igreja: contar os dias em ordem.",
+     "inicio": 38.945,
+     "dur": 3.605
+    }
+   ],
+   "fim": 42.971
+  },
+  {
+   "id": "c5",
+   "inicio": 42.971,
+   "frases": [
+    {
+     "leg": "A Igreja chamava os dias de feria: segunda feria, terceira feria...",
+     "inicio": 42.971,
+     "dur": 4.352
+    },
+    {
+     "leg": "Feria, em latim, era dia de festa, dia livre.",
+     "inicio": 47.523,
+     "dur": 2.944
+    },
+    {
+     "leg": "Com o tempo, virou segunda-feira, terça-feira, quarta-feira.",
+     "inicio": 50.667,
+     "dur": 3.648
+    },
+    {
+     "leg": "Domingo é o dia do Senhor. E o sábado veio do shabat, dos hebreus.",
+     "inicio": 54.515,
+     "dur": 4.551
+    }
+   ],
+   "fim": 59.485
+  },
+  {
+   "id": "c6",
+   "inicio": 59.485,
+   "frases": [
+    {
+     "leg": "E hoje? Até o galego, o primo mais próximo do português, usa oficialmente luns e martes.",
+     "inicio": 59.485,
+     "dur": 6.204
+    },
+    {
+     "leg": "Toda vez que você reclama da segunda-feira, está usando um calendário de igreja de quase 1.500 anos.",
+     "inicio": 65.889,
+     "dur": 6.528
+    }
+   ],
+   "fim": 72.837
+  },
+  {
+   "id": "c7",
+   "inicio": 72.837,
+   "frases": [
+    {
+     "leg": "Então: o português trocou a Lua pela segunda por causa de um sermão.",
+     "inicio": 72.837,
+     "dur": 3.84
+    },
+    {
+     "leg": "Marca aquele amigo que odeia segunda-feira e manda essa história pra ele.",
+     "inicio": 76.877,
+     "dur": 4.075
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 81.152,
+     "dur": 1.429
+    }
+   ],
+   "fim": 83.001
+  }
+ ]
+}
