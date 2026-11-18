@@ -1,0 +1,156 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 81.013,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "O primeiro jogo oficial entre seleções da história terminou 0 a 0.",
+     "inicio": 0.1,
+     "dur": 4.352
+    },
+    {
+     "leg": "E foi há exatos 154 anos.",
+     "inicio": 4.652,
+     "dur": 2.859
+    }
+   ],
+   "fim": 7.931
+  },
+  {
+   "id": "c2",
+   "inicio": 7.931,
+   "frases": [
+    {
+     "leg": "Glasgow, Escócia, 30 de novembro de 1872.",
+     "inicio": 7.931,
+     "dur": 4.48
+    },
+    {
+     "leg": "A federação inglesa desafiou os escoceses pelos jornais.",
+     "inicio": 12.611,
+     "dur": 3.733
+    },
+    {
+     "leg": "Um clube de Glasgow, o Queen's Park, topou. E os 11 escoceses eram todos de lá.",
+     "inicio": 16.544,
+     "dur": 5.276
+    }
+   ],
+   "fim": 22.24
+  },
+  {
+   "id": "c3",
+   "inicio": 22.24,
+   "frases": [
+    {
+     "leg": "O jogo foi num campo de críquete, chamado Hamilton Crescent.",
+     "inicio": 22.24,
+     "dur": 3.691
+    },
+    {
+     "leg": "O ingresso custava 1 xelim, e as mulheres entravam de graça.",
+     "inicio": 26.131,
+     "dur": 3.797
+    },
+    {
+     "leg": "E não tinha travessão: o alto do gol era só uma fita.",
+     "inicio": 30.128,
+     "dur": 3.093
+    }
+   ],
+   "fim": 33.641
+  },
+  {
+   "id": "c4",
+   "inicio": 33.641,
+   "frases": [
+    {
+     "leg": "Os ingleses eram mais pesados e jogavam no drible: cada um tentando levar a bola sozinho.",
+     "inicio": 33.641,
+     "dur": 5.376
+    },
+    {
+     "leg": "Os escoceses fizeram diferente: tocavam a bola entre eles.",
+     "inicio": 39.217,
+     "dur": 3.904
+    },
+    {
+     "leg": "Era o passe virando estratégia.",
+     "inicio": 43.321,
+     "dur": 1.92
+    }
+   ],
+   "fim": 45.661
+  },
+  {
+   "id": "c5",
+   "inicio": 45.661,
+   "frases": [
+    {
+     "leg": "No primeiro tempo, a Escócia teve um gol anulado: a bola teria passado por cima da fita.",
+     "inicio": 45.661,
+     "dur": 5.44
+    },
+    {
+     "leg": "No fim, outra bola bateu na fita.",
+     "inicio": 51.301,
+     "dur": 2.112
+    },
+    {
+     "leg": "E mesmo assim, ninguém marcou.",
+     "inicio": 53.613,
+     "dur": 1.899
+    }
+   ],
+   "fim": 55.932
+  },
+  {
+   "id": "c6",
+   "inicio": 55.932,
+   "frases": [
+    {
+     "leg": "E hoje? Esta semana tem a última rodada do Brasileirão, na quarta.",
+     "inicio": 55.932,
+     "dur": 4.796
+    },
+    {
+     "leg": "E a final da Copa do Brasil, no domingo.",
+     "inicio": 60.928,
+     "dur": 2.432
+    },
+    {
+     "leg": "Se algum desses jogos acabar 0 a 0, lembra: o futebol entre seleções começou exatamente assim.",
+     "inicio": 63.56,
+     "dur": 6.08
+    }
+   ],
+   "fim": 70.06
+  },
+  {
+   "id": "c7",
+   "inicio": 70.06,
+   "frases": [
+    {
+     "leg": "Então: 154 anos atrás, o primeiro jogo entre seleções acabou sem gol.",
+     "inicio": 70.06,
+     "dur": 5.632
+    },
+    {
+     "leg": "Agora você sabe que até o 0 a 0 tem história.",
+     "inicio": 75.892,
+     "dur": 3.072
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 79.164,
+     "dur": 1.429
+    }
+   ],
+   "fim": 81.013
+  }
+ ]
+}

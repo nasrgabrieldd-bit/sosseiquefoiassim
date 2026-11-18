@@ -1,0 +1,558 @@
+{
+ "id": "SSA-035",
+ "chamada": "O 1º JOGO ACABOU 0 A 0",
+ "materia": "EDUCAÇÃO FÍSICA",
+ "titulo": "O primeiro jogo oficial entre seleções terminou 0 a 0",
+ "fontes": [
+  "Scottish Football Museum, 'Scotland v England: the world's first football international fixture'.",
+  "The FA, 'England v Scotland: the oldest international' (2014).",
+  "National Football Museum (Reino Unido), 'World's first international'.",
+  "Flashscore Brasil (06/11/2026) e Correio da Manhã (08/11/2026): última rodada do Brasileirão e final da Copa do Brasil."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "jornal",
+    "titulo": "GLASGOW HERALD",
+    "data": "30 NOV. 1872",
+    "rodape": "SCOTLAND v ENGLAND",
+    "pos": [
+     520,
+     740
+    ],
+    "e": null,
+    "w": 460,
+    "ang": -3
+   },
+   {
+    "t": "numero",
+    "txt": "0 x 0",
+    "pos": [
+     560,
+     1110
+    ],
+    "e": null,
+    "size": 200
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "O primeiro jogo oficial entre seleções da história terminou 0 a 0.",
+     "O primeiro jogo oficial entre seleções da história terminou zero a zero."
+    ],
+    [
+     "E foi há exatos 154 anos.",
+     "E foi há exatos cento e cinquenta e quatro anos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "GLASGOW HERALD",
+     "data": "30 NOV. 1872",
+     "rodape": "SCOTLAND v ENGLAND",
+     "pos": [
+      400,
+      700
+     ],
+     "w": 440,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "numero",
+     "txt": "0 x 0",
+     "pos": [
+      700,
+      1030
+     ],
+     "size": 190
+    },
+    {
+     "t": "tira",
+     "txt": "há 154 anos",
+     "pos": [
+      300,
+      1140
+     ],
+     "e": [
+      1,
+      "154"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: The FA (2014); Scottish Football Museum",
+   "frases": [
+    [
+     "Glasgow, Escócia, 30 de novembro de 1872.",
+     "Glasgow, Escócia, trinta de novembro de mil oitocentos e setenta e dois."
+    ],
+    [
+     "A federação inglesa desafiou os escoceses pelos jornais.",
+     "A federação inglesa desafiou os escoceses pelos jornais."
+    ],
+    [
+     "Um clube de Glasgow, o Queen's Park, topou. E os 11 escoceses eram todos de lá.",
+     "Um clube de Glasgow, o Cuíns Parc, topou. E os onze escoceses eram todos de lá."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "GLASGOW · 30/11/1872",
+     "pos": [
+      520,
+      430
+     ],
+     "size": 48
+    },
+    {
+     "t": "jornal",
+     "titulo": "THE SCOTSMAN",
+     "data": "OUT. 1872",
+     "rodape": "A CHALLENGE",
+     "pos": [
+      330,
+      730
+     ],
+     "e": [
+      1,
+      "desafiou"
+     ],
+     "w": 380,
+     "ang": -4,
+     "marca": [
+      1,
+      "jornais"
+     ]
+    },
+    {
+     "t": "tira",
+     "txt": "QUEEN'S PARK F.C.",
+     "pos": [
+      680,
+      880
+     ],
+     "e": [
+      2,
+      "Queen's"
+     ],
+     "size": 44
+    },
+    {
+     "t": "numero",
+     "txt": "11",
+     "pos": [
+      700,
+      1080
+     ],
+     "e": [
+      2,
+      "11"
+     ],
+     "size": 170,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Scottish Football Museum; The FA",
+   "frases": [
+    [
+     "O jogo foi num campo de críquete, chamado Hamilton Crescent.",
+     "O jogo foi num campo de críquete, chamado Rémilton Crécent."
+    ],
+    [
+     "O ingresso custava 1 xelim, e as mulheres entravam de graça.",
+     "O ingresso custava um xelim, e as mulheres entravam de graça."
+    ],
+    [
+     "E não tinha travessão: o alto do gol era só uma fita.",
+     "E não tinha travessão: o alto do gol era só uma fita."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "HAMILTON CRESCENT",
+     "pos": [
+      520,
+      440
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "1 xelim",
+     "pos": [
+      330,
+      650
+     ],
+     "e": [
+      1,
+      "xelim"
+     ],
+     "size": 84
+    },
+    {
+     "t": "nota",
+     "txt": "mulheres:\nde graça",
+     "pos": [
+      700,
+      660
+     ],
+     "e": [
+      1,
+      "mulheres"
+     ],
+     "cor": "laranja",
+     "size": 58
+    },
+    {
+     "t": "bloco",
+     "txt": "sem travessão",
+     "pos": [
+      520,
+      930
+     ],
+     "e": [
+      2,
+      "travessão"
+     ],
+     "size": 74,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "só uma fita!",
+     "pos": [
+      640,
+      1100
+     ],
+     "e": [
+      2,
+      "fita"
+     ],
+     "cor": "laranja",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Scottish Football Museum",
+   "frases": [
+    [
+     "Os ingleses eram mais pesados e jogavam no drible: cada um tentando levar a bola sozinho.",
+     "Os ingleses eram mais pesados e jogavam no drible: cada um tentando levar a bola sozinho."
+    ],
+    [
+     "Os escoceses fizeram diferente: tocavam a bola entre eles.",
+     "Os escoceses fizeram diferente: tocavam a bola entre eles."
+    ],
+    [
+     "Era o passe virando estratégia.",
+     "Era o passe virando estratégia."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "INGLATERRA: drible",
+     "pos": [
+      330,
+      470
+     ],
+     "size": 48
+    },
+    {
+     "t": "obj",
+     "nome": "corredor",
+     "pos": [
+      330,
+      760
+     ],
+     "e": [
+      0,
+      "drible"
+     ],
+     "w": 300,
+     "ang": -4
+    },
+    {
+     "t": "tira",
+     "txt": "ESCÓCIA: passe",
+     "pos": [
+      700,
+      600
+     ],
+     "e": [
+      1,
+      "escoceses"
+     ],
+     "size": 48
+    },
+    {
+     "t": "seta",
+     "de": [
+      560,
+      880
+     ],
+     "ate": [
+      800,
+      880
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "tocavam"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "o passe virou\nestratégia",
+     "pos": [
+      540,
+      1090
+     ],
+     "e": [
+      2,
+      "passe"
+     ],
+     "size": 60,
+     "maxw": 720
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: National Football Museum; The FA",
+   "frases": [
+    [
+     "No primeiro tempo, a Escócia teve um gol anulado: a bola teria passado por cima da fita.",
+     "No primeiro tempo, a Escócia teve um gol anulado: a bola teria passado por cima da fita."
+    ],
+    [
+     "No fim, outra bola bateu na fita.",
+     "No fim, outra bola bateu na fita."
+    ],
+    [
+     "E mesmo assim, ninguém marcou.",
+     "E mesmo assim, ninguém marcou."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "GOL ANULADO",
+     "pos": [
+      520,
+      520
+     ],
+     "size": 84,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "por cima da fita",
+     "pos": [
+      560,
+      700
+     ],
+     "e": [
+      0,
+      "cima"
+     ],
+     "cor": "laranja",
+     "size": 60
+    },
+    {
+     "t": "risco",
+     "de": [
+      200,
+      860
+     ],
+     "ate": [
+      840,
+      860
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "fita"
+     ]
+    },
+    {
+     "t": "numero",
+     "txt": "0 x 0",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      2,
+      "ninguém"
+     ],
+     "size": 190
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Flashscore (06/11/2026); Correio da Manhã",
+   "frases": [
+    [
+     "E hoje? Esta semana tem a última rodada do Brasileirão, na quarta.",
+     "E hoje? Esta semana tem a última rodada do Brasileirão, na quarta."
+    ],
+    [
+     "E a final da Copa do Brasil, no domingo.",
+     "E a final da Copa do Brasil, no domingo."
+    ],
+    [
+     "Se algum desses jogos acabar 0 a 0, lembra: o futebol entre seleções começou exatamente assim.",
+     "Se algum desses jogos acabar zero a zero, lembra: o futebol entre seleções começou exatamente assim."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      250,
+      700
+     ],
+     "w": 240,
+     "ang": -4
+    },
+    {
+     "t": "tira",
+     "txt": "QUA · 38ª rodada",
+     "pos": [
+      660,
+      560
+     ],
+     "e": [
+      0,
+      "quarta"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "DOM · final da Copa",
+     "pos": [
+      660,
+      700
+     ],
+     "e": [
+      1,
+      "domingo"
+     ],
+     "size": 42
+    },
+    {
+     "t": "numero",
+     "txt": "0 x 0",
+     "pos": [
+      680,
+      960
+     ],
+     "e": [
+      2,
+      "0 a 0"
+     ],
+     "size": 150
+    },
+    {
+     "t": "nota",
+     "txt": "começou assim",
+     "pos": [
+      560,
+      1140
+     ],
+     "e": [
+      2,
+      "começou"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: 154 anos atrás, o primeiro jogo entre seleções acabou sem gol.",
+     "Então: cento e cinquenta e quatro anos atrás, o primeiro jogo entre seleções acabou sem gol."
+    ],
+    [
+     "Agora você sabe que até o 0 a 0 tem história.",
+     "Agora você sabe que até o zero a zero tem história."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "GLASGOW HERALD",
+     "data": "30 NOV. 1872",
+     "rodape": "SCOTLAND v ENGLAND",
+     "pos": [
+      360,
+      660
+     ],
+     "w": 400,
+     "ang": 3
+    },
+    {
+     "t": "numero",
+     "txt": "0 x 0",
+     "pos": [
+      740,
+      820
+     ],
+     "size": 160
+    },
+    {
+     "t": "bloco",
+     "txt": "até o 0 x 0 tem história",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "história"
+     ],
+     "size": 66,
+     "maxw": 780
+    }
+   ]
+  }
+ ]
+}
