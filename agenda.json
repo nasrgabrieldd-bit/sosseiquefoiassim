@@ -91,20 +91,20 @@
   "id": "SSA-009",
   "data": "2026-11-17",
   "hora": "12:00",
-  "status": "agendado IG+TikTok, YouTube manual",
+  "status": "publicado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6a7cae903d82c385eba",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "manual: upload via Composio descartado pelo YouTube em 17/11 (nenhum video ficou no canal); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-010",
   "data": "2026-11-17",
   "hora": "19:00",
-  "status": "agendado IG+TikTok, YouTube manual",
+  "status": "publicado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6a84365d910d55dbc38",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "manual: upload via Composio descartado pelo YouTube em 17/11 (nenhum video ficou no canal); subir pelo YouTube Studio"
  },
  {
@@ -115,7 +115,7 @@
   "zernio_post": "6af5c6aa4365d910d55dbc43",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "manual: upload via Composio descartado pelo YouTube em 17/11 (nenhum video ficou no canal); subir pelo YouTube Studio"
+  "youtube": "manual: upload via Composio em 18/11 foi aceito (uploaded) mas o YouTube descartou o arquivo apos processar (invalidFile); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-012",
@@ -125,27 +125,27 @@
   "zernio_post": "6af5c6ab4365d910d55dbc50",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "manual: upload via Composio descartado pelo YouTube em 17/11 (nenhum video ficou no canal); subir pelo YouTube Studio"
+  "youtube": "manual: upload via Composio em 18/11 foi aceito (uploaded) mas o YouTube descartou o arquivo apos processar (invalidFile); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-013",
   "data": "2026-11-19",
   "hora": "12:00",
-  "status": "agendado IG+TikTok",
+  "status": "agendado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6accae903d82c385ed5",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente: subir pelo Composio quando entrar nas 48 h (upload de 17/11 falhou, ver SSA-009)"
+  "youtube": "manual: upload via Composio em 18/11 foi aceito (uploaded) mas o YouTube descartou o arquivo apos processar (invalidFile); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-014",
   "data": "2026-11-19",
   "hora": "19:00",
-  "status": "agendado IG+TikTok",
+  "status": "agendado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6ad4365d910d55dbc69",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente: subir pelo Composio quando entrar nas 48 h (upload de 17/11 falhou, ver SSA-009)"
+  "youtube": "manual: upload via Composio em 18/11 foi aceito (uploaded) mas o YouTube descartou o arquivo apos processar (invalidFile); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-015",
@@ -155,7 +155,7 @@
   "zernio_post": "6afc0e607e77647d41a8cab2",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente"
+  "youtube": "pendente (Composio falhou em 17 e 18/11; provavelmente manual)"
  },
  {
   "id": "SSA-016",
@@ -165,7 +165,7 @@
   "zernio_post": "6afc0e707e77647d41a8cae4",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente"
+  "youtube": "pendente (Composio falhou em 17 e 18/11; provavelmente manual)"
  },
  {
   "id": "SSA-017",
@@ -189,7 +189,7 @@
   "zernio_post": "6afc0e71f15709d2a5bae104",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente"
+  "youtube": "pendente (Composio falhou em 17 e 18/11; provavelmente manual)"
  },
  {
   "id": "SSA-020",
@@ -206,7 +206,7 @@
   "zernio_post": "6afc0e7200bc7ddb01acaa5a",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente"
+  "youtube": "pendente (Composio falhou em 17 e 18/11; provavelmente manual)"
  },
  {
   "id": "SSA-022",
