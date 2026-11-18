@@ -1,0 +1,19 @@
+# Calendário editorial: 30/11 (seg) a 06/12/2026 (dom)
+
+> Por que esta janela: a semana "sexta a quinta" seguinte a esta quarta (20/11 a 26/11) já foi produzida no lote 2 (SSA-015 a SSA-034, que vai até 29/11). Este lote cobre os próximos 14 horários livres da agenda, de 30/11 a 06/12, para não deixar buraco nem duplicar datas.
+
+| Data | Evento | Fonte | Usado em |
+|---|---|---|---|
+| 30/11 (seg) | 154 anos do 1º jogo oficial entre seleções: Escócia 0 x 0 Inglaterra (30/11/1872, Hamilton Crescent, Glasgow) | [Scottish Football Museum](https://www.scottishfootballmuseum.org.uk/news/scotland-v-england-the-world-s-first-football-international-fixture/); [The FA](https://www.thefa.com/news/2014/nov/18/england-v-scotland-the-oldest-international) | SSA-035 |
+| 30/11 | Lua perto de Júpiter, Régulo e Marte | [Star Walk, Calendário astronômico 2026](https://starwalk.space/pt/news/astronomy-calendar-2026) | — |
+| 02/12 (qua) | Última rodada (38ª) do Brasileirão 2026: os 10 jogos às 21h30 | [Flashscore Brasil (06/11/2026)](https://www.flashscore.com.br/noticias/cbf-divulga-datas-e-horarios-das-duas-ultimas-rodadas-do-brasileirao-veja-jogos/YcKaMBh2/); [ABCdoABC](https://abcdoabc.com.br/brasileirao-detalha-ultimas-rodadas-de-2026/); [Diário do Rio](https://diariodorio.com/esporte/2026/11/07/brasileirao-2026-veja-datas-e-horarios-dos-jogos-de-botafogo-flamengo-fluminense-e-vasco-nas-rodadas-37-e-38.html) | SSA-038 |
+| 02/12 | Dia Nacional do Samba (data tradicional; a Lei 14.567/2023 reconhece as escolas de samba mas não cita o dia; PL 6.171/2025 quer oficializar) | [National Geographic Brasil](https://www.nationalgeographicbrasil.com/cultura/2023/12/dia-nacional-do-samba-quais-sao-as-origens-e-quem-criou-o-samba); [Congresso em Foco](https://www.congressoemfoco.com.br/noticia/114638/deputado-propoe-reconhecer-oficialmente-o-dia-nacional-do-samba) | SSA-039 |
+| 03/12 (qui) | 100 anos do desaparecimento de Agatha Christie (3/12/1926) | [National Archives UK](https://blog.nationalarchives.gov.uk/20speople-investigating-the-strange-disappearance-of-mrs-agatha-christie/); [National Geographic](https://www.nationalgeographic.com/history/article/agatha-christie-mystery-disappearance-theories) | SSA-041 |
+| 03/12 | Dia Internacional das Pessoas com Deficiência (ONU, res. 47/3, 1992) | [ONU/DESA](https://social.desa.un.org/issues/disability/international-day-of-persons-with-disabilities-3-december) | SSA-042 |
+| 04/12 (sex) | Dia Internacional dos Bancos (ONU, res. 74/245, 2019) | [ONU Indonésia](https://indonesia.un.org/en/254192-international-day-banks-4-december) | SSA-043 |
+| 04–06/12 | GP de Abu Dhabi, última etapa da F1 2026 (calendário sob incerteza por causa da guerra no Oriente Médio) | [Formula1.com](https://www.formula1.com/en/latest/article/formula-1-etihad-airways-abu-dhabi-grand-prix-2026.5mmDojxBdiltjPgeIxAKOq); [Crash.net](https://www.crash.net/f1/news/1073119/1/2026-f1-calendar-full-race-schedule-revealed) | — (incerto) |
+| 05/12 (sáb) | 100 anos da morte de Claude Monet (5/12/1926, Giverny) | [Britannica](https://www.britannica.com/biography/Claude-Monet) | SSA-045 |
+| 05/12 | Dia Mundial do Solo (FAO/ONU, desde 2014) | [FAO](https://www.fao.org/world-soil-day/en) | SSA-046 |
+| 06/12 (dom) | Final da Copa do Brasil 2026: Grêmio x Palmeiras, jogo único, Estádio Mané Garrincha (Brasília). Horário a definir pela CBF | [Correio da Manhã (08/11/2026)](https://www.correiodamanha.com.br/esporte/esportes/2026/11/333356-gremio-e-palmeiras-decidirao-a-copa-do-brasil-2026.html); [A Crítica](https://acritica.net/esportes/gremio-x-palmeiras-veja-onde-assistir-data-e-horario-da-final-da-copa-do-brasil-2026/) | SSA-047 |
+
+Sem eventos astronômicos fortes na janela (superlua foi 24/11; Gemínidas só em 13–14/12). ENEM 2026 já passou. Dia Mundial de Luta contra a Aids (01/12) não usado (tema sensível para o formato).

@@ -1,0 +1,507 @@
+{
+ "id": "SSA-036",
+ "chamada": "O CÉU DEVIA SER VIOLETA",
+ "materia": "FÍSICA",
+ "titulo": "Por que o céu é azul (e não violeta)",
+ "fontes": [
+  "Encyclopaedia Britannica, 'Rayleigh scattering'.",
+  "NASA Space Place, 'Why is the sky blue?'.",
+  "Royal Museums Greenwich, 'Why is the sky blue?'.",
+  "UC Riverside, Physics FAQ, 'Why is the sky blue?'.",
+  "NASA Scientific Visualization Studio, 'Curiosity Captures a Martian Sunset' (2015)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "lampada",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 380,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "por que o céu é azul?",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 72,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Pela física, o céu devia ser violeta.",
+     "Pela física, o céu devia ser violeta."
+    ],
+    [
+     "Mas ele é azul. E o motivo tá em você.",
+     "Mas ele é azul. E o motivo tá em você."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "lampada",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "VIOLETA?",
+     "pos": [
+      520,
+      950
+     ],
+     "size": 100,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "o motivo tá em você",
+     "pos": [
+      560,
+      1130
+     ],
+     "e": [
+      1,
+      "motivo"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: NASA Space Place",
+   "frases": [
+    [
+     "A luz do Sol parece branca, mas é a mistura de todas as cores.",
+     "A luz do Sol parece branca, mas é a mistura de todas as cores."
+    ],
+    [
+     "Quando ela entra na atmosfera, bate nas moléculas do ar.",
+     "Quando ela entra na atmosfera, bate nas moléculas do ar."
+    ],
+    [
+     "E cada cor reage de um jeito.",
+     "E cada cor reage de um jeito."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "lampada",
+     "pos": [
+      300,
+      600
+     ],
+     "w": 260
+    },
+    {
+     "t": "tira",
+     "txt": "luz branca = todas as cores",
+     "pos": [
+      560,
+      860
+     ],
+     "e": [
+      0,
+      "mistura"
+     ],
+     "size": 42
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      700,
+      620
+     ],
+     "e": [
+      1,
+      "atmosfera"
+     ],
+     "w": 280,
+     "ang": 6
+    },
+    {
+     "t": "nota",
+     "txt": "cada cor\nde um jeito",
+     "pos": [
+      560,
+      1080
+     ],
+     "e": [
+      2,
+      "cada"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "Em 1871, o físico Lord Rayleigh mostrou que as cores de onda mais curta se espalham muito mais.",
+     "Em mil oitocentos e setenta e um, o físico Lord Rêili mostrou que as cores de onda mais curta se espalham muito mais."
+    ],
+    [
+     "Azul e violeta se espalham pelo céu inteiro. O vermelho passa quase reto.",
+     "Azul e violeta se espalham pelo céu inteiro. O vermelho passa quase reto."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "LORD RAYLEIGH · 1871",
+     "pos": [
+      520,
+      440
+     ],
+     "size": 48
+    },
+    {
+     "t": "bloco",
+     "txt": "onda curta\nespalha mais",
+     "pos": [
+      520,
+      680
+     ],
+     "e": [
+      0,
+      "curta"
+     ],
+     "size": 70,
+     "maxw": 700
+    },
+    {
+     "t": "tira",
+     "txt": "azul e violeta: pra todo lado",
+     "pos": [
+      520,
+      940
+     ],
+     "e": [
+      1,
+      "Azul"
+     ],
+     "size": 40
+    },
+    {
+     "t": "tira",
+     "txt": "vermelho: quase reto",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "vermelho"
+     ],
+     "size": 44
+    },
+    {
+     "t": "seta",
+     "de": [
+      300,
+      1150
+     ],
+     "ate": [
+      760,
+      1150
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "reto"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Royal Museums Greenwich; UC Riverside",
+   "frases": [
+    [
+     "Então por que não violeta?",
+     "Então por que não violeta?"
+    ],
+    [
+     "O Sol manda menos violeta do que azul, e parte dele fica lá no alto da atmosfera.",
+     "O Sol manda menos violeta do que azul, e parte dele fica lá no alto da atmosfera."
+    ],
+    [
+     "E o nosso olho é bem menos sensível ao violeta. Resultado: a gente vê azul.",
+     "E o nosso olho é bem menos sensível ao violeta. Resultado: a gente vê azul."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "por que não violeta?",
+     "pos": [
+      520,
+      480
+     ],
+     "size": 70
+    },
+    {
+     "t": "tira",
+     "txt": "1. o Sol manda menos violeta",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      1,
+      "menos"
+     ],
+     "size": 40
+    },
+    {
+     "t": "tira",
+     "txt": "2. o olho sente menos violeta",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      2,
+      "olho"
+     ],
+     "size": 40
+    },
+    {
+     "t": "bloco",
+     "txt": "= AZUL",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      2,
+      "Resultado"
+     ],
+     "size": 110,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: NASA Space Place",
+   "frases": [
+    [
+     "No fim da tarde, o Sol está baixo, e a luz atravessa muito mais ar.",
+     "No fim da tarde, o Sol está baixo, e a luz atravessa muito mais ar."
+    ],
+    [
+     "O azul vai se espalhando pelo caminho.",
+     "O azul vai se espalhando pelo caminho."
+    ],
+    [
+     "E o que sobra pra chegar no seu olho é laranja e vermelho.",
+     "E o que sobra pra chegar no seu olho é laranja e vermelho."
+    ]
+   ],
+   "camera": {
+    "push": 0.08
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "lampada",
+     "pos": [
+      250,
+      860
+     ],
+     "w": 220,
+     "ang": 8
+    },
+    {
+     "t": "seta",
+     "de": [
+      380,
+      820
+     ],
+     "ate": [
+      780,
+      560
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "atravessa"
+     ]
+    },
+    {
+     "t": "nota",
+     "txt": "muito mais ar",
+     "pos": [
+      640,
+      840
+     ],
+     "e": [
+      0,
+      "mais ar"
+     ],
+     "size": 58
+    },
+    {
+     "t": "bloco",
+     "txt": "LARANJA",
+     "pos": [
+      640,
+      1070
+     ],
+     "e": [
+      2,
+      "laranja"
+     ],
+     "size": 84
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: NASA Scientific Visualization Studio (2015)",
+   "frases": [
+    [
+     "E hoje? Em Marte, o pôr do sol é azul.",
+     "E hoje? Em Marte, o pôr do sol é azul."
+    ],
+    [
+     "Em 2015, o robô Curiosity filmou isso por lá.",
+     "Em dois mil e quinze, o robô Quiurióssiti filmou isso por lá."
+    ],
+    [
+     "A poeira marciana deixa o azul passar melhor do que o vermelho.",
+     "A poeira marciana deixa o azul passar melhor do que o vermelho."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 380,
+     "ang": -6
+    },
+    {
+     "t": "tira",
+     "txt": "MARTE · CURIOSITY · 2015",
+     "pos": [
+      520,
+      920
+     ],
+     "e": [
+      1,
+      "Curiosity"
+     ],
+     "size": 44
+    },
+    {
+     "t": "bloco",
+     "txt": "pôr do sol azul",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      0,
+      "azul"
+     ],
+     "size": 74,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o céu só não é violeta por causa do Sol e do seu próprio olho.",
+     "Então: o céu só não é violeta por causa do Sol e do seu próprio olho."
+    ],
+    [
+     "Qual foi o pôr do sol mais bonito que você já viu? Conta onde foi.",
+     "Qual foi o pôr do sol mais bonito que você já viu? Conta onde foi."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "lampada",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 320,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "não é violeta\npor causa do seu olho",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      0,
+      "olho"
+     ],
+     "size": 58,
+     "maxw": 760
+    },
+    {
+     "t": "nota",
+     "txt": "conta onde foi!",
+     "pos": [
+      700,
+      1140
+     ],
+     "e": [
+      1,
+      "Conta"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 74.712,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Pela física, o céu devia ser violeta.",
+     "inicio": 0.1,
+     "dur": 2.411
+    },
+    {
+     "leg": "Mas ele é azul. E o motivo tá em você.",
+     "inicio": 2.711,
+     "dur": 3.271
+    }
+   ],
+   "fim": 6.401
+  },
+  {
+   "id": "c2",
+   "inicio": 6.401,
+   "frases": [
+    {
+     "leg": "A luz do Sol parece branca, mas é a mistura de todas as cores.",
+     "inicio": 6.401,
+     "dur": 3.755
+    },
+    {
+     "leg": "Quando ela entra na atmosfera, bate nas moléculas do ar.",
+     "inicio": 10.356,
+     "dur": 3.392
+    },
+    {
+     "leg": "E cada cor reage de um jeito.",
+     "inicio": 13.948,
+     "dur": 2.005
+    }
+   ],
+   "fim": 16.373
+  },
+  {
+   "id": "c3",
+   "inicio": 16.373,
+   "frases": [
+    {
+     "leg": "Em 1871, o físico Lord Rayleigh mostrou que as cores de onda mais curta se espalham muito mais.",
+     "inicio": 16.373,
+     "dur": 6.997
+    },
+    {
+     "leg": "Azul e violeta se espalham pelo céu inteiro. O vermelho passa quase reto.",
+     "inicio": 23.571,
+     "dur": 4.871
+    }
+   ],
+   "fim": 28.861
+  },
+  {
+   "id": "c4",
+   "inicio": 28.861,
+   "frases": [
+    {
+     "leg": "Então por que não violeta?",
+     "inicio": 28.861,
+     "dur": 1.728
+    },
+    {
+     "leg": "O Sol manda menos violeta do que azul, e parte dele fica lá no alto da atmosfera.",
+     "inicio": 30.929,
+     "dur": 4.885
+    },
+    {
+     "leg": "E o nosso olho é bem menos sensível ao violeta. Resultado: a gente vê azul.",
+     "inicio": 36.015,
+     "dur": 5.063
+    }
+   ],
+   "fim": 41.497
+  },
+  {
+   "id": "c5",
+   "inicio": 41.497,
+   "frases": [
+    {
+     "leg": "No fim da tarde, o Sol está baixo, e a luz atravessa muito mais ar.",
+     "inicio": 41.497,
+     "dur": 4.309
+    },
+    {
+     "leg": "O azul vai se espalhando pelo caminho.",
+     "inicio": 46.007,
+     "dur": 2.325
+    },
+    {
+     "leg": "E o que sobra pra chegar no seu olho é laranja e vermelho.",
+     "inicio": 48.532,
+     "dur": 3.477
+    }
+   ],
+   "fim": 52.429
+  },
+  {
+   "id": "c6",
+   "inicio": 52.429,
+   "frases": [
+    {
+     "leg": "E hoje? Em Marte, o pôr do sol é azul.",
+     "inicio": 52.429,
+     "dur": 3.324
+    },
+    {
+     "leg": "Em 2015, o robô Curiosity filmou isso por lá.",
+     "inicio": 55.953,
+     "dur": 3.563
+    },
+    {
+     "leg": "A poeira marciana deixa o azul passar melhor do que o vermelho.",
+     "inicio": 59.716,
+     "dur": 3.669
+    }
+   ],
+   "fim": 63.805
+  },
+  {
+   "id": "c7",
+   "inicio": 63.805,
+   "frases": [
+    {
+     "leg": "Então: o céu só não é violeta por causa do Sol e do seu próprio olho.",
+     "inicio": 63.805,
+     "dur": 3.968
+    },
+    {
+     "leg": "Qual foi o pôr do sol mais bonito que você já viu? Conta onde foi.",
+     "inicio": 67.973,
+     "dur": 4.689
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 72.863,
+     "dur": 1.429
+    }
+   ],
+   "fim": 74.712
+  }
+ ]
+}
