@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 75.389,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Bastam 23 pessoas pra ter 50% de chance de dois aniversários iguais.",
+     "inicio": 0.1,
+     "dur": 5.973
+    },
+    {
+     "leg": "Parece pouco? A matemática diz que não.",
+     "inicio": 6.273,
+     "dur": 3.431
+    }
+   ],
+   "fim": 10.124
+  },
+  {
+   "id": "c2",
+   "inicio": 10.124,
+   "frases": [
+    {
+     "leg": "O ano tem 365 dias. Então a intuição diz: precisa de muita gente.",
+     "inicio": 10.124,
+     "dur": 6.087
+    },
+    {
+     "leg": "Tipo, umas 180 pessoas.",
+     "inicio": 16.411,
+     "dur": 2.368
+    },
+    {
+     "leg": "Mas a intuição está olhando pro lugar errado.",
+     "inicio": 18.979,
+     "dur": 2.731
+    }
+   ],
+   "fim": 22.129
+  },
+  {
+   "id": "c3",
+   "inicio": 22.129,
+   "frases": [
+    {
+     "leg": "Você não está comparando só você com os outros.",
+     "inicio": 22.129,
+     "dur": 3.093
+    },
+    {
+     "leg": "Está comparando todo mundo com todo mundo.",
+     "inicio": 25.423,
+     "dur": 2.667
+    },
+    {
+     "leg": "Com 23 pessoas, isso dá 253 pares.",
+     "inicio": 28.289,
+     "dur": 4.245
+    }
+   ],
+   "fim": 32.955
+  },
+  {
+   "id": "c4",
+   "inicio": 32.955,
+   "frases": [
+    {
+     "leg": "E cada par é uma nova chance de coincidência.",
+     "inicio": 32.955,
+     "dur": 2.837
+    },
+    {
+     "leg": "A conta exata dá 50,7%.",
+     "inicio": 35.992,
+     "dur": 3.2
+    }
+   ],
+   "fim": 39.612
+  },
+  {
+   "id": "c5",
+   "inicio": 39.612,
+   "frases": [
+    {
+     "leg": "Com 30 pessoas, a chance passa de 70%.",
+     "inicio": 39.612,
+     "dur": 3.413
+    },
+    {
+     "leg": "Com 57, chega a 99%. Quase certeza.",
+     "inicio": 43.225,
+     "dur": 4.7
+    }
+   ],
+   "fim": 48.345
+  },
+  {
+   "id": "c6",
+   "inicio": 48.345,
+   "frases": [
+    {
+     "leg": "E hoje? Olha a última rodada do Brasileirão, hoje à noite.",
+     "inicio": 48.345,
+     "dur": 4.263
+    },
+    {
+     "leg": "Em cada jogo, 22 jogadores mais o árbitro são 23 pessoas.",
+     "inicio": 52.808,
+     "dur": 5.077
+    },
+    {
+     "leg": "Pela matemática, em mais ou menos metade dos 10 jogos, duas pessoas em campo fazem aniversário no mesmo dia.",
+     "inicio": 58.085,
+     "dur": 6.933
+    }
+   ],
+   "fim": 65.439
+  },
+  {
+   "id": "c7",
+   "inicio": 65.439,
+   "frases": [
+    {
+     "leg": "Então: 23 pessoas, 50% de chance.",
+     "inicio": 65.439,
+     "dur": 3.605
+    },
+    {
+     "leg": "Faz o teste no grupo da sua turma e conta aqui se deu coincidência.",
+     "inicio": 69.244,
+     "dur": 4.096
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 73.54,
+     "dur": 1.429
+    }
+   ],
+   "fim": 75.389
+  }
+ ]
+}

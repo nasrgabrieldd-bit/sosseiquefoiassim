@@ -1,0 +1,469 @@
+{
+ "id": "SSA-040",
+ "chamada": "O PARADOXO DO ANIVERSÁRIO",
+ "materia": "MATEMÁTICA",
+ "titulo": "Bastam 23 pessoas pra ter 50% de chance de aniversário repetido",
+ "fontes": [
+  "Scientific American, 'Probability and the Birthday Paradox'.",
+  "Live Science, 'What is the birthday paradox?'.",
+  "Cálculo exato com 365 dias igualmente prováveis: 23 pessoas = 50,7%; 30 = 70,6%; 57 = 99,0%.",
+  "Flashscore Brasil (06/11/2026): 38ª rodada do Brasileirão em 02/12, todos às 21h30."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "numero",
+    "txt": "23",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "size": 360
+   },
+   {
+    "t": "bloco",
+    "txt": "pessoas = 50% de chance",
+    "pos": [
+     520,
+     1080
+    ],
+    "e": null,
+    "size": 70,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Bastam 23 pessoas pra ter 50% de chance de dois aniversários iguais.",
+     "Bastam vinte e três pessoas pra ter cinquenta por cento de chance de dois aniversários iguais."
+    ],
+    [
+     "Parece pouco? A matemática diz que não.",
+     "Parece pouco? A matemática diz que não."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "23",
+     "pos": [
+      520,
+      620
+     ],
+     "size": 340
+    },
+    {
+     "t": "bloco",
+     "txt": "= 50% de chance",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 80
+    },
+    {
+     "t": "nota",
+     "txt": "parece pouco?",
+     "pos": [
+      700,
+      1130
+     ],
+     "e": [
+      1,
+      "pouco"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "frases": [
+    [
+     "O ano tem 365 dias. Então a intuição diz: precisa de muita gente.",
+     "O ano tem trezentos e sessenta e cinco dias. Então a intuição diz: precisa de muita gente."
+    ],
+    [
+     "Tipo, umas 180 pessoas.",
+     "Tipo, umas cento e oitenta pessoas."
+    ],
+    [
+     "Mas a intuição está olhando pro lugar errado.",
+     "Mas a intuição está olhando pro lugar errado."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "365 DIAS",
+     "inicio": 3,
+     "ndias": 31,
+     "pos": [
+      520,
+      680
+     ],
+     "escala": 0.55,
+     "ang": -3
+    },
+    {
+     "t": "tira",
+     "txt": "intuição: ~180 pessoas",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "180"
+     ],
+     "size": 46
+    },
+    {
+     "t": "risco",
+     "de": [
+      300,
+      960
+     ],
+     "ate": [
+      740,
+      960
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      2,
+      "errado"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Scientific American",
+   "frases": [
+    [
+     "Você não está comparando só você com os outros.",
+     "Você não está comparando só você com os outros."
+    ],
+    [
+     "Está comparando todo mundo com todo mundo.",
+     "Está comparando todo mundo com todo mundo."
+    ],
+    [
+     "Com 23 pessoas, isso dá 253 pares.",
+     "Com vinte e três pessoas, isso dá duzentos e cinquenta e três pares."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "você x os outros",
+     "pos": [
+      520,
+      460
+     ],
+     "size": 48
+    },
+    {
+     "t": "risco",
+     "de": [
+      330,
+      460
+     ],
+     "ate": [
+      710,
+      460
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "todo mundo"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "todo mundo x todo mundo",
+     "pos": [
+      520,
+      660
+     ],
+     "e": [
+      1,
+      "todo"
+     ],
+     "size": 60,
+     "maxw": 780
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 253,
+     "fmt": "{n} pares",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      2,
+      "253"
+     ],
+     "size": 96
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Live Science",
+   "frases": [
+    [
+     "E cada par é uma nova chance de coincidência.",
+     "E cada par é uma nova chance de coincidência."
+    ],
+    [
+     "A conta exata dá 50,7%.",
+     "A conta exata dá cinquenta vírgula sete por cento."
+    ]
+   ],
+   "camera": {
+    "push": 0.05,
+    "zooms": [
+     {
+      "e": [
+       1,
+       "50,7"
+      ],
+      "escala": 1.15,
+      "alvo": [
+       520,
+       900
+      ],
+      "dur": 0.7
+     }
+    ]
+   },
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "cada par =\numa chance",
+     "pos": [
+      520,
+      560
+     ],
+     "size": 66
+    },
+    {
+     "t": "numero",
+     "txt": "50,7%",
+     "pos": [
+      520,
+      900
+     ],
+     "e": [
+      1,
+      "50,7"
+     ],
+     "size": 220
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Live Science; cálculo com 365 dias",
+   "frases": [
+    [
+     "Com 30 pessoas, a chance passa de 70%.",
+     "Com trinta pessoas, a chance passa de setenta por cento."
+    ],
+    [
+     "Com 57, chega a 99%. Quase certeza.",
+     "Com cinquenta e sete, chega a noventa e nove por cento. Quase certeza."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "23 pessoas · 50%",
+     "pos": [
+      520,
+      480
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "30 pessoas · 70%",
+     "pos": [
+      520,
+      640
+     ],
+     "e": [
+      0,
+      "30"
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "57 pessoas · 99%",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      1,
+      "57"
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "quase certeza",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      1,
+      "certeza"
+     ],
+     "size": 80,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "frases": [
+    [
+     "E hoje? Olha a última rodada do Brasileirão, hoje à noite.",
+     "E hoje? Olha a última rodada do Brasileirão, hoje à noite."
+    ],
+    [
+     "Em cada jogo, 22 jogadores mais o árbitro são 23 pessoas.",
+     "Em cada jogo, vinte e dois jogadores mais o árbitro são vinte e três pessoas."
+    ],
+    [
+     "Pela matemática, em mais ou menos metade dos 10 jogos, duas pessoas em campo fazem aniversário no mesmo dia.",
+     "Pela matemática, em mais ou menos metade dos dez jogos, duas pessoas em campo fazem aniversário no mesmo dia."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tv",
+     "pos": [
+      520,
+      600
+     ],
+     "w": 380
+    },
+    {
+     "t": "tira",
+     "txt": "22 jogadores + 1 árbitro",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      1,
+      "árbitro"
+     ],
+     "size": 44
+    },
+    {
+     "t": "numero",
+     "txt": "23",
+     "pos": [
+      300,
+      1060
+     ],
+     "e": [
+      1,
+      "23"
+     ],
+     "size": 150
+    },
+    {
+     "t": "nota",
+     "txt": "em ~metade\ndos jogos!",
+     "pos": [
+      680,
+      1070
+     ],
+     "e": [
+      2,
+      "metade"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: 23 pessoas, 50% de chance.",
+     "Então: vinte e três pessoas, cinquenta por cento de chance."
+    ],
+    [
+     "Faz o teste no grupo da sua turma e conta aqui se deu coincidência.",
+     "Faz o teste no grupo da sua turma e conta aqui se deu coincidência."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "23",
+     "pos": [
+      520,
+      620
+     ],
+     "size": 320
+    },
+    {
+     "t": "bloco",
+     "txt": "faz o teste\nna sua turma",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": [
+      1,
+      "teste"
+     ],
+     "size": 64,
+     "maxw": 700
+    },
+    {
+     "t": "nota",
+     "txt": "conta aqui!",
+     "pos": [
+      760,
+      1140
+     ],
+     "e": [
+      1,
+      "conta"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  }
+ ]
+}
