@@ -1,0 +1,141 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 87.141,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Nesta quarta, os 10 jogos do Brasileirão começam no mesmo minuto. Culpa de 1982.",
+     "inicio": 0.1,
+     "dur": 7.111
+    },
+    {
+     "leg": "De um jogo que ganhou o apelido de Desgraça de Gijón.",
+     "inicio": 7.411,
+     "dur": 3.264
+    }
+   ],
+   "fim": 11.095
+  },
+  {
+   "id": "c2",
+   "inicio": 11.095,
+   "frases": [
+    {
+     "leg": "Copa do Mundo da Espanha. A Argélia estreia vencendo a poderosa Alemanha Ocidental por 2 a 1.",
+     "inicio": 11.095,
+     "dur": 6.279
+    },
+    {
+     "leg": "No último jogo do grupo, bate o Chile. E fica esperando.",
+     "inicio": 17.573,
+     "dur": 4.039
+    },
+    {
+     "leg": "Porque Alemanha e Áustria só jogariam no dia seguinte.",
+     "inicio": 21.812,
+     "dur": 3.349
+    }
+   ],
+   "fim": 25.581
+  },
+  {
+   "id": "c3",
+   "inicio": 25.581,
+   "frases": [
+    {
+     "leg": "E a conta era simples: uma vitória alemã magra classificava os dois europeus e eliminava a Argélia.",
+     "inicio": 25.581,
+     "dur": 5.931
+    },
+    {
+     "leg": "Logo aos 10 minutos, a Alemanha fez 1 a 0.",
+     "inicio": 31.712,
+     "dur": 2.965
+    }
+   ],
+   "fim": 35.097
+  },
+  {
+   "id": "c4",
+   "inicio": 35.097,
+   "frases": [
+    {
+     "leg": "E aí, o jogo praticamente parou.",
+     "inicio": 35.097,
+     "dur": 2.197
+    },
+    {
+     "leg": "No segundo tempo inteiro, foram só 2 chutes.",
+     "inicio": 37.495,
+     "dur": 2.795
+    },
+    {
+     "leg": "Narradores na Alemanha e na Áustria chegaram a pedir pro público mudar de canal.",
+     "inicio": 40.489,
+     "dur": 4.843
+    }
+   ],
+   "fim": 45.752
+  },
+  {
+   "id": "c5",
+   "inicio": 45.752,
+   "frases": [
+    {
+     "leg": "A Argélia protestou. Mas a FIFA disse não ter achado prova de combinação.",
+     "inicio": 45.752,
+     "dur": 5.191
+    },
+    {
+     "leg": "O resultado ficou. Só que a lição também ficou.",
+     "inicio": 51.143,
+     "dur": 3.655
+    }
+   ],
+   "fim": 55.217
+  },
+  {
+   "id": "c6",
+   "inicio": 55.217,
+   "frases": [
+    {
+     "leg": "Desde a Euro de 1984 e a Copa de 1986, as últimas rodadas de grupo são jogadas ao mesmo tempo.",
+     "inicio": 55.217,
+     "dur": 9.237
+    },
+    {
+     "leg": "E hoje? A ideia pegou. Nesta quarta, 2 de dezembro, os 10 jogos da última rodada do Brasileirão começam às 21h30.",
+     "inicio": 64.655,
+     "dur": 9.453
+    }
+   ],
+   "fim": 74.528
+  },
+  {
+   "id": "c7",
+   "inicio": 74.528,
+   "frases": [
+    {
+     "leg": "Então: 10 jogos no mesmo minuto, por causa de um 1 a 0 de 1982.",
+     "inicio": 74.528,
+     "dur": 5.675
+    },
+    {
+     "leg": "Na sua opinião: jogo simultâneo é justiça ou exagero? Comenta.",
+     "inicio": 80.403,
+     "dur": 4.689
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 85.292,
+     "dur": 1.429
+    }
+   ],
+   "fim": 87.141
+  }
+ ]
+}

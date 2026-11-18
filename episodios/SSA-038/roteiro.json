@@ -1,0 +1,526 @@
+{
+ "id": "SSA-038",
+ "chamada": "TODOS NO MESMO MINUTO",
+ "materia": "HISTÓRIA",
+ "titulo": "Por que a última rodada começa toda no mesmo minuto",
+ "fontes": [
+  "The Analyst (Opta), 'The Disgrace of Gijón: West Germany v Austria, 1982'.",
+  "Mental Floss, 'The Disgrace of Gijón: the most controversial match in World Cup history'.",
+  "The National (25/06/2026), sobre Argélia e Gijón 1982.",
+  "Reuters, via Malay Mail (22/06/2024): jogos simultâneos desde a Euro de 1984.",
+  "WION: FIFA mudou a regra para a Copa de 1986.",
+  "Flashscore Brasil (06/11/2026): 38ª rodada do Brasileirão em 02/12, todos às 21h30."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "relogio",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 420,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "a culpa é de um jogo de 1982",
+    "pos": [
+     520,
+     1110
+    ],
+    "e": null,
+    "size": 70,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Nesta quarta, os 10 jogos do Brasileirão começam no mesmo minuto. Culpa de 1982.",
+     "Nesta quarta, os dez jogos do Brasileirão começam no mesmo minuto. Culpa de mil novecentos e oitenta e dois."
+    ],
+    [
+     "De um jogo que ganhou o apelido de Desgraça de Gijón.",
+     "De um jogo que ganhou o apelido de Desgraça de Rirrón."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "relogio",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 400,
+     "balanca": true
+    },
+    {
+     "t": "tira",
+     "txt": "10 jogos · 21h30",
+     "pos": [
+      520,
+      900
+     ],
+     "size": 56
+    },
+    {
+     "t": "bloco",
+     "txt": "DESGRAÇA DE GIJÓN",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "Desgraça"
+     ],
+     "size": 66,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: The National (2026); Mental Floss",
+   "frases": [
+    [
+     "Copa do Mundo da Espanha. A Argélia estreia vencendo a poderosa Alemanha Ocidental por 2 a 1.",
+     "Copa do Mundo da Espanha. A Argélia estreia vencendo a poderosa Alemanha Ocidental por dois a um."
+    ],
+    [
+     "No último jogo do grupo, bate o Chile. E fica esperando.",
+     "No último jogo do grupo, bate o Chile. E fica esperando."
+    ],
+    [
+     "Porque Alemanha e Áustria só jogariam no dia seguinte.",
+     "Porque Alemanha e Áustria só jogariam no dia seguinte."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ESPANHA · 1982",
+     "pos": [
+      520,
+      440
+     ],
+     "size": 52
+    },
+    {
+     "t": "bloco",
+     "txt": "ARGÉLIA 2 x 1 ALEMANHA",
+     "pos": [
+      520,
+      640
+     ],
+     "e": [
+      0,
+      "2 a 1"
+     ],
+     "size": 62,
+     "maxw": 800
+    },
+    {
+     "t": "tira",
+     "txt": "ARGÉLIA x CHILE: vitória",
+     "pos": [
+      520,
+      820
+     ],
+     "e": [
+      1,
+      "Chile"
+     ],
+     "size": 44
+    },
+    {
+     "t": "cal",
+     "titulo": "JUNHO 1982",
+     "inicio": 2,
+     "ndias": 30,
+     "riscar": [
+      25
+     ],
+     "riscar_em": [
+      2,
+      "seguinte"
+     ],
+     "pos": [
+      520,
+      1050
+     ],
+     "escala": 0.5,
+     "ang": 2
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: WION; The Analyst (Opta)",
+   "frases": [
+    [
+     "E a conta era simples: uma vitória alemã magra classificava os dois europeus e eliminava a Argélia.",
+     "E a conta era simples: uma vitória alemã magra classificava os dois europeus e eliminava a Argélia."
+    ],
+    [
+     "Logo aos 10 minutos, a Alemanha fez 1 a 0.",
+     "Logo aos dez minutos, a Alemanha fez um a zero."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "vitória alemã magra =",
+     "pos": [
+      520,
+      470
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "Alemanha e Áustria: passam",
+     "pos": [
+      520,
+      620
+     ],
+     "e": [
+      0,
+      "europeus"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "Argélia: fora",
+     "pos": [
+      520,
+      760
+     ],
+     "e": [
+      0,
+      "eliminava"
+     ],
+     "size": 52
+    },
+    {
+     "t": "numero",
+     "txt": "1 x 0",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": [
+      1,
+      "1 a 0"
+     ],
+     "size": 200
+    },
+    {
+     "t": "nota",
+     "txt": "10'",
+     "pos": [
+      820,
+      900
+     ],
+     "e": [
+      1,
+      "10"
+     ],
+     "cor": "laranja",
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: The Analyst (Opta); Mental Floss",
+   "frases": [
+    [
+     "E aí, o jogo praticamente parou.",
+     "E aí, o jogo praticamente parou."
+    ],
+    [
+     "No segundo tempo inteiro, foram só 2 chutes.",
+     "No segundo tempo inteiro, foram só dois chutes."
+    ],
+    [
+     "Narradores na Alemanha e na Áustria chegaram a pedir pro público mudar de canal.",
+     "Narradores na Alemanha e na Áustria chegaram a pedir pro público mudar de canal."
+    ]
+   ],
+   "camera": {
+    "congela": {
+     "de": [
+      0,
+      "parou"
+     ],
+     "ate": [
+      1,
+      0.9
+     ]
+    }
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "o jogo parou",
+     "pos": [
+      520,
+      520
+     ],
+     "size": 84,
+     "cor": "tinta"
+    },
+    {
+     "t": "numero",
+     "txt": "2",
+     "pos": [
+      330,
+      820
+     ],
+     "e": [
+      1,
+      "2"
+     ],
+     "size": 260
+    },
+    {
+     "t": "nota",
+     "txt": "chutes no 2º\ntempo inteiro",
+     "pos": [
+      680,
+      820
+     ],
+     "e": [
+      1,
+      "chutes"
+     ],
+     "size": 56
+    },
+    {
+     "t": "tv",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      2,
+      "canal"
+     ],
+     "w": 260
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Mental Floss",
+   "frases": [
+    [
+     "A Argélia protestou. Mas a FIFA disse não ter achado prova de combinação.",
+     "A Argélia protestou. Mas a FIFA disse não ter achado prova de combinação."
+    ],
+    [
+     "O resultado ficou. Só que a lição também ficou.",
+     "O resultado ficou. Só que a lição também ficou."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "EL PAÍS",
+     "data": "26 JUN. 1982",
+     "rodape": "GIJÓN",
+     "pos": [
+      400,
+      700
+     ],
+     "w": 420,
+     "ang": -3
+    },
+    {
+     "t": "bloco",
+     "txt": "sem prova",
+     "pos": [
+      700,
+      620
+     ],
+     "e": [
+      0,
+      "prova"
+     ],
+     "size": 70,
+     "cor": "tinta",
+     "ang": 4
+    },
+    {
+     "t": "nota",
+     "txt": "mas ficou a lição",
+     "pos": [
+      600,
+      1080
+     ],
+     "e": [
+      1,
+      "lição"
+     ],
+     "cor": "laranja",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Reuters (2024); WION; Flashscore Brasil (06/11/2026)",
+   "frases": [
+    [
+     "Desde a Euro de 1984 e a Copa de 1986, as últimas rodadas de grupo são jogadas ao mesmo tempo.",
+     "Desde a Euro de mil novecentos e oitenta e quatro e a Copa de mil novecentos e oitenta e seis, as últimas rodadas de grupo são jogadas ao mesmo tempo."
+    ],
+    [
+     "E hoje? A ideia pegou. Nesta quarta, 2 de dezembro, os 10 jogos da última rodada do Brasileirão começam às 21h30.",
+     "E hoje? A ideia pegou. Nesta quarta, dois de dezembro, os dez jogos da última rodada do Brasileirão começam às vinte e uma e trinta."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "EURO 1984",
+     "pos": [
+      300,
+      460
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "COPA 1986",
+     "pos": [
+      720,
+      520
+     ],
+     "e": [
+      0,
+      "Copa"
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "tudo ao mesmo tempo",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "mesmo tempo"
+     ],
+     "size": 68
+    },
+    {
+     "t": "obj",
+     "nome": "relogio",
+     "pos": [
+      330,
+      1010
+     ],
+     "e": [
+      1,
+      "pegou"
+     ],
+     "w": 260
+    },
+    {
+     "t": "tira",
+     "txt": "QUA 02/12 · 21h30",
+     "pos": [
+      680,
+      960
+     ],
+     "e": [
+      1,
+      "21h30"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "10 jogos",
+     "pos": [
+      700,
+      1100
+     ],
+     "e": [
+      1,
+      "10"
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: 10 jogos no mesmo minuto, por causa de um 1 a 0 de 1982.",
+     "Então: dez jogos no mesmo minuto, por causa de um um a zero de mil novecentos e oitenta e dois."
+    ],
+    [
+     "Na sua opinião: jogo simultâneo é justiça ou exagero? Comenta.",
+     "Na sua opinião: jogo simultâneo é justiça ou exagero? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "relogio",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "justiça ou exagero?",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": [
+      1,
+      "justiça"
+     ],
+     "size": 74
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1140
+     ],
+     "e": [
+      1,
+      "Comenta"
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ]
+}
