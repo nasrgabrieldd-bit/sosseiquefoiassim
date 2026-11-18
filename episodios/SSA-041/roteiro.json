@@ -1,0 +1,555 @@
+{
+ "id": "SSA-041",
+ "chamada": "O MISTÉRIO QUE ELA NÃO CONTOU",
+ "materia": "LITERATURA",
+ "titulo": "Há 100 anos, Agatha Christie sumiu por 11 dias",
+ "fontes": [
+  "The National Archives (Reino Unido), '20s People: investigating the strange disappearance of Mrs Agatha Christie'.",
+  "National Geographic, 'The mystery of Agatha Christie's disappearance'.",
+  "BBC Countryfile, 'Agatha Christie's disappearance'.",
+  "Leeds Mercury (21/12/1926): Arthur Conan Doyle e a luva levada a um médium.",
+  "Guinness World Records, 'Best-selling author for fiction'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "jornal",
+    "titulo": "DAILY MAIL",
+    "data": "DEZ. 1926",
+    "rodape": "MRS. CHRISTIE MISSING",
+    "pos": [
+     520,
+     740
+    ],
+    "e": null,
+    "w": 460,
+    "ang": -3
+   },
+   {
+    "t": "numero",
+    "txt": "11",
+    "pos": [
+     790,
+     470
+    ],
+    "e": null,
+    "size": 220
+   },
+   {
+    "t": "tira",
+    "txt": "dias",
+    "pos": [
+     790,
+     640
+    ],
+    "e": null,
+    "size": 50
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Há exatos 100 anos, a escritora mais vendida do mundo sumiu sem deixar explicação.",
+     "Há exatos cem anos, a escritora mais vendida do mundo sumiu sem deixar explicação."
+    ],
+    [
+     "Foram 11 dias.",
+     "Foram onze dias."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "DAILY MAIL",
+     "data": "DEZ. 1926",
+     "rodape": "MRS. CHRISTIE MISSING",
+     "pos": [
+      430,
+      700
+     ],
+     "w": 440,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "numero",
+     "txt": "11",
+     "pos": [
+      760,
+      1020
+     ],
+     "e": [
+      1,
+      "11"
+     ],
+     "size": 240
+    },
+    {
+     "t": "tira",
+     "txt": "dias",
+     "pos": [
+      760,
+      1140
+     ],
+     "e": [
+      1,
+      "dias"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: National Archives (UK); National Geographic",
+   "frases": [
+    [
+     "Inglaterra, noite de 3 de dezembro de 1926.",
+     "Inglaterra, noite de três de dezembro de mil novecentos e vinte e seis."
+    ],
+    [
+     "Agatha Christie, então com 36 anos, sai de casa de carro, sem dizer pra onde.",
+     "Ágata Crísti, então com trinta e seis anos, sai de casa de carro, sem dizer pra onde."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "03/12/1926 · NOITE",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "AGATHA CHRISTIE, 36",
+     "pos": [
+      520,
+      660
+     ],
+     "e": [
+      1,
+      "Agatha"
+     ],
+     "size": 66,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "pra onde?",
+     "pos": [
+      700,
+      880
+     ],
+     "e": [
+      1,
+      "onde"
+     ],
+     "cor": "laranja",
+     "size": 70
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: National Archives (UK); National Geographic",
+   "frases": [
+    [
+     "Na manhã seguinte, o carro é achado abandonado numa colina chamada Newlands Corner.",
+     "Na manhã seguinte, o carro é achado abandonado numa colina chamada Niúlands Córner."
+    ],
+    [
+     "Com os faróis acesos, uma mala e um casaco de pele lá dentro.",
+     "Com os faróis acesos, uma mala e um casaco de pele lá dentro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "NEWLANDS CORNER",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "carro abandonado",
+     "pos": [
+      520,
+      650
+     ],
+     "e": [
+      0,
+      "abandonado"
+     ],
+     "size": 74
+    },
+    {
+     "t": "tira",
+     "txt": "faróis acesos",
+     "pos": [
+      330,
+      880
+     ],
+     "e": [
+      1,
+      "faróis"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "mala",
+     "pos": [
+      700,
+      960
+     ],
+     "e": [
+      1,
+      "mala"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "casaco de pele",
+     "pos": [
+      440,
+      1080
+     ],
+     "e": [
+      1,
+      "casaco"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: BBC Countryfile; Leeds Mercury (21/12/1926)",
+   "frases": [
+    [
+     "Começa uma das maiores buscas da história da Inglaterra.",
+     "Começa uma das maiores buscas da história da Inglaterra."
+    ],
+    [
+     "Segundo relatos da época, mais de mil policiais, milhares de voluntários e até aviões.",
+     "Segundo relatos da época, mais de mil policiais, milhares de voluntários e até aviões."
+    ],
+    [
+     "Arthur Conan Doyle, o criador do Sherlock Holmes, levou uma luva dela a um médium.",
+     "Ártur Cônan Dóil, o criador do Xérloque Rômes, levou uma luva dela a um médium."
+    ]
+   ],
+   "camera": {
+    "push": 0.05
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "A GRANDE BUSCA",
+     "pos": [
+      520,
+      490
+     ],
+     "size": 70,
+     "maxw": 800,
+     "cor": "tinta"
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 1000,
+     "fmt": "+{n} policiais",
+     "pos": [
+      520,
+      660
+     ],
+     "e": [
+      1,
+      "mil"
+     ],
+     "size": 64
+    },
+    {
+     "t": "tira",
+     "txt": "milhares de voluntários",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      1,
+      "voluntários"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "CONAN DOYLE",
+     "pos": [
+      330,
+      980
+     ],
+     "e": [
+      2,
+      "Conan"
+     ],
+     "size": 50
+    },
+    {
+     "t": "nota",
+     "txt": "uma luva\nao médium",
+     "pos": [
+      700,
+      1060
+     ],
+     "e": [
+      2,
+      "luva"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: National Geographic; National Archives (UK)",
+   "frases": [
+    [
+     "11 dias depois, ela é encontrada num hotel em Harrogate, a uns 350 quilômetros dali.",
+     "Onze dias depois, ela é encontrada num hotel em Rárrogueit, a uns trezentos e cinquenta quilômetros dali."
+    ],
+    [
+     "Hospedada com outro nome, como se tivesse vindo da África do Sul.",
+     "Hospedada com outro nome, como se tivesse vindo da África do Sul."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "HARROGATE · HOTEL",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "numero",
+     "txt": "350 km",
+     "pos": [
+      520,
+      680
+     ],
+     "e": [
+      0,
+      "350"
+     ],
+     "size": 170
+    },
+    {
+     "t": "bloco",
+     "txt": "outro nome",
+     "pos": [
+      400,
+      960
+     ],
+     "e": [
+      1,
+      "nome"
+     ],
+     "size": 78,
+     "cor": "tinta",
+     "ang": -4
+    },
+    {
+     "t": "nota",
+     "txt": "\"da África do Sul\"",
+     "pos": [
+      640,
+      1120
+     ],
+     "e": [
+      1,
+      "África"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: National Archives (UK); National Geographic",
+   "frases": [
+    [
+     "Ela nunca contou o que fez nesses 11 dias.",
+     "Ela nunca contou o que fez nesses onze dias."
+    ],
+    [
+     "Na autobiografia, só escreveu que, pela primeira vez na vida, estava realmente doente.",
+     "Na autobiografia, só escreveu que, pela primeira vez na vida, estava realmente doente."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 380,
+     "ang": -3
+    },
+    {
+     "t": "bloco",
+     "txt": "nunca contou",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      0,
+      "nunca"
+     ],
+     "size": 86
+    },
+    {
+     "t": "nota",
+     "txt": "\"realmente doente\"",
+     "pos": [
+      600,
+      1130
+     ],
+     "e": [
+      1,
+      "doente"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "fonte": "Fonte: Guinness World Records",
+   "frases": [
+    [
+     "E hoje? O Guinness estima que os livros dela venderam uns 2 bilhões de cópias.",
+     "E hoje? O Guinness estima que os livros dela venderam uns dois bilhões de cópias."
+    ],
+    [
+     "Mas o mistério mais famoso dela não está em nenhum livro.",
+     "Mas o mistério mais famoso dela não está em nenhum livro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 2,
+     "fmt": "{n} bilhões de livros",
+     "pos": [
+      520,
+      560
+     ],
+     "e": [
+      0,
+      "bilhões"
+     ],
+     "size": 74
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      860
+     ],
+     "w": 300,
+     "ang": 4
+    },
+    {
+     "t": "nota",
+     "txt": "em nenhum livro",
+     "pos": [
+      600,
+      1120
+     ],
+     "e": [
+      1,
+      "nenhum"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "frases": [
+    [
+     "Então: 100 anos depois, ninguém sabe o que aconteceu naqueles 11 dias.",
+     "Então: cem anos depois, ninguém sabe o que aconteceu naqueles onze dias."
+    ],
+    [
+     "Se fosse um livro dela, qual seria o final? Comenta sua teoria.",
+     "Se fosse um livro dela, qual seria o final? Comenta sua teoria."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "11",
+     "pos": [
+      520,
+      620
+     ],
+     "size": 320
+    },
+    {
+     "t": "bloco",
+     "txt": "qual seria o final?",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      1,
+      "final"
+     ],
+     "size": 70
+    },
+    {
+     "t": "nota",
+     "txt": "comenta sua teoria",
+     "pos": [
+      640,
+      1140
+     ],
+     "e": [
+      1,
+      "teoria"
+     ],
+     "cor": "laranja",
+     "size": 54
+    }
+   ]
+  }
+ ]
+}

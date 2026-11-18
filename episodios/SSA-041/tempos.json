@@ -1,0 +1,153 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 81.441,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Há exatos 100 anos, a escritora mais vendida do mundo sumiu sem deixar explicação.",
+     "inicio": 0.1,
+     "dur": 5.12
+    },
+    {
+     "leg": "Foram 11 dias.",
+     "inicio": 5.42,
+     "dur": 1.429
+    }
+   ],
+   "fim": 7.269
+  },
+  {
+   "id": "c2",
+   "inicio": 7.269,
+   "frases": [
+    {
+     "leg": "Inglaterra, noite de 3 de dezembro de 1926.",
+     "inicio": 7.269,
+     "dur": 4.395
+    },
+    {
+     "leg": "Agatha Christie, então com 36 anos, sai de casa de carro, sem dizer pra onde.",
+     "inicio": 11.864,
+     "dur": 5.397
+    }
+   ],
+   "fim": 17.681
+  },
+  {
+   "id": "c3",
+   "inicio": 17.681,
+   "frases": [
+    {
+     "leg": "Na manhã seguinte, o carro é achado abandonado numa colina chamada Newlands Corner.",
+     "inicio": 17.681,
+     "dur": 5.077
+    },
+    {
+     "leg": "Com os faróis acesos, uma mala e um casaco de pele lá dentro.",
+     "inicio": 22.959,
+     "dur": 3.755
+    }
+   ],
+   "fim": 27.133
+  },
+  {
+   "id": "c4",
+   "inicio": 27.133,
+   "frases": [
+    {
+     "leg": "Começa uma das maiores buscas da história da Inglaterra.",
+     "inicio": 27.133,
+     "dur": 3.285
+    },
+    {
+     "leg": "Segundo relatos da época, mais de mil policiais, milhares de voluntários e até aviões.",
+     "inicio": 30.619,
+     "dur": 5.291
+    },
+    {
+     "leg": "Arthur Conan Doyle, o criador do Sherlock Holmes, levou uma luva dela a um médium.",
+     "inicio": 36.109,
+     "dur": 4.693
+    }
+   ],
+   "fim": 41.223
+  },
+  {
+   "id": "c5",
+   "inicio": 41.223,
+   "frases": [
+    {
+     "leg": "11 dias depois, ela é encontrada num hotel em Harrogate, a uns 350 quilômetros dali.",
+     "inicio": 41.223,
+     "dur": 6.272
+    },
+    {
+     "leg": "Hospedada com outro nome, como se tivesse vindo da África do Sul.",
+     "inicio": 47.695,
+     "dur": 3.904
+    }
+   ],
+   "fim": 52.019
+  },
+  {
+   "id": "c6",
+   "inicio": 52.019,
+   "frases": [
+    {
+     "leg": "Ela nunca contou o que fez nesses 11 dias.",
+     "inicio": 52.019,
+     "dur": 2.859
+    },
+    {
+     "leg": "Na autobiografia, só escreveu que, pela primeira vez na vida, estava realmente doente.",
+     "inicio": 55.077,
+     "dur": 5.184
+    }
+   ],
+   "fim": 60.681
+  },
+  {
+   "id": "c7",
+   "inicio": 60.681,
+   "frases": [
+    {
+     "leg": "E hoje? O Guinness estima que os livros dela venderam uns 2 bilhões de cópias.",
+     "inicio": 60.681,
+     "dur": 5.799
+    },
+    {
+     "leg": "Mas o mistério mais famoso dela não está em nenhum livro.",
+     "inicio": 66.68,
+     "dur": 3.328
+    }
+   ],
+   "fim": 70.428
+  },
+  {
+   "id": "c8",
+   "inicio": 70.428,
+   "frases": [
+    {
+     "leg": "Então: 100 anos depois, ninguém sabe o que aconteceu naqueles 11 dias.",
+     "inicio": 70.428,
+     "dur": 4.437
+    },
+    {
+     "leg": "Se fosse um livro dela, qual seria o final? Comenta sua teoria.",
+     "inicio": 75.065,
+     "dur": 4.327
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 79.592,
+     "dur": 1.429
+    }
+   ],
+   "fim": 81.441
+  }
+ ]
+}
