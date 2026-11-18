@@ -1,0 +1,131 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 73.205,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Numa colher de sopa de terra, tem mais seres vivos do que gente no planeta.",
+     "inicio": 0.1,
+     "dur": 4.437
+    },
+    {
+     "leg": "E o planeta tem mais de 8 bilhões de pessoas.",
+     "inicio": 4.737,
+     "dur": 3.179
+    }
+   ],
+   "fim": 8.336
+  },
+  {
+   "id": "c2",
+   "inicio": 8.336,
+   "frases": [
+    {
+     "leg": "Quem diz isso é a FAO, a agência da ONU pra alimentação e agricultura.",
+     "inicio": 8.336,
+     "dur": 4.757
+    },
+    {
+     "leg": "São bactérias, fungos, vermes minúsculos e um monte de bichos que a gente nem consegue enxergar.",
+     "inicio": 13.293,
+     "dur": 5.675
+    }
+   ],
+   "fim": 19.388
+  },
+  {
+   "id": "c3",
+   "inicio": 19.388,
+   "frases": [
+    {
+     "leg": "Um estudo de 2023 estimou que quase 59% das espécies da Terra vivem no solo.",
+     "inicio": 19.388,
+     "dur": 6.955
+    },
+    {
+     "leg": "Mais da metade da vida do planeta mora debaixo dos seus pés.",
+     "inicio": 26.543,
+     "dur": 3.797
+    }
+   ],
+   "fim": 30.76
+  },
+  {
+   "id": "c4",
+   "inicio": 30.76,
+   "frases": [
+    {
+     "leg": "E solo demora muito pra se formar: pode levar até mil anos pra criar só 2 ou 3 centímetros.",
+     "inicio": 30.76,
+     "dur": 6.037
+    },
+    {
+     "leg": "Ou seja: solo perdido não volta no tempo de uma vida.",
+     "inicio": 36.997,
+     "dur": 3.413
+    }
+   ],
+   "fim": 40.831
+  },
+  {
+   "id": "c5",
+   "inicio": 40.831,
+   "frases": [
+    {
+     "leg": "E é dele que vem quase tudo o que a gente come: a FAO calcula que 95% dos alimentos são produzidos no solo.",
+     "inicio": 40.831,
+     "dur": 7.637
+    },
+    {
+     "leg": "Mas cerca de um terço dos solos do mundo já está degradado.",
+     "inicio": 48.668,
+     "dur": 3.627
+    }
+   ],
+   "fim": 52.715
+  },
+  {
+   "id": "c6",
+   "inicio": 52.715,
+   "frases": [
+    {
+     "leg": "E hoje, 5 de dezembro, é o Dia Mundial do Solo.",
+     "inicio": 52.715,
+     "dur": 3.2
+    },
+    {
+     "leg": "A ONU oficializou a data em 2013, no aniversário de um rei da Tailândia que defendeu a ideia.",
+     "inicio": 56.115,
+     "dur": 6.272
+    }
+   ],
+   "fim": 62.807
+  },
+  {
+   "id": "c7",
+   "inicio": 62.807,
+   "frases": [
+    {
+     "leg": "Então: uma colher de terra tem mais vida do que gente no mundo inteiro.",
+     "inicio": 62.807,
+     "dur": 3.968
+    },
+    {
+     "leg": "Marca aquele amigo que tem horta, jardim ou vasinho de planta em casa.",
+     "inicio": 66.975,
+     "dur": 4.181
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 71.356,
+     "dur": 1.429
+    }
+   ],
+   "fim": 73.205
+  }
+ ]
+}

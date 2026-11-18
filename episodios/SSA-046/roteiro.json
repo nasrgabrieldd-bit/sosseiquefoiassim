@@ -1,0 +1,478 @@
+{
+ "id": "SSA-046",
+ "chamada": "DEBAIXO DOS SEUS PÉS",
+ "materia": "BIOLOGIA",
+ "titulo": "Uma colher de terra tem mais seres vivos que gente no planeta",
+ "fontes": [
+  "FAO, 'World Soil Day' (página oficial).",
+  "FAO Stories: 'There are more living organisms in a tablespoon of soil than there are people on Earth'.",
+  "ANTHONY, M. et al. PNAS (2023), via Yale Environment 360: solo abriga ~59% das espécies.",
+  "InforMEA/ONU: história do Dia Mundial do Solo (IUSS 2002, ONU 2013).",
+  "ONU: população mundial passou de 8 bilhões em novembro de 2022."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "arvore",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 420
+   },
+   {
+    "t": "bloco",
+    "txt": "mais vida que gente no planeta",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 70,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Numa colher de sopa de terra, tem mais seres vivos do que gente no planeta.",
+     "Numa colher de sopa de terra, tem mais seres vivos do que gente no planeta."
+    ],
+    [
+     "E o planeta tem mais de 8 bilhões de pessoas.",
+     "E o planeta tem mais de oito bilhões de pessoas."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "arvore",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 400,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "1 colher de terra",
+     "pos": [
+      520,
+      940
+     ],
+     "size": 74
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 8,
+     "fmt": "> {n} bilhões de pessoas",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      1,
+      "8"
+     ],
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: FAO",
+   "frases": [
+    [
+     "Quem diz isso é a FAO, a agência da ONU pra alimentação e agricultura.",
+     "Quem diz isso é a FAO, a agência da ONU pra alimentação e agricultura."
+    ],
+    [
+     "São bactérias, fungos, vermes minúsculos e um monte de bichos que a gente nem consegue enxergar.",
+     "São bactérias, fungos, vermes minúsculos e um monte de bichos que a gente nem consegue enxergar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "FAO · ONU",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 56
+    },
+    {
+     "t": "tira",
+     "txt": "bactérias",
+     "pos": [
+      300,
+      680
+     ],
+     "e": [
+      1,
+      "bactérias"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "fungos",
+     "pos": [
+      720,
+      760
+     ],
+     "e": [
+      1,
+      "fungos"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "vermes minúsculos",
+     "pos": [
+      400,
+      880
+     ],
+     "e": [
+      1,
+      "vermes"
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "invisíveis!",
+     "pos": [
+      680,
+      1040
+     ],
+     "e": [
+      1,
+      "enxergar"
+     ],
+     "cor": "laranja",
+     "size": 66
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Anthony et al., PNAS (2023), via Yale e360",
+   "frases": [
+    [
+     "Um estudo de 2023 estimou que quase 59% das espécies da Terra vivem no solo.",
+     "Um estudo de dois mil e vinte e três estimou que quase cinquenta e nove por cento das espécies da Terra vivem no solo."
+    ],
+    [
+     "Mais da metade da vida do planeta mora debaixo dos seus pés.",
+     "Mais da metade da vida do planeta mora debaixo dos seus pés."
+    ]
+   ],
+   "camera": {
+    "push": 0.05,
+    "zooms": [
+     {
+      "e": [
+       0,
+       "59"
+      ],
+      "escala": 1.15,
+      "alvo": [
+       520,
+       700
+      ],
+      "dur": 0.7
+     }
+    ]
+   },
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "PNAS · 2023",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 52
+    },
+    {
+     "t": "numero",
+     "txt": "59%",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "59"
+     ],
+     "size": 260
+    },
+    {
+     "t": "nota",
+     "txt": "debaixo dos\nseus pés",
+     "pos": [
+      560,
+      1060
+     ],
+     "e": [
+      1,
+      "pés"
+     ],
+     "cor": "laranja",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: FAO",
+   "frases": [
+    [
+     "E solo demora muito pra se formar: pode levar até mil anos pra criar só 2 ou 3 centímetros.",
+     "E solo demora muito pra se formar: pode levar até mil anos pra criar só dois ou três centímetros."
+    ],
+    [
+     "Ou seja: solo perdido não volta no tempo de uma vida.",
+     "Ou seja: solo perdido não volta no tempo de uma vida."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "1.000",
+     "pos": [
+      520,
+      580
+     ],
+     "size": 200
+    },
+    {
+     "t": "tira",
+     "txt": "anos",
+     "pos": [
+      800,
+      700
+     ],
+     "size": 48
+    },
+    {
+     "t": "seta",
+     "de": [
+      520,
+      760
+     ],
+     "ate": [
+      520,
+      900
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "centímetros"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "2 a 3 cm",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      0,
+      "centímetros"
+     ],
+     "size": 90,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "não volta",
+     "pos": [
+      700,
+      1140
+     ],
+     "e": [
+      1,
+      "volta"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: FAO",
+   "frases": [
+    [
+     "E é dele que vem quase tudo o que a gente come: a FAO calcula que 95% dos alimentos são produzidos no solo.",
+     "E é dele que vem quase tudo o que a gente come: a FAO calcula que noventa e cinco por cento dos alimentos são produzidos no solo."
+    ],
+    [
+     "Mas cerca de um terço dos solos do mundo já está degradado.",
+     "Mas cerca de um terço dos solos do mundo já está degradado."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "95%",
+     "pos": [
+      520,
+      600
+     ],
+     "e": [
+      0,
+      "95"
+     ],
+     "size": 240
+    },
+    {
+     "t": "tira",
+     "txt": "dos alimentos vêm do solo",
+     "pos": [
+      520,
+      820
+     ],
+     "e": [
+      0,
+      "alimentos"
+     ],
+     "size": 44
+    },
+    {
+     "t": "bloco",
+     "txt": "1/3 degradado",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      1,
+      "terço"
+     ],
+     "size": 84,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: FAO; InforMEA/ONU",
+   "frases": [
+    [
+     "E hoje, 5 de dezembro, é o Dia Mundial do Solo.",
+     "E hoje, cinco de dezembro, é o Dia Mundial do Solo."
+    ],
+    [
+     "A ONU oficializou a data em 2013, no aniversário de um rei da Tailândia que defendeu a ideia.",
+     "A ONU oficializou a data em dois mil e treze, no aniversário de um rei da Tailândia que defendeu a ideia."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "DEZEMBRO",
+     "inicio": 2,
+     "ndias": 31,
+     "riscar": [
+      5
+     ],
+     "riscar_em": [
+      0,
+      "5 de"
+     ],
+     "pos": [
+      520,
+      720
+     ],
+     "escala": 0.55,
+     "ang": -2
+    },
+    {
+     "t": "bloco",
+     "txt": "DIA MUNDIAL DO SOLO",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": [
+      0,
+      "Dia"
+     ],
+     "size": 66
+    },
+    {
+     "t": "obj",
+     "nome": "coroa",
+     "pos": [
+      800,
+      760
+     ],
+     "e": [
+      1,
+      "rei"
+     ],
+     "w": 170
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: uma colher de terra tem mais vida do que gente no mundo inteiro.",
+     "Então: uma colher de terra tem mais vida do que gente no mundo inteiro."
+    ],
+    [
+     "Marca aquele amigo que tem horta, jardim ou vasinho de planta em casa.",
+     "Marca aquele amigo que tem horta, jardim ou vasinho de planta em casa."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "arvore",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "marca quem tem\nhorta ou vasinho",
+     "pos": [
+      520,
+      1030
+     ],
+     "e": [
+      1,
+      "Marca"
+     ],
+     "size": 62,
+     "maxw": 740
+    }
+   ]
+  }
+ ]
+}
