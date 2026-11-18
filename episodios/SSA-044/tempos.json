@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 76.401,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Cortar cebola faz você chorar porque ela solta um gás no ar.",
+     "inicio": 0.1,
+     "dur": 3.691
+    },
+    {
+     "leg": "E existe uma enzima só pra fabricar ele.",
+     "inicio": 3.991,
+     "dur": 2.624
+    }
+   ],
+   "fim": 7.035
+  },
+  {
+   "id": "c2",
+   "inicio": 7.035,
+   "frases": [
+    {
+     "leg": "Dentro das células da cebola, algumas substâncias ficam guardadas separadas.",
+     "inicio": 7.035,
+     "dur": 4.757
+    },
+    {
+     "leg": "Quando a faca rompe as células, elas se misturam.",
+     "inicio": 11.992,
+     "dur": 2.709
+    },
+    {
+     "leg": "E começa uma reação química em cadeia.",
+     "inicio": 14.901,
+     "dur": 2.517
+    }
+   ],
+   "fim": 17.839
+  },
+  {
+   "id": "c3",
+   "inicio": 17.839,
+   "frases": [
+    {
+     "leg": "Primeiro, uma enzima transforma compostos de enxofre em ácidos.",
+     "inicio": 17.839,
+     "dur": 3.968
+    },
+    {
+     "leg": "Aí entra uma segunda enzima, descoberta em 2002 por cientistas japoneses.",
+     "inicio": 22.007,
+     "dur": 5.141
+    },
+    {
+     "leg": "O nome dela é fator lacrimogêneo sintase. É ela que fabrica o gás.",
+     "inicio": 27.348,
+     "dur": 4.657
+    }
+   ],
+   "fim": 32.425
+  },
+  {
+   "id": "c4",
+   "inicio": 32.425,
+   "frases": [
+    {
+     "leg": "O gás tem um nome complicado: syn-propanotial-S-óxido.",
+     "inicio": 32.425,
+     "dur": 3.776
+    },
+    {
+     "leg": "Ele voa até o seu olho, e os nervos sentem a irritação.",
+     "inicio": 36.401,
+     "dur": 3.285
+    },
+    {
+     "leg": "Aí as glândulas soltam lágrima pra lavar o olho.",
+     "inicio": 39.887,
+     "dur": 2.859
+    }
+   ],
+   "fim": 43.165
+  },
+  {
+   "id": "c5",
+   "inicio": 43.165,
+   "frases": [
+    {
+     "leg": "E mascar chiclete não adianta: o gatilho está no olho, não na boca.",
+     "inicio": 43.165,
+     "dur": 4.075
+    },
+    {
+     "leg": "O que ajuda é cebola gelada, faca bem afiada, e uma janela aberta ou exaustor ligado.",
+     "inicio": 47.44,
+     "dur": 5.355
+    }
+   ],
+   "fim": 53.215
+  },
+  {
+   "id": "c6",
+   "inicio": 53.215,
+   "frases": [
+    {
+     "leg": "E hoje? Já existe cebola que quase não faz chorar.",
+     "inicio": 53.215,
+     "dur": 3.836
+    },
+    {
+     "leg": "Ela se chama Sunions, foi criada por cruzamento, sem mexer no gene, e já é vendida nos Estados Unidos e no Reino Unido.",
+     "inicio": 57.251,
+     "dur": 7.403
+    }
+   ],
+   "fim": 65.073
+  },
+  {
+   "id": "c7",
+   "inicio": 65.073,
+   "frases": [
+    {
+     "leg": "Então: a lágrima da cebola é química pura, com gás e enzima própria.",
+     "inicio": 65.073,
+     "dur": 4.032
+    },
+    {
+     "leg": "Já chorou cortando cebola na frente de alguém, e a pessoa achou que era de verdade?",
+     "inicio": 69.305,
+     "dur": 4.907
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 74.552,
+     "dur": 1.429
+    }
+   ],
+   "fim": 76.401
+  }
+ ]
+}

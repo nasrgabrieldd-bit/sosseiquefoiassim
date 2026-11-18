@@ -1,0 +1,502 @@
+{
+ "id": "SSA-044",
+ "chamada": "POR QUE ISSO ACONTECE?",
+ "materia": "QUÍMICA",
+ "titulo": "Por que a cebola faz você chorar",
+ "fontes": [
+  "IMAI, S. et al. 'An onion enzyme that makes the eyes water'. Nature 419, 685 (2002).",
+  "Library of Congress, 'Why does chopping an onion make you cry?' (Everyday Mysteries).",
+  "The Conversation, 'Monday's medical myth: chewing gum stops onion tears'.",
+  "FoodNavigator (14/01/2022): cebolas Sunions, obtidas por cruzamento, chegam ao Reino Unido."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "frasco",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 360,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "a cebola solta um gás no seu olho",
+    "pos": [
+     520,
+     1110
+    ],
+    "e": null,
+    "size": 68,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Cortar cebola faz você chorar porque ela solta um gás no ar.",
+     "Cortar cebola faz você chorar porque ela solta um gás no ar."
+    ],
+    [
+     "E existe uma enzima só pra fabricar ele.",
+     "E existe uma enzima só pra fabricar ele."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 340,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "um gás no ar",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 86,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "uma enzima só pra isso",
+     "pos": [
+      560,
+      1130
+     ],
+     "e": [
+      1,
+      "enzima"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Library of Congress",
+   "frases": [
+    [
+     "Dentro das células da cebola, algumas substâncias ficam guardadas separadas.",
+     "Dentro das células da cebola, algumas substâncias ficam guardadas separadas."
+    ],
+    [
+     "Quando a faca rompe as células, elas se misturam.",
+     "Quando a faca rompe as células, elas se misturam."
+    ],
+    [
+     "E começa uma reação química em cadeia.",
+     "E começa uma reação química em cadeia."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "dentro da célula: separado",
+     "pos": [
+      520,
+      460
+     ],
+     "size": 44
+    },
+    {
+     "t": "bloco",
+     "txt": "a faca rompe",
+     "pos": [
+      520,
+      680
+     ],
+     "e": [
+      1,
+      "faca"
+     ],
+     "size": 80
+    },
+    {
+     "t": "seta",
+     "de": [
+      300,
+      860
+     ],
+     "ate": [
+      740,
+      860
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "misturam"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "REAÇÃO EM CADEIA",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      2,
+      "reação"
+     ],
+     "size": 64,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Library of Congress; Nature (2002)",
+   "frases": [
+    [
+     "Primeiro, uma enzima transforma compostos de enxofre em ácidos.",
+     "Primeiro, uma enzima transforma compostos de enxofre em ácidos."
+    ],
+    [
+     "Aí entra uma segunda enzima, descoberta em 2002 por cientistas japoneses.",
+     "Aí entra uma segunda enzima, descoberta em dois mil e dois por cientistas japoneses."
+    ],
+    [
+     "O nome dela é fator lacrimogêneo sintase. É ela que fabrica o gás.",
+     "O nome dela é fator lacrimogêneo sintase. É ela que fabrica o gás."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "1ª enzima: enxofre vira ácido",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 42
+    },
+    {
+     "t": "tira",
+     "txt": "NATURE · 2002",
+     "pos": [
+      520,
+      620
+     ],
+     "e": [
+      1,
+      "2002"
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "fator lacrimogêneo\nsintase",
+     "pos": [
+      520,
+      860
+     ],
+     "e": [
+      2,
+      "fator"
+     ],
+     "size": 62,
+     "maxw": 760,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "fabrica o gás",
+     "pos": [
+      560,
+      1060
+     ],
+     "e": [
+      2,
+      "fabrica"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Library of Congress",
+   "frases": [
+    [
+     "O gás tem um nome complicado: syn-propanotial-S-óxido.",
+     "O gás tem um nome complicado: sin propanotiál ésse óxido."
+    ],
+    [
+     "Ele voa até o seu olho, e os nervos sentem a irritação.",
+     "Ele voa até o seu olho, e os nervos sentem a irritação."
+    ],
+    [
+     "Aí as glândulas soltam lágrima pra lavar o olho.",
+     "Aí as glândulas soltam lágrima pra lavar o olho."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "syn-propanotial-S-óxido",
+     "pos": [
+      520,
+      500
+     ],
+     "size": 56,
+     "maxw": 800,
+     "cor": "tinta"
+    },
+    {
+     "t": "seta",
+     "de": [
+      300,
+      700
+     ],
+     "ate": [
+      700,
+      780
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "voa"
+     ]
+    },
+    {
+     "t": "nota",
+     "txt": "irritação!",
+     "pos": [
+      700,
+      880
+     ],
+     "e": [
+      1,
+      "irritação"
+     ],
+     "cor": "laranja",
+     "size": 66
+    },
+    {
+     "t": "bloco",
+     "txt": "LÁGRIMA",
+     "pos": [
+      480,
+      1070
+     ],
+     "e": [
+      2,
+      "lágrima"
+     ],
+     "size": 96
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: The Conversation",
+   "frases": [
+    [
+     "E mascar chiclete não adianta: o gatilho está no olho, não na boca.",
+     "E mascar chiclete não adianta: o gatilho está no olho, não na boca."
+    ],
+    [
+     "O que ajuda é cebola gelada, faca bem afiada, e uma janela aberta ou exaustor ligado.",
+     "O que ajuda é cebola gelada, faca bem afiada, e uma janela aberta ou exaustor ligado."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "chiclete: mito",
+     "pos": [
+      520,
+      500
+     ],
+     "size": 76,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "tira",
+     "txt": "cebola gelada",
+     "pos": [
+      330,
+      750
+     ],
+     "e": [
+      1,
+      "gelada"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "faca afiada",
+     "pos": [
+      700,
+      850
+     ],
+     "e": [
+      1,
+      "afiada"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "janela ou exaustor",
+     "pos": [
+      430,
+      980
+     ],
+     "e": [
+      1,
+      "janela"
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: FoodNavigator (2022)",
+   "frases": [
+    [
+     "E hoje? Já existe cebola que quase não faz chorar.",
+     "E hoje? Já existe cebola que quase não faz chorar."
+    ],
+    [
+     "Ela se chama Sunions, foi criada por cruzamento, sem mexer no gene, e já é vendida nos Estados Unidos e no Reino Unido.",
+     "Ela se chama Sân-iôns, foi criada por cruzamento, sem mexer no gene, e já é vendida nos Estados Unidos e no Reino Unido."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "cebola sem lágrima",
+     "pos": [
+      520,
+      520
+     ],
+     "size": 72
+    },
+    {
+     "t": "tira",
+     "txt": "SUNIONS",
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      1,
+      "Sunions"
+     ],
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "cruzamento natural",
+     "pos": [
+      330,
+      900
+     ],
+     "e": [
+      1,
+      "cruzamento"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "EUA · Reino Unido",
+     "pos": [
+      680,
+      1040
+     ],
+     "e": [
+      1,
+      "Reino"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: a lágrima da cebola é química pura, com gás e enzima própria.",
+     "Então: a lágrima da cebola é química pura, com gás e enzima própria."
+    ],
+    [
+     "Já chorou cortando cebola na frente de alguém, e a pessoa achou que era de verdade?",
+     "Já chorou cortando cebola na frente de alguém, e a pessoa achou que era de verdade?"
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 320,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "química pura",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      0,
+      "química"
+     ],
+     "size": 80,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "já te aconteceu?",
+     "pos": [
+      640,
+      1140
+     ],
+     "e": [
+      1,
+      "chorou"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  }
+ ]
+}
