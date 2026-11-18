@@ -1,0 +1,163 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 85.227,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Segundo um filósofo grego, o corredor mais rápido nunca alcança o mais lento.",
+     "inicio": 0.1,
+     "dur": 4.757
+    },
+    {
+     "leg": "E a lógica dele é bem difícil de derrubar.",
+     "inicio": 5.057,
+     "dur": 2.688
+    }
+   ],
+   "fim": 8.165
+  },
+  {
+   "id": "c2",
+   "inicio": 8.165,
+   "frases": [
+    {
+     "leg": "Zenão de Eleia viveu no século 5 antes de Cristo.",
+     "inicio": 8.165,
+     "dur": 3.307
+    },
+    {
+     "leg": "Ele criava argumentos pra defender o mestre, Parmênides, pra quem o movimento não existia de verdade.",
+     "inicio": 11.672,
+     "dur": 6.315
+    }
+   ],
+   "fim": 18.407
+  },
+  {
+   "id": "c3",
+   "inicio": 18.407,
+   "frases": [
+    {
+     "leg": "A versão mais famosa é Aquiles contra a tartaruga.",
+     "inicio": 18.407,
+     "dur": 3.093
+    },
+    {
+     "leg": "A tartaruga sai na frente.",
+     "inicio": 21.7,
+     "dur": 1.856
+    },
+    {
+     "leg": "Quando Aquiles chega onde ela estava, ela já andou mais um pouco.",
+     "inicio": 23.756,
+     "dur": 3.733
+    }
+   ],
+   "fim": 27.909
+  },
+  {
+   "id": "c4",
+   "inicio": 27.909,
+   "frases": [
+    {
+     "leg": "Quando ele chega nesse novo ponto, ela andou mais um pouquinho.",
+     "inicio": 27.909,
+     "dur": 3.413
+    },
+    {
+     "leg": "E assim pra sempre: infinitos trechos pra percorrer.",
+     "inicio": 31.523,
+     "dur": 3.243
+    },
+    {
+     "leg": "Então Aquiles nunca alcança?",
+     "inicio": 34.965,
+     "dur": 1.92
+    }
+   ],
+   "fim": 37.305
+  },
+  {
+   "id": "c5",
+   "inicio": 37.305,
+   "frases": [
+    {
+     "leg": "O livro do Zenão se perdeu. A gente conhece o argumento pelo Aristóteles, que tentou responder.",
+     "inicio": 37.305,
+     "dur": 6.108
+    },
+    {
+     "leg": "E um detalhe: no texto do Aristóteles nem tem tartaruga. Ela entrou na história depois.",
+     "inicio": 43.613,
+     "dur": 5.575
+    }
+   ],
+   "fim": 49.608
+  },
+  {
+   "id": "c6",
+   "inicio": 49.608,
+   "frases": [
+    {
+     "leg": "A matemática ajuda a explicar: metade, mais um quarto, mais um oitavo, e assim por diante, somam exatamente 1.",
+     "inicio": 49.608,
+     "dur": 6.699
+    },
+    {
+     "leg": "Infinitos pedaços podem ter um total finito.",
+     "inicio": 56.507,
+     "dur": 2.795
+    },
+    {
+     "leg": "Essa ideia de limite só foi formalizada no século 19.",
+     "inicio": 59.501,
+     "dur": 3.925
+    }
+   ],
+   "fim": 63.847
+  },
+  {
+   "id": "c7",
+   "inicio": 63.847,
+   "frases": [
+    {
+     "leg": "E hoje? Tem filósofo que ainda discute se a matemática resolveu tudo, ou só deu nome ao problema.",
+     "inicio": 63.847,
+     "dur": 6.673
+    },
+    {
+     "leg": "Já são uns 2.500 anos de debate.",
+     "inicio": 70.72,
+     "dur": 2.965
+    }
+   ],
+   "fim": 74.105
+  },
+  {
+   "id": "c8",
+   "inicio": 74.105,
+   "frases": [
+    {
+     "leg": "Então: o corredor mais rápido alcança, sim. Mas explicar por que levou mais de 2 mil anos.",
+     "inicio": 74.105,
+     "dur": 5.831
+    },
+    {
+     "leg": "Qual outro paradoxo já deu nó na sua cabeça?",
+     "inicio": 80.136,
+     "dur": 2.901
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 83.377,
+     "dur": 1.429
+    }
+   ],
+   "fim": 85.227
+  }
+ ]
+}

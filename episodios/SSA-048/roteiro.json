@@ -1,0 +1,607 @@
+{
+ "id": "SSA-048",
+ "chamada": "VOCÊ CONSEGUE REFUTAR?",
+ "materia": "FILOSOFIA",
+ "titulo": "Aquiles nunca alcança a tartaruga (será?)",
+ "fontes": [
+  "Stanford Encyclopedia of Philosophy, 'Zeno's Paradoxes'.",
+  "Internet Encyclopedia of Philosophy, 'Zeno's Paradoxes'.",
+  "ARISTÓTELES. Física, livro VI, 239b.",
+  "Encyclopaedia Britannica, 'Paradoxes of Zeno'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "corredor",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 420
+   },
+   {
+    "t": "bloco",
+    "txt": "o mais rápido nunca alcança o mais lento?",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 62,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Segundo um filósofo grego, o corredor mais rápido nunca alcança o mais lento.",
+     "Segundo um filósofo grego, o corredor mais rápido nunca alcança o mais lento."
+    ],
+    [
+     "E a lógica dele é bem difícil de derrubar.",
+     "E a lógica dele é bem difícil de derrubar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "corredor",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 400,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "NUNCA ALCANÇA",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 90,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "difícil de derrubar",
+     "pos": [
+      600,
+      1140
+     ],
+     "e": [
+      1,
+      "derrubar"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Stanford Encyclopedia of Philosophy",
+   "frases": [
+    [
+     "Zenão de Eleia viveu no século 5 antes de Cristo.",
+     "Zenão de Eléia viveu no século cinco antes de Cristo."
+    ],
+    [
+     "Ele criava argumentos pra defender o mestre, Parmênides, pra quem o movimento não existia de verdade.",
+     "Ele criava argumentos pra defender o mestre, Parmênides, pra quem o movimento não existia de verdade."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ZENÃO DE ELEIA · SÉC. V a.C.",
+     "pos": [
+      520,
+      460
+     ],
+     "size": 44
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      330,
+      760
+     ],
+     "e": [
+      1,
+      "Parmênides"
+     ],
+     "w": 300,
+     "ang": -4
+    },
+    {
+     "t": "tira",
+     "txt": "PARMÊNIDES",
+     "pos": [
+      700,
+      700
+     ],
+     "e": [
+      1,
+      "Parmênides"
+     ],
+     "size": 50
+    },
+    {
+     "t": "nota",
+     "txt": "o movimento\nnão existe?",
+     "pos": [
+      640,
+      1000
+     ],
+     "e": [
+      1,
+      "movimento"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Internet Encyclopedia of Philosophy",
+   "frases": [
+    [
+     "A versão mais famosa é Aquiles contra a tartaruga.",
+     "A versão mais famosa é Aquiles contra a tartaruga."
+    ],
+    [
+     "A tartaruga sai na frente.",
+     "A tartaruga sai na frente."
+    ],
+    [
+     "Quando Aquiles chega onde ela estava, ela já andou mais um pouco.",
+     "Quando Aquiles chega onde ela estava, ela já andou mais um pouco."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "AQUILES x TARTARUGA",
+     "pos": [
+      520,
+      540
+     ],
+     "size": 62,
+     "maxw": 820
+    },
+    {
+     "t": "obj",
+     "nome": "corredor",
+     "pos": [
+      220,
+      720
+     ],
+     "w": 200
+    },
+    {
+     "t": "tira",
+     "txt": "largada da tartaruga",
+     "pos": [
+      640,
+      720
+     ],
+     "e": [
+      1,
+      "frente"
+     ],
+     "size": 44
+    },
+    {
+     "t": "seta",
+     "de": [
+      200,
+      880
+     ],
+     "ate": [
+      560,
+      880
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      2,
+      "chega"
+     ]
+    },
+    {
+     "t": "seta",
+     "de": [
+      600,
+      940
+     ],
+     "ate": [
+      760,
+      940
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      2,
+      "andou"
+     ],
+     "cor": "laranja"
+    },
+    {
+     "t": "nota",
+     "txt": "mais um pouco",
+     "pos": [
+      620,
+      1080
+     ],
+     "e": [
+      2,
+      "pouco"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "frases": [
+    [
+     "Quando ele chega nesse novo ponto, ela andou mais um pouquinho.",
+     "Quando ele chega nesse novo ponto, ela andou mais um pouquinho."
+    ],
+    [
+     "E assim pra sempre: infinitos trechos pra percorrer.",
+     "E assim pra sempre: infinitos trechos pra percorrer."
+    ],
+    [
+     "Então Aquiles nunca alcança?",
+     "Então Aquiles nunca alcança?"
+    ]
+   ],
+   "camera": {
+    "push": 0.08
+   },
+   "elementos": [
+    {
+     "t": "seta",
+     "de": [
+      200,
+      500
+     ],
+     "ate": [
+      500,
+      500
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "chega"
+     ]
+    },
+    {
+     "t": "seta",
+     "de": [
+      520,
+      560
+     ],
+     "ate": [
+      660,
+      560
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "pouquinho"
+     ],
+     "cor": "laranja"
+    },
+    {
+     "t": "seta",
+     "de": [
+      680,
+      620
+     ],
+     "ate": [
+      760,
+      620
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "infinitos"
+     ],
+     "cor": "laranja"
+    },
+    {
+     "t": "bloco",
+     "txt": "INFINITOS TRECHOS",
+     "pos": [
+      520,
+      860
+     ],
+     "e": [
+      1,
+      "infinitos"
+     ],
+     "size": 74,
+     "cor": "tinta"
+    },
+    {
+     "t": "bloco",
+     "txt": "nunca alcança?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      2,
+      "nunca"
+     ],
+     "size": 76
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Stanford Encyclopedia; Internet Encyclopedia of Philosophy",
+   "frases": [
+    [
+     "O livro do Zenão se perdeu. A gente conhece o argumento pelo Aristóteles, que tentou responder.",
+     "O livro do Zenão se perdeu. A gente conhece o argumento pelo Aristóteles, que tentou responder."
+    ],
+    [
+     "E um detalhe: no texto do Aristóteles nem tem tartaruga. Ela entrou na história depois.",
+     "E um detalhe: no texto do Aristóteles nem tem tartaruga. Ela entrou na história depois."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ARISTÓTELES · FÍSICA, LIVRO VI",
+     "pos": [
+      520,
+      460
+     ],
+     "size": 42
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      0,
+      "Aristóteles"
+     ],
+     "w": 320,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "nem tinha tartaruga",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      1,
+      "tartaruga"
+     ],
+     "size": 70,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Internet Encyclopedia of Philosophy",
+   "frases": [
+    [
+     "A matemática ajuda a explicar: metade, mais um quarto, mais um oitavo, e assim por diante, somam exatamente 1.",
+     "A matemática ajuda a explicar: metade, mais um quarto, mais um oitavo, e assim por diante, somam exatamente um."
+    ],
+    [
+     "Infinitos pedaços podem ter um total finito.",
+     "Infinitos pedaços podem ter um total finito."
+    ],
+    [
+     "Essa ideia de limite só foi formalizada no século 19.",
+     "Essa ideia de limite só foi formalizada no século dezenove."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "1/2 + 1/4 + 1/8 + ... = 1",
+     "pos": [
+      520,
+      520
+     ],
+     "e": [
+      0,
+      "metade"
+     ],
+     "size": 66,
+     "maxw": 800
+    },
+    {
+     "t": "tira",
+     "txt": "infinitos pedaços",
+     "pos": [
+      330,
+      760
+     ],
+     "e": [
+      1,
+      "Infinitos"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "total finito",
+     "pos": [
+      700,
+      860
+     ],
+     "e": [
+      1,
+      "finito"
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "LIMITE · SÉCULO XIX",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      2,
+      "limite"
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "fonte": "Fonte: Stanford Encyclopedia of Philosophy",
+   "frases": [
+    [
+     "E hoje? Tem filósofo que ainda discute se a matemática resolveu tudo, ou só deu nome ao problema.",
+     "E hoje? Tem filósofo que ainda discute se a matemática resolveu tudo, ou só deu nome ao problema."
+    ],
+    [
+     "Já são uns 2.500 anos de debate.",
+     "Já são uns dois mil e quinhentos anos de debate."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "resolveu tudo?",
+     "pos": [
+      520,
+      520
+     ],
+     "e": [
+      0,
+      "resolveu"
+     ],
+     "size": 80
+    },
+    {
+     "t": "nota",
+     "txt": "ou só deu nome\nao problema?",
+     "pos": [
+      580,
+      760
+     ],
+     "e": [
+      0,
+      "nome"
+     ],
+     "cor": "laranja",
+     "size": 58
+    },
+    {
+     "t": "numero",
+     "txt": "2.500",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": [
+      1,
+      "2.500"
+     ],
+     "size": 170
+    },
+    {
+     "t": "tira",
+     "txt": "anos de debate",
+     "pos": [
+      700,
+      1140
+     ],
+     "e": [
+      1,
+      "debate"
+     ],
+     "size": 40
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "frases": [
+    [
+     "Então: o corredor mais rápido alcança, sim. Mas explicar por que levou mais de 2 mil anos.",
+     "Então: o corredor mais rápido alcança, sim. Mas explicar por que levou mais de dois mil anos."
+    ],
+    [
+     "Qual outro paradoxo já deu nó na sua cabeça?",
+     "Qual outro paradoxo já deu nó na sua cabeça?"
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "corredor",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "qual paradoxo te deu nó?",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": [
+      1,
+      "paradoxo"
+     ],
+     "size": 64,
+     "maxw": 780
+    }
+   ]
+  }
+ ]
+}
