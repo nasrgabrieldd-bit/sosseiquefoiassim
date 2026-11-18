@@ -1,0 +1,131 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 73.925,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A final da Copa do Brasil é hoje, num estádio com nome de passarinho.",
+     "inicio": 0.1,
+     "dur": 4.053
+    },
+    {
+     "leg": "Garrincha. E não é sobrenome.",
+     "inicio": 4.353,
+     "dur": 2.588
+    }
+   ],
+   "fim": 7.361
+  },
+  {
+   "id": "c2",
+   "inicio": 7.361,
+   "frases": [
+    {
+     "leg": "O nome dele era Manuel Francisco dos Santos.",
+     "inicio": 7.361,
+     "dur": 2.731
+    },
+    {
+     "leg": "Nasceu em 1933, em Pau Grande, um distrito de Magé, no Rio de Janeiro.",
+     "inicio": 10.292,
+     "dur": 5.547
+    }
+   ],
+   "fim": 16.259
+  },
+  {
+   "id": "c3",
+   "inicio": 16.259,
+   "frases": [
+    {
+     "leg": "Ainda criança, ele ganhou o apelido em casa. Segundo o biógrafo Ruy Castro, foi a irmã mais velha, Rosa.",
+     "inicio": 16.259,
+     "dur": 6.513
+    },
+    {
+     "leg": "Garrincha é o nome de um passarinho pequeno e marrom, também chamado de cambaxirra.",
+     "inicio": 22.972,
+     "dur": 4.757
+    }
+   ],
+   "fim": 28.149
+  },
+  {
+   "id": "c4",
+   "inicio": 28.149,
+   "frases": [
+    {
+     "leg": "Na descrição do Ruy Castro, é um passarinho que canta bonito e não se adapta à gaiola.",
+     "inicio": 28.149,
+     "dur": 4.864
+    },
+    {
+     "leg": "Pequeno, rápido e difícil de segurar. Que nem o Mané com a bola no pé.",
+     "inicio": 33.213,
+     "dur": 4.785
+    }
+   ],
+   "fim": 38.419
+  },
+  {
+   "id": "c5",
+   "inicio": 38.419,
+   "frases": [
+    {
+     "leg": "E ele tinha as pernas tortas, com uns 6 centímetros de diferença entre elas.",
+     "inicio": 38.419,
+     "dur": 4.8
+    },
+    {
+     "leg": "Mesmo assim, foi campeão do mundo em 1958 e 1962, e o melhor jogador da Copa de 62.",
+     "inicio": 43.419,
+     "dur": 8.597
+    }
+   ],
+   "fim": 52.436
+  },
+  {
+   "id": "c6",
+   "inicio": 52.436,
+   "frases": [
+    {
+     "leg": "E hoje, Grêmio e Palmeiras decidem a Copa do Brasil no Estádio Nacional Mané Garrincha, em Brasília.",
+     "inicio": 52.436,
+     "dur": 6.101
+    },
+    {
+     "leg": "E pela primeira vez, a final da competição é em jogo único.",
+     "inicio": 58.737,
+     "dur": 3.691
+    }
+   ],
+   "fim": 62.848
+  },
+  {
+   "id": "c7",
+   "inicio": 62.848,
+   "frases": [
+    {
+     "leg": "Então: o estádio da final tem nome de passarinho, e de um dos maiores dribladores da história.",
+     "inicio": 62.848,
+     "dur": 5.333
+    },
+    {
+     "leg": "E aí: Grêmio ou Palmeiras? Comenta quem leva.",
+     "inicio": 68.381,
+     "dur": 3.495
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 72.076,
+     "dur": 1.429
+    }
+   ],
+   "fim": 73.925
+  }
+ ]
+}

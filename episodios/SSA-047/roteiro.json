@@ -1,0 +1,484 @@
+{
+ "id": "SSA-047",
+ "chamada": "DE ONDE VEM ESSE NOME?",
+ "materia": "LÍNGUA PORTUGUESA",
+ "titulo": "O estádio da final da Copa do Brasil tem nome de passarinho",
+ "fontes": [
+  "Encyclopaedia Britannica, 'Garrincha'.",
+  "Sesc SP, 'Anjo extraordinário' (sobre a biografia 'Estrela Solitária', de Ruy Castro).",
+  "Portal Latino-Americano da USP, 'Garrincha, Mané'.",
+  "Correio da Manhã (08/11/2026): Grêmio e Palmeiras decidem a Copa do Brasil em 06/12, em jogo único, no Mané Garrincha.",
+  "O Hoje (23/04/2026): estádio volta ao nome original, Mané Garrincha."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "medalha",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "w": 360,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "Garrincha é nome de passarinho",
+    "pos": [
+     520,
+     1110
+    ],
+    "e": null,
+    "size": 70,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A final da Copa do Brasil é hoje, num estádio com nome de passarinho.",
+     "A final da Copa do Brasil é hoje, num estádio com nome de passarinho."
+    ],
+    [
+     "Garrincha. E não é sobrenome.",
+     "Garrincha. E não é sobrenome."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 340,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "GARRINCHA",
+     "pos": [
+      520,
+      940
+     ],
+     "size": 110,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "não é sobrenome",
+     "pos": [
+      600,
+      1120
+     ],
+     "e": [
+      1,
+      "sobrenome"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Encyclopaedia Britannica; USP",
+   "frases": [
+    [
+     "O nome dele era Manuel Francisco dos Santos.",
+     "O nome dele era Manuel Francisco dos Santos."
+    ],
+    [
+     "Nasceu em 1933, em Pau Grande, um distrito de Magé, no Rio de Janeiro.",
+     "Nasceu em mil novecentos e trinta e três, em Pau Grande, um distrito de Magé, no Rio de Janeiro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "MANUEL FRANCISCO\nDOS SANTOS",
+     "pos": [
+      520,
+      580
+     ],
+     "e": [
+      0,
+      "Manuel"
+     ],
+     "size": 58,
+     "maxw": 800,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "nome de registro",
+     "pos": [
+      620,
+      740
+     ],
+     "e": [
+      0,
+      "Santos"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "1933",
+     "pos": [
+      300,
+      860
+     ],
+     "e": [
+      1,
+      "1933"
+     ],
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "PAU GRANDE · MAGÉ (RJ)",
+     "pos": [
+      600,
+      980
+     ],
+     "e": [
+      1,
+      "Pau"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Sesc SP, sobre a biografia de Ruy Castro",
+   "frases": [
+    [
+     "Ainda criança, ele ganhou o apelido em casa. Segundo o biógrafo Ruy Castro, foi a irmã mais velha, Rosa.",
+     "Ainda criança, ele ganhou o apelido em casa. Segundo o biógrafo Ruy Castro, foi a irmã mais velha, Rosa."
+    ],
+    [
+     "Garrincha é o nome de um passarinho pequeno e marrom, também chamado de cambaxirra.",
+     "Garrincha é o nome de um passarinho pequeno e marrom, também chamado de cambaxirra."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "RUY CASTRO",
+     "pos": [
+      330,
+      450
+     ],
+     "e": [
+      0,
+      "Ruy"
+     ],
+     "size": 52
+    },
+    {
+     "t": "nota",
+     "txt": "a irmã Rosa",
+     "pos": [
+      700,
+      560
+     ],
+     "e": [
+      0,
+      "Rosa"
+     ],
+     "cor": "laranja",
+     "size": 62
+    },
+    {
+     "t": "verbete",
+     "palavra": "garrincha",
+     "classe": "subst. fem.",
+     "pos": [
+      520,
+      900
+     ],
+     "e": [
+      1,
+      "passarinho"
+     ],
+     "w": 700,
+     "def": "passarinho pequeno e marrom; também chamado de cambaxirra."
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Sesc SP, sobre a biografia de Ruy Castro",
+   "frases": [
+    [
+     "Na descrição do Ruy Castro, é um passarinho que canta bonito e não se adapta à gaiola.",
+     "Na descrição do Ruy Castro, é um passarinho que canta bonito e não se adapta à gaiola."
+    ],
+    [
+     "Pequeno, rápido e difícil de segurar. Que nem o Mané com a bola no pé.",
+     "Pequeno, rápido e difícil de segurar. Que nem o Mané com a bola no pé."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "canta bonito",
+     "pos": [
+      330,
+      520
+     ],
+     "e": [
+      0,
+      "canta"
+     ],
+     "size": 66
+    },
+    {
+     "t": "bloco",
+     "txt": "não se adapta\nà gaiola",
+     "pos": [
+      640,
+      720
+     ],
+     "e": [
+      0,
+      "gaiola"
+     ],
+     "size": 60,
+     "cor": "tinta",
+     "maxw": 560
+    },
+    {
+     "t": "nota",
+     "txt": "difícil de segurar",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      1,
+      "segurar"
+     ],
+     "cor": "laranja",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: USP; Encyclopaedia Britannica",
+   "frases": [
+    [
+     "E ele tinha as pernas tortas, com uns 6 centímetros de diferença entre elas.",
+     "E ele tinha as pernas tortas, com uns seis centímetros de diferença entre elas."
+    ],
+    [
+     "Mesmo assim, foi campeão do mundo em 1958 e 1962, e o melhor jogador da Copa de 62.",
+     "Mesmo assim, foi campeão do mundo em mil novecentos e cinquenta e oito e mil novecentos e sessenta e dois, e o melhor jogador da Copa de sessenta e dois."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "6 cm",
+     "pos": [
+      520,
+      560
+     ],
+     "e": [
+      0,
+      "6"
+     ],
+     "size": 180
+    },
+    {
+     "t": "tira",
+     "txt": "de diferença nas pernas",
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      0,
+      "diferença"
+     ],
+     "size": 44
+    },
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      300,
+      960
+     ],
+     "e": [
+      1,
+      "campeão"
+     ],
+     "w": 220
+    },
+    {
+     "t": "tira",
+     "txt": "1958 · 1962",
+     "pos": [
+      660,
+      920
+     ],
+     "e": [
+      1,
+      "1958"
+     ],
+     "size": 56
+    },
+    {
+     "t": "nota",
+     "txt": "craque da Copa de 62",
+     "pos": [
+      640,
+      1090
+     ],
+     "e": [
+      1,
+      "melhor"
+     ],
+     "cor": "laranja",
+     "size": 52
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Correio da Manhã (08/11/2026)",
+   "frases": [
+    [
+     "E hoje, Grêmio e Palmeiras decidem a Copa do Brasil no Estádio Nacional Mané Garrincha, em Brasília.",
+     "E hoje, Grêmio e Palmeiras decidem a Copa do Brasil no Estádio Nacional Mané Garrincha, em Brasília."
+    ],
+    [
+     "E pela primeira vez, a final da competição é em jogo único.",
+     "E pela primeira vez, a final da competição é em jogo único."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "DOMINGO · 06/12",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 52
+    },
+    {
+     "t": "bloco",
+     "txt": "GRÊMIO x PALMEIRAS",
+     "pos": [
+      520,
+      640
+     ],
+     "e": [
+      0,
+      "Grêmio"
+     ],
+     "size": 70,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "MANÉ GARRINCHA · BRASÍLIA",
+     "pos": [
+      520,
+      820
+     ],
+     "e": [
+      0,
+      "Brasília"
+     ],
+     "size": 40
+    },
+    {
+     "t": "bloco",
+     "txt": "jogo único",
+     "pos": [
+      520,
+      1030
+     ],
+     "e": [
+      1,
+      "único"
+     ],
+     "size": 86
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o estádio da final tem nome de passarinho, e de um dos maiores dribladores da história.",
+     "Então: o estádio da final tem nome de passarinho, e de um dos maiores dribladores da história."
+    ],
+    [
+     "E aí: Grêmio ou Palmeiras? Comenta quem leva.",
+     "E aí: Grêmio ou Palmeiras? Comenta quem leva."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 320,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "Grêmio ou Palmeiras?",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      1,
+      "Grêmio"
+     ],
+     "size": 70
+    },
+    {
+     "t": "nota",
+     "txt": "comenta quem leva",
+     "pos": [
+      640,
+      1140
+     ],
+     "e": [
+      1,
+      "Comenta"
+     ],
+     "cor": "laranja",
+     "size": 54
+    }
+   ]
+  }
+ ]
+}
