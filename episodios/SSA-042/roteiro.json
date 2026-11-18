@@ -1,0 +1,619 @@
+{
+ "id": "SSA-042",
+ "chamada": "QUEM INVENTOU ISSO?",
+ "materia": "HISTÓRIA",
+ "titulo": "O braille foi criado por um garoto de 15 anos",
+ "fontes": [
+  "Encyclopaedia Britannica, 'Louis Braille' e 'Braille (writing system)'.",
+  "Musée Louis Braille (Coupvray), 'Barbier, l'intuitif'.",
+  "National Geographic, 'Louis Braille, creator of the writing system'.",
+  "PBS NewsHour, 'Inventor Louis Braille touched lives with literacy'.",
+  "ONU/DESA, 'International Day of Persons with Disabilities, 3 December' (res. 47/3, 1992).",
+  "Anvisa, RDC nº 71/2009 (nome do medicamento em braille na embalagem)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "numero",
+    "txt": "15",
+    "pos": [
+     330,
+     560
+    ],
+    "e": null,
+    "size": 280
+   },
+   {
+    "t": "obj",
+    "nome": "livro",
+    "pos": [
+     650,
+     720
+    ],
+    "e": null,
+    "w": 380,
+    "ang": 4
+   },
+   {
+    "t": "bloco",
+    "txt": "anos: a idade do inventor do braille",
+    "pos": [
+     520,
+     1130
+    ],
+    "e": null,
+    "size": 64,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "O sistema que permite cegos lerem foi criado por um garoto de 15 anos.",
+     "O sistema que permite cegos lerem foi criado por um garoto de quinze anos."
+    ],
+    [
+     "E a ideia começou com um código pra ler no escuro.",
+     "E a ideia começou com um código pra ler no escuro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "15",
+     "pos": [
+      330,
+      620
+     ],
+     "size": 300
+    },
+    {
+     "t": "tira",
+     "txt": "anos",
+     "pos": [
+      330,
+      850
+     ],
+     "size": 50
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      690,
+      700
+     ],
+     "w": 340,
+     "ang": 4,
+     "balanca": true
+    },
+    {
+     "t": "nota",
+     "txt": "ler no escuro",
+     "pos": [
+      560,
+      1100
+     ],
+     "e": [
+      1,
+      "escuro"
+     ],
+     "cor": "laranja",
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "França, 1812. Louis Braille, de 3 anos, brincava na oficina do pai, que fazia selas.",
+     "França, mil oitocentos e doze. Luí Brái, de três anos, brincava na oficina do pai, que fazia selas."
+    ],
+    [
+     "Uma ferramenta escorregou e feriu um olho dele.",
+     "Uma ferramenta escorregou e feriu um olho dele."
+    ],
+    [
+     "Veio uma infecção, e ele perdeu a visão dos dois olhos.",
+     "Veio uma infecção, e ele perdeu a visão dos dois olhos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "FRANÇA · 1812",
+     "pos": [
+      520,
+      440
+     ],
+     "size": 52
+    },
+    {
+     "t": "bloco",
+     "txt": "LOUIS BRAILLE, 3 ANOS",
+     "pos": [
+      520,
+      640
+     ],
+     "e": [
+      0,
+      "Louis"
+     ],
+     "size": 56,
+     "maxw": 820,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "a oficina do pai",
+     "pos": [
+      560,
+      820
+     ],
+     "e": [
+      0,
+      "oficina"
+     ],
+     "size": 58
+    },
+    {
+     "t": "tira",
+     "txt": "uma ferramenta escorregou",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      1,
+      "ferramenta"
+     ],
+     "size": 44
+    },
+    {
+     "t": "nota",
+     "txt": "perdeu a visão",
+     "pos": [
+      620,
+      1140
+     ],
+     "e": [
+      2,
+      "perdeu"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Musée Louis Braille; National Geographic",
+   "frases": [
+    [
+     "Aos 10 anos, foi estudar num instituto pra jovens cegos, em Paris.",
+     "Aos dez anos, foi estudar num instituto pra jovens cegos, em Paris."
+    ],
+    [
+     "Em 1821, um ex-oficial de artilharia, Charles Barbier, levou à escola um código de pontos em relevo.",
+     "Em mil oitocentos e vinte e um, um ex-oficial de artilharia, Charl Barbiê, levou à escola um código de pontos em relevo."
+    ],
+    [
+     "Era pensado pra ler mensagens sem luz, e o Exército não quis.",
+     "Era pensado pra ler mensagens sem luz, e o Exército não quis."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "PARIS · 1819",
+     "pos": [
+      300,
+      450
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "CHARLES BARBIER · 1821",
+     "pos": [
+      560,
+      600
+     ],
+     "e": [
+      1,
+      "Barbier"
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "pontos em relevo",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      1,
+      "relevo"
+     ],
+     "size": 74
+    },
+    {
+     "t": "nota",
+     "txt": "pra ler sem luz",
+     "pos": [
+      400,
+      1000
+     ],
+     "e": [
+      2,
+      "luz"
+     ],
+     "size": 58
+    },
+    {
+     "t": "bloco",
+     "txt": "EXÉRCITO: NÃO",
+     "pos": [
+      640,
+      1130
+     ],
+     "e": [
+      2,
+      "Exército"
+     ],
+     "size": 56,
+     "cor": "tinta",
+     "ang": 3
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: National Geographic; Musée Louis Braille",
+   "frases": [
+    [
+     "Só que o código tinha um problema: cada sinal tinha até 12 pontos, e representava sons, não letras.",
+     "Só que o código tinha um problema: cada sinal tinha até doze pontos, e representava sons, não letras."
+    ],
+    [
+     "Não dava pra soletrar direito, nem pontuar.",
+     "Não dava pra soletrar direito, nem pontuar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "12",
+     "pos": [
+      330,
+      640
+     ],
+     "size": 260
+    },
+    {
+     "t": "tira",
+     "txt": "pontos por sinal",
+     "pos": [
+      330,
+      860
+     ],
+     "e": [
+      0,
+      "pontos"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "sons, não letras",
+     "pos": [
+      700,
+      620
+     ],
+     "e": [
+      0,
+      "sons"
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "sem soletrar,\nsem pontuar",
+     "pos": [
+      620,
+      1040
+     ],
+     "e": [
+      1,
+      "soletrar"
+     ],
+     "size": 60,
+     "maxw": 640,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "Braille simplificou: 6 pontos, em duas colunas de 3.",
+     "Brái simplificou: seis pontos, em duas colunas de três."
+    ],
+    [
+     "Cabia na ponta de um dedo, e dava 63 combinações: letras, números, pontuação e até música.",
+     "Cabia na ponta de um dedo, e dava sessenta e três combinações: letras, números, pontuação e até música."
+    ],
+    [
+     "Ele apresentou o sistema aos 15 anos, em 1824.",
+     "Ele apresentou o sistema aos quinze anos, em mil oitocentos e vinte e quatro."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "6",
+     "pos": [
+      220,
+      660
+     ],
+     "size": 260
+    },
+    {
+     "t": "tira",
+     "txt": "pontos · 2 colunas de 3",
+     "pos": [
+      620,
+      560
+     ],
+     "e": [
+      0,
+      "colunas"
+     ],
+     "size": 40
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 63,
+     "fmt": "{n} combinações",
+     "pos": [
+      620,
+      760
+     ],
+     "e": [
+      1,
+      "63"
+     ],
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "letras · números · música",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "música"
+     ],
+     "size": 42
+    },
+    {
+     "t": "bloco",
+     "txt": "1824 · 15 ANOS",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      2,
+      "1824"
+     ],
+     "size": 66,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: National Geographic; PBS NewsHour",
+   "frases": [
+    [
+     "Mas a invenção demorou a pegar. Um diretor da escola chegou a proibir o sistema e queimar livros em braille.",
+     "Mas a invenção demorou a pegar. Um diretor da escola chegou a proibir o sistema e queimar livros em braille."
+    ],
+    [
+     "A escola só adotou oficialmente o braille em 1854, 2 anos depois da morte dele.",
+     "A escola só adotou oficialmente o braille em mil oitocentos e cinquenta e quatro, dois anos depois da morte dele."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "PROIBIDO",
+     "pos": [
+      520,
+      520
+     ],
+     "e": [
+      0,
+      "proibir"
+     ],
+     "size": 96,
+     "cor": "tinta",
+     "ang": -4
+    },
+    {
+     "t": "nota",
+     "txt": "livros queimados",
+     "pos": [
+      560,
+      720
+     ],
+     "e": [
+      0,
+      "queimar"
+     ],
+     "cor": "laranja",
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "adotado em 1854",
+     "pos": [
+      520,
+      940
+     ],
+     "e": [
+      1,
+      "1854"
+     ],
+     "size": 52
+    },
+    {
+     "t": "nota",
+     "txt": "2 anos depois\nda morte dele",
+     "pos": [
+      600,
+      1110
+     ],
+     "e": [
+      1,
+      "morte"
+     ],
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "fonte": "Fonte: ONU/DESA; Anvisa, RDC 71/2009",
+   "frases": [
+    [
+     "E hoje, 3 de dezembro, é o Dia Internacional das Pessoas com Deficiência, criado pela ONU em 1992.",
+     "E hoje, três de dezembro, é o Dia Internacional das Pessoas com Deficiência, criado pela ONU em mil novecentos e noventa e dois."
+    ],
+    [
+     "Repara na caixa de remédio: no Brasil, o nome do medicamento tem que vir em braille.",
+     "Repara na caixa de remédio: no Brasil, o nome do medicamento tem que vir em braille."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ONU · 3 DE DEZEMBRO",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "Dia Internacional das Pessoas com Deficiência",
+     "pos": [
+      520,
+      660
+     ],
+     "e": [
+      0,
+      "Dia"
+     ],
+     "size": 54,
+     "maxw": 800
+    },
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      330,
+      980
+     ],
+     "e": [
+      1,
+      "remédio"
+     ],
+     "w": 240
+    },
+    {
+     "t": "nota",
+     "txt": "nome em braille",
+     "pos": [
+      680,
+      1000
+     ],
+     "e": [
+      1,
+      "braille"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "frases": [
+    [
+     "Então: um código rejeitado pelo Exército virou, nas mãos de um garoto de 15 anos, leitura pra milhões de pessoas.",
+     "Então: um código rejeitado pelo Exército virou, nas mãos de um garoto de quinze anos, leitura pra milhões de pessoas."
+    ],
+    [
+     "Agora você sabe de onde vêm aqueles pontinhos.",
+     "Agora você sabe de onde vêm aqueles pontinhos."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "15",
+     "pos": [
+      330,
+      620
+     ],
+     "size": 280
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      690,
+      700
+     ],
+     "w": 320,
+     "ang": -3
+    },
+    {
+     "t": "bloco",
+     "txt": "agora você sabe\nde onde vêm os pontinhos",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      "pontinhos"
+     ],
+     "size": 56,
+     "maxw": 780
+    }
+   ]
+  }
+ ]
+}

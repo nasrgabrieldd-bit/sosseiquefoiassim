@@ -1,0 +1,163 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 102.684,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "O sistema que permite cegos lerem foi criado por um garoto de 15 anos.",
+     "inicio": 0.1,
+     "dur": 4.501
+    },
+    {
+     "leg": "E a ideia começou com um código pra ler no escuro.",
+     "inicio": 4.801,
+     "dur": 2.944
+    }
+   ],
+   "fim": 8.165
+  },
+  {
+   "id": "c2",
+   "inicio": 8.165,
+   "frases": [
+    {
+     "leg": "França, 1812. Louis Braille, de 3 anos, brincava na oficina do pai, que fazia selas.",
+     "inicio": 8.165,
+     "dur": 6.407
+    },
+    {
+     "leg": "Uma ferramenta escorregou e feriu um olho dele.",
+     "inicio": 14.772,
+     "dur": 2.795
+    },
+    {
+     "leg": "Veio uma infecção, e ele perdeu a visão dos dois olhos.",
+     "inicio": 17.767,
+     "dur": 3.072
+    }
+   ],
+   "fim": 21.259
+  },
+  {
+   "id": "c3",
+   "inicio": 21.259,
+   "frases": [
+    {
+     "leg": "Aos 10 anos, foi estudar num instituto pra jovens cegos, em Paris.",
+     "inicio": 21.259,
+     "dur": 4.139
+    },
+    {
+     "leg": "Em 1821, um ex-oficial de artilharia, Charles Barbier, levou à escola um código de pontos em relevo.",
+     "inicio": 25.597,
+     "dur": 7.189
+    },
+    {
+     "leg": "Era pensado pra ler mensagens sem luz, e o Exército não quis.",
+     "inicio": 32.987,
+     "dur": 4.011
+    }
+   ],
+   "fim": 37.417
+  },
+  {
+   "id": "c4",
+   "inicio": 37.417,
+   "frases": [
+    {
+     "leg": "Só que o código tinha um problema: cada sinal tinha até 12 pontos, e representava sons, não letras.",
+     "inicio": 37.417,
+     "dur": 6.165
+    },
+    {
+     "leg": "Não dava pra soletrar direito, nem pontuar.",
+     "inicio": 43.783,
+     "dur": 2.752
+    }
+   ],
+   "fim": 46.955
+  },
+  {
+   "id": "c5",
+   "inicio": 46.955,
+   "frases": [
+    {
+     "leg": "Braille simplificou: 6 pontos, em duas colunas de 3.",
+     "inicio": 46.955,
+     "dur": 3.392
+    },
+    {
+     "leg": "Cabia na ponta de um dedo, e dava 63 combinações: letras, números, pontuação e até música.",
+     "inicio": 50.547,
+     "dur": 6.464
+    },
+    {
+     "leg": "Ele apresentou o sistema aos 15 anos, em 1824.",
+     "inicio": 57.211,
+     "dur": 4.587
+    }
+   ],
+   "fim": 62.217
+  },
+  {
+   "id": "c6",
+   "inicio": 62.217,
+   "frases": [
+    {
+     "leg": "Mas a invenção demorou a pegar. Um diretor da escola chegou a proibir o sistema e queimar livros em braille.",
+     "inicio": 62.217,
+     "dur": 6.812
+    },
+    {
+     "leg": "A escola só adotou oficialmente o braille em 1854, 2 anos depois da morte dele.",
+     "inicio": 69.229,
+     "dur": 6.805
+    }
+   ],
+   "fim": 76.455
+  },
+  {
+   "id": "c7",
+   "inicio": 76.455,
+   "frases": [
+    {
+     "leg": "E hoje, 3 de dezembro, é o Dia Internacional das Pessoas com Deficiência, criado pela ONU em 1992.",
+     "inicio": 76.455,
+     "dur": 8.128
+    },
+    {
+     "leg": "Repara na caixa de remédio: no Brasil, o nome do medicamento tem que vir em braille.",
+     "inicio": 84.783,
+     "dur": 5.099
+    }
+   ],
+   "fim": 90.301
+  },
+  {
+   "id": "c8",
+   "inicio": 90.301,
+   "frases": [
+    {
+     "leg": "Então: um código rejeitado pelo Exército virou, nas mãos de um garoto de 15 anos, leitura pra milhões de pessoas.",
+     "inicio": 90.301,
+     "dur": 7.061
+    },
+    {
+     "leg": "Agora você sabe de onde vêm aqueles pontinhos.",
+     "inicio": 97.563,
+     "dur": 3.072
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 100.835,
+     "dur": 1.429
+    }
+   ],
+   "fim": 102.684
+  }
+ ]
+}
