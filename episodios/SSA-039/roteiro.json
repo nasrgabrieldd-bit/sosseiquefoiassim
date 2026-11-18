@@ -1,0 +1,527 @@
+{
+ "id": "SSA-039",
+ "chamada": "O SAMBA ERA DE QUEM?",
+ "materia": "ARTE",
+ "titulo": "O primeiro samba de sucesso foi parar no registro com um dono só",
+ "fontes": [
+  "Agência Brasil (27/11/2016), 'Primeiro samba faz hoje 100 anos e ganha exposição na Biblioteca Nacional'.",
+  "Jornal da USP, entrevista com o prof. José Geraldo Vinci de Moraes sobre 'Pelo Telefone'.",
+  "National Geographic Brasil (2023), 'Dia Nacional do Samba: quais são as origens'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "radio",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 420,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "o samba era de todo mundo. O registro, de um só",
+    "pos": [
+     520,
+     1130
+    ],
+    "e": null,
+    "size": 60,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "O primeiro samba a fazer sucesso foi registrado como se tivesse um dono só.",
+     "O primeiro samba a fazer sucesso foi registrado como se tivesse um dono só."
+    ],
+    [
+     "E muita gente da época não concordou.",
+     "E muita gente da época não concordou."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "radio",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 400,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "um dono só?",
+     "pos": [
+      520,
+      1000
+     ],
+     "size": 84,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "não concordaram",
+     "pos": [
+      620,
+      1140
+     ],
+     "e": [
+      1,
+      "concordou"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Agência Brasil (2016)",
+   "frases": [
+    [
+     "Rio de Janeiro, 1916.",
+     "Rio de Janeiro, mil novecentos e dezesseis."
+    ],
+    [
+     "Na casa da Tia Ciata, perto da Praça Onze, rolavam rodas de música que varavam a noite.",
+     "Na casa da Tia Ciata, perto da Praça Onze, rolavam rodas de música que varavam a noite."
+    ],
+    [
+     "Numa dessas rodas, nasceu uma música chamada Pelo Telefone.",
+     "Numa dessas rodas, nasceu uma música chamada Pelo Telefone."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "RIO · 1916",
+     "pos": [
+      520,
+      440
+     ],
+     "size": 56
+    },
+    {
+     "t": "tira",
+     "txt": "casa da TIA CIATA",
+     "pos": [
+      520,
+      620
+     ],
+     "e": [
+      1,
+      "Ciata"
+     ],
+     "size": 50
+    },
+    {
+     "t": "nota",
+     "txt": "Praça Onze",
+     "pos": [
+      720,
+      760
+     ],
+     "e": [
+      1,
+      "Praça"
+     ],
+     "cor": "laranja",
+     "size": 58
+    },
+    {
+     "t": "bloco",
+     "txt": "\"Pelo Telefone\"",
+     "pos": [
+      520,
+      1020
+     ],
+     "e": [
+      2,
+      "Pelo"
+     ],
+     "size": 80
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Agência Brasil (2016)",
+   "frases": [
+    [
+     "Em 27 de novembro de 1916, o músico Donga registrou a música na Biblioteca Nacional, como samba.",
+     "Em vinte e sete de novembro de mil novecentos e dezesseis, o músico Dônga registrou a música na Biblioteca Nacional, como samba."
+    ],
+    [
+     "Junto, foi uma partitura pra piano escrita à mão e assinada por Pixinguinha.",
+     "Junto, foi uma partitura pra piano escrita à mão e assinada por Pixinguinha."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "verbete",
+     "palavra": "samba",
+     "classe": "registro nº 3.295 · Biblioteca Nacional",
+     "pos": [
+      520,
+      560
+     ],
+     "e": [
+      0,
+      "registrou"
+     ],
+     "w": 700,
+     "def": "\"Pelo Telefone\", de Donga. 27 de novembro de 1916."
+    },
+    {
+     "t": "tira",
+     "txt": "DONGA",
+     "pos": [
+      300,
+      820
+     ],
+     "e": [
+      0,
+      "Donga"
+     ],
+     "size": 56
+    },
+    {
+     "t": "obj",
+     "nome": "caderno",
+     "pos": [
+      600,
+      1000
+     ],
+     "e": [
+      1,
+      "partitura"
+     ],
+     "w": 300,
+     "ang": 4
+    },
+    {
+     "t": "nota",
+     "txt": "Pixinguinha",
+     "pos": [
+      760,
+      1140
+     ],
+     "e": [
+      1,
+      "Pixinguinha"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Jornal da USP",
+   "frases": [
+    [
+     "Em janeiro de 1917, a Casa Edison gravou a música.",
+     "Em janeiro de mil novecentos e dezessete, a Casa Édison gravou a música."
+    ],
+    [
+     "A versão cantada por Baiano estourou no Carnaval.",
+     "A versão cantada por Baiano estourou no Carnaval."
+    ],
+    [
+     "No disco, vinha escrito: samba carnavalesco.",
+     "No disco, vinha escrito: samba carnavalesco."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "CASA EDISON · 1917",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "radio",
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      0,
+      "gravou"
+     ],
+     "w": 360
+    },
+    {
+     "t": "tira",
+     "txt": "voz: BAIANO",
+     "pos": [
+      300,
+      960
+     ],
+     "e": [
+      1,
+      "Baiano"
+     ],
+     "size": 48
+    },
+    {
+     "t": "bloco",
+     "txt": "SAMBA CARNAVALESCO",
+     "pos": [
+      540,
+      1110
+     ],
+     "e": [
+      2,
+      "samba carnavalesco"
+     ],
+     "size": 60,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Jornal da USP",
+   "frases": [
+    [
+     "Só que muita gente que frequentava a roda disse que a música era de todos, e não só do Donga.",
+     "Só que muita gente que frequentava a roda disse que a música era de todos, e não só do Dônga."
+    ],
+    [
+     "O sambista Sinhô resumiu assim: samba é como passarinho, é de quem pegar.",
+     "O sambista Sinhô resumiu assim: samba é como passarinho, é de quem pegar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "de todos?",
+     "pos": [
+      520,
+      540
+     ],
+     "size": 90
+    },
+    {
+     "t": "nota",
+     "txt": "ou só do Donga?",
+     "pos": [
+      620,
+      740
+     ],
+     "e": [
+      0,
+      "Donga"
+     ],
+     "cor": "laranja",
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "SINHÔ:",
+     "pos": [
+      300,
+      920
+     ],
+     "e": [
+      1,
+      "Sinhô"
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "\"samba é como passarinho, é de quem pegar\"",
+     "pos": [
+      540,
+      1090
+     ],
+     "e": [
+      1,
+      "passarinho"
+     ],
+     "size": 52,
+     "maxw": 780,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Agência Brasil (2016), citando Carlos Sandroni",
+   "frases": [
+    [
+     "E tem mais: outros sambas já tinham sido gravados antes.",
+     "E tem mais: outros sambas já tinham sido gravados antes."
+    ],
+    [
+     "Só que nenhum tinha feito sucesso.",
+     "Só que nenhum tinha feito sucesso."
+    ],
+    [
+     "Por isso Pelo Telefone é chamado de o primeiro samba gravado e registrado que fez sucesso.",
+     "Por isso Pelo Telefone é chamado de o primeiro samba gravado e registrado que fez sucesso."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "gravados antes: sim",
+     "pos": [
+      520,
+      480
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "sucesso: não",
+     "pos": [
+      520,
+      620
+     ],
+     "e": [
+      1,
+      "sucesso"
+     ],
+     "size": 48
+    },
+    {
+     "t": "bloco",
+     "txt": "o 1º samba\nde sucesso",
+     "pos": [
+      520,
+      950
+     ],
+     "e": [
+      2,
+      "primeiro"
+     ],
+     "size": 80,
+     "maxw": 700
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "fonte": "Fonte: National Geographic Brasil (2023)",
+   "frases": [
+    [
+     "E hoje, 2 de dezembro, é Dia Nacional do Samba.",
+     "E hoje, dois de dezembro, é Dia Nacional do Samba."
+    ],
+    [
+     "Mais de um século depois, a briga pela autoria do Pelo Telefone ainda aparece nos livros de música.",
+     "Mais de um século depois, a briga pela autoria do Pelo Telefone ainda aparece nos livros de música."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "DEZEMBRO",
+     "inicio": 2,
+     "ndias": 31,
+     "riscar": [
+      2
+     ],
+     "riscar_em": [
+      0,
+      "2 de"
+     ],
+     "pos": [
+      520,
+      720
+     ],
+     "escala": 0.55,
+     "ang": -2
+    },
+    {
+     "t": "bloco",
+     "txt": "DIA NACIONAL DO SAMBA",
+     "pos": [
+      520,
+      1050
+     ],
+     "e": [
+      0,
+      "Dia"
+     ],
+     "size": 62,
+     "maxw": 800
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "frases": [
+    [
+     "Então: o primeiro samba de sucesso nasceu de muita gente, e foi registrado por um.",
+     "Então: o primeiro samba de sucesso nasceu de muita gente, e foi registrado por um."
+    ],
+    [
+     "Salva esse pra contar na próxima roda de samba.",
+     "Salva esse pra contar na próxima roda de samba."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "radio",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 340,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "nasceu de muitos,\nregistrado por um",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      0,
+      "registrado"
+     ],
+     "size": 62,
+     "maxw": 760
+    },
+    {
+     "t": "nota",
+     "txt": "salva esse!",
+     "pos": [
+      740,
+      1140
+     ],
+     "e": [
+      1,
+      "Salva"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  }
+ ]
+}
