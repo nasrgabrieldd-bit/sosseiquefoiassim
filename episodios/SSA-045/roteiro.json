@@ -1,0 +1,551 @@
+{
+ "id": "SSA-045",
+ "chamada": "O OLHO DO PINTOR",
+ "materia": "ARTE",
+ "titulo": "Monet pintou os últimos quadros quase sem ver as cores",
+ "fontes": [
+  "Encyclopaedia Britannica, 'Claude Monet'.",
+  "GRUENER, A. 'The effect of cataracts and cataract surgery on Claude Monet'. British Journal of General Practice, 2015;65(634):254.",
+  "Hektoen International, 'Monet and his cataracts' (2017).",
+  "Musée Marmottan Monet, 'Le pont japonais' (1918–1924).",
+  "Musée de l'Orangerie, 'Les Nymphéas'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "moldura",
+    "pos": [
+     520,
+     680
+    ],
+    "w": 520,
+    "h": 600,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "pintando sem ver as cores",
+    "pos": [
+     520,
+     1140
+    ],
+    "e": null,
+    "size": 68,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Nos últimos anos, Monet pintava cores que ele mesmo não enxergava direito.",
+     "Nos últimos anos, Monê pintava cores que ele mesmo não enxergava direito."
+    ],
+    [
+     "E há exatos 100 anos, ele morreu.",
+     "E há exatos cem anos, ele morreu."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      690
+     ],
+     "w": 480,
+     "h": 560,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "nota",
+     "txt": "cores que ele\nnão via",
+     "pos": [
+      700,
+      1060
+     ],
+     "cor": "laranja",
+     "size": 58
+    },
+    {
+     "t": "tira",
+     "txt": "05/12/1926",
+     "pos": [
+      330,
+      1120
+     ],
+     "e": [
+      1,
+      "100"
+     ],
+     "size": 50
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "Claude Monet foi um dos criadores do impressionismo.",
+     "Clôd Monê foi um dos criadores do impressionismo."
+    ],
+    [
+     "No jardim da casa dele, em Giverny, pintou o lago, as ninfeias e a ponte japonesa dezenas de vezes.",
+     "No jardim da casa dele, em Jivêrní, pintou o lago, as ninfeias e a ponte japonesa dezenas de vezes."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "CLAUDE MONET · 1840–1926",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "IMPRESSIONISMO",
+     "pos": [
+      520,
+      620
+     ],
+     "e": [
+      0,
+      "impressionismo"
+     ],
+     "size": 74,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "GIVERNY",
+     "pos": [
+      300,
+      820
+     ],
+     "e": [
+      1,
+      "Giverny"
+     ],
+     "size": 52
+    },
+    {
+     "t": "obj",
+     "nome": "arvore",
+     "pos": [
+      700,
+      950
+     ],
+     "e": [
+      1,
+      "jardim"
+     ],
+     "w": 280
+    },
+    {
+     "t": "nota",
+     "txt": "dezenas de vezes",
+     "pos": [
+      400,
+      1110
+     ],
+     "e": [
+      1,
+      "dezenas"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Hektoen International (2017)",
+   "frases": [
+    [
+     "Por volta de 1912, com 72 anos, veio o diagnóstico: catarata nos dois olhos.",
+     "Por volta de mil novecentos e doze, com setenta e dois anos, veio o diagnóstico: catarata nos dois olhos."
+    ],
+    [
+     "A catarata deixa a lente do olho turva e amarelada.",
+     "A catarata deixa a lente do olho turva e amarelada."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "~1912 · 72 ANOS",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 52
+    },
+    {
+     "t": "bloco",
+     "txt": "CATARATA",
+     "pos": [
+      520,
+      660
+     ],
+     "e": [
+      0,
+      "catarata"
+     ],
+     "size": 110,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "nos dois olhos",
+     "pos": [
+      640,
+      840
+     ],
+     "e": [
+      0,
+      "dois"
+     ],
+     "cor": "laranja",
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "lente turva e amarelada",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      1,
+      "amarelada"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: British Journal of General Practice (2015)",
+   "frases": [
+    [
+     "Ele mesmo escreveu que as cores já não tinham a mesma intensidade.",
+     "Ele mesmo escreveu que as cores já não tinham a mesma intensidade."
+    ],
+    [
+     "O vermelho parecia lamacento. E a pintura ficava cada vez mais escura.",
+     "O vermelho parecia lamacento. E a pintura ficava cada vez mais escura."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      630
+     ],
+     "w": 380,
+     "h": 420
+    },
+    {
+     "t": "nota",
+     "txt": "\"as cores já não tinham\na mesma intensidade\"",
+     "pos": [
+      520,
+      930
+     ],
+     "e": [
+      0,
+      "intensidade"
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "vermelho lamacento",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      1,
+      "lamacento"
+     ],
+     "size": 60,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Musée Marmottan Monet",
+   "frases": [
+    [
+     "Compara as pontes japonesas claras e verdes da virada do século com as de 1918 a 1924: quase abstratas, cheias de vermelho e marrom.",
+     "Compara as pontes japonesas claras e verdes da virada do século com as de mil novecentos e dezoito a mil novecentos e vinte e quatro: quase abstratas, cheias de vermelho e marrom."
+    ],
+    [
+     "O Museu Marmottan diz que essas telas refletem a visão afetada pela catarata.",
+     "O Museu Marmotã diz que essas telas refletem a visão afetada pela catarata."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "~1899: claro e verde",
+     "pos": [
+      300,
+      470
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "1918–1924: vermelho e marrom",
+     "pos": [
+      600,
+      600
+     ],
+     "e": [
+      0,
+      "1918"
+     ],
+     "size": 40
+    },
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      850
+     ],
+     "e": [
+      0,
+      "abstratas"
+     ],
+     "w": 380,
+     "h": 380,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "a visão na tela",
+     "pos": [
+      520,
+      1120
+     ],
+     "e": [
+      1,
+      "visão"
+     ],
+     "size": 66,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: British Journal of General Practice (2015)",
+   "frases": [
+    [
+     "Em 1923, aos 82 anos, ele operou um dos olhos.",
+     "Em mil novecentos e vinte e três, aos oitenta e dois anos, ele operou um dos olhos."
+    ],
+    [
+     "E depois da cirurgia, ao ver as cores de verdade, chegou a destruir telas que tinha pintado antes.",
+     "E depois da cirurgia, ao ver as cores de verdade, chegou a destruir telas que tinha pintado antes."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "1923 · 82 ANOS",
+     "pos": [
+      520,
+      460
+     ],
+     "size": 52
+    },
+    {
+     "t": "bloco",
+     "txt": "cirurgia",
+     "pos": [
+      520,
+      640
+     ],
+     "e": [
+      0,
+      "operou"
+     ],
+     "size": 84
+    },
+    {
+     "t": "bloco",
+     "txt": "telas destruídas",
+     "pos": [
+      520,
+      950
+     ],
+     "e": [
+      1,
+      "destruir"
+     ],
+     "size": 72,
+     "cor": "tinta",
+     "ang": -4
+    },
+    {
+     "t": "nota",
+     "txt": "ao ver as cores reais",
+     "pos": [
+      600,
+      1130
+     ],
+     "e": [
+      1,
+      "verdade"
+     ],
+     "cor": "laranja",
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "fonte": "Fonte: Musée de l'Orangerie",
+   "frases": [
+    [
+     "E hoje? As Ninfeias gigantes que ele doou à França estão no Museu da Orangerie, em Paris.",
+     "E hoje? As Ninfeias gigantes que ele doou à França estão no Museu da Oranjerrí, em Paris."
+    ],
+    [
+     "Foram inauguradas em 1927, meses depois da morte dele.",
+     "Foram inauguradas em mil novecentos e vinte e sete, meses depois da morte dele."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "MUSÉE DE L'ORANGERIE",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 46
+    },
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      0,
+      "Ninfeias"
+     ],
+     "w": 600,
+     "h": 300
+    },
+    {
+     "t": "tira",
+     "txt": "inauguradas em 1927",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      1,
+      "1927"
+     ],
+     "size": 48
+    },
+    {
+     "t": "nota",
+     "txt": "meses depois",
+     "pos": [
+      640,
+      1120
+     ],
+     "e": [
+      1,
+      "meses"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "frases": [
+    [
+     "Então: as últimas telas do Monet mostram também como o olho dele via o mundo.",
+     "Então: as últimas telas do Monê mostram também como o olho dele via o mundo."
+    ],
+    [
+     "Salva esse pra lembrar da catarata na próxima vez que vir um Monet escuro.",
+     "Salva esse pra lembrar da catarata na próxima vez que vir um Monê escuro."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 440,
+     "h": 500,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "a tela mostra\no olho do pintor",
+     "pos": [
+      520,
+      1030
+     ],
+     "e": [
+      0,
+      "olho"
+     ],
+     "size": 60,
+     "maxw": 740
+    },
+    {
+     "t": "nota",
+     "txt": "salva esse!",
+     "pos": [
+      760,
+      1140
+     ],
+     "e": [
+      1,
+      "Salva"
+     ],
+     "cor": "laranja",
+     "size": 54
+    }
+   ]
+  }
+ ]
+}

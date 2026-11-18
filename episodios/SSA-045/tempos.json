@@ -1,0 +1,148 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 87.012,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Nos últimos anos, Monet pintava cores que ele mesmo não enxergava direito.",
+     "inicio": 0.1,
+     "dur": 4.629
+    },
+    {
+     "leg": "E há exatos 100 anos, ele morreu.",
+     "inicio": 4.929,
+     "dur": 2.048
+    }
+   ],
+   "fim": 7.397
+  },
+  {
+   "id": "c2",
+   "inicio": 7.397,
+   "frases": [
+    {
+     "leg": "Claude Monet foi um dos criadores do impressionismo.",
+     "inicio": 7.397,
+     "dur": 2.837
+    },
+    {
+     "leg": "No jardim da casa dele, em Giverny, pintou o lago, as ninfeias e a ponte japonesa dezenas de vezes.",
+     "inicio": 10.435,
+     "dur": 6.485
+    }
+   ],
+   "fim": 17.34
+  },
+  {
+   "id": "c3",
+   "inicio": 17.34,
+   "frases": [
+    {
+     "leg": "Por volta de 1912, com 72 anos, veio o diagnóstico: catarata nos dois olhos.",
+     "inicio": 17.34,
+     "dur": 6.4
+    },
+    {
+     "leg": "A catarata deixa a lente do olho turva e amarelada.",
+     "inicio": 23.94,
+     "dur": 3.307
+    }
+   ],
+   "fim": 27.667
+  },
+  {
+   "id": "c4",
+   "inicio": 27.667,
+   "frases": [
+    {
+     "leg": "Ele mesmo escreveu que as cores já não tinham a mesma intensidade.",
+     "inicio": 27.667,
+     "dur": 4.053
+    },
+    {
+     "leg": "O vermelho parecia lamacento. E a pintura ficava cada vez mais escura.",
+     "inicio": 31.92,
+     "dur": 4.999
+    }
+   ],
+   "fim": 37.339
+  },
+  {
+   "id": "c5",
+   "inicio": 37.339,
+   "frases": [
+    {
+     "leg": "Compara as pontes japonesas claras e verdes da virada do século com as de 1918 a 1924: quase abstratas, cheias de vermelho e marrom.",
+     "inicio": 37.339,
+     "dur": 10.304
+    },
+    {
+     "leg": "O Museu Marmottan diz que essas telas refletem a visão afetada pela catarata.",
+     "inicio": 47.843,
+     "dur": 4.928
+    }
+   ],
+   "fim": 53.191
+  },
+  {
+   "id": "c6",
+   "inicio": 53.191,
+   "frases": [
+    {
+     "leg": "Em 1923, aos 82 anos, ele operou um dos olhos.",
+     "inicio": 53.191,
+     "dur": 4.864
+    },
+    {
+     "leg": "E depois da cirurgia, ao ver as cores de verdade, chegou a destruir telas que tinha pintado antes.",
+     "inicio": 58.255,
+     "dur": 5.845
+    }
+   ],
+   "fim": 64.52
+  },
+  {
+   "id": "c7",
+   "inicio": 64.52,
+   "frases": [
+    {
+     "leg": "E hoje? As Ninfeias gigantes que ele doou à França estão no Museu da Orangerie, em Paris.",
+     "inicio": 64.52,
+     "dur": 5.905
+    },
+    {
+     "leg": "Foram inauguradas em 1927, meses depois da morte dele.",
+     "inicio": 70.625,
+     "dur": 4.949
+    }
+   ],
+   "fim": 75.995
+  },
+  {
+   "id": "c8",
+   "inicio": 75.995,
+   "frases": [
+    {
+     "leg": "Então: as últimas telas do Monet mostram também como o olho dele via o mundo.",
+     "inicio": 75.995,
+     "dur": 4.501
+    },
+    {
+     "leg": "Salva esse pra lembrar da catarata na próxima vez que vir um Monet escuro.",
+     "inicio": 80.696,
+     "dur": 4.267
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 85.163,
+     "dur": 1.429
+    }
+   ],
+   "fim": 87.012
+  }
+ ]
+}
