@@ -1,0 +1,578 @@
+{
+ "id": "SSA-043",
+ "chamada": "POR QUE ESSE PAPEL VALE?",
+ "materia": "SOCIOLOGIA",
+ "titulo": "O dinheiro de papel nasceu na China (e só vale porque a gente acredita)",
+ "fontes": [
+  "Springer, Encyclopedia (verbete 'Jiaozi [Paper Money]').",
+  "Deutsche Bundesbank, 'The secret of the alchemists' (coleção de cédulas).",
+  "Fitzwilliam Museum / Univ. de Cambridge: Marco Polo e o papel-moeda de Kublai Khan.",
+  "Banco Central do Brasil, 'Origem e evolução do dinheiro'.",
+  "Banco de España, '¿Cuál es el origen del dinero?'.",
+  "ONU, resolução 74/245 (2019): Dia Internacional dos Bancos, 4 de dezembro."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "jornal",
+    "titulo": "JIAOZI",
+    "data": "SICHUAN · SÉC. XI",
+    "rodape": "PAPEL QUE VIROU DINHEIRO",
+    "pos": [
+     520,
+     740
+    ],
+    "e": null,
+    "w": 460,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "por que um papel vale alguma coisa?",
+    "pos": [
+     520,
+     1140
+    ],
+    "e": null,
+    "size": 62,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Uma nota de dinheiro é só papel. Então por que ela vale alguma coisa?",
+     "Uma nota de dinheiro é só papel. Então por que ela vale alguma coisa?"
+    ],
+    [
+     "A resposta começou na China, há uns mil anos.",
+     "A resposta começou na China, há uns mil anos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "JIAOZI",
+     "data": "SICHUAN · SÉC. XI",
+     "rodape": "PAPEL QUE VIROU DINHEIRO",
+     "pos": [
+      520,
+      700
+     ],
+     "w": 440,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "só papel?",
+     "pos": [
+      700,
+      1060
+     ],
+     "size": 84,
+     "cor": "tinta",
+     "ang": 4
+    },
+    {
+     "t": "tira",
+     "txt": "CHINA · ~1000 ANOS",
+     "pos": [
+      330,
+      1140
+     ],
+     "e": [
+      1,
+      "China"
+     ],
+     "size": 42
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Springer, verbete \"Jiaozi\"",
+   "frases": [
+    [
+     "Século 11, região de Sichuan, na China.",
+     "Século onze, região de Sê-tchuán, na China."
+    ],
+    [
+     "Lá, as moedas eram de ferro. E mil moedas pesavam uns 12 quilos e meio.",
+     "Lá, as moedas eram de ferro. E mil moedas pesavam uns doze quilos e meio."
+    ],
+    [
+     "Pra comprar uma peça de seda, você precisava carregar de 45 a 50 quilos de moeda.",
+     "Pra comprar uma peça de seda, você precisava carregar de quarenta e cinco a cinquenta quilos de moeda."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "SICHUAN · SÉCULO XI",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "moedas de ferro",
+     "pos": [
+      520,
+      620
+     ],
+     "e": [
+      1,
+      "ferro"
+     ],
+     "size": 72,
+     "cor": "tinta"
+    },
+    {
+     "t": "numero",
+     "txt": "12,5 kg",
+     "pos": [
+      520,
+      830
+     ],
+     "e": [
+      1,
+      "12"
+     ],
+     "size": 150
+    },
+    {
+     "t": "tira",
+     "txt": "= 1.000 moedas",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      1,
+      "mil"
+     ],
+     "size": 44
+    },
+    {
+     "t": "nota",
+     "txt": "seda = 45 a 50 kg!",
+     "pos": [
+      580,
+      1120
+     ],
+     "e": [
+      2,
+      "seda"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Springer, verbete \"Jiaozi\"",
+   "frases": [
+    [
+     "Então, comerciantes começaram a guardar o ferro e a entregar recibos de papel.",
+     "Então, comerciantes começaram a guardar o ferro e a entregar recibos de papel."
+    ],
+    [
+     "Quem tinha o recibo podia trocar pelo ferro depois.",
+     "Quem tinha o recibo podia trocar pelo ferro depois."
+    ],
+    [
+     "Esses papéis se chamavam jiaozi.",
+     "Esses papéis se chamavam tchiáu-dzi."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ferro guardado",
+     "pos": [
+      330,
+      480
+     ],
+     "size": 48
+    },
+    {
+     "t": "seta",
+     "de": [
+      480,
+      500
+     ],
+     "ate": [
+      620,
+      600
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "recibos"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "recibo de papel",
+     "pos": [
+      660,
+      660
+     ],
+     "e": [
+      0,
+      "recibos"
+     ],
+     "size": 60
+    },
+    {
+     "t": "nota",
+     "txt": "troca depois",
+     "pos": [
+      700,
+      860
+     ],
+     "e": [
+      1,
+      "trocar"
+     ],
+     "size": 58
+    },
+    {
+     "t": "verbete",
+     "palavra": "jiaozi",
+     "classe": "chinês, séc. XI",
+     "pos": [
+      560,
+      1060
+     ],
+     "e": [
+      2,
+      "jiaozi"
+     ],
+     "w": 620,
+     "def": "recibo de papel que circulava no lugar das moedas de ferro."
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Deutsche Bundesbank; Springer",
+   "frases": [
+    [
+     "Em 1024, o governo da dinastia Song assumiu o negócio e lançou as primeiras notas oficiais.",
+     "Em mil e vinte e quatro, o governo da dinastia Sung assumiu o negócio e lançou as primeiras notas oficiais."
+    ],
+    [
+     "Era o primeiro papel-moeda emitido por um governo.",
+     "Era o primeiro papel-moeda emitido por um governo."
+    ],
+    [
+     "E também veio o primeiro problema: imprimiram demais, e as notas perderam valor.",
+     "E também veio o primeiro problema: imprimiram demais, e as notas perderam valor."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "DINASTIA SONG · 1024",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "1º papel-moeda\nde um governo",
+     "pos": [
+      520,
+      690
+     ],
+     "e": [
+      1,
+      "governo"
+     ],
+     "size": 70,
+     "maxw": 720
+    },
+    {
+     "t": "bloco",
+     "txt": "imprimiram demais",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      2,
+      "demais"
+     ],
+     "size": 66,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "perdeu valor",
+     "pos": [
+      660,
+      1120
+     ],
+     "e": [
+      2,
+      "valor"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Bundesbank; Fitzwilliam Museum",
+   "frases": [
+    [
+     "Séculos depois, Marco Polo viu o papel-moeda na China e ficou espantado.",
+     "Séculos depois, Marco Polo viu o papel-moeda na China e ficou espantado."
+    ],
+    [
+     "Escreveu que o imperador tinha o segredo dos alquimistas: a arte de produzir dinheiro.",
+     "Escreveu que o imperador tinha o segredo dos alquimistas: a arte de produzir dinheiro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "MARCO POLO",
+     "pos": [
+      520,
+      460
+     ],
+     "size": 56
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      330,
+      760
+     ],
+     "e": [
+      0,
+      "espantado"
+     ],
+     "w": 300,
+     "ang": -5
+    },
+    {
+     "t": "nota",
+     "txt": "espantado!",
+     "pos": [
+      700,
+      640
+     ],
+     "e": [
+      0,
+      "espantado"
+     ],
+     "cor": "laranja",
+     "size": 64
+    },
+    {
+     "t": "bloco",
+     "txt": "\"o segredo dos alquimistas\"",
+     "pos": [
+      540,
+      1040
+     ],
+     "e": [
+      1,
+      "alquimistas"
+     ],
+     "size": 60,
+     "maxw": 760
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Banco Central do Brasil; Banco de España",
+   "frases": [
+    [
+     "Pro Banco Central do Brasil, o dinheiro não vale por si mesmo, e sim pelo que ele pode comprar.",
+     "Pro Banco Central do Brasil, o dinheiro não vale por si mesmo, e sim pelo que ele pode comprar."
+    ],
+    [
+     "O Banco da Espanha fala em dinheiro baseado na confiança.",
+     "O Banco da Espanha fala em dinheiro baseado na confiança."
+    ],
+    [
+     "Ou seja: uma nota vale porque todo mundo combina que ela vale.",
+     "Ou seja: uma nota vale porque todo mundo combina que ela vale."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "não vale por si",
+     "pos": [
+      520,
+      500
+     ],
+     "e": [
+      0,
+      "si"
+     ],
+     "size": 74,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "vale pelo que compra",
+     "pos": [
+      520,
+      670
+     ],
+     "e": [
+      0,
+      "comprar"
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "CONFIANÇA",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      1,
+      "confiança"
+     ],
+     "size": 100
+    },
+    {
+     "t": "nota",
+     "txt": "todo mundo combina",
+     "pos": [
+      600,
+      1100
+     ],
+     "e": [
+      2,
+      "combina"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "fonte": "Fonte: ONU, resolução 74/245 (2019)",
+   "frases": [
+    [
+     "E hoje, 4 de dezembro, é o Dia Internacional dos Bancos, criado pela ONU em 2019.",
+     "E hoje, quatro de dezembro, é o Dia Internacional dos Bancos, criado pela ONU em dois mil e dezenove."
+    ],
+    [
+     "E pra muita gente, o dinheiro já nem é papel: virou um número na tela do celular.",
+     "E pra muita gente, o dinheiro já nem é papel: virou um número na tela do celular."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ONU · 4 DE DEZEMBRO",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "Dia Internacional dos Bancos",
+     "pos": [
+      520,
+      640
+     ],
+     "e": [
+      0,
+      "Bancos"
+     ],
+     "size": 62,
+     "maxw": 780
+    },
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      520,
+      950
+     ],
+     "e": [
+      1,
+      "celular"
+     ],
+     "w": 280,
+     "ang": -4
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "frases": [
+    [
+     "Então: uma nota vale porque a gente acredita nela.",
+     "Então: uma nota vale porque a gente acredita nela."
+    ],
+    [
+     "Se amanhã ninguém aceitasse mais dinheiro, o que você usaria pra pagar as coisas?",
+     "Se amanhã ninguém aceitasse mais dinheiro, o que você usaria pra pagar as coisas?"
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "JIAOZI",
+     "data": "SICHUAN · SÉC. XI",
+     "rodape": "PAPEL QUE VIROU DINHEIRO",
+     "pos": [
+      520,
+      680
+     ],
+     "w": 420,
+     "ang": 2
+    },
+    {
+     "t": "bloco",
+     "txt": "o que você usaria?",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "usaria"
+     ],
+     "size": 72
+    }
+   ]
+  }
+ ]
+}

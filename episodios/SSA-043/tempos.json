@@ -1,0 +1,168 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 95.399,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Uma nota de dinheiro é só papel. Então por que ela vale alguma coisa?",
+     "inicio": 0.1,
+     "dur": 4.849
+    },
+    {
+     "leg": "A resposta começou na China, há uns mil anos.",
+     "inicio": 5.289,
+     "dur": 2.795
+    }
+   ],
+   "fim": 8.504
+  },
+  {
+   "id": "c2",
+   "inicio": 8.504,
+   "frases": [
+    {
+     "leg": "Século 11, região de Sichuan, na China.",
+     "inicio": 8.504,
+     "dur": 2.624
+    },
+    {
+     "leg": "Lá, as moedas eram de ferro. E mil moedas pesavam uns 12 quilos e meio.",
+     "inicio": 11.328,
+     "dur": 4.849
+    },
+    {
+     "leg": "Pra comprar uma peça de seda, você precisava carregar de 45 a 50 quilos de moeda.",
+     "inicio": 16.377,
+     "dur": 6.165
+    }
+   ],
+   "fim": 22.963
+  },
+  {
+   "id": "c3",
+   "inicio": 22.963,
+   "frases": [
+    {
+     "leg": "Então, comerciantes começaram a guardar o ferro e a entregar recibos de papel.",
+     "inicio": 22.963,
+     "dur": 4.8
+    },
+    {
+     "leg": "Quem tinha o recibo podia trocar pelo ferro depois.",
+     "inicio": 27.963,
+     "dur": 3.243
+    },
+    {
+     "leg": "Esses papéis se chamavam jiaozi.",
+     "inicio": 31.405,
+     "dur": 2.283
+    }
+   ],
+   "fim": 34.108
+  },
+  {
+   "id": "c4",
+   "inicio": 34.108,
+   "frases": [
+    {
+     "leg": "Em 1024, o governo da dinastia Song assumiu o negócio e lançou as primeiras notas oficiais.",
+     "inicio": 34.108,
+     "dur": 6.805
+    },
+    {
+     "leg": "Era o primeiro papel-moeda emitido por um governo.",
+     "inicio": 41.113,
+     "dur": 3.136
+    },
+    {
+     "leg": "E também veio o primeiro problema: imprimiram demais, e as notas perderam valor.",
+     "inicio": 44.449,
+     "dur": 4.864
+    }
+   ],
+   "fim": 49.733
+  },
+  {
+   "id": "c5",
+   "inicio": 49.733,
+   "frases": [
+    {
+     "leg": "Séculos depois, Marco Polo viu o papel-moeda na China e ficou espantado.",
+     "inicio": 49.733,
+     "dur": 4.331
+    },
+    {
+     "leg": "Escreveu que o imperador tinha o segredo dos alquimistas: a arte de produzir dinheiro.",
+     "inicio": 54.264,
+     "dur": 5.163
+    }
+   ],
+   "fim": 59.847
+  },
+  {
+   "id": "c6",
+   "inicio": 59.847,
+   "frases": [
+    {
+     "leg": "Pro Banco Central do Brasil, o dinheiro não vale por si mesmo, e sim pelo que ele pode comprar.",
+     "inicio": 59.847,
+     "dur": 5.589
+    },
+    {
+     "leg": "O Banco da Espanha fala em dinheiro baseado na confiança.",
+     "inicio": 65.636,
+     "dur": 3.477
+    },
+    {
+     "leg": "Ou seja: uma nota vale porque todo mundo combina que ela vale.",
+     "inicio": 69.313,
+     "dur": 3.648
+    }
+   ],
+   "fim": 73.381
+  },
+  {
+   "id": "c7",
+   "inicio": 73.381,
+   "frases": [
+    {
+     "leg": "E hoje, 4 de dezembro, é o Dia Internacional dos Bancos, criado pela ONU em 2019.",
+     "inicio": 73.381,
+     "dur": 6.187
+    },
+    {
+     "leg": "E pra muita gente, o dinheiro já nem é papel: virou um número na tela do celular.",
+     "inicio": 79.768,
+     "dur": 4.864
+    }
+   ],
+   "fim": 85.052
+  },
+  {
+   "id": "c8",
+   "inicio": 85.052,
+   "frases": [
+    {
+     "leg": "Então: uma nota vale porque a gente acredita nela.",
+     "inicio": 85.052,
+     "dur": 3.072
+    },
+    {
+     "leg": "Se amanhã ninguém aceitasse mais dinheiro, o que você usaria pra pagar as coisas?",
+     "inicio": 88.324,
+     "dur": 4.885
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 93.549,
+     "dur": 1.429
+    }
+   ],
+   "fim": 95.399
+  }
+ ]
+}
