@@ -47,3 +47,11 @@ Se a sessão acabar no meio, a rotina diária termina o que faltar.
 - Lote 1 (SSA-001 a 014) terminou 12 dos 14 vídeos com "X? Comenta." e hashtags quase idênticos — risco de parecer template repetido. Corrigido: ver PRODUCAO.md (CTA) e pipeline/posts.py (rodízio de hashtags). Builders novos devem variar a estrutura do CTA, nunca repetindo a mesma abertura duas vezes seguidas.
 - Nenhum vídeo do lote 1 estava ligado a evento da semana (meta é ≥5) porque foi produzido antes da rotina semanal existir. A partir do lote de 21–27/11 (produzido na quarta 18/11), aplicar a meta normalmente.
 
+
+## Aprendizados (4) — lote 3 (SSA-035 a 048, produzido em 18/11)
+- A agenda já ia até 29/11 quando a produção semanal de 18/11 rodou (o lote 2 cobriu 10 dias). Em vez de duplicar a semana 20–26/11, o lote 3 cobriu os 14 horários livres seguintes (30/11 a 06/12). Regra prática: a produção semanal sempre começa no primeiro horário sem vídeo em `agenda.json`.
+- Prancha: o chip da matéria ocupa y ~318–370. `jornal` com w>460 ou centro acima de y 700 e `bloco` de 2 linhas acima de y 520 encostam nele. Calendário (`cal`) de 31 dias: escala ≤0,55 e centro em y ≥680.
+- `risco` por cima de uma `tira` deixa o texto ilegível; só use para "riscar" algo que deve sumir mesmo.
+- `verbete` corta a palavra se ela passar de ~20 caracteres em w=700; nomes longos vão em `bloco`.
+- Capa: o `bloco` da capa não pode repetir a `chamada` (as duas aparecem juntas).
+- Checagem: a Lei 14.567/2023 (escolas de samba) NÃO fixa o 2 de dezembro; o Dia Nacional do Samba é data tradicional (há PL 6.171/2025 para oficializar). Conferir sempre o texto da lei, não a notícia.

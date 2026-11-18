@@ -37,6 +37,20 @@
 | SSA-032 | 28/11 19h | Física | Por que a bola de futebol curva no ar |
 | SSA-033 | 29/11 12h | Literatura | Frankenstein nunca foi o nome do monstro |
 | SSA-034 | 29/11 19h | Biologia | O "frio na barriga" tem explicação, e não é no estômago |
+| SSA-035 | 30/11 12h | Educação Física | O primeiro jogo oficial entre seleções terminou 0 a 0 (evento: 154 anos do 1º jogo entre seleções (30/11/1872) + reta final do Brasileirão/Copa do Brasil) |
+| SSA-036 | 30/11 19h | Física | Por que o céu é azul (e não violeta) |
+| SSA-037 | 01/12 12h | Língua Portuguesa | Por que só o português tem "segunda-feira" |
+| SSA-038 | 01/12 19h | História | Por que a última rodada começa toda no mesmo minuto (evento: Última rodada do Brasileirão, 02/12, todos os jogos às 21h30) |
+| SSA-039 | 02/12 12h | Arte | O primeiro samba de sucesso foi parar no registro com um dono só (evento: Dia Nacional do Samba (02/12)) |
+| SSA-040 | 02/12 19h | Matemática | Bastam 23 pessoas pra ter 50% de chance de aniversário repetido (evento: Noite da última rodada do Brasileirão (02/12)) |
+| SSA-041 | 03/12 12h | Literatura | Há 100 anos, Agatha Christie sumiu por 11 dias (evento: 100 anos do desaparecimento de Agatha Christie (03/12/1926)) |
+| SSA-042 | 03/12 19h | História | O braille foi criado por um garoto de 15 anos (evento: Dia Internacional das Pessoas com Deficiência (03/12, ONU)) |
+| SSA-043 | 04/12 12h | Sociologia | O dinheiro de papel nasceu na China (e só vale porque a gente acredita) (evento: Dia Internacional dos Bancos (04/12, ONU)) |
+| SSA-044 | 04/12 19h | Química | Por que a cebola faz você chorar |
+| SSA-045 | 05/12 12h | Arte | Monet pintou os últimos quadros quase sem ver as cores (evento: 100 anos da morte de Claude Monet (05/12/1926)) |
+| SSA-046 | 05/12 19h | Biologia | Uma colher de terra tem mais seres vivos que gente no planeta (evento: Dia Mundial do Solo (05/12, FAO/ONU)) |
+| SSA-047 | 06/12 12h | Língua Portuguesa | O estádio da final da Copa do Brasil tem nome de passarinho (evento: Final da Copa do Brasil, Grêmio x Palmeiras, 06/12, Mané Garrincha) |
+| SSA-048 | 06/12 19h | Filosofia | Aquiles nunca alcança a tartaruga (será?) |
 
 ## Banco de ideias (checar fonte antes)
 - Por que "pé-rapado"? (precisa de fonte sólida; se não achar, não fazer)
@@ -45,7 +59,5 @@
 - A origem do Dia da Consciência Negra (20/11) e Zumbi dos Palmares
 - Por que a Copa Libertadores tem esse nome (Bolívar, San Martín...)
 - Por que a estatueta do Oscar se chama Oscar
-- Quem inventou a nota de dinheiro (China, dinastia Song)
 - Por que a semana tem 7 dias
-- Por que o céu é azul (espalhamento de Rayleigh)
 - A primeira vacina e a palavra "vacina" (vaca)

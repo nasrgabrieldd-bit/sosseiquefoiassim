@@ -286,5 +286,99 @@
   "data": "2026-11-29",
   "hora": "19:00",
   "status": "pendente"
+ },
+ {
+  "id": "SSA-035",
+  "data": "2026-11-30",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "154 anos do 1º jogo entre seleções (30/11/1872) + reta final do Brasileirão/Copa do Brasil"
+ },
+ {
+  "id": "SSA-036",
+  "data": "2026-11-30",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-037",
+  "data": "2026-12-01",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-038",
+  "data": "2026-12-01",
+  "hora": "19:00",
+  "status": "pendente",
+  "evento": "Última rodada do Brasileirão, 02/12, todos os jogos às 21h30"
+ },
+ {
+  "id": "SSA-039",
+  "data": "2026-12-02",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "Dia Nacional do Samba (02/12)"
+ },
+ {
+  "id": "SSA-040",
+  "data": "2026-12-02",
+  "hora": "19:00",
+  "status": "pendente",
+  "evento": "Noite da última rodada do Brasileirão (02/12)"
+ },
+ {
+  "id": "SSA-041",
+  "data": "2026-12-03",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "100 anos do desaparecimento de Agatha Christie (03/12/1926)"
+ },
+ {
+  "id": "SSA-042",
+  "data": "2026-12-03",
+  "hora": "19:00",
+  "status": "pendente",
+  "evento": "Dia Internacional das Pessoas com Deficiência (03/12, ONU)"
+ },
+ {
+  "id": "SSA-043",
+  "data": "2026-12-04",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "Dia Internacional dos Bancos (04/12, ONU)"
+ },
+ {
+  "id": "SSA-044",
+  "data": "2026-12-04",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-045",
+  "data": "2026-12-05",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "100 anos da morte de Claude Monet (05/12/1926)"
+ },
+ {
+  "id": "SSA-046",
+  "data": "2026-12-05",
+  "hora": "19:00",
+  "status": "pendente",
+  "evento": "Dia Mundial do Solo (05/12, FAO/ONU)"
+ },
+ {
+  "id": "SSA-047",
+  "data": "2026-12-06",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "Final da Copa do Brasil, Grêmio x Palmeiras, 06/12, Mané Garrincha"
+ },
+ {
+  "id": "SSA-048",
+  "data": "2026-12-06",
+  "hora": "19:00",
+  "status": "pendente"
  }
 ]
