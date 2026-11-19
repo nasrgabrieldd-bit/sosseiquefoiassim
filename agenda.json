@@ -111,61 +111,61 @@
   "id": "SSA-011",
   "data": "2026-11-18",
   "hora": "12:00",
-  "status": "agendado IG+TikTok, YouTube manual",
+  "status": "publicado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6aa4365d910d55dbc43",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "manual: upload via Composio em 18/11 foi aceito (uploaded) mas o YouTube descartou o arquivo apos processar (invalidFile); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-012",
   "data": "2026-11-18",
   "hora": "19:00",
-  "status": "agendado IG+TikTok, YouTube manual",
+  "status": "publicado IG+TikTok, YouTube manual",
   "zernio_post": "6af5c6ab4365d910d55dbc50",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "manual: upload via Composio em 18/11 foi aceito (uploaded) mas o YouTube descartou o arquivo apos processar (invalidFile); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-013",
   "data": "2026-11-19",
   "hora": "12:00",
-  "status": "agendado IG+TikTok, YouTube manual",
+  "status": "agendado IG+TikTok (Zernio, 19/11), YouTube manual",
   "zernio_post": "6af5c6accae903d82c385ed5",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "manual: upload via Composio em 18/11 foi aceito (uploaded) mas o YouTube descartou o arquivo apos processar (invalidFile); subir pelo YouTube Studio"
+  "youtube": "manual: Composio recusou o upload em 19/11 (HTTP 403 'file key does not belong to this project' ao receber a URL raw como s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-014",
   "data": "2026-11-19",
   "hora": "19:00",
-  "status": "agendado IG+TikTok, YouTube manual",
+  "status": "agendado IG+TikTok (Zernio, 19/11), YouTube manual",
   "zernio_post": "6af5c6ad4365d910d55dbc69",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "manual: upload via Composio em 18/11 foi aceito (uploaded) mas o YouTube descartou o arquivo apos processar (invalidFile); subir pelo YouTube Studio"
+  "youtube": "manual: Composio recusou o upload em 19/11 (HTTP 403 'file key does not belong to this project' ao receber a URL raw como s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-015",
   "data": "2026-11-20",
   "hora": "12:00",
-  "status": "agendado IG+TikTok",
+  "status": "agendado IG+TikTok (Zernio, 20/11), YouTube manual",
   "zernio_post": "6afc0e607e77647d41a8cab2",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente (Composio falhou em 17 e 18/11; provavelmente manual)"
+  "youtube": "manual: Composio recusou o upload em 19/11 (HTTP 403 'file key does not belong to this project' ao receber a URL raw como s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-016",
   "data": "2026-11-20",
   "hora": "19:00",
-  "status": "agendado IG+TikTok",
+  "status": "agendado IG+TikTok (Zernio, 20/11), YouTube manual",
   "zernio_post": "6afc0e707e77647d41a8cae4",
   "instagram": "agendado",
   "tiktok": "agendado",
-  "youtube": "pendente (Composio falhou em 17 e 18/11; provavelmente manual)"
+  "youtube": "manual: Composio recusou o upload em 19/11 (HTTP 403 'file key does not belong to this project' ao receber a URL raw como s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-017",
