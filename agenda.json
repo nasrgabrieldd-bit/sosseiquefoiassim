@@ -131,20 +131,20 @@
   "id": "SSA-013",
   "data": "2026-11-19",
   "hora": "12:00",
-  "status": "agendado IG+TikTok (Zernio, 19/11), YouTube manual",
+  "status": "publicado IG+TikTok (confirmado no Zernio em 20/11), YouTube manual",
   "zernio_post": "6af5c6accae903d82c385ed5",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "manual: Composio recusou o upload em 19/11 (HTTP 403 'file key does not belong to this project' ao receber a URL raw como s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-014",
   "data": "2026-11-19",
   "hora": "19:00",
-  "status": "agendado IG+TikTok (Zernio, 19/11), YouTube manual",
+  "status": "publicado IG+TikTok (confirmado no Zernio em 20/11), YouTube manual",
   "zernio_post": "6af5c6ad4365d910d55dbc69",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "manual: Composio recusou o upload em 19/11 (HTTP 403 'file key does not belong to this project' ao receber a URL raw como s3key); subir pelo YouTube Studio"
  },
  {
@@ -219,25 +219,35 @@
   "id": "SSA-023",
   "data": "2026-11-24",
   "hora": "12:00",
-  "status": "pendente"
+  "status": "retido: revisar antes de agendar",
+  "motivo": "afirmacao \"seu corpo troca a maior parte das celulas em poucos anos\" imprecisa/nao verificada (neuronios e outras celulas duram a vida toda); revisar cena 6 antes de agendar"
  },
  {
   "id": "SSA-024",
   "data": "2026-11-24",
   "hora": "19:00",
-  "status": "pendente"
+  "status": "retido: revisar antes de agendar",
+  "motivo": "tese do relogio de sol e apresentada como fato (\"nao e acaso\") mas e hipotese popular; fontes citadas (Scientific American 2013, Smithsonian 2015) nao verificadas; suavizar para \"provavelmente\" e confirmar fontes"
  },
  {
   "id": "SSA-025",
   "data": "2026-11-25",
   "hora": "12:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok (Zernio, 20/11)",
+  "zernio_post": "6b0002583e124ff7588ac96a",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "pendente (Composio recusou upload em 18 e 19/11; provavelmente manual)"
  },
  {
   "id": "SSA-026",
   "data": "2026-11-25",
   "hora": "19:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok (Zernio, 20/11)",
+  "zernio_post": "6b000258f86b8baa91c044f0",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "pendente (Composio recusou upload em 18 e 19/11; provavelmente manual)"
  },
  {
   "id": "SSA-027",
