@@ -390,5 +390,19 @@
   "data": "2026-12-06",
   "hora": "19:00",
   "status": "pendente"
+ },
+ {
+  "id": "SSA-049",
+  "data": "2026-12-07",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "véspera de Natal (25/12) se aproximando — Apollo 8 e a foto Earthrise, 24/12/1968"
+ },
+ {
+  "id": "SSA-050",
+  "data": "2026-12-07",
+  "hora": "19:00",
+  "status": "pendente",
+  "evento": "clima de Natal — mito de que a Coca-Cola inventou o Papai Noel vermelho"
  }
 ]
