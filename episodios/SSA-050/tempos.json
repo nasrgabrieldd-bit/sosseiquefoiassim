@@ -1,0 +1,131 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 78.993,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Todo Natal, alguém repete que uma marca de refrigerante inventou o Papai Noel vermelho.",
+     "inicio": 0.1,
+     "dur": 5.227
+    },
+    {
+     "leg": "Só que isso é mito. E tem prova de décadas antes.",
+     "inicio": 5.527,
+     "dur": 3.804
+    }
+   ],
+   "fim": 9.751
+  },
+  {
+   "id": "c2",
+   "inicio": 9.751,
+   "frases": [
+    {
+     "leg": "A ideia de um bom velhinho que entrega presentes existe há séculos, misturando tradições alemãs, holandesas e inglesas.",
+     "inicio": 9.751,
+     "dur": 7.147
+    },
+    {
+     "leg": "Só no século 19 ele ganhou a cara que a gente conhece hoje.",
+     "inicio": 17.097,
+     "dur": 3.947
+    }
+   ],
+   "fim": 21.464
+  },
+  {
+   "id": "c3",
+   "inicio": 21.464,
+   "frases": [
+    {
+     "leg": "Quem desenhou o Papai Noel gordinho, de barba branca e, aos poucos, vestido de vermelho, foi o cartunista Thomas Nast.",
+     "inicio": 21.464,
+     "dur": 6.293
+    },
+    {
+     "leg": "Ele publicou esses desenhos na revista Harper's Weekly, a partir de 1862.",
+     "inicio": 27.957,
+     "dur": 6.016
+    }
+   ],
+   "fim": 34.393
+  },
+  {
+   "id": "c4",
+   "inicio": 34.393,
+   "frases": [
+    {
+     "leg": "Em 1881, décadas antes de qualquer comercial, Nast já desenhava o Papai Noel todo de vermelho.",
+     "inicio": 34.393,
+     "dur": 7.211
+    },
+    {
+     "leg": "A Coca-Cola só começou a usar esse Papai Noel em anúncios em 1931, com o artista Haddon Sundblom.",
+     "inicio": 41.804,
+     "dur": 6.997
+    }
+   ],
+   "fim": 49.221
+  },
+  {
+   "id": "c5",
+   "inicio": 49.221,
+   "frases": [
+    {
+     "leg": "A marca escolheu o vermelho porque combinava com a própria logo, não porque inventou a cor.",
+     "inicio": 49.221,
+     "dur": 5.163
+    },
+    {
+     "leg": "Mas repetiu tanto a imagem que o mundo passou a achar que a ideia era dela.",
+     "inicio": 54.584,
+     "dur": 4.139
+    }
+   ],
+   "fim": 59.143
+  },
+  {
+   "id": "c6",
+   "inicio": 59.143,
+   "frases": [
+    {
+     "leg": "Hoje, a própria Coca-Cola admite isso no site oficial da empresa.",
+     "inicio": 59.143,
+     "dur": 4.117
+    },
+    {
+     "leg": "Mas o comercial do caminhão iluminado continua sendo um clássico todo mês de dezembro.",
+     "inicio": 63.46,
+     "dur": 5.12
+    }
+   ],
+   "fim": 69.0
+  },
+  {
+   "id": "c7",
+   "inicio": 69.0,
+   "frases": [
+    {
+     "leg": "Então: o vermelho do Papai Noel não nasceu num comercial, nasceu numa redação de jornal.",
+     "inicio": 69.0,
+     "dur": 5.013
+    },
+    {
+     "leg": "Marca aquele amigo que jura que foi a Coca-Cola.",
+     "inicio": 74.213,
+     "dur": 2.731
+    },
+    {
+     "leg": "Só sei que foi assim!",
+     "inicio": 77.144,
+     "dur": 1.429
+    }
+   ],
+   "fim": 78.993
+  }
+ ]
+}

@@ -91,6 +91,46 @@ def recorte_retícula_cor(img_rgba,cell=8,borda=14):
     big=Image.new('L',out.size,0); big.paste(mask,(pad,pad)); white=big.filter(ImageFilter.MaxFilter(borda*2+1))
     wl=Image.new('RGBA',out.size,(252,250,246,255)); wl.putalpha(white); out.alpha_composite(wl); out.alpha_composite(base,(pad,pad))
     return out
+def phong_esfera(ts,luz=(-0.5,-0.55,0.65),ambient=0.3,difusa=0.85,especular=0.55,brilho=26):
+    """Sombreamento 3D (Lambert + especular Blinn-Phong) de uma esfera inscrita num quadrado ts×ts,
+    calculado por pixel com numpy — dá volume e brilho de verdade, bem mais 'redondo' que um
+    degradê de elipses. Retorna (sombra 0-1 float, brilho especular 0-1 float, dentro bool) todos
+    arrays (ts,ts). 100% matemática/código, sem IA e sem foto."""
+    yy,xx=np.mgrid[0:ts,0:ts].astype(np.float64)
+    cx=cy=ts/2; r=ts/2
+    dx=(xx-cx)/r; dy=(yy-cy)/r
+    dist2=dx*dx+dy*dy; dentro=dist2<=1.0
+    dz=np.sqrt(np.clip(1-dist2,0,1))
+    L=np.array(luz,dtype=np.float64); L=L/np.linalg.norm(L)
+    difus=np.clip(dx*L[0]+dy*L[1]+dz*L[2],0,1)
+    Hx,Hy,Hz=L[0],L[1],L[2]+1.0; hl=math.sqrt(Hx*Hx+Hy*Hy+Hz*Hz); Hx,Hy,Hz=Hx/hl,Hy/hl,Hz/hl
+    ndoth=np.clip(dx*Hx+dy*Hy+dz*Hz,0,1)
+    spec=np.where(dentro,ndoth**brilho*especular,0.0)
+    sombra=np.clip(ambient+difusa*difus,0,1)
+    return sombra,spec,dentro
+def aplica_phong(base_rgba,**kw):
+    """Aplica phong_esfera() sobre uma textura RGBA já pintada (plana) do tamanho do quadrado que a
+    contém — multiplica a cor pela sombra e soma um brilho branco especular, recorta no círculo."""
+    ts=base_rgba.width; sombra,spec,dentro=phong_esfera(ts,**kw)
+    a=np.asarray(base_rgba).astype(np.float64)
+    rgb=a[...,:3]*sombra[...,None]+255.0*spec[...,None]
+    alpha=a[...,3]*dentro
+    out=np.dstack([rgb.clip(0,255),alpha.clip(0,255)]).astype(np.uint8)
+    return Image.fromarray(out,'RGBA')
+def bola_natal(w,h,seed=0,cor=(196,30,40)):
+    """bola de Natal (enfeite de árvore) com sombreamento 3D de verdade (phong_esfera) — vidro
+    brilhante, capinho dourado e gancho — 100% desenhado, sem foto nem IA."""
+    ts=int(min(w,h*0.92)); im=Image.new('RGBA',(w,h),(0,0,0,0))
+    base=Image.new('RGBA',(ts,ts),cor+(255,))
+    esfera=aplica_phong(base,luz=(-0.5,-0.6,0.62),ambient=0.22,difusa=0.95,especular=0.85,brilho=38)
+    im.alpha_composite(esfera,(int((w-ts)/2),int(h-ts)))
+    cx=w/2; topo=h-ts
+    cw,ch=ts*0.22,ts*0.14
+    d=ImageDraw.Draw(im)
+    d.rectangle((cx-cw/2,topo-ch*0.4,cx+cw/2,topo+ch*0.6),fill=(214,178,70,255),outline=(120,90,30,255))
+    d.ellipse((cx-cw*0.45,topo-ch*0.75,cx+cw*0.45,topo-ch*0.05),fill=(230,196,96,255),outline=(120,90,30,255))
+    d.arc((cx-cw*0.3,topo-ch*2.1,cx+cw*0.3,topo-ch*0.6),30,150,fill=(120,90,30,255),width=4)
+    return im
 def earthrise(w,h,seed=4):
     """ilustração 100% desenhada (inventada, não é a foto real da Apollo 8): Terra colorida vista
     do espaço sobre o horizonte lunar — céu estrelado, oceano com gradiente, continentes, nuvens,
@@ -102,26 +142,20 @@ def earthrise(w,h,seed=4):
         d.ellipse((x-r,y-r,x+r,y+r),fill=(230,230,240,rng.randint(120,255)))
     cx,cy,r=w*0.6,h*0.34,w*0.3
     rr=r*1.05; ts=int(rr*2.3)
-    terra=Image.new('RGBA',(ts,ts),(0,0,0,0)); dt=ImageDraw.Draw(terra)
-    for k in range(60):
-        t=k/59; col=(int(18+40*t),int(70+90*(1-abs(t-0.4))),int(120+110*(1-t)))
-        m=rr*0.08*t; dt.ellipse((m,m,ts-m,ts-m),fill=col+(255,))
+    terra=Image.new('RGBA',(ts,ts),(24,92,150,255)); dt=ImageDraw.Draw(terra)
     for cxr,cyr,s,col in [(0.35,0.42,0.42,(74,124,62)),(0.62,0.3,0.3,(96,140,70)),
                           (0.5,0.68,0.33,(120,150,80)),(0.78,0.6,0.22,(90,130,66))]:
         pts=[]
         for i in range(10):
             a=i/10*2*math.pi; rad=s*rr*(0.6+0.4*rng.random())
             pts.append((rr+cxr*rr*0.9+rad*math.cos(a)-rr*0.45, rr+cyr*rr*0.9+rad*math.sin(a)-rr*0.45))
-        dt.polygon(pts,fill=col+(235,))
+        dt.polygon(pts,fill=col+(255,))
     for _ in range(16):
         x,y=rng.uniform(rr*0.3,rr*1.7),rng.uniform(rr*0.3,rr*1.7); s=rng.uniform(rr*0.12,rr*0.3)
-        dt.ellipse((x-s,y-s*0.5,x+s,y+s*0.5),fill=(255,255,255,90))
-    mask=Image.new('L',terra.size,0); ImageDraw.Draw(mask).ellipse((0,0,ts,ts),fill=255)
-    terra.putalpha(ImageChops.multiply(terra.split()[3],mask))
-    shade=Image.new('L',terra.size,0); ds=ImageDraw.Draw(shade)
-    ds.ellipse((ts*0.42,0,ts*1.3,ts),fill=160); shade=shade.filter(ImageFilter.GaussianBlur(ts*0.08))
-    dark=Image.new('RGBA',terra.size,(5,8,20,255)); dark.putalpha(ImageChops.multiply(shade,mask))
-    terra=Image.alpha_composite(terra,dark)
+        dt.ellipse((x-s,y-s*0.5,x+s,y+s*0.5),fill=(246,248,250,255))
+    # sombreamento 3D de verdade (Lambert + especular), luz vindo de cima-esquerda,
+    # fazendo as vezes do terminador dia/noite sem precisar de elipse de sombra "falsa"
+    terra=aplica_phong(terra,luz=(-0.55,-0.62,0.56),ambient=0.16,difusa=0.95,especular=0.3,brilho=18)
     im.alpha_composite(terra,(int(cx-terra.width/2),int(cy-terra.height/2)))
     luay=h*0.74
     d.polygon([(0,luay),(w,luay-h*0.02),(w,h),(0,h)],fill=(74,70,64,255))

@@ -1,0 +1,431 @@
+{
+ "id": "SSA-050",
+ "chamada": "A COCA-COLA NÃO INVENTOU O PAPAI NOEL",
+ "materia": "HISTÓRIA",
+ "titulo": "Será que foi a Coca-Cola que inventou o Papai Noel vermelho?",
+ "fontes": [
+  "The Coca-Cola Company, 'Five Things You Never Knew About Santa Claus and Coca-Cola' (coca-colacompany.com).",
+  "Coca-Cola Canada, FAQ 'Did Coca-Cola invent Santa Claus?' (coca-cola.ca).",
+  "Ripley's Believe It or Not!, 'Did Coca-Cola Invent the Modern Image of Santa Claus?'.",
+  "KGW/VERIFY, 'Coca-Cola did not invent Santa Claus' modern image, costume, red suit'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "foto",
+    "nome": "bola_natal",
+    "pos": [
+     520,
+     560
+    ],
+    "e": null,
+    "w": 420,
+    "h": 520,
+    "seed": 1
+   },
+   {
+    "t": "numero",
+    "txt": "1881",
+    "pos": [
+     520,
+     1080
+    ],
+    "e": null,
+    "size": 200,
+    "cor": "laranja"
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Todo Natal, alguém repete que uma marca de refrigerante inventou o Papai Noel vermelho.",
+     "Todo Natal, alguém repete que uma marca de refrigerante inventou o Papai Noel vermelho."
+    ],
+    [
+     "Só que isso é mito. E tem prova de décadas antes.",
+     "Só que isso é mito. E tem prova de décadas antes."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "foto",
+     "nome": "bola_natal",
+     "pos": [
+      420,
+      620
+     ],
+     "e": null,
+     "w": 340,
+     "h": 420,
+     "seed": 1
+    },
+    {
+     "t": "bloco",
+     "txt": "ISSO É MITO",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "mito"
+     ],
+     "size": 78,
+     "cor": "tinta",
+     "ang": -2,
+     "maxw": 800
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: The Coca-Cola Company / Wikipedia, 'Santa suit'",
+   "frases": [
+    [
+     "A ideia de um bom velhinho que entrega presentes existe há séculos, misturando tradições alemãs, holandesas e inglesas.",
+     "A ideia de um bom velhinho que entrega presentes existe há séculos, misturando tradições alemãs, holandesas e inglesas."
+    ],
+    [
+     "Só no século 19 ele ganhou a cara que a gente conhece hoje.",
+     "Só no século dezenove ele ganhou a cara que a gente conhece hoje."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      360,
+      680
+     ],
+     "e": null,
+     "w": 320,
+     "ang": -5
+    },
+    {
+     "t": "tira",
+     "txt": "TRADIÇÃO DE SÉCULOS",
+     "pos": [
+      720,
+      460
+     ],
+     "e": [
+      0,
+      "séculos"
+     ],
+     "size": 42
+    },
+    {
+     "t": "nota",
+     "txt": "a cara que\na gente conhece",
+     "pos": [
+      720,
+      1040
+     ],
+     "e": [
+      1,
+      "conhece"
+     ],
+     "cor": "laranja",
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: The Coca-Cola Company; KGW/VERIFY",
+   "frases": [
+    [
+     "Quem desenhou o Papai Noel gordinho, de barba branca e, aos poucos, vestido de vermelho, foi o cartunista Thomas Nast.",
+     "Quem desenhou o Papai Noel gordinho, de barba branca e vestido de vermelho foi o cartunista Thomas Nast."
+    ],
+    [
+     "Ele publicou esses desenhos na revista Harper's Weekly, a partir de 1862.",
+     "Ele publicou esses desenhos na revista Rárpers Uíqui, a partir de mil oitocentos e sessenta e dois."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "pos": [
+      340,
+      580
+     ],
+     "e": null,
+     "w": 360,
+     "h": 464,
+     "ang": -6,
+     "titulo": "HARPER'S WEEKLY",
+     "data": "EUA · 1862",
+     "rodape": "O BOM VELHINHO"
+    },
+    {
+     "t": "fita",
+     "pos": [
+      500,
+      370
+     ],
+     "e": null,
+     "w": 200,
+     "h": 52,
+     "ang": 15
+    },
+    {
+     "t": "tira",
+     "txt": "THOMAS NAST",
+     "pos": [
+      760,
+      760
+     ],
+     "e": [
+      0,
+      "Nast"
+     ],
+     "size": 46
+    },
+    {
+     "t": "numero",
+     "txt": "1862",
+     "pos": [
+      800,
+      1080
+     ],
+     "e": [
+      1,
+      "1862"
+     ],
+     "size": 120,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: KGW/VERIFY; The Coca-Cola Company",
+   "frases": [
+    [
+     "Em 1881, décadas antes de qualquer comercial, Nast já desenhava o Papai Noel todo de vermelho.",
+     "Em mil oitocentos e oitenta e um, décadas antes de qualquer comercial, Nast já desenhava o Papai Noel todo de vermelho."
+    ],
+    [
+     "A Coca-Cola só começou a usar esse Papai Noel em anúncios em 1931, com o artista Haddon Sundblom.",
+     "A Coca-Cola só começou a usar esse Papai Noel em anúncios em mil novecentos e trinta e um, com o artista Rádon Súndblom."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "1881",
+     "pos": [
+      420,
+      560
+     ],
+     "e": [
+      0,
+      "1881"
+     ],
+     "size": 210,
+     "cor": "laranja"
+    },
+    {
+     "t": "bloco",
+     "txt": "ANTES DE QUALQUER COMERCIAL",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      0,
+      "comercial"
+     ],
+     "size": 56,
+     "cor": "tinta",
+     "maxw": 820
+    },
+    {
+     "t": "carimbo",
+     "pos": [
+      300,
+      1140
+     ],
+     "e": [
+      1,
+      "1931"
+     ],
+     "txt": "SUNDBLOM",
+     "data": "1931",
+     "r": 92,
+     "ang": -9
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "A marca escolheu o vermelho porque combinava com a própria logo, não porque inventou a cor.",
+     "A marca escolheu o vermelho porque combinava com a própria logo, não porque inventou a cor."
+    ],
+    [
+     "Mas repetiu tanto a imagem que o mundo passou a achar que a ideia era dela.",
+     "Mas repetiu tanto a imagem que o mundo passou a achar que a ideia era dela."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "foto",
+     "nome": "bola_natal",
+     "pos": [
+      520,
+      600
+     ],
+     "e": null,
+     "w": 320,
+     "h": 400,
+     "seed": 2,
+     "cor": [
+      196,
+      30,
+      40
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "A COR DA LOGO",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      0,
+      "logo"
+     ],
+     "size": 68,
+     "cor": "tinta",
+     "maxw": 780
+    },
+    {
+     "t": "nota",
+     "txt": "não inventou\na cor",
+     "pos": [
+      780,
+      900
+     ],
+     "e": [
+      0,
+      "inventou"
+     ],
+     "cor": "laranja",
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Coca-Cola Canada, FAQ oficial",
+   "frases": [
+    [
+     "Hoje, a própria Coca-Cola admite isso no site oficial da empresa.",
+     "Hoje, a própria Coca-Cola admite isso no site oficial da empresa."
+    ],
+    [
+     "Mas o comercial do caminhão iluminado continua sendo um clássico todo mês de dezembro.",
+     "Mas o comercial do caminhão iluminado continua sendo um clássico todo mês de dezembro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "FAQ OFICIAL DA MARCA",
+     "pos": [
+      520,
+      440
+     ],
+     "e": [
+      0,
+      "oficial"
+     ],
+     "size": 44
+    },
+    {
+     "t": "bloco",
+     "txt": "ELES MESMOS ADMITEM",
+     "pos": [
+      700,
+      1120
+     ],
+     "e": [
+      0,
+      "admite"
+     ],
+     "size": 58,
+     "cor": "laranja",
+     "maxw": 600
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o vermelho do Papai Noel não nasceu num comercial, nasceu numa redação de jornal.",
+     "Então: o vermelho do Papai Noel não nasceu num comercial, nasceu numa redação de jornal."
+    ],
+    [
+     "Marca aquele amigo que jura que foi a Coca-Cola.",
+     "Marca aquele amigo que jura que foi a Coca-Cola."
+    ],
+    [
+     "Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "foto",
+     "nome": "bola_natal",
+     "pos": [
+      480,
+      560
+     ],
+     "e": null,
+     "w": 360,
+     "h": 440,
+     "seed": 1
+    },
+    {
+     "t": "bloco",
+     "txt": "NASCEU NO JORNAL",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      0,
+      "jornal"
+     ],
+     "size": 64,
+     "cor": "tinta",
+     "maxw": 780
+    },
+    {
+     "t": "nota",
+     "txt": "marca quem jura!",
+     "pos": [
+      800,
+      1150
+     ],
+     "e": [
+      1,
+      "jura"
+     ],
+     "cor": "laranja",
+     "size": 48
+    }
+   ]
+  }
+ ]
+}
