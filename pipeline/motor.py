@@ -80,6 +80,13 @@ def build(el,key):
     elif t=='cal':
         im,cw=mk_cal(el['titulo'],el.get('riscar',[]),el.get('inicio',0),el.get('ndias',31)); out=(im,cw)
     elif t=='areas': out=mk_areas(el['a'],el['b'],el['ratio'],el.get('w',760))
+    elif t=='foto':
+        w=el.get('w',620); h=el.get('h',int(w*1.15)); fn=getattr(C,el.get('nome','earthrise'))
+        out=S(R(C.recorte_retícula_cor(fn(w,h,seed=el.get('seed',4)),cell=el.get('cell',8)),ang),off=(8,10),blur=12,alpha=90)
+    elif t=='fita':
+        out=S(R(C.fita(el.get('w',260),el.get('h',62),cor=tuple(el['cor']) if 'cor' in el else None,seed=el.get('seed',0)),ang),off=(3,5),blur=5,alpha=55)
+    elif t=='carimbo':
+        out=S(C.carimbo(el.get('txt',''),el.get('data',''),r=el.get('r',92),cor=tuple(el['cor']) if 'cor' in el else None,seed=el.get('seed',0),ang=el.get('ang')),off=(4,6),blur=6,alpha=65)
     CACHE[key]=out; return out
 def seta_mao(d,p0,p1,k,cor,esp=10):
     (x0,y0),(x1,y1)=p0,p1; L=math.hypot(x1-x0,y1-y0); nx,ny=-(y1-y0)/L,(x1-x0)/L
@@ -234,6 +241,8 @@ def eventos():
             t=base+cue(cid,el['e']); tp=el['t']
             if tp in ('tira','contador'): e.append({'t':t,'tipo':'tecla','n':4})
             elif tp in ('risco','seta'): e.append({'t':t,'tipo':'marca','d':0.35})
+            elif tp=='carimbo': e.append({'t':t,'tipo':'marca','d':0.3})
+            elif tp=='fita': e.append({'t':t,'tipo':'whoosh'})
             elif el.get('anim')=='escrita': e.append({'t':t,'tipo':'marca','d':el.get('dur',1.0)})
             elif el.get('foco'): e.append({'t':t,'tipo':'whoosh'})
             else: e.append({'t':t,'tipo':'pop'})

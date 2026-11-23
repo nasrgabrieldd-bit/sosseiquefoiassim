@@ -1,0 +1,148 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 76.833,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Em 1968, três homens viram algo que nenhum humano via há sempre: a Terra inteira.",
+     "inicio": 0.1,
+     "dur": 6.187
+    },
+    {
+     "leg": "E a foto quase não existiu.",
+     "inicio": 6.487,
+     "dur": 2.048
+    }
+   ],
+   "fim": 8.955
+  },
+  {
+   "id": "c2",
+   "inicio": 8.955,
+   "frases": [
+    {
+     "leg": "Era dezembro de 1968, no auge da corrida espacial entre Estados Unidos e União Soviética.",
+     "inicio": 8.955,
+     "dur": 7.083
+    },
+    {
+     "leg": "A Apollo 8 seria a primeira vez que humanos deixariam a órbita da Terra.",
+     "inicio": 16.237,
+     "dur": 4.267
+    }
+   ],
+   "fim": 20.924
+  },
+  {
+   "id": "c3",
+   "inicio": 20.924,
+   "frases": [
+    {
+     "leg": "A tripulação era formada por Frank Borman, Jim Lovell e Bill Anders.",
+     "inicio": 20.924,
+     "dur": 4.139
+    },
+    {
+     "leg": "Em três dias, a nave chegou à Lua e entrou em órbita lunar.",
+     "inicio": 25.263,
+     "dur": 3.733
+    }
+   ],
+   "fim": 29.416
+  },
+  {
+   "id": "c4",
+   "inicio": 29.416,
+   "frases": [
+    {
+     "leg": "Na quarta volta ao redor da Lua, a Terra apareceu subindo no horizonte.",
+     "inicio": 29.416,
+     "dur": 4.288
+    },
+    {
+     "leg": "Bill Anders pegou a câmera e fotografou, sem ordem nenhuma da Nasa.",
+     "inicio": 33.904,
+     "dur": 4.117
+    }
+   ],
+   "fim": 38.441
+  },
+  {
+   "id": "c5",
+   "inicio": 38.441,
+   "frases": [
+    {
+     "leg": "A cena não estava no plano de voo: ele trocou o filme correndo.",
+     "inicio": 38.441,
+     "dur": 3.669
+    },
+    {
+     "leg": "A foto ganhou o nome de Earthrise: o nascer da Terra.",
+     "inicio": 42.311,
+     "dur": 3.072
+    }
+   ],
+   "fim": 45.803
+  },
+  {
+   "id": "c6",
+   "inicio": 45.803,
+   "frases": [
+    {
+     "leg": "Anos depois, ela foi chamada de uma das fotos mais importantes já feitas.",
+     "inicio": 45.803,
+     "dur": 4.587
+    },
+    {
+     "leg": "Ela ajudou a inspirar o primeiro Dia da Terra, em 1970.",
+     "inicio": 50.589,
+     "dur": 4.48
+    }
+   ],
+   "fim": 55.489
+  },
+  {
+   "id": "c7",
+   "inicio": 55.489,
+   "frases": [
+    {
+     "leg": "Hoje, astronautas tiram selfies da Terra na Estação Espacial toda semana.",
+     "inicio": 55.489,
+     "dur": 4.501
+    },
+    {
+     "leg": "E empresas como a SpaceX vendem até passeio turístico pra ver essa vista.",
+     "inicio": 60.191,
+     "dur": 4.715
+    }
+   ],
+   "fim": 65.325
+  },
+  {
+   "id": "c8",
+   "inicio": 65.325,
+   "frases": [
+    {
+     "leg": "Em 1968, bastou uma câmera na mão pra ver a Terra inteira.",
+     "inicio": 65.325,
+     "dur": 5.056
+    },
+    {
+     "leg": "Salva esse vídeo pra assistir de novo na próxima véspera de Natal.",
+     "inicio": 70.581,
+     "dur": 4.203
+    },
+    {
+     "leg": "Só sei que foi assim!",
+     "inicio": 74.984,
+     "dur": 1.429
+    }
+   ],
+   "fim": 76.833
+  }
+ ]
+}

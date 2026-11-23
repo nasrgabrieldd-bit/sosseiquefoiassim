@@ -1,0 +1,520 @@
+{
+ "id": "SSA-049",
+ "chamada": "A FOTO QUASE NÃO EXISTIU",
+ "materia": "HISTÓRIA",
+ "titulo": "Earthrise: a foto que quase não aconteceu",
+ "fontes": [
+  "NASA, 'Apollo 8' (mission overview, history.nasa.gov).",
+  "NASA History Office, 'The Apollo 8 Earthrise Photo' (earthobservatory.nasa.gov).",
+  "Smithsonian Magazine, 'The Story Behind the Earthrise Photo'.",
+  "TIME, '100 Photos: Earthrise'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "foto",
+    "nome": "earthrise",
+    "pos": [
+     520,
+     560
+    ],
+    "e": null,
+    "w": 640,
+    "seed": 4
+   },
+   {
+    "t": "numero",
+    "txt": "1968",
+    "pos": [
+     520,
+     1080
+    ],
+    "e": null,
+    "size": 220,
+    "cor": "laranja"
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Em 1968, três homens viram algo que nenhum humano via há sempre: a Terra inteira.",
+     "Em mil novecentos e sessenta e oito, três homens viram algo que nenhum humano via há sempre: a Terra inteira."
+    ],
+    [
+     "E a foto quase não existiu.",
+     "E a foto quase não existiu."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "foguete",
+     "pos": [
+      700,
+      720
+     ],
+     "e": null,
+     "w": 360,
+     "h": 540
+    },
+    {
+     "t": "numero",
+     "txt": "1968",
+     "pos": [
+      360,
+      460
+     ],
+     "e": null,
+     "size": 170,
+     "cor": "laranja"
+    },
+    {
+     "t": "bloco",
+     "txt": "A TERRA INTEIRA",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      0,
+      "inteira"
+     ],
+     "size": 80,
+     "cor": "tinta",
+     "ang": -2,
+     "maxw": 820
+    },
+    {
+     "t": "nota",
+     "txt": "quase não existiu",
+     "pos": [
+      300,
+      1180
+     ],
+     "e": [
+      1,
+      "existiu"
+     ],
+     "cor": "laranja",
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: NASA, 'Apollo 8'",
+   "frases": [
+    [
+     "Era dezembro de 1968, no auge da corrida espacial entre Estados Unidos e União Soviética.",
+     "Era dezembro de mil novecentos e sessenta e oito, no auge da corrida espacial entre Estados Unidos e União Soviética."
+    ],
+    [
+     "A Apollo 8 seria a primeira vez que humanos deixariam a órbita da Terra.",
+     "A Apolo oito seria a primeira vez que humanos deixariam a órbita da Terra."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "pos": [
+      330,
+      560
+     ],
+     "e": null,
+     "w": 360,
+     "h": 464,
+     "ang": -7,
+     "titulo": "O GLOBO",
+     "data": "EUA × URSS · 1968",
+     "rodape": "CORRIDA ESPACIAL"
+    },
+    {
+     "t": "fita",
+     "pos": [
+      480,
+      350
+     ],
+     "e": null,
+     "w": 210,
+     "h": 54,
+     "ang": 16
+    },
+    {
+     "t": "tira",
+     "txt": "DEZEMBRO DE 1968",
+     "pos": [
+      730,
+      780
+     ],
+     "e": [
+      0,
+      "dezembro"
+     ],
+     "size": 46
+    },
+    {
+     "t": "carimbo",
+     "pos": [
+      800,
+      1080
+     ],
+     "e": [
+      1,
+      0.3
+     ],
+     "txt": "APOLO 8",
+     "data": "",
+     "r": 86,
+     "ang": 10
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "frases": [
+    [
+     "A tripulação era formada por Frank Borman, Jim Lovell e Bill Anders.",
+     "A tripulação era formada por Frank Bórman, Jim Lóvel e Biu Ânders."
+    ],
+    [
+     "Em três dias, a nave chegou à Lua e entrou em órbita lunar.",
+     "Em três dias, a nave chegou à Lua e entrou em órbita lunar."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "astronauta",
+     "pos": [
+      380,
+      680
+     ],
+     "e": null,
+     "w": 300,
+     "h": 450
+    },
+    {
+     "t": "tira",
+     "txt": "BORMAN · LOVELL · ANDERS",
+     "pos": [
+      620,
+      420
+     ],
+     "e": [
+      0,
+      "Borman"
+     ],
+     "size": 40
+    },
+    {
+     "t": "obj",
+     "nome": "superficie_lunar",
+     "pos": [
+      700,
+      1080
+     ],
+     "e": [
+      1,
+      "Lua"
+     ],
+     "w": 380,
+     "h": 180,
+     "cell": 6
+    },
+    {
+     "t": "nota",
+     "txt": "3 dias até a Lua",
+     "pos": [
+      760,
+      760
+     ],
+     "e": [
+      1,
+      "dias"
+     ],
+     "cor": "laranja",
+     "size": 50
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: NASA History Office, Earthrise",
+   "frases": [
+    [
+     "Na quarta volta ao redor da Lua, a Terra apareceu subindo no horizonte.",
+     "Na quarta volta ao redor da Lua, a Terra apareceu subindo no horizonte."
+    ],
+    [
+     "Bill Anders pegou a câmera e fotografou, sem ordem nenhuma da Nasa.",
+     "Biu Ânders pegou a câmera e fotografou, sem ordem nenhuma da Nasa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "foto",
+     "nome": "earthrise",
+     "pos": [
+      540,
+      680
+     ],
+     "e": null,
+     "w": 560,
+     "seed": 4
+    },
+    {
+     "t": "bloco",
+     "txt": "SEM ORDEM DA NASA",
+     "pos": [
+      520,
+      1140
+     ],
+     "e": [
+      1,
+      "ordem"
+     ],
+     "size": 58,
+     "cor": "tinta",
+     "maxw": 820
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "frases": [
+    [
+     "A cena não estava no plano de voo: ele trocou o filme correndo.",
+     "A cena não estava no plano de voo: ele trocou o filme correndo."
+    ],
+    [
+     "A foto ganhou o nome de Earthrise: o nascer da Terra.",
+     "A foto ganhou o nome de 'Érzrráiz': o nascer da Terra."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "foto",
+     "nome": "earthrise",
+     "pos": [
+      420,
+      560
+     ],
+     "e": null,
+     "w": 420,
+     "seed": 4
+    },
+    {
+     "t": "fita",
+     "pos": [
+      600,
+      360
+     ],
+     "e": null,
+     "w": 200,
+     "h": 52,
+     "ang": -14
+    },
+    {
+     "t": "carimbo",
+     "pos": [
+      780,
+      840
+     ],
+     "e": [
+      1,
+      "Earthrise"
+     ],
+     "txt": "EARTHRISE",
+     "data": "24.12.1968",
+     "r": 96,
+     "ang": -8
+    },
+    {
+     "t": "nota",
+     "txt": "trocou o filme\ncorrendo",
+     "pos": [
+      300,
+      980
+     ],
+     "e": [
+      0,
+      "trocou"
+     ],
+     "cor": "laranja",
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Smithsonian Magazine / TIME, Earthrise",
+   "frases": [
+    [
+     "Anos depois, ela foi chamada de uma das fotos mais importantes já feitas.",
+     "Anos depois, ela foi chamada de uma das fotos mais importantes já feitas."
+    ],
+    [
+     "Ela ajudou a inspirar o primeiro Dia da Terra, em 1970.",
+     "Ela ajudou a inspirar o primeiro Dia da Terra, em mil novecentos e setenta."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      640
+     ],
+     "e": null,
+     "w": 420,
+     "ang": 4
+    },
+    {
+     "t": "numero",
+     "txt": "1970",
+     "pos": [
+      760,
+      1020
+     ],
+     "e": [
+      1,
+      "1970"
+     ],
+     "size": 150,
+     "cor": "laranja"
+    },
+    {
+     "t": "tira",
+     "txt": "DIA DA TERRA",
+     "pos": [
+      300,
+      1140
+     ],
+     "e": [
+      1,
+      "Dia"
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Hoje, astronautas tiram selfies da Terra na Estação Espacial toda semana.",
+     "Hoje, astronautas tiram selfies da Terra na Estação Espacial toda semana."
+    ],
+    [
+     "E empresas como a SpaceX vendem até passeio turístico pra ver essa vista.",
+     "E empresas como a 'Spêis Éx' vendem até passeio turístico pra ver essa vista."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      380,
+      620
+     ],
+     "e": null,
+     "w": 320,
+     "ang": -3
+    },
+    {
+     "t": "obj",
+     "nome": "foguete",
+     "pos": [
+      760,
+      760
+     ],
+     "e": [
+      1,
+      "SpaceX"
+     ],
+     "w": 260,
+     "h": 400
+    },
+    {
+     "t": "bloco",
+     "txt": "SELFIE NO ESPAÇO",
+     "pos": [
+      520,
+      1140
+     ],
+     "e": [
+      0,
+      "selfies"
+     ],
+     "size": 62,
+     "cor": "tinta",
+     "maxw": 820
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "frases": [
+    [
+     "Em 1968, bastou uma câmera na mão pra ver a Terra inteira.",
+     "Em mil novecentos e sessenta e oito, bastou uma câmera na mão pra ver a Terra inteira."
+    ],
+    [
+     "Salva esse vídeo pra assistir de novo na próxima véspera de Natal.",
+     "Salva esse vídeo pra assistir de novo na próxima véspera de Natal."
+    ],
+    [
+     "Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "foto",
+     "nome": "earthrise",
+     "pos": [
+      520,
+      580
+     ],
+     "e": null,
+     "w": 520,
+     "seed": 4
+    },
+    {
+     "t": "numero",
+     "txt": "1968",
+     "pos": [
+      320,
+      1000
+     ],
+     "e": [
+      0,
+      "1968"
+     ],
+     "size": 140,
+     "cor": "laranja"
+    },
+    {
+     "t": "bloco",
+     "txt": "SALVA PRA LEMBRAR",
+     "pos": [
+      680,
+      1120
+     ],
+     "e": [
+      1,
+      "Salva"
+     ],
+     "size": 56,
+     "cor": "tinta",
+     "maxw": 480
+    }
+   ]
+  }
+ ]
+}

@@ -30,11 +30,12 @@ Entre 175 e 230 palavras faladas.
 - Sem silêncio nem música sumindo nos últimos ~0,5 s; o áudio corta junto com a imagem.
 
 ## Elementos (`t`)
-`obj` (desenho em retícula: ver `pipeline/objetos.py: OBJ`, além de `tv`, `radio`), `jornal` (titulo, data, rodape, `marca`=[frase, palavra] para o marca-texto), `tira` (etiqueta de máquina de escrever), `bloco` (título rasgado laranja/grafite), `nota` (manuscrito), `numero` (Anton gigante), `verbete` (cartão de dicionário), `cal` (calendário com `riscar`), `areas` (comparação de tamanho), `contador`, `seta` (à mão), `risco`.
+`obj` (desenho em retícula: ver `pipeline/objetos.py: OBJ`, além de `tv`, `radio`), `jornal` (titulo, data, rodape, `marca`=[frase, palavra] para o marca-texto), `tira` (etiqueta de máquina de escrever), `bloco` (título rasgado laranja/grafite), `nota` (manuscrito), `numero` (Anton gigante), `verbete` (cartão de dicionário), `cal` (calendário com `riscar`), `areas` (comparação de tamanho), `contador`, `seta` (à mão), `risco`, `fita` (fita adesiva colando um recorte — `w`,`h`,`cor`), `carimbo` (carimbo de borracha desgastado — `txt`,`data`,`r`,`cor`). Os dois últimos são do efeito colagem (desde 20/11/2026): só desenhado, sem foto real nenhuma, usar para "colar" jornais/tiras ou marcar uma data em destaque.
 Comuns: `pos` [x,y] = centro; `e` = [índice da frase, "palavra" | fração] para a entrada (sem `e` = já na tela); `anim` pop | slide_l/r/b/t | fade | escrita; `sai`; `ang`; `escala`; `balanca`; `foco` (desfoca o resto: rack focus).
 Câmera: `push` (aproximação lenta), `zooms` [{e, escala≤1.18, alvo}], `congela` {de, ate} (quadro P&B).
 
 Área segura: todo conteúdo entre x 92–930 e y 380–1200. Legenda em y 1240; linha de fonte em 1372. Nada perto das bordas.
+Referência oficial (prints enviados por Gabriel, 20/11/2026): Reels/Shorts em 1080×1920 têm zona morta de 220px no topo e 450px na base, com margem de segurança lateral de 35px — a caixa do pipeline (x 92–930, y 260–1400) já fica **dentro** dessa zona em todos os lados, com folga. Cuidado à parte: no feed do TikTok a coluna de ícones (curtir/comentar/compartilhar/perfil) pode tomar até ~240px a partir da borda direita — qualquer elemento `fita`/`carimbo`/`jornal` cujo canto encoste perto de x>900 na parte de baixo da tela (y>900) deve ser conferido na prancha com atenção redobrada a esse lado. Confira com `pipeline/margens.py` (pinta as duas zonas por cima de um quadro já renderizado).
 
 ## Comandos
 ```

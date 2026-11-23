@@ -57,6 +57,78 @@ def tv_cinza(w,h):
     d.polygon([(w*0.18,h*0.86),(w*0.24,h*0.86),(w*0.16,h*0.99),(w*0.12,h*0.99)],fill=40)
     d.polygon([(w*0.76,h*0.86),(w*0.82,h*0.86),(w*0.88,h*0.99),(w*0.84,h*0.99)],fill=40)
     return im
+def halftone_cor(img,cell=8):
+    """retícula colorida: mesmo grid clássico do halftone() em P&B (tamanho do ponto pela
+    luminância local, linhas alternadas), mas cada ponto é pintado com a cor local da
+    ilustração — dá o efeito 'foto a cores' tipo impressão antiga, preservando as cores
+    (azul do oceano, verde dos continentes etc.) em vez de misturar tinta por canal CMYK
+    (que em grade única sem ângulos de tela só produz ruído). Sempre a partir de uma
+    ilustração desenhada por código, nunca de uma foto real."""
+    w,h=img.size
+    lum=np.asarray(img.convert('L')).astype(np.float32)/255
+    cor=np.asarray(img.convert('RGB'))
+    small_l=Image.fromarray((lum*255).astype(np.uint8)).resize((w//cell+2,h//cell+2),Image.BILINEAR)
+    small_c=Image.fromarray(cor).resize((w//cell+2,h//cell+2),Image.BILINEAR)
+    al=np.asarray(small_l); ac=np.asarray(small_c)
+    out=Image.new('RGBA',(w,h),(0,0,0,0)); d=ImageDraw.Draw(out)
+    for j in range(al.shape[0]):
+        for i in range(al.shape[1]):
+            v=al[j,i]/255; r=(1-v)**0.8*cell*0.8
+            if r>0.55:
+                x=i*cell+(cell/2 if j%2 else 0); y=j*cell
+                col=tuple(int(c) for c in ac[j,i])
+                d.ellipse((x-r,y-r,x+r,y+r),fill=col+(255,))
+    return out
+def recorte_retícula_cor(img_rgba,cell=8,borda=14):
+    """variante colorida do recorte_retícula: retícula colorida + borda branca de adesivo.
+    É o 'recorte de foto colorida' da colagem."""
+    w,h=img_rgba.size
+    mask=img_rgba.split()[3].point(lambda v:255 if v>10 else 0).filter(ImageFilter.MaxFilter(5))
+    dots=halftone_cor(img_rgba,cell)
+    base=Image.new('RGBA',(w,h),(238,236,230,255)); base.putalpha(mask); base.alpha_composite(dots)
+    a=base.split()[3]; a=ImageChops.multiply(a,mask); base.putalpha(a)
+    pad=borda*2; out=Image.new('RGBA',(w+pad*2,h+pad*2),(0,0,0,0))
+    big=Image.new('L',out.size,0); big.paste(mask,(pad,pad)); white=big.filter(ImageFilter.MaxFilter(borda*2+1))
+    wl=Image.new('RGBA',out.size,(252,250,246,255)); wl.putalpha(white); out.alpha_composite(wl); out.alpha_composite(base,(pad,pad))
+    return out
+def earthrise(w,h,seed=4):
+    """ilustração 100% desenhada (inventada, não é a foto real da Apollo 8): Terra colorida vista
+    do espaço sobre o horizonte lunar — céu estrelado, oceano com gradiente, continentes, nuvens,
+    sombra/terminador e crateras na base. Serve de 'foto' central colorida da colagem."""
+    rng=random.Random(seed)
+    im=Image.new('RGBA',(w,h),(8,8,18,255)); d=ImageDraw.Draw(im)
+    for _ in range(150):
+        x,y=rng.uniform(0,w),rng.uniform(0,h*0.62); r=rng.uniform(0.6,1.8)
+        d.ellipse((x-r,y-r,x+r,y+r),fill=(230,230,240,rng.randint(120,255)))
+    cx,cy,r=w*0.6,h*0.34,w*0.3
+    rr=r*1.05; ts=int(rr*2.3)
+    terra=Image.new('RGBA',(ts,ts),(0,0,0,0)); dt=ImageDraw.Draw(terra)
+    for k in range(60):
+        t=k/59; col=(int(18+40*t),int(70+90*(1-abs(t-0.4))),int(120+110*(1-t)))
+        m=rr*0.08*t; dt.ellipse((m,m,ts-m,ts-m),fill=col+(255,))
+    for cxr,cyr,s,col in [(0.35,0.42,0.42,(74,124,62)),(0.62,0.3,0.3,(96,140,70)),
+                          (0.5,0.68,0.33,(120,150,80)),(0.78,0.6,0.22,(90,130,66))]:
+        pts=[]
+        for i in range(10):
+            a=i/10*2*math.pi; rad=s*rr*(0.6+0.4*rng.random())
+            pts.append((rr+cxr*rr*0.9+rad*math.cos(a)-rr*0.45, rr+cyr*rr*0.9+rad*math.sin(a)-rr*0.45))
+        dt.polygon(pts,fill=col+(235,))
+    for _ in range(16):
+        x,y=rng.uniform(rr*0.3,rr*1.7),rng.uniform(rr*0.3,rr*1.7); s=rng.uniform(rr*0.12,rr*0.3)
+        dt.ellipse((x-s,y-s*0.5,x+s,y+s*0.5),fill=(255,255,255,90))
+    mask=Image.new('L',terra.size,0); ImageDraw.Draw(mask).ellipse((0,0,ts,ts),fill=255)
+    terra.putalpha(ImageChops.multiply(terra.split()[3],mask))
+    shade=Image.new('L',terra.size,0); ds=ImageDraw.Draw(shade)
+    ds.ellipse((ts*0.42,0,ts*1.3,ts),fill=160); shade=shade.filter(ImageFilter.GaussianBlur(ts*0.08))
+    dark=Image.new('RGBA',terra.size,(5,8,20,255)); dark.putalpha(ImageChops.multiply(shade,mask))
+    terra=Image.alpha_composite(terra,dark)
+    im.alpha_composite(terra,(int(cx-terra.width/2),int(cy-terra.height/2)))
+    luay=h*0.74
+    d.polygon([(0,luay),(w,luay-h*0.02),(w,h),(0,h)],fill=(74,70,64,255))
+    for _ in range(11):
+        x=rng.uniform(0,w); y=luay+rng.uniform(10,h*0.2); rc=rng.uniform(14,40)
+        d.ellipse((x-rc,y-rc*0.4,x+rc,y+rc*0.4),fill=(54,50,48,255))
+    return im
 def recorte_retícula(gray,cell=7,borda=14):
     """retícula P&B + borda branca de adesivo (o 'recorte' da colagem)."""
     w,h=gray.size; mask=gray.point(lambda v:255 if v<250 else 0).filter(ImageFilter.MaxFilter(5))
@@ -239,6 +311,41 @@ def legenda(img,txt):
         w=f.getlength(l); d.rectangle((CX-w/2-16,y-4,CX+w/2+16,y+62),fill=GRAFITE); d.text((CX-w/2,y),l,font=f,fill=(250,246,236)); y+=70
 def barra(img,p):
     d=ImageDraw.Draw(img); d.rectangle((0,1904,int(W*p),1920),fill=LARANJA)
+def fita(w=260,h=62,cor=None,seed=0):
+    """fita adesiva semitransparente colando um recorte: pontas em corte diagonal irregular,
+    friso de brilho e sombra de dobra ao centro (efeito 'colagem' das referências)."""
+    cor=cor or (247,222,138)
+    rng=random.Random(seed or int(w*7+h))
+    j=lambda: rng.uniform(-5,5)
+    pts=[(6+j(),0),(w-6+j(),0),(w+j(),h*0.32+j()),(w-6+j(),h),(6+j(),h),(j(),h*0.68+j())]
+    m=Image.new('L',(w,h),0); ImageDraw.Draw(m).polygon(pts,fill=255)
+    a=np.asarray(Image.new('RGB',(w,h),cor)).astype(np.float32)+noise(w,h,0.6,1,seed or 1)[...,None]*12
+    body=Image.fromarray(a.clip(0,255).astype(np.uint8)).convert('RGBA')
+    al=Image.new('L',(w,h),222); body.putalpha(ImageChops.multiply(al,m))
+    d=ImageDraw.Draw(body)
+    d.line([(8,h*0.3),(w-8,h*0.3)],fill=(255,255,255,80),width=2)
+    d.line([(8,h*0.72),(w-8,h*0.72)],fill=(0,0,0,26),width=2)
+    return body
+def carimbo(texto='',data='',r=92,cor=None,seed=0,ang=None):
+    """carimbo de borracha desgastado: anel duplo + texto + data, tinta avermelhada/desbotada."""
+    cor=cor or (196,40,34)
+    rng=random.Random(seed or len(texto)+len(data)+1)
+    d2=int(r*2+20)
+    im=Image.new('RGBA',(d2,d2),(0,0,0,0)); d=ImageDraw.Draw(im)
+    cx=cy=d2/2
+    d.ellipse((cx-r,cy-r,cx+r,cy+r),outline=cor+(255,),width=7)
+    d.ellipse((cx-r+16,cy-r+16,cx+r-16,cy+r-16),outline=cor+(255,),width=4)
+    f1=F('special-elite',400,max(14,int(r*0.3))); f2=F('special-elite',400,max(18,int(r*0.5)))
+    if texto:
+        t=texto.upper(); w=f1.getlength(t); d.text((cx-w/2,cy-r*0.54),t,font=f1,fill=cor+(255,))
+    if data:
+        w=f2.getlength(data); d.text((cx-w/2,cy-r*0.1),data,font=f2,fill=cor+(255,))
+    n=noise(d2,d2,1.2,2,seed or 3)+0.5; n=np.clip(n,0,1)
+    wear=Image.fromarray((n*255).astype(np.uint8))
+    a=im.split()[3]; a=ImageChops.multiply(a,wear.point(lambda v:150+int(v*0.4)))
+    im.putalpha(a)
+    ang=ang if ang is not None else rng.uniform(-14,14)
+    return im.rotate(ang,expand=True,resample=Image.BICUBIC)
 def folha_transicao(w=1080,h=1920,seed=21):
     """folha de papel rasgada que atravessa a tela na troca de cena"""
     H2=h+360; f=rasgado(w+80,H2,PAPEL_M,seed=seed,amp=40)

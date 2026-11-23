@@ -1,0 +1,126 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 75.227,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Teve um lugar no Brasil que resistiu a exércitos por quase 100 anos. Sem presidente, sem exército oficial.",
+     "inicio": 0.1,
+     "dur": 7.111
+    }
+   ],
+   "fim": 7.631
+  },
+  {
+   "id": "c2",
+   "inicio": 7.631,
+   "frases": [
+    {
+     "leg": "Era o Quilombo dos Palmares, fundado por volta de 1605, na Serra da Barriga, em Alagoas.",
+     "inicio": 7.631,
+     "dur": 6.123
+    }
+   ],
+   "fim": 14.173
+  },
+  {
+   "id": "c3",
+   "inicio": 14.173,
+   "frases": [
+    {
+     "leg": "Em seu auge, chegou a ter mais de 20 mil pessoas vivendo lá.",
+     "inicio": 14.173,
+     "dur": 3.904
+    },
+    {
+     "leg": "Isso era mais gente do que várias cidades europeias da época.",
+     "inicio": 18.277,
+     "dur": 3.776
+    },
+    {
+     "leg": "Palmares tinha até divisão entre vilas, cada uma com seu próprio chefe local.",
+     "inicio": 22.253,
+     "dur": 4.651
+    }
+   ],
+   "fim": 27.324
+  },
+  {
+   "id": "c4",
+   "inicio": 27.324,
+   "frases": [
+    {
+     "leg": "Os moradores plantavam, criavam animais e treinavam seus próprios guerreiros.",
+     "inicio": 27.324,
+     "dur": 4.629
+    },
+    {
+     "leg": "Pelo menos seis expedições portuguesas tentaram destruir Palmares e fracassaram.",
+     "inicio": 32.153,
+     "dur": 5.056
+    },
+    {
+     "leg": "Alguns relatos da época chegaram a chamar os moradores de Palmares de 'invencíveis'.",
+     "inicio": 37.409,
+     "dur": 5.056
+    }
+   ],
+   "fim": 42.885
+  },
+  {
+   "id": "c5",
+   "inicio": 42.885,
+   "frases": [
+    {
+     "leg": "Só caiu em 1694, numa madrugada de ataque surpresa com tropas e canhões.",
+     "inicio": 42.885,
+     "dur": 5.995
+    },
+    {
+     "leg": "Zumbi, o último líder, foi morto no ano seguinte, em 20 de novembro de 1695.",
+     "inicio": 49.08,
+     "dur": 6.507
+    }
+   ],
+   "fim": 56.007
+  },
+  {
+   "id": "c6",
+   "inicio": 56.007,
+   "frases": [
+    {
+     "leg": "E hoje? Esse dia virou o Dia da Consciência Negra, feriado nacional em todo o país desde 2023.",
+     "inicio": 56.007,
+     "dur": 7.484
+    }
+   ],
+   "fim": 63.911
+  },
+  {
+   "id": "c7",
+   "inicio": 63.911,
+   "frases": [
+    {
+     "leg": "Então: quase 100 anos de resistência por uma comunidade inteira, livre, no meio do Brasil colonial.",
+     "inicio": 63.911,
+     "dur": 5.931
+    },
+    {
+     "leg": "Marca aquele amigo que precisa conhecer essa história.",
+     "inicio": 70.041,
+     "dur": 3.136
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 73.377,
+     "dur": 1.429
+    }
+   ],
+   "fim": 75.227
+  }
+ ]
+}

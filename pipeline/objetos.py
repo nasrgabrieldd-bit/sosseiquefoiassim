@@ -181,3 +181,75 @@ def arvore(w,h):
     for x,y in [(0.3,0.35),(0.6,0.3),(0.72,0.45),(0.42,0.2)]: d.ellipse((w*x-w*0.03,h*y-w*0.03,w*x+w*0.03,h*y+w*0.03),fill=30)
     d.rectangle((0,h*0.95,w,h),fill=90); return im
 OBJ.update({'caverna':caverna,'telha':telha,'arvore':arvore})
+def astronauta(w,h):
+    """astronauta de pe, traje Apollo, mochila (PLSS), capacete com viseira dourada — 100% desenhado."""
+    im,d=_base(w,h); cx=w*0.5
+    bw=w*0.46; by0,by1=h*0.22,h*0.56
+    d.rounded_rectangle((cx-bw/2,by0,cx+bw/2,by1),radius=int(w*0.05),fill=172)
+    for i in range(3):
+        y=by0+h*0.06+i*(by1-by0-h*0.1)/2; d.line([(cx-bw*0.32,y),(cx+bw*0.32,y)],fill=130,width=4)
+    d.line([(cx+bw*0.38,by0+h*0.02),(cx+bw*0.5,h*0.06)],fill=70,width=5)
+    for s in (-1,1):
+        x0=cx+s*w*0.095
+        d.rounded_rectangle((x0-w*0.085,h*0.63,x0+w*0.085,h*0.89),radius=int(w*0.06),fill=208)
+        grad_ellipse(d,(x0-w*0.085,h*0.63,x0+w*0.085,h*0.89),228,155,18)
+        d.rounded_rectangle((x0-w*0.095,h*0.855,x0+w*0.105,h*0.98),radius=int(w*0.045),fill=55)
+    tw0,tw1=w*0.3,w*0.4
+    d.polygon([(cx-tw0/2,h*0.3),(cx+tw0/2,h*0.3),(cx+tw1/2,h*0.64),(cx-tw1/2,h*0.64)],fill=218,outline=40)
+    grad_ellipse(d,(cx-tw1/2,h*0.3,cx+tw1/2,h*0.64),238,162,20)
+    pw,ph=w*0.2,h*0.09
+    d.rounded_rectangle((cx-pw/2,h*0.4,cx+pw/2,h*0.4+ph),radius=8,fill=90)
+    for i in range(3):
+        bx=cx-pw/2+6+i*pw/3; d.ellipse((bx,h*0.4+ph*0.3,bx+9,h*0.4+ph*0.3+9),fill=38)
+    for s in (-1,1):
+        x0=cx+s*w*0.27
+        d.rounded_rectangle((x0-w*0.07,h*0.33,x0+w*0.07,h*0.61),radius=int(w*0.055),fill=198)
+        grad_ellipse(d,(x0-w*0.07,h*0.33,x0+w*0.07,h*0.61),222,150,14)
+        d.ellipse((x0-w*0.075,h*0.58,x0+w*0.075,h*0.71),fill=65)
+    hr=w*0.175; hc=(cx,h*0.15)
+    grad_ellipse(d,(hc[0]-hr,hc[1]-hr,hc[0]+hr,hc[1]+hr),232,118,28)
+    d.ellipse((hc[0]-hr,hc[1]-hr,hc[0]+hr,hc[1]+hr),outline=30,width=4)
+    vr=hr*0.76
+    d.ellipse((hc[0]-vr,hc[1]-vr*0.82,hc[0]+vr,hc[1]+vr*0.95),fill=52)
+    d.arc((hc[0]-vr*0.85,hc[1]-vr*0.65,hc[0]+vr*0.25,hc[1]+vr*0.5),205,255,fill=215,width=6)
+    d.rounded_rectangle((cx-w*0.095,h*0.265,cx+w*0.095,h*0.32),radius=6,fill=145)
+    return im
+def foguete(w,h):
+    """foguete tipo Saturno V na plataforma, com torre de servico e holofotes — 100% desenhado."""
+    im,d=_base(w,h); cx=w*0.42; tx=w*0.78
+    for sx in (-1,1):
+        ox=cx+sx*w*0.34
+        d.polygon([(ox,h*0.99),(cx-w*0.02*sx,h*0.34),(cx+w*0.07*sx,h*0.34)],fill=240)
+    d.line([(tx-w*0.055,h*0.12),(tx-w*0.055,h*0.99)],fill=80,width=6)
+    d.line([(tx+w*0.055,h*0.12),(tx+w*0.055,h*0.99)],fill=80,width=6)
+    for i in range(16):
+        y0=h*0.12+i*(h*0.87/16); y1=y0+h*0.87/16
+        d.line([(tx-w*0.055,y0),(tx+w*0.055,y1)],fill=112,width=3); d.line([(tx-w*0.055,y1),(tx+w*0.055,y0)],fill=112,width=3)
+    for i in range(5):
+        y=h*0.3+i*h*0.13; d.line([(tx-w*0.055,y),(cx+w*0.09,y-h*0.01)],fill=152,width=3)
+    stages=[(h*0.14,h*0.42,0.085,0.1),(h*0.42,h*0.64,0.1,0.125),(h*0.64,h*0.84,0.125,0.15),(h*0.84,h*0.92,0.15,0.17)]
+    for y0,y1,r0,r1 in stages:
+        d.polygon([(cx-w*r0,y0),(cx+w*r0,y0),(cx+w*r1,y1),(cx-w*r1,y1)],fill=205,outline=40)
+        d.line([(cx-w*r0,y0+(y1-y0)*0.08),(cx+w*r0,y0+(y1-y0)*0.08)],fill=65,width=3)
+    for i in range(3):
+        xx=cx-w*0.06+i*w*0.06; d.line([(xx,h*0.46),(xx,h*0.62)],fill=95,width=3)
+    d.polygon([(cx-w*0.06,h*0.14),(cx+w*0.06,h*0.14),(cx,h*0.02)],fill=188,outline=40)
+    d.line([(cx,h*0.02),(cx,h*-0.03)],fill=60,width=5)
+    for i in range(3):
+        xx=cx-w*0.1+i*w*0.1
+        d.polygon([(xx-w*0.025,h*0.92),(xx+w*0.025,h*0.92),(xx+w*0.035,h*0.98),(xx-w*0.035,h*0.98)],fill=55)
+    d.polygon([(cx-w*0.08,h*0.97),(cx+w*0.08,h*0.97),(cx+w*0.03,h*1.03),(cx-w*0.03,h*1.03)],fill=90)
+    return im
+def superficie_lunar(w,h):
+    """chao lunar em primeiro plano, cheio de crateras com sombra/luz (efeito relevo) — 100% desenhado."""
+    im,d=_base(w,h); rng=random.Random(11)
+    d.polygon([(0,h*0.52),(w,h*0.46),(w,h),(0,h)],fill=150)
+    for _ in range(24):
+        x=rng.uniform(0,w); y=rng.uniform(h*0.56,h*0.97); r=rng.uniform(w*0.025,w*0.095)
+        grad_ellipse(d,(x-r,y-r*0.55,x+r,y+r*0.55),175,95,14)
+        d.ellipse((x-r*0.85,y-r*0.3,x+r*0.45,y+r*0.15),fill=205)
+    for _ in range(45):
+        x=rng.uniform(0,w); y=rng.uniform(h*0.56,h*0.99); r=rng.uniform(1.5,4)
+        d.ellipse((x-r,y-r,x+r,y+r),fill=rng.randint(60,160))
+    return im
+OBJ.update({'astronauta':astronauta,'foguete':foguete,'superficie_lunar':superficie_lunar})

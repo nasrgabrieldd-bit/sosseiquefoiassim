@@ -51,6 +51,7 @@
 | SSA-046 | 05/12 19h | Biologia | Uma colher de terra tem mais seres vivos que gente no planeta (evento: Dia Mundial do Solo (05/12, FAO/ONU)) |
 | SSA-047 | 06/12 12h | Língua Portuguesa | O estádio da final da Copa do Brasil tem nome de passarinho (evento: Final da Copa do Brasil, Grêmio x Palmeiras, 06/12, Mané Garrincha) |
 | SSA-048 | 06/12 19h | Filosofia | Aquiles nunca alcança a tartaruga (será?) |
+| SSA-049 | 23/11 (teste) | História | Earthrise: a foto de Natal que quase não aconteceu (Apollo 8, véspera de Natal de 1968) — vídeo-teste do novo padrão de ilustração (astronauta, foguete, Terra colorida), aguardando aprovação do Gabriel |
 
 ## Banco de ideias (checar fonte antes)
 - Por que "pé-rapado"? (precisa de fonte sólida; se não achar, não fazer)
