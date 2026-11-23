@@ -1,6 +1,13 @@
 from base import *
 # Opção 1 — COLAGEM (inspirada nas referências: fundo chapado, recorte P&B em retícula, blocos laranja, máquina de escrever, anotação à mão)
 PAL=dict(fundo=(198,182,246),tinta=(20,18,22),destaque=(255,92,38),papel=(240,235,222),marca=(255,214,64),sec=(70,60,96))
+def ss_render(fn,w,h,factor=3,**kw):
+    """Renderiza fn(w,h,**kw) numa tela 'factor' vezes maior e reduz com LANCZOS.
+    Sem isso, todo ImageDraw.ellipse/polygon/arc sai serrilhado (o PIL não tem
+    anti-aliasing nativo) — personagens e objetos ficam com cara de rascunho.
+    Usar sempre que desenhar um personagem/ilustração nova em 'foto' ou 'obj'."""
+    big=fn(int(w*factor),int(h*factor),**kw)
+    return big.resize((w,h),Image.LANCZOS)
 CORES_MATERIA={'história':(198,182,246),'ciências':(170,226,204),'arte':(250,214,120),'filosofia':(232,232,226),'geografia':(160,206,240)}
 def papel(w,h,seed=3,cor=None):
     cor=cor or PAL['fundo']; base=np.ones((h,w,3),np.float32)*np.array(cor,np.float32)
@@ -127,6 +134,7 @@ def bola_natal(w,h,seed=0,cor=(196,30,40)):
     cx=w/2; topo=h-ts
     cw,ch=ts*0.22,ts*0.14
     d=ImageDraw.Draw(im)
+    d.ellipse((cx-ts/2,topo,cx+ts/2,topo+ts),outline=(70,20,24,255),width=max(2,int(ts*0.012)))
     d.rectangle((cx-cw/2,topo-ch*0.4,cx+cw/2,topo+ch*0.6),fill=(214,178,70,255),outline=(120,90,30,255))
     d.ellipse((cx-cw*0.45,topo-ch*0.75,cx+cw*0.45,topo-ch*0.05),fill=(230,196,96,255),outline=(120,90,30,255))
     d.arc((cx-cw*0.3,topo-ch*2.1,cx+cw*0.3,topo-ch*0.6),30,150,fill=(120,90,30,255),width=4)
@@ -138,16 +146,18 @@ def jano(w,h,seed=0):
     verdade (aplica_phong). 100% desenhado, sem foto/IA."""
     cx=w*0.5; im=Image.new('RGBA',(w,h),(0,0,0,0)); d=ImageDraw.Draw(im)
     ts=int(w*0.7); topo=h*0.16; r=ts/2.0; hcy=topo+r
+    ink=(58,46,36,255); lw=max(2,int(w*0.009))  # contorno consistente estilo "Open Peeps": sem ele o personagem vira um blob
     # toga/ombros, encostada na base da cabeça (sem gap)
     tw=w*0.46
     d.polygon([(cx-tw,h*0.99),(cx+tw,h*0.99),(cx+tw*0.62,hcy+r*0.55),(cx-tw*0.62,hcy+r*0.55)],
-               fill=(224,212,192,255))
+               fill=(224,212,192,255),outline=ink,width=lw)
     d.polygon([(cx-tw*0.1,hcy+r*0.3),(cx+tw*0.1,hcy+r*0.3),(cx+tw*0.3,h*0.99),(cx-tw*0.3,h*0.99)],
-               fill=(196,182,158,255))
+               fill=(196,182,158,255),outline=ink,width=lw)
     # cabeça esférica com sombreamento 3D real
     base=Image.new('RGBA',(ts,ts),(222,196,168,255))
     cabeca=aplica_phong(base,luz=(-0.5,-0.55,0.6),ambient=0.4,difusa=0.68,especular=0.12,brilho=8)
     im.alpha_composite(cabeca,(int(cx-r),int(topo)))
+    d.ellipse((cx-r,topo,cx+r,topo+ts),outline=ink,width=lw)  # contorno por cima do sombreamento
     # duas faces de perfil (uma olha pra cada lado) sobrepostas na esfera
     for s in (-1,1):
         edge=cx+s*r*0.86
@@ -156,7 +166,7 @@ def jano(w,h,seed=0):
                     fill=(196,170,142,140))
         # nariz, projetado pra fora do contorno
         nx=cx+s*r*0.95
-        d.polygon([(nx,hcy-r*0.08),(nx+s*r*0.22,hcy-r*0.01),(nx,hcy+r*0.1)],fill=(214,188,160,255))
+        d.polygon([(nx,hcy-r*0.08),(nx+s*r*0.22,hcy-r*0.01),(nx,hcy+r*0.1)],fill=(214,188,160,255),outline=ink,width=max(2,lw-1))
         # olho
         ex=cx+s*r*0.52
         d.ellipse((ex-7,hcy-r*0.22-7,ex+7,hcy-r*0.22+7),fill=(45,38,34,255))
@@ -175,34 +185,36 @@ def papai_noel(w,h,seed=0):
     gorro, bota preta), sem referência a qualquer marca, ator ou obra protegida. Barriga com
     sombreamento 3D de verdade (aplica_phong, igual à bola_natal) — 100% desenhado, sem foto/IA."""
     im=Image.new('RGBA',(w,h),(0,0,0,0)); d=ImageDraw.Draw(im); cx=w*0.5
+    ink=(30,22,18,255); lw=max(2,int(w*0.008))  # contorno consistente estilo "Open Peeps"
     for s in (-1,1):
         x0=cx+s*w*0.13
-        d.rounded_rectangle((x0-w*0.1,h*0.86,x0+w*0.12,h*0.99),radius=int(w*0.05),fill=(28,22,20,255))
-        d.rounded_rectangle((x0-w*0.11,h*0.64,x0+w*0.11,h*0.9),radius=int(w*0.07),fill=(176,26,30,255))
+        d.rounded_rectangle((x0-w*0.1,h*0.86,x0+w*0.12,h*0.99),radius=int(w*0.05),fill=(28,22,20,255),outline=ink,width=lw)
+        d.rounded_rectangle((x0-w*0.11,h*0.64,x0+w*0.11,h*0.9),radius=int(w*0.07),fill=(176,26,30,255),outline=ink,width=lw)
     ts=int(w*0.64)
     base=Image.new('RGBA',(ts,ts),(190,28,32,255))
     belly=aplica_phong(base,luz=(-0.5,-0.6,0.6),ambient=0.42,difusa=0.72,especular=0.16,brilho=9)
     topo=h*0.3; im.alpha_composite(belly,(int(cx-ts/2),int(topo)))
+    d.ellipse((cx-ts/2,topo,cx+ts/2,topo+ts),outline=ink,width=lw)
     beltY=topo+ts*0.62
-    d.rectangle((cx-ts*0.5,beltY,cx+ts*0.5,beltY+h*0.065),fill=(24,20,18,255))
+    d.rectangle((cx-ts*0.5,beltY,cx+ts*0.5,beltY+h*0.065),fill=(24,20,18,255),outline=ink,width=lw)
     bw=h*0.09
-    d.rectangle((cx-bw/2,beltY-h*0.008,cx+bw/2,beltY+h*0.073),fill=(214,178,70,255),outline=(120,90,30,255))
+    d.rectangle((cx-bw/2,beltY-h*0.008,cx+bw/2,beltY+h*0.073),fill=(214,178,70,255),outline=(120,90,30,255),width=lw)
     for s in (-1,1):
         x0=cx+s*ts*0.44
-        d.rounded_rectangle((x0-w*0.08,h*0.4,x0+w*0.08,h*0.66),radius=int(w*0.06),fill=(176,26,30,255))
-        d.ellipse((x0-w*0.09,h*0.58,x0+w*0.09,h*0.7),fill=(248,248,248,255))
-        d.ellipse((x0-w*0.08,h*0.66,x0+w*0.08,h*0.78),fill=(250,230,214,255))
+        d.rounded_rectangle((x0-w*0.08,h*0.4,x0+w*0.08,h*0.66),radius=int(w*0.06),fill=(176,26,30,255),outline=ink,width=lw)
+        d.ellipse((x0-w*0.09,h*0.58,x0+w*0.09,h*0.7),fill=(248,248,248,255),outline=ink,width=lw)
+        d.ellipse((x0-w*0.08,h*0.66,x0+w*0.08,h*0.78),fill=(250,230,214,255),outline=ink,width=lw)
     fcy=h*0.3
-    d.ellipse((cx-w*0.22,fcy-w*0.14,cx+w*0.22,fcy+w*0.24),fill=(252,250,248,255))
-    d.ellipse((cx-w*0.12,fcy-w*0.1,cx+w*0.12,fcy+w*0.08),fill=(240,192,160,255))
+    d.ellipse((cx-w*0.22,fcy-w*0.14,cx+w*0.22,fcy+w*0.24),fill=(252,250,248,255),outline=ink,width=lw)
+    d.ellipse((cx-w*0.12,fcy-w*0.1,cx+w*0.12,fcy+w*0.08),fill=(240,192,160,255),outline=ink,width=max(2,lw-1))
     for s in (-1,1):
         d.ellipse((cx+s*w*0.1-10,fcy+6,cx+s*w*0.1+14,fcy+26),fill=(236,140,130,180))
     for s in (-1,1):
         d.ellipse((cx+s*w*0.05-5,fcy-10,cx+s*w*0.05+5,fcy),fill=(30,26,24,255))
     d.ellipse((cx-7,fcy+2,cx+7,fcy+16),fill=(224,150,120,255))
-    d.polygon([(cx-w*0.2,fcy-w*0.12),(cx+w*0.14,fcy-w*0.12),(cx+w*0.28,fcy-w*0.52)],fill=(190,28,32,255))
-    d.ellipse((cx+w*0.22,fcy-w*0.6,cx+w*0.34,fcy-w*0.48),fill=(250,250,250,255))
-    d.rectangle((cx-w*0.22,fcy-w*0.16,cx+w*0.16,fcy-w*0.08),fill=(250,250,250,255))
+    d.polygon([(cx-w*0.2,fcy-w*0.12),(cx+w*0.14,fcy-w*0.12),(cx+w*0.28,fcy-w*0.52)],fill=(190,28,32,255),outline=ink,width=lw)
+    d.ellipse((cx+w*0.22,fcy-w*0.6,cx+w*0.34,fcy-w*0.48),fill=(250,250,250,255),outline=ink,width=max(2,lw-1))
+    d.rectangle((cx-w*0.22,fcy-w*0.16,cx+w*0.16,fcy-w*0.08),fill=(250,250,250,255),outline=ink,width=max(2,lw-1))
     return im
 def earthrise(w,h,seed=4):
     """ilustração 100% desenhada (inventada, não é a foto real da Apollo 8): Terra colorida vista

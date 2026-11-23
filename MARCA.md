@@ -194,6 +194,18 @@ O público precisa reconhecer o Só Sei Que Foi Assim mesmo quando o assunto mud
 
 A identidade é o elemento que conecta todos esses assuntos.
 
+12. QUALIDADE DOS DESENHOS (personagens e objetos desenhados por código)
+
+Como o canal não pode usar foto real de pessoa nem imagem protegida (ver regra em CLAUDE.md), todo personagem e objeto é desenhado em código (`pipeline/colagem.py` e `pipeline/objetos.py`, Pillow + numpy). Pesquisa feita em 23/11 sobre bibliotecas de ilustração flat open source (Open Peeps, Avataaars, Humaaans — todas CC0/MIT, by Pablo Stanley e outros) mostrou por que esses desenhos parecem profissionais e os nossos pareciam "amadores": elas usam curvas suaves (bezier/vetor) e, acima de tudo, **contorno de tinta consistente** em toda silhueta — sem contorno, formas preenchidas viram "blobs" de clip-art genérico.
+
+Regras obrigatórias para qualquer personagem/objeto novo em `colagem.py`:
+
+* Toda forma que faz parte da silhueta principal (corpo, roupa, cabeça, objeto) leva `outline=` numa cor de tinta escura (ex.: `(40,30,26,255)` ou similar, pode variar por personagem) com `width` proporcional ao tamanho (algo como `max(2,int(w*0.008))`), nunca só preenchimento chapado. Detalhes pequenos de apoio (bochecha corada, brilho do olho) podem ficar sem contorno.
+* Esferas com sombreamento 3D (`aplica_phong`) também precisam de um contorno por cima (`d.ellipse(mesma_bbox, outline=..., width=...)`), porque o phong sozinho não desenha a borda da esfera.
+* Testado e descartado: supersampling (renderizar 3x maior e reduzir com LANCZOS, função `C.ss_render` em `colagem.py`) deixa a silhueta mais lisa, mas o `recorte_retícula_cor`/`halftone_cor` reamostra cor num grid pequeno pra pintar os pontinhos do halftone — isso apaga detalhes pequenos e de alto contraste (olhos, coroa de louro) quando a imagem de entrada já chegou suavizada. Por isso `motor.py` NÃO usa `ss_render` na renderização normal (`'foto'`); o contorno de tinta já resolve a maior parte do serrilhado visualmente, inclusive depois do halftone. `ss_render` fica disponível em `colagem.py` só pra formas simples sem detalhe pequeno (ex.: um objeto grande de cor única), se algum dia fizer sentido usar.
+* Antes de usar um personagem numa cena de verdade, sempre renderize sozinho (flat e também com `recorte_retícula_cor`, do mesmo jeito que `motor.py` usa) e olhe os dois — é fácil um detalhe pequeno (olho, nariz) sumir só no recorte com halftone.
+* Próximos passos pra continuar melhorando (não implementados ainda, ficam como pauta técnica): (1) revisar `halftone_cor` pra amostrar cor com um filtro que preserve detalhe pequeno de alto contraste (hoje usa reduce por BILINEAR, que borra); (2) considerar migrar formas orgânicas (corpo, rosto) de polígono/elipse pra curva bezier de verdade (via `ImageDraw` com pontos intermediários, ou uma lib como `pycairo`/`aggdraw`) pra silhuetas menos geométricas; (3) manter uma proporção de cabeça maior e formas mais arredondadas (menos triângulo, mais curva), que é o que faz Open Peeps/Avataaars parecerem "fofos" e não "toscos".
+
 OBJETIVO FINAL:
 
 Construir uma marca de conhecimento com personalidade editorial, estética autoral e linguagem audiovisual cinematográfica.

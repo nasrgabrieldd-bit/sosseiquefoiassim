@@ -91,6 +91,12 @@ def build(el,key):
     elif t=='areas': out=mk_areas(el['a'],el['b'],el['ratio'],el.get('w',760))
     elif t=='foto':
         w=el.get('w',620); h=el.get('h',int(w*1.15)); fn=getattr(C,el.get('nome','earthrise'))
+        # nota: testamos supersampling (C.ss_render) aqui pra suavizar o serrilhado do ImageDraw,
+        # mas o recorte_retícula_cor reamostra cor/luminância num grid pequeno (halftone_cor) pra
+        # pintar os pontinhos — isso apaga detalhes pequenos e de alto contraste (olhos, coroa de
+        # louro) quando a imagem de entrada já veio suavizada. Então aqui passamos a imagem "crua"
+        # (sem supersampling) pro recorte; o contorno de tinta em cada personagem (ink/lw em
+        # jano/papai_noel/bola_natal) já resolve a maior parte do "serrilhado" visualmente.
         out=S(R(C.recorte_retícula_cor(fn(w,h,seed=el.get('seed',4)),cell=el.get('cell',8)),ang),off=(8,10),blur=12,alpha=90)
     elif t=='fita':
         out=S(R(C.fita(el.get('w',260),el.get('h',62),cor=tuple(el['cor']) if 'cor' in el else None,seed=el.get('seed',0)),ang),off=(3,5),blur=5,alpha=55)
