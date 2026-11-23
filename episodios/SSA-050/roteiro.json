@@ -13,14 +13,14 @@
   "elementos": [
    {
     "t": "foto",
-    "nome": "bola_natal",
+    "nome": "papai_noel",
     "pos": [
      520,
-     560
+     600
     ],
     "e": null,
-    "w": 420,
-    "h": 520,
+    "w": 380,
+    "h": 560,
     "seed": 1
    },
    {
@@ -52,14 +52,14 @@
    "elementos": [
     {
      "t": "foto",
-     "nome": "bola_natal",
+     "nome": "papai_noel",
      "pos": [
       420,
       620
      ],
      "e": null,
-     "w": 340,
-     "h": 420,
+     "w": 320,
+     "h": 480,
      "seed": 1
     },
     {
@@ -386,14 +386,14 @@
    "elementos": [
     {
      "t": "foto",
-     "nome": "bola_natal",
+     "nome": "papai_noel",
      "pos": [
-      480,
-      560
+      460,
+      600
      ],
      "e": null,
-     "w": 360,
-     "h": 440,
+     "w": 340,
+     "h": 500,
      "seed": 1
     },
     {

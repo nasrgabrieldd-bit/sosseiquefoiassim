@@ -9,6 +9,8 @@ MARCA=json.load(open(ROOT+'/marca/marca.json'))
 EP=sys.argv[1]; MODO=sys.argv[2] if len(sys.argv)>2 else 'video'
 rot=json.load(open(f'{EP}/roteiro.json')); tm=json.load(open(f'{EP}/tempos.json'))
 FPS=30; DUR=tm['total']+0.6; NF=int(DUR*FPS)
+if rot.get('paleta'):  # identidade visual alternativa só deste episódio (teste), não mexe na marca padrão
+    C.PAL.update({k:tuple(v) for k,v in rot['paleta'].items()})
 COR=tuple(C.PAPEL_M); C.MATERIA_ATUAL['nome']=rot['materia']
 BG=C.papel(W,H,sum(map(ord,rot['id'])))
 FOLHA=C.folha_transicao()

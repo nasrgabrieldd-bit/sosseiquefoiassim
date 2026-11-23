@@ -131,6 +131,40 @@ def bola_natal(w,h,seed=0,cor=(196,30,40)):
     d.ellipse((cx-cw*0.45,topo-ch*0.75,cx+cw*0.45,topo-ch*0.05),fill=(230,196,96,255),outline=(120,90,30,255))
     d.arc((cx-cw*0.3,topo-ch*2.1,cx+cw*0.3,topo-ch*0.6),30,150,fill=(120,90,30,255),width=4)
     return im
+def papai_noel(w,h,seed=0):
+    """Papai Noel — personagem genérico do folclore de Natal (barba branca, casaco vermelho,
+    gorro, bota preta), sem referência a qualquer marca, ator ou obra protegida. Barriga com
+    sombreamento 3D de verdade (aplica_phong, igual à bola_natal) — 100% desenhado, sem foto/IA."""
+    im=Image.new('RGBA',(w,h),(0,0,0,0)); d=ImageDraw.Draw(im); cx=w*0.5
+    for s in (-1,1):
+        x0=cx+s*w*0.13
+        d.rounded_rectangle((x0-w*0.1,h*0.86,x0+w*0.12,h*0.99),radius=int(w*0.05),fill=(28,22,20,255))
+        d.rounded_rectangle((x0-w*0.11,h*0.64,x0+w*0.11,h*0.9),radius=int(w*0.07),fill=(176,26,30,255))
+    ts=int(w*0.64)
+    base=Image.new('RGBA',(ts,ts),(190,28,32,255))
+    belly=aplica_phong(base,luz=(-0.5,-0.6,0.6),ambient=0.42,difusa=0.72,especular=0.16,brilho=9)
+    topo=h*0.3; im.alpha_composite(belly,(int(cx-ts/2),int(topo)))
+    beltY=topo+ts*0.62
+    d.rectangle((cx-ts*0.5,beltY,cx+ts*0.5,beltY+h*0.065),fill=(24,20,18,255))
+    bw=h*0.09
+    d.rectangle((cx-bw/2,beltY-h*0.008,cx+bw/2,beltY+h*0.073),fill=(214,178,70,255),outline=(120,90,30,255))
+    for s in (-1,1):
+        x0=cx+s*ts*0.44
+        d.rounded_rectangle((x0-w*0.08,h*0.4,x0+w*0.08,h*0.66),radius=int(w*0.06),fill=(176,26,30,255))
+        d.ellipse((x0-w*0.09,h*0.58,x0+w*0.09,h*0.7),fill=(248,248,248,255))
+        d.ellipse((x0-w*0.08,h*0.66,x0+w*0.08,h*0.78),fill=(250,230,214,255))
+    fcy=h*0.3
+    d.ellipse((cx-w*0.22,fcy-w*0.14,cx+w*0.22,fcy+w*0.24),fill=(252,250,248,255))
+    d.ellipse((cx-w*0.12,fcy-w*0.1,cx+w*0.12,fcy+w*0.08),fill=(240,192,160,255))
+    for s in (-1,1):
+        d.ellipse((cx+s*w*0.1-10,fcy+6,cx+s*w*0.1+14,fcy+26),fill=(236,140,130,180))
+    for s in (-1,1):
+        d.ellipse((cx+s*w*0.05-5,fcy-10,cx+s*w*0.05+5,fcy),fill=(30,26,24,255))
+    d.ellipse((cx-7,fcy+2,cx+7,fcy+16),fill=(224,150,120,255))
+    d.polygon([(cx-w*0.2,fcy-w*0.12),(cx+w*0.14,fcy-w*0.12),(cx+w*0.28,fcy-w*0.52)],fill=(190,28,32,255))
+    d.ellipse((cx+w*0.22,fcy-w*0.6,cx+w*0.34,fcy-w*0.48),fill=(250,250,250,255))
+    d.rectangle((cx-w*0.22,fcy-w*0.16,cx+w*0.16,fcy-w*0.08),fill=(250,250,250,255))
+    return im
 def earthrise(w,h,seed=4):
     """ilustração 100% desenhada (inventada, não é a foto real da Apollo 8): Terra colorida vista
     do espaço sobre o horizonte lunar — céu estrelado, oceano com gradiente, continentes, nuvens,
