@@ -404,5 +404,12 @@
   "hora": "19:00",
   "status": "pendente",
   "evento": "clima de Natal — mito de que a Coca-Cola inventou o Papai Noel vermelho"
+ },
+ {
+  "id": "SSA-051",
+  "data": "2026-12-08",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "virada de ano se aproximando — por que dezembro é o mês 12 (Jano, calendário romano)"
  }
 ]

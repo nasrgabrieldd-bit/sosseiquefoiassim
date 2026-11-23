@@ -53,7 +53,7 @@
 | SSA-048 | 06/12 19h | Filosofia | Aquiles nunca alcança a tartaruga (será?) |
 | SSA-049 | 23/11 (teste) | História | Earthrise: a foto de Natal que quase não aconteceu (Apollo 8, véspera de Natal de 1968) — vídeo-teste do novo padrão de ilustração (astronauta, foguete, Terra colorida) — aprovado pelo Gabriel |
 | SSA-050 | 23/11 (teste) | História | A Coca-Cola não inventou o Papai Noel vermelho (foi o cartunista Thomas Nast, décadas antes) — vídeo-teste com sombreamento 3D por pixel e personagem Papai Noel — aprovado pelo Gabriel e agendado |
-| SSA-051 | 23/11 (teste) | Língua Portuguesa | Por que dezembro (que significa "décimo mês") é o mês 12 — Jano, Numa Pompílio e a reforma de Júlio César — vídeo-teste com identidade visual nova (azul-gelo/dourado) e personagem Jano, aguardando aprovação do Gabriel |
+| SSA-051 | 23/11 (teste) | Língua Portuguesa | Por que dezembro (que significa "décimo mês") é o mês 12 — Jano, Numa Pompílio e a reforma de Júlio César — vídeo-teste com identidade visual nova (azul-gelo/dourado) e personagem Jano — aprovado pelo Gabriel e agendado |
 
 ## Banco de ideias (checar fonte antes)
 - Por que "pé-rapado"? (precisa de fonte sólida; se não achar, não fazer)
