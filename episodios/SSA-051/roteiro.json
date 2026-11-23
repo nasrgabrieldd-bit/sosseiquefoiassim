@@ -1,0 +1,439 @@
+{
+ "id": "SSA-051",
+ "chamada": "DEZEMBRO NÃO É O 10º MÊS?",
+ "materia": "LÍNGUA PORTUGUESA",
+ "titulo": "Por que dezembro, que significa \"décimo mês\", é o mês 12?",
+ "paleta": {
+  "fundo": [
+   222,
+   230,
+   240
+  ],
+  "tinta": [
+   22,
+   24,
+   38
+  ],
+  "destaque": [
+   228,
+   166,
+   40
+  ],
+  "papel": [
+   222,
+   230,
+   240
+  ],
+  "marca": [
+   235,
+   180,
+   60
+  ],
+  "sec": [
+   150,
+   168,
+   196
+  ]
+ },
+ "fontes": [
+  "National Geographic, 'The new year once started in March. Here's why it changed.'",
+  "Encyclopaedia Britannica, 'Why Does the New Year Start on January 1?'",
+  "Encyclopaedia Britannica / History.com, sobre Numa Pompílio e a criação de janeiro e fevereiro no calendário romano.",
+  "Encyclopaedia Britannica, verbete 'Julian calendar'.",
+  "Online Etymology Dictionary, verbetes 'September', 'October', 'November', 'December' e 'January'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "foto",
+    "nome": "jano",
+    "pos": [
+     520,
+     560
+    ],
+    "e": null,
+    "w": 360,
+    "h": 520,
+    "seed": 0
+   },
+   {
+    "t": "numero",
+    "txt": "12º",
+    "pos": [
+     760,
+     1060
+    ],
+    "e": null,
+    "size": 170,
+    "cor": "laranja"
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Dezembro, em latim, significa \"décimo mês\". Só que dezembro é o mês 12.",
+     "Dezembro, em latim, significa décimo mês. Só que dezembro é o mês doze."
+    ],
+    [
+     "Isso não é erro de tradução. É sobra de um calendário que nem começava em janeiro.",
+     "Isso não é erro de tradução. É sobra de um calendário que nem começava em janeiro."
+    ]
+   ],
+   "fonte": "Fonte: Online Etymology Dictionary, verbete 'December'.",
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "12º",
+     "pos": [
+      380,
+      560
+     ],
+     "e": null,
+     "size": 230,
+     "cor": "laranja"
+    },
+    {
+     "t": "bloco",
+     "txt": "\"DÉCIMO MÊS\"",
+     "pos": [
+      680,
+      860
+     ],
+     "e": [
+      0,
+      "décimo"
+     ],
+     "size": 60,
+     "cor": "tinta",
+     "ang": -3,
+     "maxw": 560
+    },
+    {
+     "t": "nota",
+     "txt": "conta errado?",
+     "pos": [
+      700,
+      1120
+     ],
+     "e": [
+      1,
+      "erro"
+     ],
+     "cor": "laranja",
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: National Geographic, 'The new year once started in March'.",
+   "frases": [
+    [
+     "O calendário romano mais antigo tinha só dez meses, e começava em março.",
+     "O calendário romano mais antigo tinha só dez meses, e começava em março."
+    ],
+    [
+     "Os dois últimos meses do inverno nem tinham nome — ninguém contava os dias no frio.",
+     "Os dois últimos meses do inverno nem tinham nome — ninguém contava os dias no frio."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      360,
+      640
+     ],
+     "e": null,
+     "w": 320,
+     "ang": -5
+    },
+    {
+     "t": "tira",
+     "txt": "10 MESES, COMEÇO EM MARÇO",
+     "pos": [
+      720,
+      420
+     ],
+     "e": [
+      0,
+      "março"
+     ],
+     "size": 36
+    },
+    {
+     "t": "nota",
+     "txt": "inverno sem\nnome nenhum",
+     "pos": [
+      720,
+      1030
+     ],
+     "e": [
+      1,
+      "frio"
+     ],
+     "cor": "laranja",
+     "size": 42
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Encyclopaedia Britannica / History.com, sobre Numa Pompílio.",
+   "frases": [
+    [
+     "Por volta de 713 a.C., o rei Numa Pompílio resolveu dar nome a esses meses.",
+     "Por volta de setecentos e treze antes de Cristo, o rei Numa Pompílio resolveu dar nome a esses meses."
+    ],
+    [
+     "Ele criou janeiro e fevereiro, e o calendário passou a ter 12 meses.",
+     "Ele criou janeiro e fevereiro, e o calendário passou a ter doze meses."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "coroa",
+     "pos": [
+      380,
+      620
+     ],
+     "e": null,
+     "w": 300,
+     "ang": 4
+    },
+    {
+     "t": "carimbo",
+     "pos": [
+      760,
+      760
+     ],
+     "e": [
+      0,
+      "713"
+     ],
+     "txt": "NUMA POMPÍLIO",
+     "data": "713 a.C.",
+     "r": 100,
+     "ang": -8
+    },
+    {
+     "t": "bloco",
+     "txt": "AGORA SÃO 12 MESES",
+     "pos": [
+      560,
+      1080
+     ],
+     "e": [
+      1,
+      "12"
+     ],
+     "size": 56,
+     "cor": "tinta",
+     "maxw": 780
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Encyclopaedia Britannica, verbete 'Julian calendar'.",
+   "frases": [
+    [
+     "Só em 153 a.C. janeiro virou oficialmente o primeiro dia do ano em Roma.",
+     "Só em cento e cinquenta e três antes de Cristo janeiro virou oficialmente o primeiro dia do ano em Roma."
+    ],
+    [
+     "Em 46 a.C., Júlio César reformou o calendário de novo, e manteve janeiro no topo.",
+     "Em quarenta e seis antes de Cristo, Júlio César reformou o calendário de novo, e manteve janeiro no topo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "pos": [
+      340,
+      600
+     ],
+     "e": null,
+     "w": 360,
+     "h": 464,
+     "ang": -6,
+     "titulo": "ANNALES",
+     "data": "ROMA · 46 a.C.",
+     "rodape": "REFORMA DO CALENDÁRIO"
+    },
+    {
+     "t": "numero",
+     "txt": "46 a.C.",
+     "pos": [
+      780,
+      1060
+     ],
+     "e": [
+      1,
+      "46"
+     ],
+     "size": 100,
+     "cor": "laranja"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Online Etymology Dictionary, verbete 'January'; Britannica, 'Why Does the New Year Start on January 1?'.",
+   "frases": [
+    [
+     "Janeiro vem de Jano, o deus romano das portas e das passagens.",
+     "Janeiro vem de Jano, o deus romano das portas e das passagens."
+    ],
+    [
+     "Jano tinha duas caras: uma olhava pro ano que terminava, a outra pro ano que começava.",
+     "Jano tinha duas caras: uma olhava pro ano que terminava, a outra pro ano que começava."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "foto",
+     "nome": "jano",
+     "pos": [
+      420,
+      640
+     ],
+     "e": null,
+     "w": 340,
+     "h": 500,
+     "seed": 0
+    },
+    {
+     "t": "bloco",
+     "txt": "PASSADO E FUTURO",
+     "pos": [
+      760,
+      1060
+     ],
+     "e": [
+      1,
+      "começava"
+     ],
+     "size": 52,
+     "cor": "laranja",
+     "maxw": 560,
+     "ang": 2
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Encyclopaedia Britannica, sobre a reforma do calendário gregoriano (1582).",
+   "frases": [
+    [
+     "Em 1582 o papa Gregório 13 ajustou o calendário de novo, mas não mexeu no 1º de janeiro.",
+     "Em mil quinhentos e oitenta e dois o papa Gregório décimo terceiro ajustou o calendário de novo, mas não mexeu no primeiro de janeiro."
+    ],
+    [
+     "Esse é o calendário que o mundo inteiro ainda usa, virada de ano incluída.",
+     "Esse é o calendário que o mundo inteiro ainda usa, virada de ano incluída."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "JANEIRO",
+     "riscar": [
+      1
+     ],
+     "inicio": 2,
+     "ndias": 31,
+     "pos": [
+      500,
+      650
+     ],
+     "e": null,
+     "riscar_em": [
+      1,
+      "ainda"
+     ]
+    },
+    {
+     "t": "carimbo",
+     "pos": [
+      760,
+      1100
+     ],
+     "e": [
+      0,
+      "1582"
+     ],
+     "txt": "GREGÓRIO XIII",
+     "data": "1582",
+     "r": 90,
+     "ang": 7
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então da próxima vez que alguém falar \"feliz ano novo\", lembra: dezembro carrega um número que não bate mais.",
+     "Então da próxima vez que alguém falar feliz ano novo, lembra: dezembro carrega um número que não bate mais."
+    ],
+    [
+     "Salva esse vídeo pra lembrar disso na próxima virada de ano.",
+     "Salva esse vídeo pra lembrar disso na próxima virada de ano."
+    ],
+    [
+     "Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "foto",
+     "nome": "jano",
+     "pos": [
+      440,
+      600
+     ],
+     "e": null,
+     "w": 320,
+     "h": 480,
+     "seed": 0
+    },
+    {
+     "t": "bloco",
+     "txt": "O NÚMERO NÃO BATE MAIS",
+     "pos": [
+      560,
+      1080
+     ],
+     "e": [
+      0,
+      "bate"
+     ],
+     "size": 52,
+     "cor": "tinta",
+     "maxw": 800
+    },
+    {
+     "t": "nota",
+     "txt": "salva pra lembrar!",
+     "pos": [
+      760,
+      1150
+     ],
+     "e": [
+      1,
+      "lembrar"
+     ],
+     "cor": "laranja",
+     "size": 44
+    }
+   ]
+  }
+ ]
+}

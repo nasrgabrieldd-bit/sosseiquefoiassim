@@ -1,0 +1,131 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 81.603,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Dezembro, em latim, significa \"décimo mês\". Só que dezembro é o mês 12.",
+     "inicio": 0.1,
+     "dur": 5.127
+    },
+    {
+     "leg": "Isso não é erro de tradução. É sobra de um calendário que nem começava em janeiro.",
+     "inicio": 5.427,
+     "dur": 5.383
+    }
+   ],
+   "fim": 11.229
+  },
+  {
+   "id": "c2",
+   "inicio": 11.229,
+   "frases": [
+    {
+     "leg": "O calendário romano mais antigo tinha só dez meses, e começava em março.",
+     "inicio": 11.229,
+     "dur": 4.736
+    },
+    {
+     "leg": "Os dois últimos meses do inverno nem tinham nome — ninguém contava os dias no frio.",
+     "inicio": 16.165,
+     "dur": 4.992
+    }
+   ],
+   "fim": 21.577
+  },
+  {
+   "id": "c3",
+   "inicio": 21.577,
+   "frases": [
+    {
+     "leg": "Por volta de 713 a.C., o rei Numa Pompílio resolveu dar nome a esses meses.",
+     "inicio": 21.577,
+     "dur": 6.272
+    },
+    {
+     "leg": "Ele criou janeiro e fevereiro, e o calendário passou a ter 12 meses.",
+     "inicio": 28.049,
+     "dur": 4.245
+    }
+   ],
+   "fim": 32.715
+  },
+  {
+   "id": "c4",
+   "inicio": 32.715,
+   "frases": [
+    {
+     "leg": "Só em 153 a.C. janeiro virou oficialmente o primeiro dia do ano em Roma.",
+     "inicio": 32.715,
+     "dur": 6.571
+    },
+    {
+     "leg": "Em 46 a.C., Júlio César reformou o calendário de novo, e manteve janeiro no topo.",
+     "inicio": 39.485,
+     "dur": 6.741
+    }
+   ],
+   "fim": 46.647
+  },
+  {
+   "id": "c5",
+   "inicio": 46.647,
+   "frases": [
+    {
+     "leg": "Janeiro vem de Jano, o deus romano das portas e das passagens.",
+     "inicio": 46.647,
+     "dur": 4.075
+    },
+    {
+     "leg": "Jano tinha duas caras: uma olhava pro ano que terminava, a outra pro ano que começava.",
+     "inicio": 50.921,
+     "dur": 5.184
+    }
+   ],
+   "fim": 56.525
+  },
+  {
+   "id": "c6",
+   "inicio": 56.525,
+   "frases": [
+    {
+     "leg": "Em 1582 o papa Gregório 13 ajustou o calendário de novo, mas não mexeu no 1º de janeiro.",
+     "inicio": 56.525,
+     "dur": 8.064
+    },
+    {
+     "leg": "Esse é o calendário que o mundo inteiro ainda usa, virada de ano incluída.",
+     "inicio": 64.789,
+     "dur": 4.117
+    }
+   ],
+   "fim": 69.327
+  },
+  {
+   "id": "c7",
+   "inicio": 69.327,
+   "frases": [
+    {
+     "leg": "Então da próxima vez que alguém falar \"feliz ano novo\", lembra: dezembro carrega um número que não bate mais.",
+     "inicio": 69.327,
+     "dur": 6.144
+    },
+    {
+     "leg": "Salva esse vídeo pra lembrar disso na próxima virada de ano.",
+     "inicio": 75.671,
+     "dur": 3.883
+    },
+    {
+     "leg": "Só sei que foi assim!",
+     "inicio": 79.753,
+     "dur": 1.429
+    }
+   ],
+   "fim": 81.603
+  }
+ ]
+}

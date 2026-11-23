@@ -10,7 +10,14 @@ EP=sys.argv[1]; MODO=sys.argv[2] if len(sys.argv)>2 else 'video'
 rot=json.load(open(f'{EP}/roteiro.json')); tm=json.load(open(f'{EP}/tempos.json'))
 FPS=30; DUR=tm['total']+0.6; NF=int(DUR*FPS)
 if rot.get('paleta'):  # identidade visual alternativa só deste episódio (teste), não mexe na marca padrão
-    C.PAL.update({k:tuple(v) for k,v in rot['paleta'].items()})
+    _pal=rot['paleta']
+    C.PAL.update({k:tuple(v) for k,v in _pal.items()})
+    # papel(), bloco(), tira(), legenda() e os recortes de fundo usam estas constantes de módulo
+    # direto (não via PAL), então precisam ser sobrescritas também pra identidade mudar de verdade
+    if 'destaque' in _pal: C.LARANJA=tuple(_pal['destaque'])
+    if 'tinta' in _pal: C.GRAFITE=tuple(_pal['tinta'])
+    if 'papel' in _pal: C.PAPEL_M=tuple(_pal['papel'])
+    if 'sec' in _pal or 'fundo' in _pal: C.LILAS=tuple(_pal.get('sec',_pal.get('fundo')))
 COR=tuple(C.PAPEL_M); C.MATERIA_ATUAL['nome']=rot['materia']
 BG=C.papel(W,H,sum(map(ord,rot['id'])))
 FOLHA=C.folha_transicao()

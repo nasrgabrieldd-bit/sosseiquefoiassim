@@ -131,6 +131,45 @@ def bola_natal(w,h,seed=0,cor=(196,30,40)):
     d.ellipse((cx-cw*0.45,topo-ch*0.75,cx+cw*0.45,topo-ch*0.05),fill=(230,196,96,255),outline=(120,90,30,255))
     d.arc((cx-cw*0.3,topo-ch*2.1,cx+cw*0.3,topo-ch*0.6),30,150,fill=(120,90,30,255),width=4)
     return im
+def jano(w,h,seed=0):
+    """Jano — personagem original inspirado na figura mitológica de domínio público (deus romano
+    das passagens, com duas faces: uma olha pro passado, outra pro futuro), coroa de louros e
+    toga — não copia nenhuma estátua, foto ou obra específica. Cabeça com sombreamento 3D de
+    verdade (aplica_phong). 100% desenhado, sem foto/IA."""
+    cx=w*0.5; im=Image.new('RGBA',(w,h),(0,0,0,0)); d=ImageDraw.Draw(im)
+    ts=int(w*0.7); topo=h*0.16; r=ts/2.0; hcy=topo+r
+    # toga/ombros, encostada na base da cabeça (sem gap)
+    tw=w*0.46
+    d.polygon([(cx-tw,h*0.99),(cx+tw,h*0.99),(cx+tw*0.62,hcy+r*0.55),(cx-tw*0.62,hcy+r*0.55)],
+               fill=(224,212,192,255))
+    d.polygon([(cx-tw*0.1,hcy+r*0.3),(cx+tw*0.1,hcy+r*0.3),(cx+tw*0.3,h*0.99),(cx-tw*0.3,h*0.99)],
+               fill=(196,182,158,255))
+    # cabeça esférica com sombreamento 3D real
+    base=Image.new('RGBA',(ts,ts),(222,196,168,255))
+    cabeca=aplica_phong(base,luz=(-0.5,-0.55,0.6),ambient=0.4,difusa=0.68,especular=0.12,brilho=8)
+    im.alpha_composite(cabeca,(int(cx-r),int(topo)))
+    # duas faces de perfil (uma olha pra cada lado) sobrepostas na esfera
+    for s in (-1,1):
+        edge=cx+s*r*0.86
+        # sombra de perfil (metade da esfera voltada pra fora, tom mais escuro)
+        d.pieslice((cx-r,topo,cx+r,topo+ts),90 if s<0 else -90,270 if s<0 else 90,
+                    fill=(196,170,142,140))
+        # nariz, projetado pra fora do contorno
+        nx=cx+s*r*0.95
+        d.polygon([(nx,hcy-r*0.08),(nx+s*r*0.22,hcy-r*0.01),(nx,hcy+r*0.1)],fill=(214,188,160,255))
+        # olho
+        ex=cx+s*r*0.52
+        d.ellipse((ex-7,hcy-r*0.22-7,ex+7,hcy-r*0.22+7),fill=(45,38,34,255))
+        # sobrancelha e boca (linhas simples, sem arco)
+        d.line([(ex-s*14,hcy-r*0.32),(ex+s*16,hcy-r*0.3)],fill=(120,96,74,255),width=4)
+        d.line([(cx+s*r*0.4,hcy+r*0.42),(cx+s*r*0.68,hcy+r*0.46)],fill=(150,110,90,255),width=4)
+    # coroa de louros, encostada no topo da cabeça
+    for s in (-1,1):
+        for i in range(7):
+            ang=math.radians(10+i*11)
+            lx=cx+s*r*0.98*math.sin(ang); ly=topo+r*(1-math.cos(ang))*0.92
+            d.ellipse((lx-10,ly-6,lx+10,ly+6),fill=(118,148,74,255),outline=(70,95,45,255))
+    return im
 def papai_noel(w,h,seed=0):
     """Papai Noel — personagem genérico do folclore de Natal (barba branca, casaco vermelho,
     gorro, bota preta), sem referência a qualquer marca, ator ou obra protegida. Barriga com
