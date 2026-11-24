@@ -151,20 +151,20 @@
   "id": "SSA-015",
   "data": "2026-11-20",
   "hora": "12:00",
-  "status": "agendado IG+TikTok (Zernio, 20/11), YouTube manual",
+  "status": "publicado IG+TikTok (confirmado no Zernio em 24/11), YouTube manual",
   "zernio_post": "6afc0e607e77647d41a8cab2",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "manual: Composio recusou o upload em 19/11 (HTTP 403 'file key does not belong to this project' ao receber a URL raw como s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-016",
   "data": "2026-11-20",
   "hora": "19:00",
-  "status": "agendado IG+TikTok (Zernio, 20/11), YouTube manual",
+  "status": "publicado IG+TikTok (confirmado no Zernio em 24/11), YouTube manual",
   "zernio_post": "6afc0e707e77647d41a8cae4",
-  "instagram": "agendado",
-  "tiktok": "agendado",
+  "instagram": "publicado",
+  "tiktok": "publicado",
   "youtube": "manual: Composio recusou o upload em 19/11 (HTTP 403 'file key does not belong to this project' ao receber a URL raw como s3key); subir pelo YouTube Studio"
  },
  {
@@ -185,11 +185,11 @@
   "id": "SSA-019",
   "data": "2026-11-22",
   "hora": "12:00",
-  "status": "agendado IG+TikTok",
+  "status": "publicado IG+TikTok (confirmado no Zernio em 24/11), YouTube manual",
   "zernio_post": "6afc0e71f15709d2a5bae104",
-  "instagram": "agendado",
-  "tiktok": "agendado",
-  "youtube": "pendente (Composio falhou em 17 e 18/11; provavelmente manual)"
+  "instagram": "publicado",
+  "tiktok": "publicado",
+  "youtube": "manual: Composio falhou em 17-19/11 (upload recusado/descartado); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-020",
@@ -202,11 +202,11 @@
   "id": "SSA-021",
   "data": "2026-11-23",
   "hora": "12:00",
-  "status": "agendado IG+TikTok",
+  "status": "publicado IG+TikTok (confirmado no Zernio em 24/11), YouTube manual",
   "zernio_post": "6afc0e7200bc7ddb01acaa5a",
-  "instagram": "agendado",
-  "tiktok": "agendado",
-  "youtube": "pendente (Composio falhou em 17 e 18/11; provavelmente manual)"
+  "instagram": "publicado",
+  "tiktok": "publicado",
+  "youtube": "manual: Composio falhou em 17-19/11 (upload recusado/descartado); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-022",
@@ -253,25 +253,41 @@
   "id": "SSA-027",
   "data": "2026-11-26",
   "hora": "12:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok (Zernio, 24/11), YouTube manual",
+  "zernio_post": "6b0547fea5880602ce4e4315",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "manual: Composio recusou upload nos dias anteriores (403 s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-028",
   "data": "2026-11-26",
   "hora": "19:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok (Zernio, 24/11), YouTube manual",
+  "zernio_post": "6b05480e16c65580ac96b91d",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "manual: Composio recusou upload nos dias anteriores (403 s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-029",
   "data": "2026-11-27",
   "hora": "12:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok (Zernio, 24/11), YouTube manual",
+  "zernio_post": "6b05480e43746b847412416c",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "manual: Composio recusou upload nos dias anteriores (403 s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-030",
   "data": "2026-11-27",
   "hora": "19:00",
-  "status": "pendente"
+  "status": "agendado IG+TikTok (Zernio, 24/11), YouTube manual",
+  "zernio_post": "6b05480f16c65580ac96b928",
+  "instagram": "agendado",
+  "tiktok": "agendado",
+  "youtube": "manual: Composio recusou upload nos dias anteriores (403 s3key); subir pelo YouTube Studio"
  },
  {
   "id": "SSA-031",
