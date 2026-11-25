@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 83.485,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Toda vez que você toma vacina, está falando de vaca.",
+     "inicio": 0.1,
+     "dur": 3.285
+    },
+    {
+     "leg": "E não é trocadilho: é a origem da palavra.",
+     "inicio": 3.585,
+     "dur": 2.837
+    }
+   ],
+   "fim": 6.843
+  },
+  {
+   "id": "c2",
+   "inicio": 6.843,
+   "frases": [
+    {
+     "leg": "Inglaterra, fim do século 18. A varíola matava e deixava marcas em muita gente.",
+     "inicio": 6.843,
+     "dur": 5.596
+    },
+    {
+     "leg": "E o médico Edward Jenner conhecia uma história do campo.",
+     "inicio": 12.639,
+     "dur": 3.456
+    },
+    {
+     "leg": "Quem ordenhava vaca e pegava a varíola bovina parecia não pegar a varíola humana.",
+     "inicio": 16.295,
+     "dur": 4.928
+    }
+   ],
+   "fim": 21.643
+  },
+  {
+   "id": "c3",
+   "inicio": 21.643,
+   "frases": [
+    {
+     "leg": "Em maio de 1796, uma ordenhadeira chamada Sarah Nelmes apareceu com feridas na mão.",
+     "inicio": 21.643,
+     "dur": 6.699
+    },
+    {
+     "leg": "Ela tinha pegado a doença de uma vaca chamada Blossom.",
+     "inicio": 28.541,
+     "dur": 3.349
+    }
+   ],
+   "fim": 32.311
+  },
+  {
+   "id": "c4",
+   "inicio": 32.311,
+   "frases": [
+    {
+     "leg": "No dia 14 de maio, Jenner fez arranhões no braço de James Phipps, um menino de 8 anos, e passou ali o material daquelas feridas.",
+     "inicio": 32.311,
+     "dur": 8.384
+    },
+    {
+     "leg": "Em julho, expôs o menino à varíola humana. E ele não ficou doente.",
+     "inicio": 40.895,
+     "dur": 4.444
+    }
+   ],
+   "fim": 45.759
+  },
+  {
+   "id": "c5",
+   "inicio": 45.759,
+   "frases": [
+    {
+     "leg": "Em latim, vaca é vacca. E a varíola da vaca era variolae vaccinae.",
+     "inicio": 45.759,
+     "dur": 4.444
+    },
+    {
+     "leg": "Daí veio a palavra vacinação.",
+     "inicio": 50.403,
+     "dur": 2.133
+    },
+    {
+     "leg": "Em 1881, o francês Louis Pasteur propôs usar a palavra pra todas as imunizações, em homenagem a Jenner.",
+     "inicio": 52.736,
+     "dur": 8.021
+    }
+   ],
+   "fim": 61.177
+  },
+  {
+   "id": "c6",
+   "inicio": 61.177,
+   "frases": [
+    {
+     "leg": "E hoje? A varíola foi a primeira doença humana erradicada do planeta.",
+     "inicio": 61.177,
+     "dur": 4.945
+    },
+    {
+     "leg": "A OMS declarou isso oficialmente em 1980.",
+     "inicio": 66.323,
+     "dur": 3.883
+    },
+    {
+     "leg": "E tudo começou com uma vaca e uma ordenhadeira.",
+     "inicio": 70.405,
+     "dur": 2.987
+    }
+   ],
+   "fim": 73.812
+  },
+  {
+   "id": "c7",
+   "inicio": 73.812,
+   "frases": [
+    {
+     "leg": "Então: vacina vem de vaca, por causa de uma ordenhadeira, uma vaca e um menino.",
+     "inicio": 73.812,
+     "dur": 4.608
+    },
+    {
+     "leg": "Salva esse pra lembrar na prova de biologia.",
+     "inicio": 78.62,
+     "dur": 2.816
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 81.636,
+     "dur": 1.429
+    }
+   ],
+   "fim": 83.485
+  }
+ ]
+}

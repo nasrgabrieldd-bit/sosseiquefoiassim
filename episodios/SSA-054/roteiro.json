@@ -1,0 +1,495 @@
+{
+ "id": "SSA-054",
+ "chamada": "VACINA VEM DE VACA?",
+ "materia": "BIOLOGIA",
+ "titulo": "A palavra vacina vem de vaca",
+ "fontes": [
+  "Jenner Institute (Universidade de Oxford), 'About Edward Jenner'.",
+  "MORABIA, A. Journal of the Royal Society of Medicine (2018), sobre 'An inquiry into the causes and effects of the Variolae Vaccinae' (Jenner, 1798).",
+  "CAVAILLON, J.-M.; LEGOUT, S. 'Louis Pasteur: Between Myth and Reality', Biomolecules (2022).",
+  "OMS (08/05/2020), 'Commemorating smallpox eradication'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "frasco",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 380,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "tudo começou com uma ordenhadeira",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 64,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Toda vez que você toma vacina, está falando de vaca.",
+     "Toda vez que você toma vacina, está falando de vaca."
+    ],
+    [
+     "E não é trocadilho: é a origem da palavra.",
+     "E não é trocadilho: é a origem da palavra."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "VACINA = VACA?",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 90,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "não é trocadilho",
+     "pos": [
+      620,
+      1130
+     ],
+     "e": [
+      1,
+      "trocadilho"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Jenner Institute (Univ. de Oxford)",
+   "frases": [
+    [
+     "Inglaterra, fim do século 18. A varíola matava e deixava marcas em muita gente.",
+     "Inglaterra, fim do século dezoito. A varíola matava e deixava marcas em muita gente."
+    ],
+    [
+     "E o médico Edward Jenner conhecia uma história do campo.",
+     "E o médico Édward Djêner conhecia uma história do campo."
+    ],
+    [
+     "Quem ordenhava vaca e pegava a varíola bovina parecia não pegar a varíola humana.",
+     "Quem ordenhava vaca e pegava a varíola bovina parecia não pegar a varíola humana."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "INGLATERRA · SÉC. XVIII",
+     "pos": [
+      520,
+      440
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "EDWARD JENNER",
+     "pos": [
+      520,
+      600
+     ],
+     "e": [
+      1,
+      "Jenner"
+     ],
+     "size": 52
+    },
+    {
+     "t": "bloco",
+     "txt": "varíola bovina",
+     "pos": [
+      330,
+      860
+     ],
+     "e": [
+      2,
+      "bovina"
+     ],
+     "size": 64,
+     "maxw": 420
+    },
+    {
+     "t": "seta",
+     "de": [
+      520,
+      880
+     ],
+     "ate": [
+      640,
+      880
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      2,
+      "humana"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "varíola humana?",
+     "pos": [
+      740,
+      980
+     ],
+     "e": [
+      2,
+      "humana"
+     ],
+     "size": 56,
+     "cor": "tinta",
+     "maxw": 360
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Jenner Institute (Univ. de Oxford)",
+   "frases": [
+    [
+     "Em maio de 1796, uma ordenhadeira chamada Sarah Nelmes apareceu com feridas na mão.",
+     "Em maio de mil setecentos e noventa e seis, uma ordenhadeira chamada Séra Nélms apareceu com feridas na mão."
+    ],
+    [
+     "Ela tinha pegado a doença de uma vaca chamada Blossom.",
+     "Ela tinha pegado a doença de uma vaca chamada Blóssom."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "MAIO 1796",
+     "inicio": 0,
+     "pos": [
+      520,
+      700
+     ],
+     "ndias": 31,
+     "escala": 0.5,
+     "ang": -3
+    },
+    {
+     "t": "tira",
+     "txt": "SARAH NELMES",
+     "pos": [
+      330,
+      980
+     ],
+     "e": [
+      0,
+      "Sarah"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "vaca: BLOSSOM",
+     "pos": [
+      680,
+      1080
+     ],
+     "e": [
+      1,
+      "Blossom"
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Jenner Institute; Morabia (2018)",
+   "frases": [
+    [
+     "No dia 14 de maio, Jenner fez arranhões no braço de James Phipps, um menino de 8 anos, e passou ali o material daquelas feridas.",
+     "No dia catorze de maio, Djêner fez arranhões no braço de Djeims Fips, um menino de oito anos, e passou ali o material daquelas feridas."
+    ],
+    [
+     "Em julho, expôs o menino à varíola humana. E ele não ficou doente.",
+     "Em julho, expôs o menino à varíola humana. E ele não ficou doente."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "carimbo",
+     "txt": "14 MAIO",
+     "data": "1796",
+     "pos": [
+      300,
+      520
+     ],
+     "r": 100,
+     "ang": -8
+    },
+    {
+     "t": "tira",
+     "txt": "JAMES PHIPPS · 8 anos",
+     "pos": [
+      600,
+      620
+     ],
+     "e": [
+      0,
+      "Phipps"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "julho: contato com a varíola",
+     "pos": [
+      520,
+      860
+     ],
+     "e": [
+      1,
+      "julho"
+     ],
+     "size": 42
+    },
+    {
+     "t": "bloco",
+     "txt": "não ficou doente",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      "não ficou"
+     ],
+     "size": 74,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Jenner Institute; Cavaillon & Legout (2022)",
+   "frases": [
+    [
+     "Em latim, vaca é vacca. E a varíola da vaca era variolae vaccinae.",
+     "Em latim, vaca é váca. E a varíola da vaca era variólai vaquínai."
+    ],
+    [
+     "Daí veio a palavra vacinação.",
+     "Daí veio a palavra vacinação."
+    ],
+    [
+     "Em 1881, o francês Louis Pasteur propôs usar a palavra pra todas as imunizações, em homenagem a Jenner.",
+     "Em mil oitocentos e oitenta e um, o francês Luí Pastér propôs usar a palavra pra todas as imunizações, em homenagem a Djêner."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "verbete",
+     "palavra": "vacca",
+     "classe": "latim, subst. fem.",
+     "pos": [
+      520,
+      560
+     ],
+     "e": [
+      0,
+      "vacca"
+     ],
+     "w": 700,
+     "def": "vaca. Daí \"variolae vaccinae\": varíola da vaca."
+    },
+    {
+     "t": "bloco",
+     "txt": "VACINAÇÃO",
+     "pos": [
+      520,
+      830
+     ],
+     "e": [
+      1,
+      "vacinação"
+     ],
+     "size": 86
+    },
+    {
+     "t": "tira",
+     "txt": "PASTEUR · 1881",
+     "pos": [
+      330,
+      1040
+     ],
+     "e": [
+      2,
+      "Pasteur"
+     ],
+     "size": 48
+    },
+    {
+     "t": "nota",
+     "txt": "pra todas",
+     "pos": [
+      720,
+      1080
+     ],
+     "e": [
+      2,
+      "todas"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: OMS (2020)",
+   "frases": [
+    [
+     "E hoje? A varíola foi a primeira doença humana erradicada do planeta.",
+     "E hoje? A varíola foi a primeira doença humana erradicada do planeta."
+    ],
+    [
+     "A OMS declarou isso oficialmente em 1980.",
+     "A OMS declarou isso oficialmente em mil novecentos e oitenta."
+    ],
+    [
+     "E tudo começou com uma vaca e uma ordenhadeira.",
+     "E tudo começou com uma vaca e uma ordenhadeira."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 340,
+     "ang": -4
+    },
+    {
+     "t": "carimbo",
+     "txt": "OMS",
+     "data": "1980",
+     "pos": [
+      760,
+      880
+     ],
+     "e": [
+      1,
+      "1980"
+     ],
+     "r": 110,
+     "ang": -10
+    },
+    {
+     "t": "bloco",
+     "txt": "1ª doença humana erradicada",
+     "pos": [
+      480,
+      1080
+     ],
+     "e": [
+      0,
+      "primeira"
+     ],
+     "size": 58,
+     "maxw": 760
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: vacina vem de vaca, por causa de uma ordenhadeira, uma vaca e um menino.",
+     "Então: vacina vem de vaca, por causa de uma ordenhadeira, uma vaca e um menino."
+    ],
+    [
+     "Salva esse pra lembrar na prova de biologia.",
+     "Salva esse pra lembrar na prova de biologia."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 320,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "vacina vem de vaca",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      0,
+      "vaca"
+     ],
+     "size": 74
+    },
+    {
+     "t": "nota",
+     "txt": "salva esse!",
+     "pos": [
+      740,
+      1140
+     ],
+     "e": [
+      1,
+      "Salva"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  }
+ ]
+}
