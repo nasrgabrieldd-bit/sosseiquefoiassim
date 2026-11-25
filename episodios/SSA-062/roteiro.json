@@ -1,0 +1,477 @@
+{
+ "id": "SSA-062",
+ "chamada": "ISSO NÃO É COMETA",
+ "materia": "FÍSICA",
+ "titulo": "A melhor chuva de meteoros do ano vem de um asteroide",
+ "fontes": [
+  "NASA Science, 'Geminids'.",
+  "NASA, Watch the Skies (12/12/2024), 'It's an asteroid! It's a comet! It's the Geminids'.",
+  "International Meteor Organization, 'Meteor Shower Calendar 2026'.",
+  "Star Walk (2026), 'Geminídeas 2026'.",
+  "Agência Gov/EBC (12/2024), Gemínidas no Brasil (Exoss/Observatório Nacional)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "meteoro",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 440
+   },
+   {
+    "t": "bloco",
+    "txt": "não é de cometa",
+    "pos": [
+     520,
+     1110
+    ],
+    "e": null,
+    "size": 80,
+    "maxw": 760
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A melhor chuva de meteoros do ano vem de um asteroide, e não de um cometa.",
+     "A melhor chuva de meteoros do ano vem de um asteroide, e não de um cometa."
+    ],
+    [
+     "E o pico é nesta madrugada.",
+     "E o pico é nesta madrugada."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "meteoro",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 420,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "ASTEROIDE, NÃO COMETA",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 66,
+     "cor": "tinta",
+     "ang": -3,
+     "maxw": 800
+    },
+    {
+     "t": "nota",
+     "txt": "nesta madrugada!",
+     "pos": [
+      620,
+      1130
+     ],
+     "e": [
+      1,
+      "madrugada"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: NASA",
+   "frases": [
+    [
+     "Estrela cadente não é estrela. É poeira e pedrinha entrando na atmosfera muito rápido e queimando.",
+     "Estrela cadente não é estrela. É poeira e pedrinha entrando na atmosfera muito rápido e queimando."
+    ],
+    [
+     "E quase toda chuva de meteoros vem de um cometa: a Terra passa pela trilha de poeira que ele deixou.",
+     "E quase toda chuva de meteoros vem de um cometa: a Terra passa pela trilha de poeira que ele deixou."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ESTRELA CADENTE",
+     "pos": [
+      520,
+      480
+     ],
+     "size": 52
+    },
+    {
+     "t": "nota",
+     "txt": "não é estrela!",
+     "pos": [
+      680,
+      600
+     ],
+     "e": [
+      0,
+      "não é"
+     ],
+     "cor": "laranja",
+     "size": 52
+    },
+    {
+     "t": "obj",
+     "nome": "meteoro",
+     "pos": [
+      330,
+      760
+     ],
+     "e": [
+      0,
+      "poeira"
+     ],
+     "w": 300
+    },
+    {
+     "t": "nota",
+     "txt": "queimando",
+     "pos": [
+      720,
+      760
+     ],
+     "e": [
+      0,
+      "queimando"
+     ],
+     "cor": "laranja",
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "quase sempre: trilha de cometa",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      "cometa"
+     ],
+     "size": 40
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: NASA",
+   "frases": [
+    [
+     "As Gemínidas são a exceção. Elas vêm do 3200 Faetonte, classificado como asteroide.",
+     "As Gemínidas são a exceção. Elas vêm do três mil e duzentos Faetônte, classificado como asteroide."
+    ],
+    [
+     "Ele foi descoberto em 1983, por um satélite.",
+     "Ele foi descoberto em mil novecentos e oitenta e três, por um satélite."
+    ],
+    [
+     "Tem astrônomo que chama ele de cometa de pedra.",
+     "Tem astrônomo que chama ele de cometa de pedra."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "EXCEÇÃO",
+     "pos": [
+      520,
+      480
+     ],
+     "size": 84,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "tira",
+     "txt": "3200 FAETONTE",
+     "pos": [
+      520,
+      660
+     ],
+     "e": [
+      0,
+      "Faetonte"
+     ],
+     "size": 56
+    },
+    {
+     "t": "tira",
+     "txt": "descoberto em 1983",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      1,
+      "1983"
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "\"cometa de pedra\"",
+     "pos": [
+      540,
+      1020
+     ],
+     "e": [
+      2,
+      "pedra"
+     ],
+     "cor": "laranja",
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: NASA; IMO",
+   "frases": [
+    [
+     "Os pedacinhos dele entram na atmosfera a uns 35 quilômetros por segundo.",
+     "Os pedacinhos dele entram na atmosfera a uns trinta e cinco quilômetros por segundo."
+    ],
+    [
+     "Em condições perfeitas, dá pra ver até uns 120 meteoros por hora.",
+     "Em condições perfeitas, dá pra ver até uns cento e vinte meteoros por hora."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "35 km/s",
+     "pos": [
+      520,
+      580
+     ],
+     "e": [
+      0,
+      "35"
+     ],
+     "size": 170
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 120,
+     "fmt": "{n} por hora",
+     "pos": [
+      520,
+      920
+     ],
+     "e": [
+      1,
+      "120"
+     ],
+     "size": 96
+    },
+    {
+     "t": "tira",
+     "txt": "em condições perfeitas",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "perfeitas"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: IMO; Agência Gov/EBC",
+   "frases": [
+    [
+     "Mas aqui no hemisfério sul, o ponto de onde eles parecem sair, na constelação de Gêmeos, fica baixo no céu.",
+     "Mas aqui no hemisfério sul, o ponto de onde eles parecem sair, na constelação de Gêmeos, fica baixo no céu."
+    ],
+    [
+     "Então dá pra ver menos meteoros. E o melhor horário é de madrugada, depois da meia-noite.",
+     "Então dá pra ver menos meteoros. E o melhor horário é de madrugada, depois da meia-noite."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      330,
+      680
+     ],
+     "w": 280
+    },
+    {
+     "t": "tira",
+     "txt": "HEMISFÉRIO SUL",
+     "pos": [
+      700,
+      580
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "Gêmeos: baixo\nno céu",
+     "pos": [
+      700,
+      780
+     ],
+     "e": [
+      0,
+      "baixo"
+     ],
+     "cor": "laranja",
+     "size": 54
+    },
+    {
+     "t": "bloco",
+     "txt": "depois da\nmeia-noite",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      1,
+      "meia-noite"
+     ],
+     "size": 66,
+     "cor": "tinta",
+     "maxw": 600
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: IMO (2026); Star Walk",
+   "frases": [
+    [
+     "E hoje? O pico das Gemínidas é entre 13 e 14 de dezembro.",
+     "E hoje? O pico das Gemínidas é entre treze e catorze de dezembro."
+    ],
+    [
+     "E a Lua vai estar fininha, quase sem atrapalhar.",
+     "E a Lua vai estar fininha, quase sem atrapalhar."
+    ],
+    [
+     "Procure um lugar escuro, longe das luzes da cidade, e olhe pro céu.",
+     "Procure um lugar escuro, longe das luzes da cidade, e olhe pro céu."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "DEZEMBRO",
+     "inicio": 2,
+     "pos": [
+      520,
+      690
+     ],
+     "e": [
+      0,
+      "13 e 14"
+     ],
+     "ndias": 31,
+     "riscar": [
+      13,
+      14
+     ],
+     "riscar_em": [
+      0,
+      "13 e 14"
+     ],
+     "escala": 0.5,
+     "ang": -2
+    },
+    {
+     "t": "tira",
+     "txt": "Lua fininha",
+     "pos": [
+      330,
+      960
+     ],
+     "e": [
+      1,
+      "Lua"
+     ],
+     "size": 50
+    },
+    {
+     "t": "nota",
+     "txt": "lugar escuro",
+     "pos": [
+      680,
+      1080
+     ],
+     "e": [
+      2,
+      "escuro"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: as estrelas cadentes de dezembro são pedaços de um asteroide.",
+     "Então: as estrelas cadentes de dezembro são pedaços de um asteroide."
+    ],
+    [
+     "Marca quem vai acordar de madrugada pra ver com você.",
+     "Marca quem vai acordar de madrugada pra ver com você."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "meteoro",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380
+    },
+    {
+     "t": "bloco",
+     "txt": "marca quem vai\nver com você",
+     "pos": [
+      520,
+      1010
+     ],
+     "e": [
+      1,
+      "Marca"
+     ],
+     "size": 62,
+     "maxw": 740
+    }
+   ]
+  }
+ ]
+}

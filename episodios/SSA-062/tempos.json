@@ -1,0 +1,141 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 79.403,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A melhor chuva de meteoros do ano vem de um asteroide, e não de um cometa.",
+     "inicio": 0.1,
+     "dur": 4.437
+    },
+    {
+     "leg": "E o pico é nesta madrugada.",
+     "inicio": 4.737,
+     "dur": 1.899
+    }
+   ],
+   "fim": 7.056
+  },
+  {
+   "id": "c2",
+   "inicio": 7.056,
+   "frases": [
+    {
+     "leg": "Estrela cadente não é estrela. É poeira e pedrinha entrando na atmosfera muito rápido e queimando.",
+     "inicio": 7.056,
+     "dur": 6.321
+    },
+    {
+     "leg": "E quase toda chuva de meteoros vem de um cometa: a Terra passa pela trilha de poeira que ele deixou.",
+     "inicio": 13.577,
+     "dur": 5.867
+    }
+   ],
+   "fim": 19.864
+  },
+  {
+   "id": "c3",
+   "inicio": 19.864,
+   "frases": [
+    {
+     "leg": "As Gemínidas são a exceção. Elas vêm do 3200 Faetonte, classificado como asteroide.",
+     "inicio": 19.864,
+     "dur": 6.449
+    },
+    {
+     "leg": "Ele foi descoberto em 1983, por um satélite.",
+     "inicio": 26.513,
+     "dur": 4.203
+    },
+    {
+     "leg": "Tem astrônomo que chama ele de cometa de pedra.",
+     "inicio": 30.916,
+     "dur": 2.965
+    }
+   ],
+   "fim": 34.301
+  },
+  {
+   "id": "c4",
+   "inicio": 34.301,
+   "frases": [
+    {
+     "leg": "Os pedacinhos dele entram na atmosfera a uns 35 quilômetros por segundo.",
+     "inicio": 34.301,
+     "dur": 4.928
+    },
+    {
+     "leg": "Em condições perfeitas, dá pra ver até uns 120 meteoros por hora.",
+     "inicio": 39.429,
+     "dur": 4.48
+    }
+   ],
+   "fim": 44.329
+  },
+  {
+   "id": "c5",
+   "inicio": 44.329,
+   "frases": [
+    {
+     "leg": "Mas aqui no hemisfério sul, o ponto de onde eles parecem sair, na constelação de Gêmeos, fica baixo no céu.",
+     "inicio": 44.329,
+     "dur": 6.208
+    },
+    {
+     "leg": "Então dá pra ver menos meteoros. E o melhor horário é de madrugada, depois da meia-noite.",
+     "inicio": 50.737,
+     "dur": 5.959
+    }
+   ],
+   "fim": 57.116
+  },
+  {
+   "id": "c6",
+   "inicio": 57.116,
+   "frases": [
+    {
+     "leg": "E hoje? O pico das Gemínidas é entre 13 e 14 de dezembro.",
+     "inicio": 57.116,
+     "dur": 4.775
+    },
+    {
+     "leg": "E a Lua vai estar fininha, quase sem atrapalhar.",
+     "inicio": 62.091,
+     "dur": 2.837
+    },
+    {
+     "leg": "Procure um lugar escuro, longe das luzes da cidade, e olhe pro céu.",
+     "inicio": 65.128,
+     "dur": 4.032
+    }
+   ],
+   "fim": 69.58
+  },
+  {
+   "id": "c7",
+   "inicio": 69.58,
+   "frases": [
+    {
+     "leg": "Então: as estrelas cadentes de dezembro são pedaços de um asteroide.",
+     "inicio": 69.58,
+     "dur": 4.309
+    },
+    {
+     "leg": "Marca quem vai acordar de madrugada pra ver com você.",
+     "inicio": 74.089,
+     "dur": 3.264
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 77.553,
+     "dur": 1.429
+    }
+   ],
+   "fim": 79.403
+  }
+ ]
+}
