@@ -1,0 +1,141 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 80.753,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A frase mais famosa do Sherlock Holmes não está em nenhum livro dele.",
+     "inicio": 0.1,
+     "dur": 4.245
+    },
+    {
+     "leg": "Elementar, meu caro Watson. Nunca foi escrita assim.",
+     "inicio": 4.545,
+     "dur": 3.719
+    }
+   ],
+   "fim": 8.684
+  },
+  {
+   "id": "c2",
+   "inicio": 8.684,
+   "frases": [
+    {
+     "leg": "Holmes estreou em 1887, num livro chamado Um Estudo em Vermelho.",
+     "inicio": 8.684,
+     "dur": 5.376
+    },
+    {
+     "leg": "O autor, o escocês Arthur Conan Doyle, escreveu 4 romances e 56 contos com o detetive.",
+     "inicio": 14.26,
+     "dur": 6.272
+    }
+   ],
+   "fim": 20.952
+  },
+  {
+   "id": "c3",
+   "inicio": 20.952,
+   "frases": [
+    {
+     "leg": "E em nenhum desses 60 textos aparece a frase completa.",
+     "inicio": 20.952,
+     "dur": 3.627
+    },
+    {
+     "leg": "Nenhum. Nem uma vez.",
+     "inicio": 24.779,
+     "dur": 2.012
+    }
+   ],
+   "fim": 27.211
+  },
+  {
+   "id": "c4",
+   "inicio": 27.211,
+   "frases": [
+    {
+     "leg": "O que existe são pedaços.",
+     "inicio": 27.211,
+     "dur": 1.92
+    },
+    {
+     "leg": "No conto O Corcunda, de 1893, Watson fica impressionado, e Holmes responde só: Elementar.",
+     "inicio": 29.331,
+     "dur": 6.891
+    },
+    {
+     "leg": "E meu caro Watson aparece várias vezes, mas em outras frases.",
+     "inicio": 36.421,
+     "dur": 4.011
+    }
+   ],
+   "fim": 40.852
+  },
+  {
+   "id": "c5",
+   "inicio": 40.852,
+   "frases": [
+    {
+     "leg": "A frase inteira já aparecia em jornais e em livros de outros autores no começo do século 20.",
+     "inicio": 40.852,
+     "dur": 5.909
+    },
+    {
+     "leg": "Mas quem espalhou de vez foi o cinema: em 1929, o primeiro filme falado do Holmes terminava com ela.",
+     "inicio": 46.961,
+     "dur": 7.595
+    }
+   ],
+   "fim": 54.976
+  },
+  {
+   "id": "c6",
+   "inicio": 54.976,
+   "frases": [
+    {
+     "leg": "E hoje? Isso tem nome: citação apócrifa. Uma frase famosa que a pessoa nunca disse.",
+     "inicio": 54.976,
+     "dur": 6.339
+    },
+    {
+     "leg": "A internet tá cheia delas.",
+     "inicio": 61.515,
+     "dur": 1.899
+    },
+    {
+     "leg": "Inclusive, já mostramos aqui: a maçã também nunca caiu na cabeça do Newton.",
+     "inicio": 63.613,
+     "dur": 4.651
+    }
+   ],
+   "fim": 68.684
+  },
+  {
+   "id": "c7",
+   "inicio": 68.684,
+   "frases": [
+    {
+     "leg": "Então: Holmes disse elementar, e disse meu caro Watson. Só nunca disse as duas coisas juntas.",
+     "inicio": 68.684,
+     "dur": 6.001
+    },
+    {
+     "leg": "Agora você sabe: a frase mais famosa dele veio do cinema.",
+     "inicio": 74.885,
+     "dur": 3.819
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 78.904,
+     "dur": 1.429
+    }
+   ],
+   "fim": 80.753
+  }
+ ]
+}

@@ -1,0 +1,496 @@
+{
+ "id": "SSA-053",
+ "chamada": "ELE NUNCA DISSE ISSO",
+ "materia": "LITERATURA",
+ "titulo": "Sherlock Holmes nunca disse \"Elementar, meu caro Watson\"",
+ "fontes": [
+  "Encyclopaedia Britannica, 'Sherlock Holmes'.",
+  "Quote Investigator (14/07/2016), 'Elementary, My Dear Watson'.",
+  "DOYLE, Arthur Conan. 'The Crooked Man' (1893), em The Memoirs of Sherlock Holmes (Project Gutenberg).",
+  "Arthur Conan Doyle Encyclopedia, 'The Return of Sherlock Holmes (movie 1929)'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "lupa",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 420,
+    "ang": -6
+   },
+   {
+    "t": "bloco",
+    "txt": "a frase mais famosa dele não está nos livros",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 60,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A frase mais famosa do Sherlock Holmes não está em nenhum livro dele.",
+     "A frase mais famosa do Xérloc Rólms não está em nenhum livro dele."
+    ],
+    [
+     "Elementar, meu caro Watson. Nunca foi escrita assim.",
+     "Elementar, meu caro Uótson. Nunca foi escrita assim."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "lupa",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380,
+     "ang": -6,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "\"Elementar, meu caro Watson\"",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "Elementar"
+     ],
+     "size": 58,
+     "maxw": 800,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "nunca escrita!",
+     "pos": [
+      680,
+      1130
+     ],
+     "e": [
+      1,
+      "Nunca"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "Holmes estreou em 1887, num livro chamado Um Estudo em Vermelho.",
+     "Rólms estreou em mil oitocentos e oitenta e sete, num livro chamado Um Estudo em Vermelho."
+    ],
+    [
+     "O autor, o escocês Arthur Conan Doyle, escreveu 4 romances e 56 contos com o detetive.",
+     "O autor, o escocês Ártur Cónan Dóil, escreveu quatro romances e cinquenta e seis contos com o detetive."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "BEETON'S CHRISTMAS ANNUAL",
+     "data": "1887",
+     "rodape": "A STUDY IN SCARLET",
+     "pos": [
+      340,
+      740
+     ],
+     "w": 400,
+     "ang": -3
+    },
+    {
+     "t": "tira",
+     "txt": "CONAN DOYLE",
+     "pos": [
+      700,
+      620
+     ],
+     "e": [
+      1,
+      "Conan"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "4 romances",
+     "pos": [
+      700,
+      820
+     ],
+     "e": [
+      1,
+      "romances"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "56 contos",
+     "pos": [
+      700,
+      960
+     ],
+     "e": [
+      1,
+      "56"
+     ],
+     "size": 52
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Britannica; Quote Investigator",
+   "frases": [
+    [
+     "E em nenhum desses 60 textos aparece a frase completa.",
+     "E em nenhum desses sessenta textos aparece a frase completa."
+    ],
+    [
+     "Nenhum. Nem uma vez.",
+     "Nenhum. Nem uma vez."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "60",
+     "pos": [
+      520,
+      620
+     ],
+     "size": 300
+    },
+    {
+     "t": "tira",
+     "txt": "textos de Conan Doyle",
+     "pos": [
+      520,
+      860
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "frase completa: 0",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      1,
+      "Nem"
+     ],
+     "size": 80,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Conan Doyle, The Crooked Man (1893)",
+   "frases": [
+    [
+     "O que existe são pedaços.",
+     "O que existe são pedaços."
+    ],
+    [
+     "No conto O Corcunda, de 1893, Watson fica impressionado, e Holmes responde só: Elementar.",
+     "No conto O Corcunda, de mil oitocentos e noventa e três, Uótson fica impressionado, e Rólms responde só: Elementar."
+    ],
+    [
+     "E meu caro Watson aparece várias vezes, mas em outras frases.",
+     "E meu caro Uótson aparece várias vezes, mas em outras frases."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "só pedaços",
+     "pos": [
+      520,
+      480
+     ],
+     "size": 80
+    },
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      320,
+      760
+     ],
+     "e": [
+      1,
+      "Corcunda"
+     ],
+     "w": 300,
+     "ang": -4
+    },
+    {
+     "t": "tira",
+     "txt": "\"Elementary,\" said he.",
+     "pos": [
+      680,
+      700
+     ],
+     "e": [
+      1,
+      "Elementar"
+     ],
+     "size": 40
+    },
+    {
+     "t": "tira",
+     "txt": "\"my dear Watson\"",
+     "pos": [
+      640,
+      1000
+     ],
+     "e": [
+      2,
+      "meu caro"
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "em outras frases",
+     "pos": [
+      560,
+      1140
+     ],
+     "e": [
+      2,
+      "outras"
+     ],
+     "cor": "laranja",
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Quote Investigator; A. C. Doyle Encyclopedia",
+   "frases": [
+    [
+     "A frase inteira já aparecia em jornais e em livros de outros autores no começo do século 20.",
+     "A frase inteira já aparecia em jornais e em livros de outros autores no começo do século vinte."
+    ],
+    [
+     "Mas quem espalhou de vez foi o cinema: em 1929, o primeiro filme falado do Holmes terminava com ela.",
+     "Mas quem espalhou de vez foi o cinema: em mil novecentos e vinte e nove, o primeiro filme falado do Rólms terminava com ela."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "THE GLOBE",
+     "data": "1908",
+     "rodape": "\"ELEMENTARY...\"",
+     "pos": [
+      340,
+      720
+     ],
+     "w": 380,
+     "ang": -4
+    },
+    {
+     "t": "tira",
+     "txt": "outros autores",
+     "pos": [
+      700,
+      620
+     ],
+     "e": [
+      0,
+      "outros"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tv",
+     "pos": [
+      660,
+      960
+     ],
+     "e": [
+      1,
+      "cinema"
+     ],
+     "w": 300
+    },
+    {
+     "t": "tira",
+     "txt": "1929 · filme falado",
+     "pos": [
+      420,
+      1120
+     ],
+     "e": [
+      1,
+      "1929"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "E hoje? Isso tem nome: citação apócrifa. Uma frase famosa que a pessoa nunca disse.",
+     "E hoje? Isso tem nome: citação apócrifa. Uma frase famosa que a pessoa nunca disse."
+    ],
+    [
+     "A internet tá cheia delas.",
+     "A internet tá cheia delas."
+    ],
+    [
+     "Inclusive, já mostramos aqui: a maçã também nunca caiu na cabeça do Newton.",
+     "Inclusive, já mostramos aqui: a maçã também nunca caiu na cabeça do Níuton."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "verbete",
+     "palavra": "apócrifo",
+     "classe": "adjetivo",
+     "pos": [
+      520,
+      560
+     ],
+     "e": [
+      0,
+      "apócrifa"
+     ],
+     "w": 700,
+     "def": "de autoria falsa ou duvidosa; atribuído a quem não disse."
+    },
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      300,
+      920
+     ],
+     "e": [
+      1,
+      "internet"
+     ],
+     "w": 230,
+     "ang": -4
+    },
+    {
+     "t": "obj",
+     "nome": "maca",
+     "pos": [
+      700,
+      920
+     ],
+     "e": [
+      2,
+      "maçã"
+     ],
+     "w": 230
+    },
+    {
+     "t": "nota",
+     "txt": "nunca caiu!",
+     "pos": [
+      640,
+      1130
+     ],
+     "e": [
+      2,
+      "nunca"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: Holmes disse elementar, e disse meu caro Watson. Só nunca disse as duas coisas juntas.",
+     "Então: Rólms disse elementar, e disse meu caro Uótson. Só nunca disse as duas coisas juntas."
+    ],
+    [
+     "Agora você sabe: a frase mais famosa dele veio do cinema.",
+     "Agora você sabe: a frase mais famosa dele veio do cinema."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "lupa",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 340,
+     "ang": 4
+    },
+    {
+     "t": "bloco",
+     "txt": "nunca as duas juntas",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      0,
+      "juntas"
+     ],
+     "size": 70,
+     "maxw": 780
+    },
+    {
+     "t": "nota",
+     "txt": "veio do cinema",
+     "pos": [
+      640,
+      1140
+     ],
+     "e": [
+      1,
+      "cinema"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  }
+ ]
+}
