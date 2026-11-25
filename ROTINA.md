@@ -67,3 +67,4 @@ Se a sessão acabar no meio, a rotina diária termina o que faltar.
 - O builder `lotes/semana_2026-12-08.py` agora tem `valida()`: confere se toda palavra de entrada (`e`, `marca`, `riscar_em`, zoom, congela) está na legenda e se o gancho tem até 16 palavras, antes de gravar. Copie essa função nos próximos builders.
 - Se mudar a legenda depois de narrar, o `tempos.json` guarda a legenda antiga (`leg`) e a palavra-chave nova não é encontrada: corrija o `tempos.json` também (ou narre de novo).
 - Objetos novos em `objetos.py`: bola (vôlei), montanha, pipa, lupa, saleiro, bandeira (Noruega), meteoro.
+- Zoom/push de câmera aproxima tudo em volta do `alvo`: o elemento mais alto da cena sobe e pode cobrir o chip da matéria (aconteceu no SSA-059). Em cena com `zooms`, deixe o elemento mais alto em y ≥ 560 e confira um quadro do vídeo final (`motor.py EP quadros t1,t2`), não só a prancha.
