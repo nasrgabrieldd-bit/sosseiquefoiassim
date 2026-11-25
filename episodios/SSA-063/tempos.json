@@ -1,0 +1,136 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 80.108,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "O primeiro homem no Polo Sul venceu com o que aprendeu no Ártico.",
+     "inicio": 0.1,
+     "dur": 3.861
+    },
+    {
+     "leg": "E ele escondeu o destino até da própria tripulação.",
+     "inicio": 4.161,
+     "dur": 3.136
+    }
+   ],
+   "fim": 7.717
+  },
+  {
+   "id": "c2",
+   "inicio": 7.717,
+   "frases": [
+    {
+     "leg": "Roald Amundsen era norueguês.",
+     "inicio": 7.717,
+     "dur": 1.941
+    },
+    {
+     "leg": "Entre 1903 e 1906, ele cruzou o Ártico do Canadá e conviveu com os inuítes.",
+     "inicio": 9.859,
+     "dur": 6.656
+    },
+    {
+     "leg": "Aprendeu a guiar cães, construir iglu e, principalmente, a se vestir como eles.",
+     "inicio": 16.715,
+     "dur": 4.864
+    }
+   ],
+   "fim": 21.999
+  },
+  {
+   "id": "c3",
+   "inicio": 21.999,
+   "frases": [
+    {
+     "leg": "Em 1910, o navio Fram saiu da Noruega. O plano anunciado era o Ártico.",
+     "inicio": 21.999,
+     "dur": 5.553
+    },
+    {
+     "leg": "Mas na ilha da Madeira, Amundsen contou à tripulação: o destino agora era o Polo Sul.",
+     "inicio": 27.752,
+     "dur": 5.013
+    }
+   ],
+   "fim": 33.185
+  },
+  {
+   "id": "c4",
+   "inicio": 33.185,
+   "frases": [
+    {
+     "leg": "Ao mesmo tempo, o britânico Robert Scott também tentava chegar lá.",
+     "inicio": 33.185,
+     "dur": 4.245
+    },
+    {
+     "leg": "Amundsen partiu pro polo com 4 companheiros, esquis e 52 cães puxando 4 trenós.",
+     "inicio": 37.631,
+     "dur": 6.272
+    }
+   ],
+   "fim": 44.323
+  },
+  {
+   "id": "c5",
+   "inicio": 44.323,
+   "frases": [
+    {
+     "leg": "Em 14 de dezembro de 1911, os 5 chegaram ao Polo Sul.",
+     "inicio": 44.323,
+     "dur": 4.843
+    },
+    {
+     "leg": "Montaram uma barraca chamada Polheim, casa do polo em norueguês, e deixaram uma carta pro Scott.",
+     "inicio": 49.365,
+     "dur": 5.696
+    }
+   ],
+   "fim": 55.481
+  },
+  {
+   "id": "c6",
+   "inicio": 55.481,
+   "frases": [
+    {
+     "leg": "Scott só chegou em 17 de janeiro de 1912, mais de um mês depois. E achou a barraca norueguesa lá.",
+     "inicio": 55.481,
+     "dur": 7.9
+    },
+    {
+     "leg": "E hoje, 14 de dezembro, a chegada de Amundsen faz 115 anos.",
+     "inicio": 63.581,
+     "dur": 4.672
+    }
+   ],
+   "fim": 68.673
+  },
+  {
+   "id": "c7",
+   "inicio": 68.673,
+   "frases": [
+    {
+     "leg": "Então: o Polo Sul foi conquistado com roupa, cachorro e esqui, coisas aprendidas no Ártico.",
+     "inicio": 68.673,
+     "dur": 5.312
+    },
+    {
+     "leg": "Você encararia uma viagem de meses até o meio da Antártida?",
+     "inicio": 74.185,
+     "dur": 3.733
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 78.259,
+     "dur": 1.429
+    }
+   ],
+   "fim": 80.108
+  }
+ ]
+}
