@@ -253,3 +253,79 @@ def superficie_lunar(w,h):
         d.ellipse((x-r,y-r,x+r,y+r),fill=rng.randint(60,160))
     return im
 OBJ.update({'astronauta':astronauta,'foguete':foguete,'superficie_lunar':superficie_lunar})
+
+# ---- objetos do lote 08–15/12/2026 (contorno de tinta em toda silhueta, MARCA.md §12)
+def _lw(w): return max(3,int(w*0.012))
+def bola(w,h):
+    """bola de vôlei: esfera com 3 faixas curvas (gomos), recortadas no círculo."""
+    im,d=_base(w,h); r=min(w,h)*0.44; cx,cy=w/2,h/2; lw=_lw(w)
+    grad_ellipse(d,(cx-r,cy-r,cx+r,cy+r),120,245)
+    lay=Image.new('L',(w,h),0); dl=ImageDraw.Draw(lay)
+    for a0 in (90,210,330):
+        a=math.radians(a0); ox,oy=cx+math.cos(a)*r*1.35,cy+math.sin(a)*r*1.35
+        for R in (r*1.0,r*1.32):
+            dl.ellipse((ox-R,oy-R,ox+R,oy+R),outline=255,width=lw)
+    m=Image.new('L',(w,h),0); ImageDraw.Draw(m).ellipse((cx-r,cy-r,cx+r,cy+r),fill=255)
+    lay=ImageChops.multiply(lay,m); im.paste(40,(0,0),lay)
+    d.ellipse((cx-r,cy-r,cx+r,cy+r),outline=30,width=lw+2); return im
+def montanha(w,h):
+    """cordilheira: pico maior com neve, pico menor ao lado."""
+    im,d=_base(w,h); lw=_lw(w)
+    d.polygon([(w*0.02,h*0.95),(w*0.3,h*0.42),(w*0.58,h*0.95)],fill=150,outline=30)
+    d.polygon([(w*0.2,h*0.95),(w*0.58,h*0.08),(w*0.98,h*0.95)],fill=110,outline=30)
+    d.polygon([(w*0.58,h*0.08),(w*0.47,h*0.33),(w*0.53,h*0.29),(w*0.58,h*0.36),(w*0.63,h*0.3),(w*0.69,h*0.33)],fill=245,outline=30)
+    d.polygon([(w*0.58,h*0.08),(w*0.69,h*0.33),(w*0.98,h*0.95),(w*0.7,h*0.95)],fill=80)
+    d.polygon([(w*0.2,h*0.95),(w*0.58,h*0.08),(w*0.98,h*0.95)],outline=30,width=lw)
+    d.line([(w*0.02,h*0.95),(w*0.98,h*0.95)],fill=30,width=lw); return im
+def pipa(w,h):
+    """pipa losango com rabiola e linha (antena do Marconi)."""
+    im,d=_base(w,h); lw=_lw(w); cx=w*0.55
+    pts=[(cx,h*0.03),(cx+w*0.3,h*0.3),(cx,h*0.62),(cx-w*0.3,h*0.3)]
+    d.polygon(pts,fill=200,outline=30); d.polygon([pts[0],pts[1],(cx,h*0.3)],fill=150); d.polygon([(cx,h*0.3),pts[2],pts[3]],fill=150)
+    d.line([pts[0],pts[2]],fill=40,width=lw); d.line([pts[1],pts[3]],fill=40,width=lw); d.polygon(pts,outline=30,width=lw)
+    prev=pts[2]
+    for k in range(1,7):
+        p=(cx+math.sin(k*1.2)*w*0.08,h*0.62+k*h*0.055); d.line([prev,p],fill=40,width=max(2,lw-1))
+        d.polygon([(p[0]-w*0.03,p[1]-h*0.012),(p[0]+w*0.03,p[1]+h*0.012),(p[0]+w*0.03,p[1]-h*0.012),(p[0]-w*0.03,p[1]+h*0.012)],fill=90); prev=p
+    d.line([pts[2],(w*0.04,h*0.98)],fill=60,width=max(2,lw-1)); return im
+def lupa(w,h):
+    """lupa de detetive."""
+    im,d=_base(w,h); lw=_lw(w); r=min(w,h)*0.3; cx,cy=w*0.4,h*0.4
+    a=math.radians(45); x0,y0=cx+math.cos(a)*r*1.05,cy+math.sin(a)*r*1.05; x1,y1=w*0.93,h*0.93
+    d.line([(x0,y0),(x1,y1)],fill=30,width=int(w*0.1)); d.line([(x0,y0),(x1,y1)],fill=90,width=int(w*0.07))
+    d.ellipse((cx-r*1.12,cy-r*1.12,cx+r*1.12,cy+r*1.12),fill=70,outline=30,width=lw)
+    grad_ellipse(d,(cx-r,cy-r,cx+r,cy+r),200,250)
+    d.arc((cx-r*0.75,cy-r*0.75,cx+r*0.75,cy+r*0.75),200,250,fill=255,width=lw*2)
+    d.ellipse((cx-r,cy-r,cx+r,cy+r),outline=30,width=lw); return im
+def saleiro(w,h):
+    """saleiro de vidro com tampa furada e grãos."""
+    im,d=_base(w,h); lw=_lw(w); cx=w/2
+    d.rounded_rectangle((cx-w*0.26,h*0.28,cx+w*0.26,h*0.9),radius=int(w*0.08),fill=215,outline=30,width=lw)
+    d.rounded_rectangle((cx-w*0.22,h*0.5,cx+w*0.22,h*0.86),radius=int(w*0.06),fill=248)
+    rng=random.Random(3)
+    for _ in range(60):
+        x=rng.uniform(cx-w*0.2,cx+w*0.2); y=rng.uniform(h*0.52,h*0.84); s=rng.uniform(2,5); d.rectangle((x,y,x+s,y+s),fill=rng.randint(150,200))
+    d.rounded_rectangle((cx-w*0.28,h*0.12,cx+w*0.28,h*0.3),radius=int(w*0.05),fill=120,outline=30,width=lw)
+    for k in range(-2,3): d.ellipse((cx+k*w*0.08-5,h*0.18-5,cx+k*w*0.08+5,h*0.18+5),fill=30)
+    d.line([(cx-w*0.17,h*0.34),(cx-w*0.17,h*0.8)],fill=250,width=lw*2); return im
+def bandeira(w,h):
+    """bandeira fincada em neve (polo)."""
+    im,d=_base(w,h); lw=_lw(w)
+    d.ellipse((w*0.05,h*0.82,w*0.95,h*1.0),fill=225,outline=30,width=lw)
+    d.rectangle((w*0.3,h*0.05,w*0.34,h*0.9),fill=60,outline=30)
+    d.polygon([(w*0.34,h*0.08),(w*0.9,h*0.12),(w*0.86,h*0.3),(w*0.9,h*0.45),(w*0.34,h*0.42)],fill=130,outline=30)
+    d.rectangle((w*0.34,h*0.21,w*0.88,h*0.29),fill=235); d.rectangle((w*0.48,h*0.09,w*0.56,h*0.42),fill=235)
+    d.rectangle((w*0.34,h*0.235,w*0.88,h*0.265),fill=50); d.rectangle((w*0.505,h*0.09,w*0.535,h*0.42),fill=50)
+    d.polygon([(w*0.34,h*0.08),(w*0.9,h*0.12),(w*0.86,h*0.3),(w*0.9,h*0.45),(w*0.34,h*0.42)],outline=30,width=lw)
+    d.ellipse((w*0.29,h*0.02,w*0.35,h*0.07),fill=60,outline=30); return im
+def meteoro(w,h):
+    """pedra com rastro (estrela cadente)."""
+    im,d=_base(w,h); lw=_lw(w); r=min(w,h)*0.14; cx,cy=w*0.75,h*0.72
+    for k in range(18):
+        t=k/17; x=cx-(w*0.7)*(1-t); y=cy-(h*0.62)*(1-t); rr=r*(0.15+0.85*t)
+        d.ellipse((x-rr,y-rr,x+rr,y+rr),fill=int(235-100*t))
+    pts=[(cx+r*math.cos(a)*(0.85+0.2*math.sin(a*3)),cy+r*math.sin(a)*(0.85+0.2*math.cos(a*2))) for a in [i*math.pi/6 for i in range(12)]]
+    d.polygon(pts,fill=80,outline=30); d.line(pts+[pts[0]],fill=30,width=lw)
+    for (ox,oy) in ((-0.3,-0.2),(0.25,0.15)): d.ellipse((cx+ox*r-r*0.18,cy+oy*r-r*0.18,cx+ox*r+r*0.18,cy+oy*r+r*0.18),fill=55)
+    return im
+OBJ.update({'bola':bola,'montanha':montanha,'pipa':pipa,'lupa':lupa,'saleiro':saleiro,'bandeira':bandeira,'meteoro':meteoro})
