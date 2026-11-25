@@ -1,0 +1,495 @@
+{
+ "id": "SSA-057",
+ "chamada": "O QUE SIGNIFICA ESSE E?",
+ "materia": "SOCIOLOGIA",
+ "titulo": "O \"E\" da sigla UNICEF não significa mais nada",
+ "fontes": [
+  "UNICEF, '1946–2006: Sixty Years for Children'.",
+  "UNICEF, 'Emerging from the ashes of war (1946–1979)'.",
+  "UNICEF (2016), 'UNICEF commemorates 70 years of tireless work'.",
+  "Nobelprize.org, 'UNICEF – Facts' (Nobel da Paz 1965).",
+  "Encyclopaedia Britannica, 'UNICEF'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "bloco",
+    "txt": "UNICEF",
+    "pos": [
+     520,
+     640
+    ],
+    "e": null,
+    "size": 150,
+    "cor": "tinta",
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "uma letra que ficou sem sentido",
+    "pos": [
+     520,
+     1110
+    ],
+    "e": null,
+    "size": 66,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Na sigla UNICEF tem uma letra que não significa mais nada.",
+     "Na sigla Unicéf tem uma letra que não significa mais nada."
+    ],
+    [
+     "E ela é uma lembrança do fim de uma guerra.",
+     "E ela é uma lembrança do fim de uma guerra."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "UNICEF",
+     "pos": [
+      520,
+      620
+     ],
+     "size": 150,
+     "cor": "tinta",
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "nota",
+     "txt": "o E?",
+     "pos": [
+      700,
+      820
+     ],
+     "cor": "laranja",
+     "size": 80
+    },
+    {
+     "t": "tira",
+     "txt": "fim de uma guerra",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "guerra"
+     ],
+     "size": 50
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: UNICEF",
+   "frases": [
+    [
+     "11 de dezembro de 1946. A Segunda Guerra tinha acabado havia pouco mais de um ano.",
+     "Onze de dezembro de mil novecentos e quarenta e seis. A Segunda Guerra tinha acabado havia pouco mais de um ano."
+    ],
+    [
+     "E muitas crianças na Europa, na China e no Oriente Médio precisavam de comida, remédio e roupa.",
+     "E muitas crianças na Europa, na China e no Oriente Médio precisavam de comida, remédio e roupa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "carimbo",
+     "txt": "11 DEZ",
+     "data": "1946",
+     "pos": [
+      330,
+      560
+     ],
+     "r": 110,
+     "ang": -8
+    },
+    {
+     "t": "tira",
+     "txt": "pós-guerra",
+     "pos": [
+      700,
+      600
+     ],
+     "size": 52
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      1,
+      "Europa"
+     ],
+     "w": 280
+    },
+    {
+     "t": "tira",
+     "txt": "comida · remédio · roupa",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      1,
+      "comida"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: UNICEF; Britannica",
+   "frases": [
+    [
+     "A Assembleia Geral da ONU criou um fundo especial.",
+     "A Assembleia Geral da ONU criou um fundo especial."
+    ],
+    [
+     "Nome em inglês: United Nations International Children's Emergency Fund.",
+     "Nome em inglês: Iunáited Nêixons Internéxonal Tchíldrens Imérdjenci Fând."
+    ],
+    [
+     "Ou seja: Fundo Internacional de Emergência das Nações Unidas para a Infância.",
+     "Ou seja: Fundo Internacional de Emergência das Nações Unidas para a Infância."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ONU · ASSEMBLEIA GERAL",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "United Nations International",
+     "pos": [
+      520,
+      620
+     ],
+     "e": [
+      1,
+      "United"
+     ],
+     "size": 42
+    },
+    {
+     "t": "tira",
+     "txt": "Children's EMERGENCY Fund",
+     "pos": [
+      520,
+      740
+     ],
+     "e": [
+      1,
+      "Emergency"
+     ],
+     "size": 42
+    },
+    {
+     "t": "bloco",
+     "txt": "EMERGÊNCIA",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      2,
+      "Emergência"
+     ],
+     "size": 90,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: UNICEF",
+   "frases": [
+    [
+     "O E era de emergência.",
+     "O E era de emergência."
+    ],
+    [
+     "A ideia era um socorro rápido pra um momento de crise.",
+     "A ideia era um socorro rápido pra um momento de crise."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "E",
+     "pos": [
+      520,
+      640
+     ],
+     "size": 320
+    },
+    {
+     "t": "bloco",
+     "txt": "= emergência",
+     "pos": [
+      520,
+      920
+     ],
+     "size": 80
+    },
+    {
+     "t": "nota",
+     "txt": "socorro rápido",
+     "pos": [
+      620,
+      1100
+     ],
+     "e": [
+      1,
+      "socorro"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: UNICEF; Britannica",
+   "frases": [
+    [
+     "Só que a necessidade não acabou. Em 1953, o fundo virou permanente.",
+     "Só que a necessidade não acabou. Em mil novecentos e cinquenta e três, o fundo virou permanente."
+    ],
+    [
+     "Saíram do nome as palavras internacional e emergência. Ficou Fundo das Nações Unidas para a Infância.",
+     "Saíram do nome as palavras internacional e emergência. Ficou Fundo das Nações Unidas para a Infância."
+    ],
+    [
+     "Mas a sigla já era famosa. E ficou do jeito que estava.",
+     "Mas a sigla já era famosa. E ficou do jeito que estava."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "1953 · PERMANENTE",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "International",
+     "pos": [
+      330,
+      640
+     ],
+     "e": [
+      1,
+      "internacional"
+     ],
+     "size": 46
+    },
+    {
+     "t": "risco",
+     "de": [
+      200,
+      640
+     ],
+     "ate": [
+      470,
+      640
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "Saíram"
+     ]
+    },
+    {
+     "t": "tira",
+     "txt": "Emergency",
+     "pos": [
+      700,
+      640
+     ],
+     "e": [
+      1,
+      "emergência"
+     ],
+     "size": 46
+    },
+    {
+     "t": "risco",
+     "de": [
+      590,
+      640
+     ],
+     "ate": [
+      810,
+      640
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "Saíram"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "a sigla ficou",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      2,
+      "sigla"
+     ],
+     "size": 80,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: UNICEF; nobelprize.org",
+   "frases": [
+    [
+     "E hoje? A UNICEF faz 80 anos neste 11 de dezembro.",
+     "E hoje? A Unicéf faz oitenta anos neste onze de dezembro."
+    ],
+    [
+     "Em 1965, ganhou o Nobel da Paz.",
+     "Em mil novecentos e sessenta e cinco, ganhou o Nobel da Paz."
+    ],
+    [
+     "E continua com a sigla de quando era só uma emergência.",
+     "E continua com a sigla de quando era só uma emergência."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "80",
+     "pos": [
+      520,
+      620
+     ],
+     "size": 280
+    },
+    {
+     "t": "tira",
+     "txt": "anos · 11/12/2026",
+     "pos": [
+      520,
+      820
+     ],
+     "e": [
+      0,
+      "80"
+     ],
+     "size": 46
+    },
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      330,
+      1040
+     ],
+     "e": [
+      1,
+      "Nobel"
+     ],
+     "w": 200
+    },
+    {
+     "t": "tira",
+     "txt": "NOBEL DA PAZ · 1965",
+     "pos": [
+      680,
+      1040
+     ],
+     "e": [
+      1,
+      "1965"
+     ],
+     "size": 40
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o E da UNICEF lembra uma emergência que virou permanente.",
+     "Então: o E da Unicéf lembra uma emergência que virou permanente."
+    ],
+    [
+     "Manda pra aquele amigo que adora saber o que significa cada sigla.",
+     "Manda pra aquele amigo que adora saber o que significa cada sigla."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "UNICEF",
+     "pos": [
+      520,
+      620
+     ],
+     "size": 140,
+     "cor": "tinta",
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "manda pro amigo\ndas siglas",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      1,
+      "Manda"
+     ],
+     "size": 62,
+     "maxw": 740
+    }
+   ]
+  }
+ ]
+}

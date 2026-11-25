@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 77.967,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Na sigla UNICEF tem uma letra que não significa mais nada.",
+     "inicio": 0.1,
+     "dur": 3.648
+    },
+    {
+     "leg": "E ela é uma lembrança do fim de uma guerra.",
+     "inicio": 3.948,
+     "dur": 2.539
+    }
+   ],
+   "fim": 6.907
+  },
+  {
+   "id": "c2",
+   "inicio": 6.907,
+   "frases": [
+    {
+     "leg": "11 de dezembro de 1946. A Segunda Guerra tinha acabado havia pouco mais de um ano.",
+     "inicio": 6.907,
+     "dur": 6.919
+    },
+    {
+     "leg": "E muitas crianças na Europa, na China e no Oriente Médio precisavam de comida, remédio e roupa.",
+     "inicio": 14.025,
+     "dur": 5.675
+    }
+   ],
+   "fim": 20.12
+  },
+  {
+   "id": "c3",
+   "inicio": 20.12,
+   "frases": [
+    {
+     "leg": "A Assembleia Geral da ONU criou um fundo especial.",
+     "inicio": 20.12,
+     "dur": 3.115
+    },
+    {
+     "leg": "Nome em inglês: United Nations International Children's Emergency Fund.",
+     "inicio": 23.435,
+     "dur": 4.715
+    },
+    {
+     "leg": "Ou seja: Fundo Internacional de Emergência das Nações Unidas para a Infância.",
+     "inicio": 28.349,
+     "dur": 4.437
+    }
+   ],
+   "fim": 33.207
+  },
+  {
+   "id": "c4",
+   "inicio": 33.207,
+   "frases": [
+    {
+     "leg": "O E era de emergência.",
+     "inicio": 33.207,
+     "dur": 1.6
+    },
+    {
+     "leg": "A ideia era um socorro rápido pra um momento de crise.",
+     "inicio": 35.007,
+     "dur": 3.157
+    }
+   ],
+   "fim": 38.584
+  },
+  {
+   "id": "c5",
+   "inicio": 38.584,
+   "frases": [
+    {
+     "leg": "Só que a necessidade não acabou. Em 1953, o fundo virou permanente.",
+     "inicio": 38.584,
+     "dur": 6.129
+    },
+    {
+     "leg": "Saíram do nome as palavras internacional e emergência. Ficou Fundo das Nações Unidas para a Infância.",
+     "inicio": 44.913,
+     "dur": 6.556
+    },
+    {
+     "leg": "Mas a sigla já era famosa. E ficou do jeito que estava.",
+     "inicio": 51.669,
+     "dur": 3.953
+    }
+   ],
+   "fim": 56.043
+  },
+  {
+   "id": "c6",
+   "inicio": 56.043,
+   "frases": [
+    {
+     "leg": "E hoje? A UNICEF faz 80 anos neste 11 de dezembro.",
+     "inicio": 56.043,
+     "dur": 4.391
+    },
+    {
+     "leg": "Em 1965, ganhou o Nobel da Paz.",
+     "inicio": 60.633,
+     "dur": 3.563
+    },
+    {
+     "leg": "E continua com a sigla de quando era só uma emergência.",
+     "inicio": 64.396,
+     "dur": 3.264
+    }
+   ],
+   "fim": 68.08
+  },
+  {
+   "id": "c7",
+   "inicio": 68.08,
+   "frases": [
+    {
+     "leg": "Então: o E da UNICEF lembra uma emergência que virou permanente.",
+     "inicio": 68.08,
+     "dur": 3.691
+    },
+    {
+     "leg": "Manda pra aquele amigo que adora saber o que significa cada sigla.",
+     "inicio": 71.971,
+     "dur": 3.947
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 76.117,
+     "dur": 1.429
+    }
+   ],
+   "fim": 77.967
+  }
+ ]
+}
