@@ -1,0 +1,502 @@
+{
+ "id": "SSA-065",
+ "chamada": "UMA LÍNGUA INVENTADA",
+ "materia": "LÍNGUA PORTUGUESA",
+ "titulo": "Uma língua inventada por um oftalmologista tem falantes nativos",
+ "fontes": [
+  "Encyclopaedia Britannica, 'L. L. Zamenhof'.",
+  "Europeana, 'How Esperanto started and developed'.",
+  "Ethnologue, 'Esperanto' (L1: ~1.000, Corsetti et al. 2004).",
+  "UNESCO, Resolução IV.1.4.422 (Montevidéu, 1954).",
+  "PARDUE, David. 'Spiritism and Esperanto in Brazil', Esperantologio / Esperanto Studies, n. 2 (2001)."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "livro",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 400,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "tem gente que aprendeu desde bebê",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 62,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Uma língua inventada por um oftalmologista tem gente que fala desde bebê.",
+     "Uma língua inventada por um oftalmologista tem gente que fala desde bebê."
+    ],
+    [
+     "É o esperanto.",
+     "É o esperanto."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "ESPERANTO",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "esperanto"
+     ],
+     "size": 100,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "desde bebê!",
+     "pos": [
+      700,
+      1130
+     ],
+     "e": [
+      0,
+      "bebê"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Encyclopaedia Britannica",
+   "frases": [
+    [
+     "Ludwik Zamenhof nasceu em 15 de dezembro de 1859, em Bialystok, hoje na Polônia.",
+     "Lúdvik Zamenróf nasceu em quinze de dezembro de mil oitocentos e cinquenta e nove, em Biauístok, hoje na Polônia."
+    ],
+    [
+     "Era médico de olhos. E sonhava com uma segunda língua que fosse de todos os povos.",
+     "Era médico de olhos. E sonhava com uma segunda língua que fosse de todos os povos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "L. L. ZAMENHOF",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 52
+    },
+    {
+     "t": "carimbo",
+     "txt": "15 DEZ",
+     "data": "1859",
+     "pos": [
+      330,
+      700
+     ],
+     "e": [
+      0,
+      "15 de"
+     ],
+     "r": 110,
+     "ang": -8
+    },
+    {
+     "t": "tira",
+     "txt": "BIALYSTOK",
+     "pos": [
+      700,
+      700
+     ],
+     "e": [
+      0,
+      "Bialystok"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "médico de olhos",
+     "pos": [
+      520,
+      920
+     ],
+     "e": [
+      1,
+      "médico"
+     ],
+     "size": 48
+    },
+    {
+     "t": "nota",
+     "txt": "uma língua de todos",
+     "pos": [
+      560,
+      1110
+     ],
+     "e": [
+      1,
+      "todos"
+     ],
+     "cor": "laranja",
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Europeana; Britannica",
+   "frases": [
+    [
+     "Em 1887, ele publicou um livrinho em Varsóvia, assinado com um apelido: Doktoro Esperanto.",
+     "Em mil oitocentos e oitenta e sete, ele publicou um livrinho em Varsóvia, assinado com um apelido: Doktôro Esperânto."
+    ],
+    [
+     "Na língua nova, isso quer dizer: doutor esperançoso. Aquele que tem esperança.",
+     "Na língua nova, isso quer dizer: doutor esperançoso. Aquele que tem esperança."
+    ],
+    [
+     "O apelido pegou e virou o nome da língua.",
+     "O apelido pegou e virou o nome da língua."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "LINGVO INTERNACIA",
+     "data": "VARSÓVIA · 1887",
+     "rodape": "D-RO ESPERANTO",
+     "pos": [
+      300,
+      780
+     ],
+     "w": 340,
+     "ang": -3
+    },
+    {
+     "t": "verbete",
+     "palavra": "esperanto",
+     "classe": "esperanto, subst.",
+     "pos": [
+      700,
+      560
+     ],
+     "e": [
+      1,
+      "esperança"
+     ],
+     "w": 420,
+     "def": "aquele que tem esperança."
+    },
+    {
+     "t": "bloco",
+     "txt": "virou o nome",
+     "pos": [
+      680,
+      1020
+     ],
+     "e": [
+      2,
+      "nome"
+     ],
+     "size": 60,
+     "cor": "tinta",
+     "maxw": 420
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Europeana",
+   "frases": [
+    [
+     "A gramática básica cabia em 16 regras.",
+     "A gramática básica cabia em dezesseis regras."
+    ],
+    [
+     "Sem verbo irregular. Substantivo termina em o, adjetivo termina em a.",
+     "Sem verbo irregular. Substantivo termina em o, adjetivo termina em a."
+    ],
+    [
+     "Bom dia, por exemplo, é bonan tagon.",
+     "Bom dia, por exemplo, é bonân tágon."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "16",
+     "pos": [
+      520,
+      580
+     ],
+     "e": [
+      0,
+      "16"
+     ],
+     "size": 240
+    },
+    {
+     "t": "tira",
+     "txt": "regras",
+     "pos": [
+      520,
+      760
+     ],
+     "e": [
+      0,
+      "regras"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "sem verbo irregular",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      1,
+      "irregular"
+     ],
+     "size": 44
+    },
+    {
+     "t": "bloco",
+     "txt": "bonan tagon",
+     "pos": [
+      520,
+      1070
+     ],
+     "e": [
+      2,
+      "bonan"
+     ],
+     "size": 74
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Ethnologue",
+   "frases": [
+    [
+     "E aí vem o curioso: tem casais que se conheceram pelo esperanto e criaram os filhos falando a língua.",
+     "E aí vem o curioso: tem casais que se conheceram pelo esperanto e criaram os filhos falando a língua."
+    ],
+    [
+     "Segundo o Ethnologue, são uns mil falantes nativos.",
+     "Segundo o Etnólog, são uns mil falantes nativos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "casais do esperanto",
+     "pos": [
+      520,
+      500
+     ],
+     "cor": "laranja",
+     "size": 62
+    },
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      330,
+      760
+     ],
+     "e": [
+      0,
+      "casais"
+     ],
+     "w": 220
+    },
+    {
+     "t": "tira",
+     "txt": "filhos falando a língua",
+     "pos": [
+      680,
+      780
+     ],
+     "e": [
+      0,
+      "filhos"
+     ],
+     "size": 40
+    },
+    {
+     "t": "contador",
+     "de": 0,
+     "ate": 1000,
+     "fmt": "~{n} nativos",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      1,
+      "mil"
+     ],
+     "size": 90
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: UNESCO (1954); Pardue (2001)",
+   "frases": [
+    [
+     "Em 1954, a UNESCO reconheceu o papel do esperanto na troca cultural entre países.",
+     "Em mil novecentos e cinquenta e quatro, a UNESCO reconheceu o papel do esperanto na troca cultural entre países."
+    ],
+    [
+     "O Brasil tem um dos maiores movimentos esperantistas do mundo.",
+     "O Brasil tem um dos maiores movimentos esperantistas do mundo."
+    ],
+    [
+     "E hoje, 15 de dezembro, aniversário de Zamenhof, é o dia mais comemorado pelos esperantistas.",
+     "E hoje, quinze de dezembro, aniversário de Zamenróf, é o dia mais comemorado pelos esperantistas."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "UNESCO · 1954",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 52
+    },
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      330,
+      720
+     ],
+     "e": [
+      1,
+      "Brasil"
+     ],
+     "w": 260
+    },
+    {
+     "t": "tira",
+     "txt": "BRASIL: um dos maiores",
+     "pos": [
+      700,
+      700
+     ],
+     "e": [
+      1,
+      "maiores"
+     ],
+     "size": 40
+    },
+    {
+     "t": "cal",
+     "titulo": "DEZEMBRO",
+     "inicio": 2,
+     "pos": [
+      560,
+      1000
+     ],
+     "e": [
+      2,
+      "15 de"
+     ],
+     "ndias": 31,
+     "riscar": [
+      15
+     ],
+     "riscar_em": [
+      2,
+      "15 de"
+     ],
+     "escala": 0.42,
+     "ang": -2
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "fonte": "Fonte: Ethnologue; Britannica",
+   "frases": [
+    [
+     "Então: uma língua criada num livrinho de 1887 virou língua materna de gente de verdade.",
+     "Então: uma língua criada num livrinho de mil oitocentos e oitenta e sete virou língua materna de gente de verdade."
+    ],
+    [
+     "Se você inventasse uma língua, qual seria a primeira palavra?",
+     "Se você inventasse uma língua, qual seria a primeira palavra?"
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 340,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "qual seria a\nprimeira palavra?",
+     "pos": [
+      520,
+      1010
+     ],
+     "e": [
+      1,
+      "primeira"
+     ],
+     "size": 62,
+     "maxw": 740
+    }
+   ]
+  }
+ ]
+}

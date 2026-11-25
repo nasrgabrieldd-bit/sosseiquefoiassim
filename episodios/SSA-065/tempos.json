@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 86.339,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Uma língua inventada por um oftalmologista tem gente que fala desde bebê.",
+     "inicio": 0.1,
+     "dur": 4.693
+    },
+    {
+     "leg": "É o esperanto.",
+     "inicio": 4.993,
+     "dur": 1.088
+    }
+   ],
+   "fim": 6.501
+  },
+  {
+   "id": "c2",
+   "inicio": 6.501,
+   "frases": [
+    {
+     "leg": "Ludwik Zamenhof nasceu em 15 de dezembro de 1859, em Bialystok, hoje na Polônia.",
+     "inicio": 6.501,
+     "dur": 6.997
+    },
+    {
+     "leg": "Era médico de olhos. E sonhava com uma segunda língua que fosse de todos os povos.",
+     "inicio": 13.699,
+     "dur": 5.617
+    }
+   ],
+   "fim": 19.736
+  },
+  {
+   "id": "c3",
+   "inicio": 19.736,
+   "frases": [
+    {
+     "leg": "Em 1887, ele publicou um livrinho em Varsóvia, assinado com um apelido: Doktoro Esperanto.",
+     "inicio": 19.736,
+     "dur": 6.976
+    },
+    {
+     "leg": "Na língua nova, isso quer dizer: doutor esperançoso. Aquele que tem esperança.",
+     "inicio": 26.912,
+     "dur": 5.297
+    },
+    {
+     "leg": "O apelido pegou e virou o nome da língua.",
+     "inicio": 32.409,
+     "dur": 2.368
+    }
+   ],
+   "fim": 35.197
+  },
+  {
+   "id": "c4",
+   "inicio": 35.197,
+   "frases": [
+    {
+     "leg": "A gramática básica cabia em 16 regras.",
+     "inicio": 35.197,
+     "dur": 3.243
+    },
+    {
+     "leg": "Sem verbo irregular. Substantivo termina em o, adjetivo termina em a.",
+     "inicio": 38.64,
+     "dur": 5.063
+    },
+    {
+     "leg": "Bom dia, por exemplo, é bonan tagon.",
+     "inicio": 43.903,
+     "dur": 2.389
+    }
+   ],
+   "fim": 46.712
+  },
+  {
+   "id": "c5",
+   "inicio": 46.712,
+   "frases": [
+    {
+     "leg": "E aí vem o curioso: tem casais que se conheceram pelo esperanto e criaram os filhos falando a língua.",
+     "inicio": 46.712,
+     "dur": 5.803
+    },
+    {
+     "leg": "Segundo o Ethnologue, são uns mil falantes nativos.",
+     "inicio": 52.715,
+     "dur": 2.944
+    }
+   ],
+   "fim": 56.079
+  },
+  {
+   "id": "c6",
+   "inicio": 56.079,
+   "frases": [
+    {
+     "leg": "Em 1954, a UNESCO reconheceu o papel do esperanto na troca cultural entre países.",
+     "inicio": 56.079,
+     "dur": 6.699
+    },
+    {
+     "leg": "O Brasil tem um dos maiores movimentos esperantistas do mundo.",
+     "inicio": 62.977,
+     "dur": 3.733
+    },
+    {
+     "leg": "E hoje, 15 de dezembro, aniversário de Zamenhof, é o dia mais comemorado pelos esperantistas.",
+     "inicio": 66.911,
+     "dur": 6.123
+    }
+   ],
+   "fim": 73.453
+  },
+  {
+   "id": "c7",
+   "inicio": 73.453,
+   "frases": [
+    {
+     "leg": "Então: uma língua criada num livrinho de 1887 virou língua materna de gente de verdade.",
+     "inicio": 73.453,
+     "dur": 7.083
+    },
+    {
+     "leg": "Se você inventasse uma língua, qual seria a primeira palavra?",
+     "inicio": 80.736,
+     "dur": 3.413
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 84.489,
+     "dur": 1.429
+    }
+   ],
+   "fim": 86.339
+  }
+ ]
+}
