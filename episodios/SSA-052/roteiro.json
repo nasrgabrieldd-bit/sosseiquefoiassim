@@ -1,0 +1,571 @@
+{
+ "id": "SSA-052",
+ "chamada": "FEITO PRA CANSAR MENOS",
+ "materia": "EDUCAÇÃO FÍSICA",
+ "titulo": "O vôlei foi inventado porque o basquete cansava demais",
+ "fontes": [
+  "FIVB, 'History of volleyball' (fivb.com).",
+  "Volleyball Hall of Fame, 'History of volleyball' (volleyhall.org).",
+  "Olympics.com (COI), 'Volleyball: a brief history'.",
+  "FIVB (08/09/2026): Mundial de Clubes feminino em São Paulo, 8 a 13/12/2026."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "bola",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 420,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "o plano era cansar menos que o basquete",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 62,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "O vôlei foi inventado porque o basquete cansava demais.",
+     "O vôlei foi inventado porque o basquete cansava demais."
+    ],
+    [
+     "E o primeiro nome dele nem era vôlei.",
+     "E o primeiro nome dele nem era vôlei."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "bola",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "CANSAVA DEMAIS",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 88,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "nem era vôlei!",
+     "pos": [
+      640,
+      1130
+     ],
+     "e": [
+      1,
+      "nome"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: FIVB; Volleyball Hall of Fame",
+   "frases": [
+    [
+     "Estados Unidos, 1895.",
+     "Estados Unidos, mil oitocentos e noventa e cinco."
+    ],
+    [
+     "William Morgan era diretor de educação física da Associação Cristã de Moços, na cidade de Holyoke.",
+     "Uíliam Mórgan era diretor de educação física da Associação Cristã de Moços, na cidade de Rôliôk."
+    ],
+    [
+     "Quatro anos antes, James Naismith tinha inventado o basquete.",
+     "Quatro anos antes, Djeims Neismith tinha inventado o basquete."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "EUA · 1895",
+     "pos": [
+      520,
+      440
+     ],
+     "size": 56
+    },
+    {
+     "t": "tira",
+     "txt": "WILLIAM MORGAN",
+     "pos": [
+      360,
+      620
+     ],
+     "e": [
+      1,
+      "Morgan"
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "ACM · HOLYOKE",
+     "pos": [
+      640,
+      760
+     ],
+     "e": [
+      1,
+      "Holyoke"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "BASQUETE · 1891",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      2,
+      "basquete"
+     ],
+     "size": 56,
+     "ang": 4
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: FIVB; Volleyball Hall of Fame",
+   "frases": [
+    [
+     "Só que o basquete era puxado demais para os alunos mais velhos, muitos deles homens de negócios.",
+     "Só que o basquete era puxado demais para os alunos mais velhos, muitos deles homens de negócios."
+    ],
+    [
+     "Morgan queria um jogo mais leve, pra jogar dentro do ginásio, sem tanta correria.",
+     "Morgan queria um jogo mais leve, pra jogar dentro do ginásio, sem tanta correria."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "corredor",
+     "pos": [
+      330,
+      640
+     ],
+     "w": 300,
+     "ang": -4
+    },
+    {
+     "t": "bloco",
+     "txt": "puxado\ndemais",
+     "pos": [
+      700,
+      600
+     ],
+     "e": [
+      0,
+      "puxado"
+     ],
+     "size": 72,
+     "cor": "tinta",
+     "maxw": 420
+    },
+    {
+     "t": "tira",
+     "txt": "alunos mais velhos",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      0,
+      "velhos"
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "um jogo mais leve",
+     "pos": [
+      560,
+      1080
+     ],
+     "e": [
+      1,
+      "leve"
+     ],
+     "cor": "laranja",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: FIVB; Volleyball Hall of Fame",
+   "frases": [
+    [
+     "Ele subiu uma rede a 1,98 metro do chão.",
+     "Ele subiu uma rede a um metro e noventa e oito do chão."
+    ],
+    [
+     "Testou a câmara de borracha de uma bola de basquete, mas ela era leve e lenta demais.",
+     "Testou a câmara de borracha de uma bola de basquete, mas ela era leve e lenta demais."
+    ],
+    [
+     "A bola de basquete inteira era pesada. A saída foi uma bola nova, feita pela Spalding.",
+     "A bola de basquete inteira era pesada. A saída foi uma bola nova, feita pela Spólding."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "1,98 m",
+     "pos": [
+      520,
+      560
+     ],
+     "e": [
+      0,
+      "1,98"
+     ],
+     "size": 170
+    },
+    {
+     "t": "tira",
+     "txt": "altura da rede",
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      0,
+      "rede"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "câmara: leve demais",
+     "pos": [
+      330,
+      900
+     ],
+     "e": [
+      1,
+      "leve"
+     ],
+     "size": 42
+    },
+    {
+     "t": "tira",
+     "txt": "bola inteira: pesada",
+     "pos": [
+      680,
+      1000
+     ],
+     "e": [
+      2,
+      "pesada"
+     ],
+     "size": 42
+    },
+    {
+     "t": "obj",
+     "nome": "bola",
+     "pos": [
+      300,
+      1100
+     ],
+     "e": [
+      2,
+      "nova"
+     ],
+     "w": 180
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Volleyball Hall of Fame; Olympics.com",
+   "frases": [
+    [
+     "O nome original era Mintonette.",
+     "O nome original era Mintonét."
+    ],
+    [
+     "Em 1896, depois de uma demonstração, o professor Alfred Halstead sugeriu outro: volley ball, por causa da bola rebatida no ar.",
+     "Em mil oitocentos e noventa e seis, depois de uma demonstração, o professor Álfred Rólsted sugeriu outro: vóli bol, por causa da bola rebatida no ar."
+    ],
+    [
+     "Em 1964, em Tóquio, o vôlei virou esporte olímpico.",
+     "Em mil novecentos e sessenta e quatro, em Tóquio, o vôlei virou esporte olímpico."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "MINTONETTE",
+     "pos": [
+      520,
+      500
+     ],
+     "size": 90,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "risco",
+     "de": [
+      300,
+      500
+     ],
+     "ate": [
+      740,
+      500
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "sugeriu"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "VOLLEY BALL",
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      1,
+      "volley"
+     ],
+     "size": 84
+    },
+    {
+     "t": "nota",
+     "txt": "1896",
+     "pos": [
+      800,
+      830
+     ],
+     "e": [
+      1,
+      "1896"
+     ],
+     "cor": "laranja",
+     "size": 60
+    },
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      330,
+      1020
+     ],
+     "e": [
+      2,
+      "olímpico"
+     ],
+     "w": 210
+    },
+    {
+     "t": "tira",
+     "txt": "TÓQUIO 1964",
+     "pos": [
+      660,
+      1020
+     ],
+     "e": [
+      2,
+      "Tóquio"
+     ],
+     "size": 50
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: FIVB (08/09/2026)",
+   "frases": [
+    [
+     "E hoje? São Paulo recebe o Mundial de Clubes de vôlei feminino, de 8 a 13 de dezembro.",
+     "E hoje? São Paulo recebe o Mundial de Clubes de vôlei feminino, de oito a treze de dezembro."
+    ],
+    [
+     "Com 2 times brasileiros: Osasco e Sesi Bauru.",
+     "Com dois times brasileiros: Osasco e Sési Baurú."
+    ],
+    [
+     "O jogo leve de 1895 hoje vale título mundial.",
+     "O jogo leve de mil oitocentos e noventa e cinco hoje vale título mundial."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "MUNDIAL DE CLUBES · SP",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 48
+    },
+    {
+     "t": "cal",
+     "titulo": "DEZEMBRO",
+     "inicio": 2,
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      0,
+      "8 a 13"
+     ],
+     "ndias": 31,
+     "riscar": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "riscar_em": [
+      0,
+      "8 a 13"
+     ],
+     "escala": 0.5,
+     "ang": -2
+    },
+    {
+     "t": "tira",
+     "txt": "OSASCO",
+     "pos": [
+      320,
+      960
+     ],
+     "e": [
+      1,
+      "Osasco"
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "SESI BAURU",
+     "pos": [
+      700,
+      1000
+     ],
+     "e": [
+      1,
+      "Bauru"
+     ],
+     "size": 50
+    },
+    {
+     "t": "nota",
+     "txt": "vale título mundial",
+     "pos": [
+      540,
+      1140
+     ],
+     "e": [
+      2,
+      "mundial"
+     ],
+     "cor": "laranja",
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o vôlei nasceu pra cansar menos que o basquete. E hoje decide mundial.",
+     "Então: o vôlei nasceu pra cansar menos que o basquete. E hoje decide mundial."
+    ],
+    [
+     "Osasco ou Bauru: quem vai mais longe? Comenta.",
+     "Osasco ou Bauru: quem vai mais longe? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "bola",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 340,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "Osasco ou Bauru?",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      1,
+      "Osasco"
+     ],
+     "size": 74
+    },
+    {
+     "t": "nota",
+     "txt": "comenta!",
+     "pos": [
+      780,
+      1140
+     ],
+     "e": [
+      1,
+      "Comenta"
+     ],
+     "cor": "laranja"
+    }
+   ]
+  }
+ ]
+}

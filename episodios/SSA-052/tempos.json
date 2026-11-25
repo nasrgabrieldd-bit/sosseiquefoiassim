@@ -1,0 +1,151 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 89.115,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "O vôlei foi inventado porque o basquete cansava demais.",
+     "inicio": 0.1,
+     "dur": 3.499
+    },
+    {
+     "leg": "E o primeiro nome dele nem era vôlei.",
+     "inicio": 3.799,
+     "dur": 2.368
+    }
+   ],
+   "fim": 6.587
+  },
+  {
+   "id": "c2",
+   "inicio": 6.587,
+   "frases": [
+    {
+     "leg": "Estados Unidos, 1895.",
+     "inicio": 6.587,
+     "dur": 3.136
+    },
+    {
+     "leg": "William Morgan era diretor de educação física da Associação Cristã de Moços, na cidade de Holyoke.",
+     "inicio": 9.923,
+     "dur": 6.293
+    },
+    {
+     "leg": "Quatro anos antes, James Naismith tinha inventado o basquete.",
+     "inicio": 16.416,
+     "dur": 3.691
+    }
+   ],
+   "fim": 20.527
+  },
+  {
+   "id": "c3",
+   "inicio": 20.527,
+   "frases": [
+    {
+     "leg": "Só que o basquete era puxado demais para os alunos mais velhos, muitos deles homens de negócios.",
+     "inicio": 20.527,
+     "dur": 5.568
+    },
+    {
+     "leg": "Morgan queria um jogo mais leve, pra jogar dentro do ginásio, sem tanta correria.",
+     "inicio": 26.295,
+     "dur": 4.8
+    }
+   ],
+   "fim": 31.515
+  },
+  {
+   "id": "c4",
+   "inicio": 31.515,
+   "frases": [
+    {
+     "leg": "Ele subiu uma rede a 1,98 metro do chão.",
+     "inicio": 31.515,
+     "dur": 3.285
+    },
+    {
+     "leg": "Testou a câmara de borracha de uma bola de basquete, mas ela era leve e lenta demais.",
+     "inicio": 35.0,
+     "dur": 5.12
+    },
+    {
+     "leg": "A bola de basquete inteira era pesada. A saída foi uma bola nova, feita pela Spalding.",
+     "inicio": 40.32,
+     "dur": 5.767
+    }
+   ],
+   "fim": 46.507
+  },
+  {
+   "id": "c5",
+   "inicio": 46.507,
+   "frases": [
+    {
+     "leg": "O nome original era Mintonette.",
+     "inicio": 46.507,
+     "dur": 2.091
+    },
+    {
+     "leg": "Em 1896, depois de uma demonstração, o professor Alfred Halstead sugeriu outro: volley ball, por causa da bola rebatida no ar.",
+     "inicio": 48.797,
+     "dur": 9.088
+    },
+    {
+     "leg": "Em 1964, em Tóquio, o vôlei virou esporte olímpico.",
+     "inicio": 58.085,
+     "dur": 4.608
+    }
+   ],
+   "fim": 63.113
+  },
+  {
+   "id": "c6",
+   "inicio": 63.113,
+   "frases": [
+    {
+     "leg": "E hoje? São Paulo recebe o Mundial de Clubes de vôlei feminino, de 8 a 13 de dezembro.",
+     "inicio": 63.113,
+     "dur": 6.396
+    },
+    {
+     "leg": "Com 2 times brasileiros: Osasco e Sesi Bauru.",
+     "inicio": 69.709,
+     "dur": 3.136
+    },
+    {
+     "leg": "O jogo leve de 1895 hoje vale título mundial.",
+     "inicio": 73.045,
+     "dur": 4.693
+    }
+   ],
+   "fim": 78.159
+  },
+  {
+   "id": "c7",
+   "inicio": 78.159,
+   "frases": [
+    {
+     "leg": "Então: o vôlei nasceu pra cansar menos que o basquete. E hoje decide mundial.",
+     "inicio": 78.159,
+     "dur": 5.02
+    },
+    {
+     "leg": "Osasco ou Bauru: quem vai mais longe? Comenta.",
+     "inicio": 83.379,
+     "dur": 3.687
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 87.265,
+     "dur": 1.429
+    }
+   ],
+   "fim": 89.115
+  }
+ ]
+}
