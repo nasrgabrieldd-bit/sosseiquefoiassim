@@ -320,7 +320,7 @@ EPS['SSA-065']=dict(materia='LÍNGUA PORTUGUESA',titulo='Uma língua inventada p
 
 # ------------------------------------------------------------ grava os roteiro.json
 CHAMADAS={
- 'SSA-052':'FEITO PRA CANSAR MENOS','SSA-053':'ELE NUNCA DISSE ISSO',
+ 'SSA-052':'DE ONDE VEIO O VÔLEI?','SSA-053':'ELE NUNCA DISSE ISSO',
  'SSA-054':'VACINA VEM DE VACA?','SSA-055':'CADÊ O NOBEL DE MATEMÁTICA?',
  'SSA-056':'QUEM INVENTOU ISSO?','SSA-057':'O QUE SIGNIFICA ESSE E?',
  'SSA-058':'QUAL É A MAIS ALTA?','SSA-059':'SÓ 3 PONTINHOS',
