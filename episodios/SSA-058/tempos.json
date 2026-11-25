@@ -1,0 +1,141 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 79.352,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "O Everest é a montanha mais alta do mundo. Ou não.",
+     "inicio": 0.1,
+     "dur": 3.676
+    },
+    {
+     "leg": "Depende de onde você começa a medir.",
+     "inicio": 3.976,
+     "dur": 2.795
+    }
+   ],
+   "fim": 7.191
+  },
+  {
+   "id": "c2",
+   "inicio": 7.191,
+   "frases": [
+    {
+     "leg": "Medido a partir do nível do mar, o Everest ganha fácil: 8.848,86 metros.",
+     "inicio": 7.191,
+     "dur": 7.787
+    },
+    {
+     "leg": "Esse número foi anunciado por China e Nepal juntos, em 2020.",
+     "inicio": 15.177,
+     "dur": 4.224
+    }
+   ],
+   "fim": 19.821
+  },
+  {
+   "id": "c3",
+   "inicio": 19.821,
+   "frases": [
+    {
+     "leg": "Agora olha o Mauna Kea, um vulcão no Havaí.",
+     "inicio": 19.821,
+     "dur": 2.453
+    },
+    {
+     "leg": "Acima do mar, ele tem só uns 4.200 metros.",
+     "inicio": 22.475,
+     "dur": 3.456
+    },
+    {
+     "leg": "Só que ele começa lá embaixo, no fundo do oceano, uns 6 mil metros abaixo da superfície.",
+     "inicio": 26.131,
+     "dur": 5.397
+    }
+   ],
+   "fim": 31.948
+  },
+  {
+   "id": "c4",
+   "inicio": 31.948,
+   "frases": [
+    {
+     "leg": "Da base até o topo, o Mauna Kea passa de 10.200 metros.",
+     "inicio": 31.948,
+     "dur": 4.203
+    },
+    {
+     "leg": "Uns 1.300 metros a mais que o Everest inteiro.",
+     "inicio": 36.351,
+     "dur": 3.456
+    }
+   ],
+   "fim": 40.227
+  },
+  {
+   "id": "c5",
+   "inicio": 40.227,
+   "frases": [
+    {
+     "leg": "E tem uma terceira resposta. A Terra não é uma bola perfeita: é mais larga na linha do Equador.",
+     "inicio": 40.227,
+     "dur": 6.257
+    },
+    {
+     "leg": "Por isso o pico do Chimborazo, no Equador, é o ponto mais distante do centro da Terra.",
+     "inicio": 46.684,
+     "dur": 5.035
+    },
+    {
+     "leg": "Fica uns 2 quilômetros mais longe do centro que o topo do Everest.",
+     "inicio": 51.919,
+     "dur": 4.011
+    }
+   ],
+   "fim": 56.349
+  },
+  {
+   "id": "c6",
+   "inicio": 56.349,
+   "frases": [
+    {
+     "leg": "E hoje, 11 de dezembro, é o Dia Internacional das Montanhas.",
+     "inicio": 56.349,
+     "dur": 3.968
+    },
+    {
+     "leg": "A ONU criou a data em 2002. E ela é celebrada desde 2003.",
+     "inicio": 60.517,
+     "dur": 5.319
+    }
+   ],
+   "fim": 66.256
+  },
+  {
+   "id": "c7",
+   "inicio": 66.256,
+   "frases": [
+    {
+     "leg": "Então: o mais alto do nível do mar é o Everest. Da base ao topo, o Mauna Kea. E o mais longe do centro, o Chimborazo.",
+     "inicio": 66.256,
+     "dur": 7.608
+    },
+    {
+     "leg": "Pra você, qual merece o título? Comenta.",
+     "inicio": 74.064,
+     "dur": 3.239
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 77.503,
+     "dur": 1.429
+    }
+   ],
+   "fim": 79.352
+  }
+ ]
+}

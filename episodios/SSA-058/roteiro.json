@@ -1,0 +1,520 @@
+{
+ "id": "SSA-058",
+ "chamada": "QUAL É A MAIS ALTA?",
+ "materia": "GEOGRAFIA",
+ "titulo": "O Everest é a montanha mais alta? Depende de onde você mede",
+ "fontes": [
+  "Al Jazeera (08/12/2020), 'Mt Everest: Nepal, China announce revised height at 8,848.86 metres'.",
+  "NOAA Ocean Service, 'What is the highest point on Earth as measured from Earth's center?'.",
+  "USGS, 'How big are Hawaiian volcanoes?' e 'Mauna Kea'.",
+  "Encyclopaedia Britannica, 'Is Mount Everest really the tallest mountain in the world?'.",
+  "ONU, Resolução A/RES/57/245 (2002); FAO, 'International Mountain Day'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "montanha",
+    "pos": [
+     520,
+     680
+    ],
+    "e": null,
+    "w": 460
+   },
+   {
+    "t": "bloco",
+    "txt": "depende de onde você mede",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 70,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "O Everest é a montanha mais alta do mundo. Ou não.",
+     "O Everest é a montanha mais alta do mundo. Ou não."
+    ],
+    [
+     "Depende de onde você começa a medir.",
+     "Depende de onde você começa a medir."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "montanha",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 440,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "OU NÃO?",
+     "pos": [
+      520,
+      980
+     ],
+     "size": 100,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "depende!",
+     "pos": [
+      700,
+      1140
+     ],
+     "e": [
+      1,
+      "Depende"
+     ],
+     "cor": "laranja",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Al Jazeera (2020)",
+   "frases": [
+    [
+     "Medido a partir do nível do mar, o Everest ganha fácil: 8.848,86 metros.",
+     "Medido a partir do nível do mar, o Everest ganha fácil: oito mil oitocentos e quarenta e oito vírgula oitenta e seis metros."
+    ],
+    [
+     "Esse número foi anunciado por China e Nepal juntos, em 2020.",
+     "Esse número foi anunciado por China e Nepal juntos, em dois mil e vinte."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "EVEREST · do nível do mar",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 46
+    },
+    {
+     "t": "numero",
+     "txt": "8.848,86 m",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "8.848"
+     ],
+     "size": 140
+    },
+    {
+     "t": "tira",
+     "txt": "CHINA + NEPAL · 2020",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "China"
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: USGS",
+   "frases": [
+    [
+     "Agora olha o Mauna Kea, um vulcão no Havaí.",
+     "Agora olha o Mauna Kêa, um vulcão no Havaí."
+    ],
+    [
+     "Acima do mar, ele tem só uns 4.200 metros.",
+     "Acima do mar, ele tem só uns quatro mil e duzentos metros."
+    ],
+    [
+     "Só que ele começa lá embaixo, no fundo do oceano, uns 6 mil metros abaixo da superfície.",
+     "Só que ele começa lá embaixo, no fundo do oceano, uns seis mil metros abaixo da superfície."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "MAUNA KEA · HAVAÍ",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "obj",
+     "nome": "montanha",
+     "pos": [
+      330,
+      720
+     ],
+     "e": [
+      0,
+      "vulcão"
+     ],
+     "w": 300
+    },
+    {
+     "t": "tira",
+     "txt": "~4.200 m acima do mar",
+     "pos": [
+      700,
+      660
+     ],
+     "e": [
+      1,
+      "4.200"
+     ],
+     "size": 40
+    },
+    {
+     "t": "seta",
+     "de": [
+      700,
+      800
+     ],
+     "ate": [
+      700,
+      1060
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      2,
+      "fundo"
+     ],
+     "cor": "laranja"
+    },
+    {
+     "t": "tira",
+     "txt": "~6.000 m debaixo d'água",
+     "pos": [
+      560,
+      1120
+     ],
+     "e": [
+      2,
+      "6 mil"
+     ],
+     "size": 40
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: NOAA; USGS",
+   "frases": [
+    [
+     "Da base até o topo, o Mauna Kea passa de 10.200 metros.",
+     "Da base até o topo, o Mauna Kêa passa de dez mil e duzentos metros."
+    ],
+    [
+     "Uns 1.300 metros a mais que o Everest inteiro.",
+     "Uns mil e trezentos metros a mais que o Everest inteiro."
+    ]
+   ],
+   "camera": {
+    "push": 0.06,
+    "zooms": [
+     {
+      "e": [
+       0,
+       "10.200"
+      ],
+      "escala": 1.12,
+      "alvo": [
+       520,
+       640
+      ],
+      "dur": 0.7
+     }
+    ]
+   },
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "10.200 m",
+     "pos": [
+      520,
+      640
+     ],
+     "e": [
+      0,
+      "10.200"
+     ],
+     "size": 170
+    },
+    {
+     "t": "tira",
+     "txt": "da base ao topo",
+     "pos": [
+      520,
+      820
+     ],
+     "e": [
+      0,
+      "base"
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "+1.300 m que o Everest",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      1,
+      "1.300"
+     ],
+     "size": 64,
+     "cor": "tinta",
+     "maxw": 800
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: NOAA; Britannica",
+   "frases": [
+    [
+     "E tem uma terceira resposta. A Terra não é uma bola perfeita: é mais larga na linha do Equador.",
+     "E tem uma terceira resposta. A Terra não é uma bola perfeita: é mais larga na linha do Equador."
+    ],
+    [
+     "Por isso o pico do Chimborazo, no Equador, é o ponto mais distante do centro da Terra.",
+     "Por isso o pico do Chimborázo, no Equador, é o ponto mais distante do centro da Terra."
+    ],
+    [
+     "Fica uns 2 quilômetros mais longe do centro que o topo do Everest.",
+     "Fica uns dois quilômetros mais longe do centro que o topo do Everest."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "globo",
+     "pos": [
+      330,
+      640
+     ],
+     "w": 300
+    },
+    {
+     "t": "nota",
+     "txt": "mais larga\nno Equador",
+     "pos": [
+      720,
+      620
+     ],
+     "e": [
+      0,
+      "larga"
+     ],
+     "cor": "laranja",
+     "size": 56
+    },
+    {
+     "t": "tira",
+     "txt": "CHIMBORAZO · EQUADOR",
+     "pos": [
+      520,
+      880
+     ],
+     "e": [
+      1,
+      "Chimborazo"
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "+2 km do centro",
+     "pos": [
+      520,
+      1070
+     ],
+     "e": [
+      2,
+      "2 quilômetros"
+     ],
+     "size": 70,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: ONU, Res. 57/245; FAO",
+   "frases": [
+    [
+     "E hoje, 11 de dezembro, é o Dia Internacional das Montanhas.",
+     "E hoje, onze de dezembro, é o Dia Internacional das Montanhas."
+    ],
+    [
+     "A ONU criou a data em 2002. E ela é celebrada desde 2003.",
+     "A ONU criou a data em dois mil e dois. E ela é celebrada desde dois mil e três."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "DEZEMBRO",
+     "inicio": 2,
+     "pos": [
+      520,
+      690
+     ],
+     "e": [
+      0,
+      "11 de"
+     ],
+     "ndias": 31,
+     "riscar": [
+      11
+     ],
+     "riscar_em": [
+      0,
+      "11 de"
+     ],
+     "escala": 0.5,
+     "ang": -2
+    },
+    {
+     "t": "bloco",
+     "txt": "DIA DAS MONTANHAS",
+     "pos": [
+      520,
+      950
+     ],
+     "e": [
+      0,
+      "Dia"
+     ],
+     "size": 62,
+     "maxw": 820
+    },
+    {
+     "t": "tira",
+     "txt": "ONU · 2002",
+     "pos": [
+      700,
+      1130
+     ],
+     "e": [
+      1,
+      "2002"
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o mais alto do nível do mar é o Everest. Da base ao topo, o Mauna Kea. E o mais longe do centro, o Chimborazo.",
+     "Então: o mais alto do nível do mar é o Everest. Da base ao topo, o Mauna Kêa. E o mais longe do centro, o Chimborázo."
+    ],
+    [
+     "Pra você, qual merece o título? Comenta.",
+     "Pra você, qual merece o título? Comenta."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "montanha",
+     "pos": [
+      520,
+      600
+     ],
+     "w": 380
+    },
+    {
+     "t": "tira",
+     "txt": "EVEREST",
+     "pos": [
+      300,
+      860
+     ],
+     "e": [
+      0,
+      "Everest"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "MAUNA KEA",
+     "pos": [
+      720,
+      920
+     ],
+     "e": [
+      0,
+      "Mauna"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "CHIMBORAZO",
+     "pos": [
+      460,
+      1020
+     ],
+     "e": [
+      0,
+      "Chimborazo"
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "qual merece?",
+     "pos": [
+      680,
+      1140
+     ],
+     "e": [
+      1,
+      "merece"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  }
+ ]
+}
