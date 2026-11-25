@@ -1,0 +1,151 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 87.477,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Um dos primeiros videogames da história foi feito pra animar a visita a um laboratório.",
+     "inicio": 0.1,
+     "dur": 4.949
+    },
+    {
+     "leg": "E ninguém pediu patente.",
+     "inicio": 5.249,
+     "dur": 1.92
+    }
+   ],
+   "fim": 7.589
+  },
+  {
+   "id": "c2",
+   "inicio": 7.589,
+   "frases": [
+    {
+     "leg": "Estados Unidos, outubro de 1958. Laboratório Nacional de Brookhaven.",
+     "inicio": 7.589,
+     "dur": 6.449
+    },
+    {
+     "leg": "Todo ano, o laboratório abria as portas pra visitantes.",
+     "inicio": 14.239,
+     "dur": 3.477
+    },
+    {
+     "leg": "E o físico William Higinbotham achou que um jogo ia deixar a visita bem menos parada.",
+     "inicio": 17.916,
+     "dur": 5.184
+    }
+   ],
+   "fim": 23.52
+  },
+  {
+   "id": "c3",
+   "inicio": 23.52,
+   "frases": [
+    {
+     "leg": "A ideia: um jogo de tênis, chamado Tennis for Two.",
+     "inicio": 23.52,
+     "dur": 2.923
+    },
+    {
+     "leg": "O cérebro era um pequeno computador analógico.",
+     "inicio": 26.643,
+     "dur": 2.944
+    },
+    {
+     "leg": "E a tela, um osciloscópio de só 5 polegadas. Uns 13 centímetros.",
+     "inicio": 29.787,
+     "dur": 4.913
+    }
+   ],
+   "fim": 35.12
+  },
+  {
+   "id": "c4",
+   "inicio": 35.12,
+   "frases": [
+    {
+     "leg": "A quadra aparecia de lado, com a rede no meio.",
+     "inicio": 35.12,
+     "dur": 2.88
+    },
+    {
+     "leg": "Cada jogador tinha um botão e um controle de girar pra escolher o ângulo da raquetada.",
+     "inicio": 38.2,
+     "dur": 5.227
+    },
+    {
+     "leg": "Centenas de visitantes fizeram fila pra jogar.",
+     "inicio": 43.627,
+     "dur": 3.243
+    }
+   ],
+   "fim": 47.289
+  },
+  {
+   "id": "c5",
+   "inicio": 47.289,
+   "frases": [
+    {
+     "leg": "Higinbotham não pediu patente. E disse depois que, se tivesse pedido, ela seria do governo americano.",
+     "inicio": 47.289,
+     "dur": 6.577
+    },
+    {
+     "leg": "Depois de 2 anos, o jogo foi desmontado e as peças foram usadas em outras coisas.",
+     "inicio": 54.067,
+     "dur": 5.397
+    }
+   ],
+   "fim": 59.884
+  },
+  {
+   "id": "c6",
+   "inicio": 59.884,
+   "frases": [
+    {
+     "leg": "E hoje, 10 de dezembro, tem o The Game Awards, uma das maiores premiações de games do mundo.",
+     "inicio": 59.884,
+     "dur": 5.504
+    },
+    {
+     "leg": "E o próprio laboratório diz: não dá pra dar o título de primeiro videogame a uma invenção só.",
+     "inicio": 65.588,
+     "dur": 5.547
+    },
+    {
+     "leg": "Mas o tênis de 1958 está entre os pioneiros.",
+     "inicio": 71.335,
+     "dur": 4.352
+    }
+   ],
+   "fim": 76.107
+  },
+  {
+   "id": "c7",
+   "inicio": 76.107,
+   "frases": [
+    {
+     "leg": "Então: um dos primeiros videogames nasceu pra animar uma visita, numa tela de 13 centímetros.",
+     "inicio": 76.107,
+     "dur": 5.76
+    },
+    {
+     "leg": "E você, qual foi o primeiro videogame que jogou na vida?",
+     "inicio": 82.067,
+     "dur": 3.221
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 85.628,
+     "dur": 1.429
+    }
+   ],
+   "fim": 87.477
+  }
+ ]
+}

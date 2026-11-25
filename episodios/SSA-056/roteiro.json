@@ -1,0 +1,515 @@
+{
+ "id": "SSA-056",
+ "chamada": "QUEM INVENTOU ISSO?",
+ "materia": "HISTÓRIA",
+ "titulo": "Um dos primeiros videogames foi feito pra animar visita de laboratório",
+ "fontes": [
+  "Brookhaven National Laboratory, 'The First Video Game?' (bnl.gov).",
+  "American Physical Society, APS News (2008), 'October 1958: Physicist Invents First Video Game'.",
+  "The Game Awards, 'TGA returns December 10, 2026'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "tv",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 420,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "um jogo de tênis numa tela de 13 cm",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 64,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Um dos primeiros videogames da história foi feito pra animar a visita a um laboratório.",
+     "Um dos primeiros videogames da história foi feito pra animar a visita a um laboratório."
+    ],
+    [
+     "E ninguém pediu patente.",
+     "E ninguém pediu patente."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tv",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 400,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "PRA ANIMAR A VISITA",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 72,
+     "cor": "tinta",
+     "ang": -3,
+     "maxw": 800
+    },
+    {
+     "t": "nota",
+     "txt": "sem patente!",
+     "pos": [
+      680,
+      1130
+     ],
+     "e": [
+      1,
+      "patente"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Brookhaven National Laboratory",
+   "frases": [
+    [
+     "Estados Unidos, outubro de 1958. Laboratório Nacional de Brookhaven.",
+     "Estados Unidos, outubro de mil novecentos e cinquenta e oito. Laboratório Nacional de Brúk-rêiven."
+    ],
+    [
+     "Todo ano, o laboratório abria as portas pra visitantes.",
+     "Todo ano, o laboratório abria as portas pra visitantes."
+    ],
+    [
+     "E o físico William Higinbotham achou que um jogo ia deixar a visita bem menos parada.",
+     "E o físico Uíliam Ríguinbótam achou que um jogo ia deixar a visita bem menos parada."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "BROOKHAVEN · OUT. 1958",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "dia de visitas",
+     "pos": [
+      520,
+      620
+     ],
+     "e": [
+      1,
+      "visitantes"
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "WILLIAM HIGINBOTHAM",
+     "pos": [
+      520,
+      820
+     ],
+     "e": [
+      2,
+      "Higinbotham"
+     ],
+     "size": 44
+    },
+    {
+     "t": "nota",
+     "txt": "menos parada",
+     "pos": [
+      620,
+      1020
+     ],
+     "e": [
+      2,
+      "parada"
+     ],
+     "cor": "laranja",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Brookhaven National Laboratory",
+   "frases": [
+    [
+     "A ideia: um jogo de tênis, chamado Tennis for Two.",
+     "A ideia: um jogo de tênis, chamado Ténis for Tú."
+    ],
+    [
+     "O cérebro era um pequeno computador analógico.",
+     "O cérebro era um pequeno computador analógico."
+    ],
+    [
+     "E a tela, um osciloscópio de só 5 polegadas. Uns 13 centímetros.",
+     "E a tela, um osciloscópio de só cinco polegadas. Uns treze centímetros."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "TENNIS FOR TWO",
+     "pos": [
+      520,
+      560
+     ],
+     "size": 80,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "obj",
+     "nome": "computador",
+     "pos": [
+      330,
+      860
+     ],
+     "e": [
+      1,
+      "computador"
+     ],
+     "w": 280
+    },
+    {
+     "t": "tira",
+     "txt": "computador analógico",
+     "pos": [
+      330,
+      1050
+     ],
+     "e": [
+      1,
+      "analógico"
+     ],
+     "size": 40
+    },
+    {
+     "t": "numero",
+     "txt": "13 cm",
+     "pos": [
+      720,
+      850
+     ],
+     "e": [
+      2,
+      "13"
+     ],
+     "size": 140
+    },
+    {
+     "t": "tira",
+     "txt": "de tela",
+     "pos": [
+      720,
+      990
+     ],
+     "e": [
+      2,
+      "tela"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Brookhaven National Laboratory",
+   "frases": [
+    [
+     "A quadra aparecia de lado, com a rede no meio.",
+     "A quadra aparecia de lado, com a rede no meio."
+    ],
+    [
+     "Cada jogador tinha um botão e um controle de girar pra escolher o ângulo da raquetada.",
+     "Cada jogador tinha um botão e um controle de girar pra escolher o ângulo da raquetada."
+    ],
+    [
+     "Centenas de visitantes fizeram fila pra jogar.",
+     "Centenas de visitantes fizeram fila pra jogar."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "tv",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380
+    },
+    {
+     "t": "seta",
+     "de": [
+      300,
+      860
+     ],
+     "ate": [
+      740,
+      860
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "quadra"
+     ]
+    },
+    {
+     "t": "tira",
+     "txt": "botão + controle de girar",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "botão"
+     ],
+     "size": 42
+    },
+    {
+     "t": "bloco",
+     "txt": "fila de centenas",
+     "pos": [
+      520,
+      1120
+     ],
+     "e": [
+      2,
+      "fila"
+     ],
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Brookhaven Lab; APS News (2008)",
+   "frases": [
+    [
+     "Higinbotham não pediu patente. E disse depois que, se tivesse pedido, ela seria do governo americano.",
+     "Ríguinbótam não pediu patente. E disse depois que, se tivesse pedido, ela seria do governo americano."
+    ],
+    [
+     "Depois de 2 anos, o jogo foi desmontado e as peças foram usadas em outras coisas.",
+     "Depois de dois anos, o jogo foi desmontado e as peças foram usadas em outras coisas."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "PATENTE?",
+     "pos": [
+      520,
+      500
+     ],
+     "size": 90,
+     "cor": "tinta"
+    },
+    {
+     "t": "risco",
+     "de": [
+      330,
+      500
+     ],
+     "ate": [
+      710,
+      500
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "não pediu"
+     ]
+    },
+    {
+     "t": "nota",
+     "txt": "seria do governo",
+     "pos": [
+      620,
+      700
+     ],
+     "e": [
+      0,
+      "governo"
+     ],
+     "cor": "laranja",
+     "size": 58
+    },
+    {
+     "t": "numero",
+     "txt": "2",
+     "pos": [
+      330,
+      960
+     ],
+     "e": [
+      1,
+      "2 anos"
+     ],
+     "size": 220
+    },
+    {
+     "t": "tira",
+     "txt": "anos depois: desmontado",
+     "pos": [
+      680,
+      980
+     ],
+     "e": [
+      1,
+      "desmontado"
+     ],
+     "size": 40
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: The Game Awards (2026); Brookhaven Lab",
+   "frases": [
+    [
+     "E hoje, 10 de dezembro, tem o The Game Awards, uma das maiores premiações de games do mundo.",
+     "E hoje, dez de dezembro, tem o The Gueim Auórds, uma das maiores premiações de games do mundo."
+    ],
+    [
+     "E o próprio laboratório diz: não dá pra dar o título de primeiro videogame a uma invenção só.",
+     "E o próprio laboratório diz: não dá pra dar o título de primeiro videogame a uma invenção só."
+    ],
+    [
+     "Mas o tênis de 1958 está entre os pioneiros.",
+     "Mas o tênis de mil novecentos e cinquenta e oito está entre os pioneiros."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "THE GAME AWARDS · 10/12",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 46
+    },
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      300,
+      760
+     ],
+     "e": [
+      0,
+      "games"
+     ],
+     "w": 230,
+     "ang": -4
+    },
+    {
+     "t": "bloco",
+     "txt": "1º videogame?",
+     "pos": [
+      680,
+      740
+     ],
+     "e": [
+      1,
+      "primeiro"
+     ],
+     "size": 60,
+     "maxw": 400
+    },
+    {
+     "t": "bloco",
+     "txt": "entre os pioneiros",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      2,
+      "pioneiros"
+     ],
+     "size": 72,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: um dos primeiros videogames nasceu pra animar uma visita, numa tela de 13 centímetros.",
+     "Então: um dos primeiros videogames nasceu pra animar uma visita, numa tela de treze centímetros."
+    ],
+    [
+     "E você, qual foi o primeiro videogame que jogou na vida?",
+     "E você, qual foi o primeiro videogame que jogou na vida?"
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tv",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "qual foi o seu primeiro?",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      1,
+      "primeiro"
+     ],
+     "size": 66,
+     "maxw": 780
+    }
+   ]
+  }
+ ]
+}
