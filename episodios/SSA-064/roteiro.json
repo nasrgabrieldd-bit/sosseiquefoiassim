@@ -1,0 +1,527 @@
+{
+ "id": "SSA-064",
+ "chamada": "VOCÊ APRENDEU ISSO ERRADO?",
+ "materia": "FILOSOFIA",
+ "titulo": "Sócrates nunca escreveu \"só sei que nada sei\"",
+ "fontes": [
+  "Stanford Encyclopedia of Philosophy, 'Socrates'.",
+  "Encyclopaedia Britannica, 'Socrates'.",
+  "PLATÃO. Apologia de Sócrates, 21a–d (trad. H. N. Fowler, 1914; Perseus/Perseids).",
+  "FINE, Gail. Oxford Studies in Ancient Philosophy, v. 35 (2008), sobre a frase 'só sei que nada sei'.",
+  "KRUGER, J.; DUNNING, D. Journal of Personality and Social Psychology, 77(6), 1999."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "livro",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 420,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "não foi bem assim que ele disse",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 64,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Sócrates nunca escreveu uma linha. E a frase mais famosa dele não é bem dele.",
+     "Sócrates nunca escreveu uma linha. E a frase mais famosa dele não é bem dele."
+    ],
+    [
+     "Só sei que nada sei.",
+     "Só sei que nada sei."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "risco",
+     "de": [
+      300,
+      620
+     ],
+     "ate": [
+      740,
+      620
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "nunca"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "\"Só sei que nada sei\"",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      1,
+      "Só sei"
+     ],
+     "size": 70,
+     "cor": "tinta",
+     "maxw": 800
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Britannica; Stanford Encyclopedia",
+   "frases": [
+    [
+     "Atenas, século 5 antes de Cristo.",
+     "Atenas, século cinco antes de Cristo."
+    ],
+    [
+     "Sócrates passava o dia fazendo pergunta atrás de pergunta pras pessoas. Mas não deixou nada escrito.",
+     "Sócrates passava o dia fazendo pergunta atrás de pergunta pras pessoas. Mas não deixou nada escrito."
+    ],
+    [
+     "O que a gente sabe dele vem de outros: Platão, Xenofonte e uma comédia de Aristófanes.",
+     "O que a gente sabe dele vem de outros: Platão, Csenofonte e uma comédia de Aristófanes."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ATENAS · SÉC. V a.C.",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "nada escrito",
+     "pos": [
+      520,
+      650
+     ],
+     "e": [
+      1,
+      "nada"
+     ],
+     "size": 80,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "tira",
+     "txt": "PLATÃO",
+     "pos": [
+      300,
+      900
+     ],
+     "e": [
+      2,
+      "Platão"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "XENOFONTE",
+     "pos": [
+      700,
+      960
+     ],
+     "e": [
+      2,
+      "Xenofonte"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "ARISTÓFANES",
+     "pos": [
+      480,
+      1100
+     ],
+     "e": [
+      2,
+      "Aristófanes"
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Platão, Apologia 21a",
+   "frases": [
+    [
+     "Segundo Platão, um amigo dele, Querefonte, foi ao oráculo de Delfos e perguntou: tem alguém mais sábio que Sócrates?",
+     "Segundo Platão, um amigo dele, Kerefônte, foi ao oráculo de Délfos e perguntou: tem alguém mais sábio que Sócrates?"
+    ],
+    [
+     "A resposta foi: ninguém.",
+     "A resposta foi: ninguém."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "ORÁCULO DE DELFOS",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "alguém mais sábio?",
+     "pos": [
+      520,
+      680
+     ],
+     "e": [
+      0,
+      "sábio"
+     ],
+     "size": 70,
+     "maxw": 780
+    },
+    {
+     "t": "bloco",
+     "txt": "NINGUÉM",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "ninguém"
+     ],
+     "size": 110,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Platão, Apologia 21b–d",
+   "frases": [
+    [
+     "Sócrates estranhou e foi conversar com gente famosa por ser sábia.",
+     "Sócrates estranhou e foi conversar com gente famosa por ser sábia."
+    ],
+    [
+     "E concluiu: essa pessoa acha que sabe o que não sabe.",
+     "E concluiu: essa pessoa acha que sabe o que não sabe."
+    ],
+    [
+     "Eu, pelo menos, não acho que sei o que não sei.",
+     "Eu, pelo menos, não acho que sei o que não sei."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "os \"sábios\" de Atenas",
+     "pos": [
+      520,
+      460
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "acha que sabe",
+     "pos": [
+      330,
+      700
+     ],
+     "e": [
+      1,
+      "acha que sabe"
+     ],
+     "cor": "laranja",
+     "size": 60
+    },
+    {
+     "t": "nota",
+     "txt": "...mas não sabe",
+     "pos": [
+      700,
+      820
+     ],
+     "e": [
+      1,
+      "não sabe"
+     ],
+     "size": 58
+    },
+    {
+     "t": "bloco",
+     "txt": "eu não acho\nque sei",
+     "pos": [
+      520,
+      1060
+     ],
+     "e": [
+      2,
+      "não acho"
+     ],
+     "size": 68,
+     "cor": "tinta",
+     "maxw": 600
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Platão, Apologia 21d; Gail Fine (2008)",
+   "frases": [
+    [
+     "É isso que está no texto de Platão: não sei, e também não acho que sei.",
+     "É isso que está no texto de Platão: não sei, e também não acho que sei."
+    ],
+    [
+     "A versão curta, só sei que nada sei, não aparece assim em nenhuma obra dele.",
+     "A versão curta, só sei que nada sei, não aparece assim em nenhuma obra dele."
+    ],
+    [
+     "Foi um resumo que pegou.",
+     "Foi um resumo que pegou."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "APOLOGIA · 21d",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "bloco",
+     "txt": "\"não sei, e não\nacho que sei\"",
+     "pos": [
+      520,
+      680
+     ],
+     "e": [
+      0,
+      "não sei"
+     ],
+     "size": 62,
+     "maxw": 700
+    },
+    {
+     "t": "tira",
+     "txt": "só sei que nada sei",
+     "pos": [
+      520,
+      920
+     ],
+     "e": [
+      1,
+      "versão curta"
+     ],
+     "size": 46
+    },
+    {
+     "t": "risco",
+     "de": [
+      300,
+      925
+     ],
+     "ate": [
+      740,
+      915
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "não aparece"
+     ]
+    },
+    {
+     "t": "nota",
+     "txt": "um resumo que pegou",
+     "pos": [
+      560,
+      1120
+     ],
+     "e": [
+      2,
+      "resumo"
+     ],
+     "cor": "laranja",
+     "size": 54
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Kruger & Dunning (1999)",
+   "frases": [
+    [
+     "E hoje? Em 1999, dois psicólogos da Universidade Cornell testaram algo parecido.",
+     "E hoje? Em mil novecentos e noventa e nove, dois psicólogos da Universidade Córnel testaram algo parecido."
+    ],
+    [
+     "Quem foi pior em testes de lógica e gramática achou que tinha ido acima da média.",
+     "Quem foi pior em testes de lógica e gramática achou que tinha ido acima da média."
+    ],
+    [
+     "Ficou conhecido como efeito Dunning-Kruger.",
+     "Ficou conhecido como efeito Dâning-Crúguer."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "CORNELL · 1999",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "os piores nos testes...",
+     "pos": [
+      520,
+      620
+     ],
+     "e": [
+      1,
+      "pior"
+     ],
+     "size": 46
+    },
+    {
+     "t": "bloco",
+     "txt": "...se acharam\nacima da média",
+     "pos": [
+      520,
+      840
+     ],
+     "e": [
+      1,
+      "acima"
+     ],
+     "size": 64,
+     "cor": "tinta",
+     "maxw": 640
+    },
+    {
+     "t": "tira",
+     "txt": "EFEITO DUNNING-KRUGER",
+     "pos": [
+      520,
+      1090
+     ],
+     "e": [
+      2,
+      "Dunning"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: Sócrates nunca disse só sei que nada sei. Ele disse que não fingia saber.",
+     "Então: Sócrates nunca disse só sei que nada sei. Ele disse que não fingia saber."
+    ],
+    [
+     "Agora você sabe: admitir que não sabe já é meio caminho.",
+     "Agora você sabe: admitir que não sabe já é meio caminho."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "livro",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 340,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "não fingia saber",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      0,
+      "fingia"
+     ],
+     "size": 74
+    },
+    {
+     "t": "nota",
+     "txt": "meio caminho",
+     "pos": [
+      680,
+      1140
+     ],
+     "e": [
+      1,
+      "meio"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  }
+ ]
+}

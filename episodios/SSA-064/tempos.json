@@ -1,0 +1,151 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 80.433,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Sócrates nunca escreveu uma linha. E a frase mais famosa dele não é bem dele.",
+     "inicio": 0.1,
+     "dur": 5.084
+    },
+    {
+     "leg": "Só sei que nada sei.",
+     "inicio": 5.384,
+     "dur": 1.472
+    }
+   ],
+   "fim": 7.276
+  },
+  {
+   "id": "c2",
+   "inicio": 7.276,
+   "frases": [
+    {
+     "leg": "Atenas, século 5 antes de Cristo.",
+     "inicio": 7.276,
+     "dur": 2.475
+    },
+    {
+     "leg": "Sócrates passava o dia fazendo pergunta atrás de pergunta pras pessoas. Mas não deixou nada escrito.",
+     "inicio": 9.951,
+     "dur": 6.62
+    },
+    {
+     "leg": "O que a gente sabe dele vem de outros: Platão, Xenofonte e uma comédia de Aristófanes.",
+     "inicio": 16.771,
+     "dur": 5.504
+    }
+   ],
+   "fim": 22.695
+  },
+  {
+   "id": "c3",
+   "inicio": 22.695,
+   "frases": [
+    {
+     "leg": "Segundo Platão, um amigo dele, Querefonte, foi ao oráculo de Delfos e perguntou: tem alguém mais sábio que Sócrates?",
+     "inicio": 22.695,
+     "dur": 6.891
+    },
+    {
+     "leg": "A resposta foi: ninguém.",
+     "inicio": 29.925,
+     "dur": 1.621
+    }
+   ],
+   "fim": 31.967
+  },
+  {
+   "id": "c4",
+   "inicio": 31.967,
+   "frases": [
+    {
+     "leg": "Sócrates estranhou e foi conversar com gente famosa por ser sábia.",
+     "inicio": 31.967,
+     "dur": 4.139
+    },
+    {
+     "leg": "E concluiu: essa pessoa acha que sabe o que não sabe.",
+     "inicio": 36.305,
+     "dur": 3.051
+    },
+    {
+     "leg": "Eu, pelo menos, não acho que sei o que não sei.",
+     "inicio": 39.556,
+     "dur": 2.773
+    }
+   ],
+   "fim": 42.749
+  },
+  {
+   "id": "c5",
+   "inicio": 42.749,
+   "frases": [
+    {
+     "leg": "É isso que está no texto de Platão: não sei, e também não acho que sei.",
+     "inicio": 42.749,
+     "dur": 4.075
+    },
+    {
+     "leg": "A versão curta, só sei que nada sei, não aparece assim em nenhuma obra dele.",
+     "inicio": 47.024,
+     "dur": 4.395
+    },
+    {
+     "leg": "Foi um resumo que pegou.",
+     "inicio": 51.619,
+     "dur": 1.515
+    }
+   ],
+   "fim": 53.553
+  },
+  {
+   "id": "c6",
+   "inicio": 53.553,
+   "frases": [
+    {
+     "leg": "E hoje? Em 1999, dois psicólogos da Universidade Cornell testaram algo parecido.",
+     "inicio": 53.553,
+     "dur": 7.463
+    },
+    {
+     "leg": "Quem foi pior em testes de lógica e gramática achou que tinha ido acima da média.",
+     "inicio": 61.216,
+     "dur": 4.992
+    },
+    {
+     "leg": "Ficou conhecido como efeito Dunning-Kruger.",
+     "inicio": 66.408,
+     "dur": 2.645
+    }
+   ],
+   "fim": 69.473
+  },
+  {
+   "id": "c7",
+   "inicio": 69.473,
+   "frases": [
+    {
+     "leg": "Então: Sócrates nunca disse só sei que nada sei. Ele disse que não fingia saber.",
+     "inicio": 69.473,
+     "dur": 5.212
+    },
+    {
+     "leg": "Agora você sabe: admitir que não sabe já é meio caminho.",
+     "inicio": 74.885,
+     "dur": 3.499
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 78.584,
+     "dur": 1.429
+    }
+   ],
+   "fim": 80.433
+  }
+ ]
+}
