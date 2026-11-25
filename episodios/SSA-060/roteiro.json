@@ -1,0 +1,459 @@
+{
+ "id": "SSA-060",
+ "chamada": "ELE ACHOU UM FRACASSO",
+ "materia": "ARTE",
+ "titulo": "Van Gogh achou A Noite Estrelada um fracasso",
+ "fontes": [
+  "Encyclopaedia Britannica, 'The Starry Night'.",
+  "MoMA Learning, 'Vincent van Gogh. The Starry Night. 1889'.",
+  "THOMSON, Richard. 'Vincent van Gogh: The Starry Night' (MoMA, PDF).",
+  "Getty, 'Van Gogh's Shelter'.",
+  "Carta de Van Gogh a Émile Bernard (nov. 1889), via WebExhibits."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "moldura",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 420,
+    "ang": -3
+   },
+   {
+    "t": "bloco",
+    "txt": "o próprio pintor não gostou",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 70,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Um dos quadros mais famosos do mundo foi chamado de fracasso pelo próprio pintor.",
+     "Um dos quadros mais famosos do mundo foi chamado de fracasso pelo próprio pintor."
+    ],
+    [
+     "A Noite Estrelada, de Van Gogh.",
+     "A Noite Estrelada, de Van Gógui."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 400,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "nota",
+     "txt": "fracasso?",
+     "pos": [
+      720,
+      860
+     ],
+     "cor": "laranja",
+     "size": 70
+    },
+    {
+     "t": "bloco",
+     "txt": "A NOITE ESTRELADA",
+     "pos": [
+      480,
+      1080
+     ],
+     "e": [
+      1,
+      "Noite"
+     ],
+     "size": 66,
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Getty; Britannica",
+   "frases": [
+    [
+     "Em 1889, depois de crises de saúde, Vincent van Gogh se internou por vontade própria num hospital psiquiátrico.",
+     "Em mil oitocentos e oitenta e nove, depois de crises de saúde, Vincent van Gógui se internou por vontade própria num hospital psiquiátrico."
+    ],
+    [
+     "Ficava em Saint-Rémy-de-Provence, no sul da França.",
+     "Ficava em Sã Remí de Provâns, no sul da França."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "1889",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 60
+    },
+    {
+     "t": "bloco",
+     "txt": "por vontade\nprópria",
+     "pos": [
+      520,
+      700
+     ],
+     "e": [
+      0,
+      "vontade"
+     ],
+     "size": 72,
+     "maxw": 600
+    },
+    {
+     "t": "tira",
+     "txt": "SAINT-RÉMY · SUL DA FRANÇA",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      1,
+      "Saint"
+     ],
+     "size": 42
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Britannica; MoMA",
+   "frases": [
+    [
+     "Da janela com grades do quarto, ele via o campo e o céu antes do amanhecer.",
+     "Da janela com grades do quarto, ele via o campo e o céu antes do amanhecer."
+    ],
+    [
+     "Mas ele não podia pintar no quarto.",
+     "Mas ele não podia pintar no quarto."
+    ],
+    [
+     "Então pintou A Noite Estrelada de memória e de imaginação, em outra sala, em junho de 1889.",
+     "Então pintou A Noite Estrelada de memória e de imaginação, em outra sala, em junho de mil oitocentos e oitenta e nove."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "nota",
+     "txt": "janela com grades",
+     "pos": [
+      520,
+      480
+     ],
+     "size": 62
+    },
+    {
+     "t": "bloco",
+     "txt": "não podia\npintar no quarto",
+     "pos": [
+      520,
+      720
+     ],
+     "e": [
+      1,
+      "não podia"
+     ],
+     "size": 64,
+     "cor": "tinta",
+     "maxw": 640
+    },
+    {
+     "t": "tira",
+     "txt": "de memória",
+     "pos": [
+      330,
+      980
+     ],
+     "e": [
+      2,
+      "memória"
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "JUNHO 1889",
+     "pos": [
+      700,
+      1060
+     ],
+     "e": [
+      2,
+      "junho"
+     ],
+     "size": 50
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: MoMA",
+   "frases": [
+    [
+     "Por isso o quadro não é um retrato fiel da vista.",
+     "Por isso o quadro não é um retrato fiel da vista."
+    ],
+    [
+     "Ele mudou a vila e a igreja.",
+     "Ele mudou a vila e a igreja."
+    ],
+    [
+     "E aquele céu cheio de redemoinhos também saiu da cabeça dele.",
+     "E aquele céu cheio de redemoinhos também saiu da cabeça dele."
+    ]
+   ],
+   "camera": {
+    "push": 0.07
+   },
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      640
+     ],
+     "w": 360,
+     "ang": 2
+    },
+    {
+     "t": "tira",
+     "txt": "a vila: mudada",
+     "pos": [
+      300,
+      890
+     ],
+     "e": [
+      1,
+      "vila"
+     ],
+     "size": 46
+    },
+    {
+     "t": "tira",
+     "txt": "a igreja: mudada",
+     "pos": [
+      720,
+      1010
+     ],
+     "e": [
+      1,
+      "igreja"
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "céu inventado",
+     "pos": [
+      520,
+      1140
+     ],
+     "e": [
+      2,
+      "céu"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Britannica; carta a Émile Bernard (1889)",
+   "frases": [
+    [
+     "Meses depois, numa carta ao pintor Émile Bernard, ele escreveu que tinha se deixado levar e pintado estrelas grandes demais.",
+     "Meses depois, numa carta ao pintor Emíl Bernár, ele escreveu que tinha se deixado levar e pintado estrelas grandes demais."
+    ],
+    [
+     "E chamou aquilo de mais um fracasso.",
+     "E chamou aquilo de mais um fracasso."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "LETTRE",
+     "data": "NOV. 1889",
+     "rodape": "À ÉMILE BERNARD",
+     "pos": [
+      330,
+      720
+     ],
+     "w": 380,
+     "ang": -4,
+     "marca": [
+      0,
+      "estrelas"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "estrelas\ngrandes demais",
+     "pos": [
+      700,
+      640
+     ],
+     "e": [
+      0,
+      "grandes"
+     ],
+     "size": 56,
+     "maxw": 400
+    },
+    {
+     "t": "bloco",
+     "txt": "mais um fracasso",
+     "pos": [
+      560,
+      1060
+     ],
+     "e": [
+      1,
+      "fracasso"
+     ],
+     "size": 72,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: MoMA; Britannica",
+   "frases": [
+    [
+     "E hoje? A Noite Estrelada está no Museu de Arte Moderna de Nova York desde 1941.",
+     "E hoje? A Noite Estrelada está no Museu de Arte Moderna de Nova York desde mil novecentos e quarenta e um."
+    ],
+    [
+     "E aparece em caneca, camiseta e capinha de celular no mundo inteiro.",
+     "E aparece em caneca, camiseta e capinha de celular no mundo inteiro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "MoMA · NOVA YORK",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 50
+    },
+    {
+     "t": "carimbo",
+     "txt": "ACERVO",
+     "data": "1941",
+     "pos": [
+      330,
+      700
+     ],
+     "e": [
+      0,
+      "1941"
+     ],
+     "r": 110,
+     "ang": -8
+    },
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      700,
+      780
+     ],
+     "e": [
+      1,
+      "celular"
+     ],
+     "w": 240,
+     "ang": 6
+    },
+    {
+     "t": "nota",
+     "txt": "no mundo inteiro",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      1,
+      "mundo"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "fonte": "Fonte: Britannica",
+   "frases": [
+    [
+     "Então: o quadro que ele chamou de fracasso virou uma das pinturas mais famosas da história.",
+     "Então: o quadro que ele chamou de fracasso virou uma das pinturas mais famosas da história."
+    ],
+    [
+     "Você já fez algo que achou ruim e depois todo mundo elogiou?",
+     "Você já fez algo que achou ruim e depois todo mundo elogiou?"
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "moldura",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "achou ruim e\ntodo mundo elogiou?",
+     "pos": [
+      520,
+      1010
+     ],
+     "e": [
+      1,
+      "elogiou"
+     ],
+     "size": 58,
+     "maxw": 760
+    }
+   ]
+  }
+ ]
+}

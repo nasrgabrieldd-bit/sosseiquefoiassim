@@ -1,0 +1,141 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 77.88,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Um dos quadros mais famosos do mundo foi chamado de fracasso pelo próprio pintor.",
+     "inicio": 0.1,
+     "dur": 4.843
+    },
+    {
+     "leg": "A Noite Estrelada, de Van Gogh.",
+     "inicio": 5.143,
+     "dur": 2.027
+    }
+   ],
+   "fim": 7.589
+  },
+  {
+   "id": "c2",
+   "inicio": 7.589,
+   "frases": [
+    {
+     "leg": "Em 1889, depois de crises de saúde, Vincent van Gogh se internou por vontade própria num hospital psiquiátrico.",
+     "inicio": 7.589,
+     "dur": 8.853
+    },
+    {
+     "leg": "Ficava em Saint-Rémy-de-Provence, no sul da França.",
+     "inicio": 16.643,
+     "dur": 2.965
+    }
+   ],
+   "fim": 20.028
+  },
+  {
+   "id": "c3",
+   "inicio": 20.028,
+   "frases": [
+    {
+     "leg": "Da janela com grades do quarto, ele via o campo e o céu antes do amanhecer.",
+     "inicio": 20.028,
+     "dur": 4.48
+    },
+    {
+     "leg": "Mas ele não podia pintar no quarto.",
+     "inicio": 24.708,
+     "dur": 2.325
+    },
+    {
+     "leg": "Então pintou A Noite Estrelada de memória e de imaginação, em outra sala, em junho de 1889.",
+     "inicio": 27.233,
+     "dur": 7.296
+    }
+   ],
+   "fim": 34.949
+  },
+  {
+   "id": "c4",
+   "inicio": 34.949,
+   "frases": [
+    {
+     "leg": "Por isso o quadro não é um retrato fiel da vista.",
+     "inicio": 34.949,
+     "dur": 2.816
+    },
+    {
+     "leg": "Ele mudou a vila e a igreja.",
+     "inicio": 37.965,
+     "dur": 1.835
+    },
+    {
+     "leg": "E aquele céu cheio de redemoinhos também saiu da cabeça dele.",
+     "inicio": 40.0,
+     "dur": 3.755
+    }
+   ],
+   "fim": 44.175
+  },
+  {
+   "id": "c5",
+   "inicio": 44.175,
+   "frases": [
+    {
+     "leg": "Meses depois, numa carta ao pintor Émile Bernard, ele escreveu que tinha se deixado levar e pintado estrelas grandes demais.",
+     "inicio": 44.175,
+     "dur": 7.381
+    },
+    {
+     "leg": "E chamou aquilo de mais um fracasso.",
+     "inicio": 51.756,
+     "dur": 2.368
+    }
+   ],
+   "fim": 54.544
+  },
+  {
+   "id": "c6",
+   "inicio": 54.544,
+   "frases": [
+    {
+     "leg": "E hoje? A Noite Estrelada está no Museu de Arte Moderna de Nova York desde 1941.",
+     "inicio": 54.544,
+     "dur": 7.313
+    },
+    {
+     "leg": "E aparece em caneca, camiseta e capinha de celular no mundo inteiro.",
+     "inicio": 62.057,
+     "dur": 4.117
+    }
+   ],
+   "fim": 66.595
+  },
+  {
+   "id": "c7",
+   "inicio": 66.595,
+   "frases": [
+    {
+     "leg": "Então: o quadro que ele chamou de fracasso virou uma das pinturas mais famosas da história.",
+     "inicio": 66.595,
+     "dur": 5.355
+    },
+    {
+     "leg": "Você já fez algo que achou ruim e depois todo mundo elogiou?",
+     "inicio": 72.149,
+     "dur": 3.541
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 76.031,
+     "dur": 1.429
+    }
+   ],
+   "fim": 77.88
+  }
+ ]
+}
