@@ -55,3 +55,15 @@ Se a sessão acabar no meio, a rotina diária termina o que faltar.
 - `verbete` corta a palavra se ela passar de ~20 caracteres em w=700; nomes longos vão em `bloco`.
 - Capa: o `bloco` da capa não pode repetir a `chamada` (as duas aparecem juntas).
 - Checagem: a Lei 14.567/2023 (escolas de samba) NÃO fixa o 2 de dezembro; o Dia Nacional do Samba é data tradicional (há PL 6.171/2025 para oficializar). Conferir sempre o texto da lei, não a notícia.
+
+## Aprendizados (5) — lote 4 (SSA-052 a SSA-065, produzido em 25/11)
+- A agenda ia até 08/12 12h (SSA-051, vídeo-teste aprovado). Pela regra do lote 3, o lote 4 cobriu os 14 horários livres seguintes: 08/12 19h a 15/12 12h. A próxima produção semanal começa em 15/12 19h.
+- `carimbo`: com r=110, `txt` de até ~7 caracteres e `data` de até ~5 ("14 DEZ" / "1911"). Texto maior vaza do anel ("ERRADICADA", "FRACASSO?" vazaram).
+- A fonte de máquina de escrever (tira/carimbo) não tem "Ł": escreva "Bialystok" (e confira outros diacríticos do Leste Europeu).
+- No `numero` (Anton), o ponto médio "·" sai minúsculo; para pontos de código Morse use "•".
+- Elementos são desenhados na ordem da lista: um `risco` listado ANTES da `tira` fica escondido por baixo dela. Para riscar, ponha o `risco` depois.
+- Linha de `fonte` com mais de ~50 caracteres encosta nas bordas: abrevie (ex.: "Brookhaven Lab", "Museu de Oxford").
+- `bloco` de 2 linhas centrado em y 480 encosta no chip da matéria: use y ≥ 560 para títulos longos.
+- O builder `lotes/semana_2026-12-08.py` agora tem `valida()`: confere se toda palavra de entrada (`e`, `marca`, `riscar_em`, zoom, congela) está na legenda e se o gancho tem até 16 palavras, antes de gravar. Copie essa função nos próximos builders.
+- Se mudar a legenda depois de narrar, o `tempos.json` guarda a legenda antiga (`leg`) e a palavra-chave nova não é encontrada: corrija o `tempos.json` também (ou narre de novo).
+- Objetos novos em `objetos.py`: bola (vôlei), montanha, pipa, lupa, saleiro, bandeira (Noruega), meteoro.

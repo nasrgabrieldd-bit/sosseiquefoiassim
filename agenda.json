@@ -443,5 +443,98 @@
   "hora": "12:00",
   "status": "pendente",
   "evento": "virada de ano se aproximando — por que dezembro é o mês 12 (Jano, calendário romano)"
+ },
+ {
+  "id": "SSA-052",
+  "data": "2026-12-08",
+  "hora": "19:00",
+  "status": "pendente",
+  "evento": "Mundial de Clubes de vôlei feminino da FIVB em São Paulo (08–13/12)"
+ },
+ {
+  "id": "SSA-053",
+  "data": "2026-12-09",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-054",
+  "data": "2026-12-09",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-055",
+  "data": "2026-12-10",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "Cerimônia do Nobel (10/12) e 130 anos da morte de Alfred Nobel"
+ },
+ {
+  "id": "SSA-056",
+  "data": "2026-12-10",
+  "hora": "19:00",
+  "status": "pendente",
+  "evento": "The Game Awards (10/12)"
+ },
+ {
+  "id": "SSA-057",
+  "data": "2026-12-11",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "80 anos da UNICEF (11/12/1946)"
+ },
+ {
+  "id": "SSA-058",
+  "data": "2026-12-11",
+  "hora": "19:00",
+  "status": "pendente",
+  "evento": "Dia Internacional das Montanhas (11/12, ONU/FAO)"
+ },
+ {
+  "id": "SSA-059",
+  "data": "2026-12-12",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "125 anos do sinal transatlântico de Marconi (12/12/1901)"
+ },
+ {
+  "id": "SSA-060",
+  "data": "2026-12-12",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-061",
+  "data": "2026-12-13",
+  "hora": "12:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-062",
+  "data": "2026-12-13",
+  "hora": "19:00",
+  "status": "pendente",
+  "evento": "Pico das Gemínidas (13–14/12)"
+ },
+ {
+  "id": "SSA-063",
+  "data": "2026-12-14",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "115 anos de Amundsen no Polo Sul (14/12/1911)"
+ },
+ {
+  "id": "SSA-064",
+  "data": "2026-12-14",
+  "hora": "19:00",
+  "status": "pendente"
+ },
+ {
+  "id": "SSA-065",
+  "data": "2026-12-15",
+  "hora": "12:00",
+  "status": "pendente",
+  "evento": "Dia de Zamenhof / do Esperanto (15/12)"
  }
 ]

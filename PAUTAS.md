@@ -54,6 +54,20 @@
 | SSA-049 | 23/11 (teste) | História | Earthrise: a foto de Natal que quase não aconteceu (Apollo 8, véspera de Natal de 1968) — vídeo-teste do novo padrão de ilustração (astronauta, foguete, Terra colorida) — aprovado pelo Gabriel |
 | SSA-050 | 23/11 (teste) | História | A Coca-Cola não inventou o Papai Noel vermelho (foi o cartunista Thomas Nast, décadas antes) — vídeo-teste com sombreamento 3D por pixel e personagem Papai Noel — aprovado pelo Gabriel e agendado |
 | SSA-051 | 23/11 (teste) | Língua Portuguesa | Por que dezembro (que significa "décimo mês") é o mês 12 — Jano, Numa Pompílio e a reforma de Júlio César — vídeo-teste com identidade visual nova (azul-gelo/dourado) e personagem Jano — aprovado pelo Gabriel e agendado |
+| SSA-052 | 08/12 19h | Educação Física | O vôlei foi inventado porque o basquete cansava demais (evento: Mundial de Clubes de vôlei feminino da FIVB em São Paulo (08–13/12)) |
+| SSA-053 | 09/12 12h | Literatura | Sherlock Holmes nunca disse "Elementar, meu caro Watson" |
+| SSA-054 | 09/12 19h | Biologia | A palavra vacina vem de vaca |
+| SSA-055 | 10/12 12h | Matemática | Não existe Nobel de Matemática (e a culpa não é de uma traição) (evento: Cerimônia do Nobel (10/12) e 130 anos da morte de Alfred Nobel) |
+| SSA-056 | 10/12 19h | História | Um dos primeiros videogames foi feito pra animar visita de laboratório (evento: The Game Awards (10/12)) |
+| SSA-057 | 11/12 12h | Sociologia | O "E" da sigla UNICEF não significa mais nada (evento: 80 anos da UNICEF (11/12/1946)) |
+| SSA-058 | 11/12 19h | Geografia | O Everest é a montanha mais alta? Depende de onde você mede (evento: Dia Internacional das Montanhas (11/12, ONU/FAO)) |
+| SSA-059 | 12/12 12h | Física | A primeira mensagem de rádio a cruzar o Atlântico era só a letra S (evento: 125 anos do sinal transatlântico de Marconi (12/12/1901)) |
+| SSA-060 | 12/12 19h | Arte | Van Gogh achou A Noite Estrelada um fracasso |
+| SSA-061 | 13/12 12h | Química | O sal de cozinha é um metal que pega fogo na água + um gás venenoso |
+| SSA-062 | 13/12 19h | Física | A melhor chuva de meteoros do ano vem de um asteroide (evento: Pico das Gemínidas (13–14/12)) |
+| SSA-063 | 14/12 12h | História | Amundsen chegou primeiro ao Polo Sul com o que aprendeu no Ártico (evento: 115 anos de Amundsen no Polo Sul (14/12/1911)) |
+| SSA-064 | 14/12 19h | Filosofia | Sócrates nunca escreveu "só sei que nada sei" |
+| SSA-065 | 15/12 12h | Língua Portuguesa | Uma língua inventada por um oftalmologista tem falantes nativos (evento: Dia de Zamenhof / do Esperanto (15/12)) |
 
 ## Banco de ideias (checar fonte antes)
 - Por que "pé-rapado"? (precisa de fonte sólida; se não achar, não fazer)
@@ -63,4 +77,3 @@
 - Por que a Copa Libertadores tem esse nome (Bolívar, San Martín...)
 - Por que a estatueta do Oscar se chama Oscar
 - Por que a semana tem 7 dias
-- A primeira vacina e a palavra "vacina" (vaca)
