@@ -1,0 +1,146 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 85.709,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "Hoje tem entrega do Prêmio Nobel. E nenhum deles é de matemática.",
+     "inicio": 0.1,
+     "dur": 4.721
+    },
+    {
+     "leg": "Tem uma fofoca famosa pra explicar isso. Mas ela é falsa.",
+     "inicio": 5.021,
+     "dur": 4.316
+    }
+   ],
+   "fim": 9.757
+  },
+  {
+   "id": "c2",
+   "inicio": 9.757,
+   "frases": [
+    {
+     "leg": "Alfred Nobel, o sueco que inventou a dinamite, assinou o testamento em 1895.",
+     "inicio": 9.757,
+     "dur": 6.379
+    },
+    {
+     "leg": "Ali, criou 5 prêmios: física, química, medicina, literatura e paz.",
+     "inicio": 16.336,
+     "dur": 4.352
+    },
+    {
+     "leg": "O de economia só veio em 1968, criado pelo banco central da Suécia.",
+     "inicio": 20.888,
+     "dur": 5.781
+    }
+   ],
+   "fim": 27.089
+  },
+  {
+   "id": "c3",
+   "inicio": 27.089,
+   "frases": [
+    {
+     "leg": "A fofoca diz que a esposa de Nobel o traiu com um matemático sueco, Gösta Mittag-Leffler.",
+     "inicio": 27.089,
+     "dur": 5.355
+    },
+    {
+     "leg": "E que, de vingança, ele deixou a matemática de fora.",
+     "inicio": 32.644,
+     "dur": 3.264
+    }
+   ],
+   "fim": 36.328
+  },
+  {
+   "id": "c4",
+   "inicio": 36.328,
+   "frases": [
+    {
+     "leg": "Só tem um problema: Alfred Nobel nunca se casou.",
+     "inicio": 36.328,
+     "dur": 3.115
+    },
+    {
+     "leg": "E não existe nenhuma prova histórica dessa história com o matemático.",
+     "inicio": 39.643,
+     "dur": 4.139
+    }
+   ],
+   "fim": 44.201
+  },
+  {
+   "id": "c5",
+   "inicio": 44.201,
+   "frases": [
+    {
+     "leg": "O motivo real ninguém sabe com certeza.",
+     "inicio": 44.201,
+     "dur": 2.667
+    },
+    {
+     "leg": "A explicação mais citada é simples: Nobel premiou áreas que interessavam a ele.",
+     "inicio": 47.068,
+     "dur": 4.757
+    },
+    {
+     "leg": "E a matemática pura, ao que tudo indica, não era uma delas.",
+     "inicio": 52.025,
+     "dur": 3.627
+    }
+   ],
+   "fim": 56.072
+  },
+  {
+   "id": "c6",
+   "inicio": 56.072,
+   "frases": [
+    {
+     "leg": "E hoje, 10 de dezembro, a entrega acontece no dia da morte de Nobel, em 1896.",
+     "inicio": 56.072,
+     "dur": 6.677
+    },
+    {
+     "leg": "E os matemáticos? Ganharam os prêmios deles: a Medalha Fields, desde 1936, só pra quem tem menos de 40 anos.",
+     "inicio": 62.949,
+     "dur": 9.169
+    },
+    {
+     "leg": "E o Prêmio Abel, entregue na Noruega desde 2003.",
+     "inicio": 72.319,
+     "dur": 3.52
+    }
+   ],
+   "fim": 76.259
+  },
+  {
+   "id": "c7",
+   "inicio": 76.259,
+   "frases": [
+    {
+     "leg": "Então: não tem Nobel de matemática, e a culpa não é de nenhuma traição.",
+     "inicio": 76.259,
+     "dur": 4.181
+    },
+    {
+     "leg": "Se você pudesse criar um Nobel novo, seria de quê?",
+     "inicio": 80.64,
+     "dur": 2.88
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 83.86,
+     "dur": 1.429
+    }
+   ],
+   "fim": 85.709
+  }
+ ]
+}

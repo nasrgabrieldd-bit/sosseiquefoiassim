@@ -1,0 +1,532 @@
+{
+ "id": "SSA-055",
+ "chamada": "CADÊ O NOBEL DE MATEMÁTICA?",
+ "materia": "MATEMÁTICA",
+ "titulo": "Não existe Nobel de Matemática (e a culpa não é de uma traição)",
+ "fontes": [
+  "Nobelprize.org, 'Full text of Alfred Nobel's will' (27/11/1895).",
+  "Nobelprize.org, 'The Nobel Prize award ceremonies and banquets'.",
+  "Snopes, 'Why is there no Nobel Prize in mathematics?'.",
+  "Universidade de Waterloo, Math FAQ, 'Why is there no Nobel in mathematics?'.",
+  "Encyclopaedia Britannica, 'Fields Medal' e 'Abel Prize'."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "medalha",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 380,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "a fofoca sobre isso é falsa",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 70,
+    "maxw": 780
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "Hoje tem entrega do Prêmio Nobel. E nenhum deles é de matemática.",
+     "Hoje tem entrega do Prêmio Nobel. E nenhum deles é de matemática."
+    ],
+    [
+     "Tem uma fofoca famosa pra explicar isso. Mas ela é falsa.",
+     "Tem uma fofoca famosa pra explicar isso. Mas ela é falsa."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "NOBEL DE MATEMÁTICA?",
+     "pos": [
+      520,
+      950
+     ],
+     "size": 70,
+     "cor": "tinta",
+     "ang": -3,
+     "maxw": 800
+    },
+    {
+     "t": "nota",
+     "txt": "a fofoca é falsa",
+     "pos": [
+      620,
+      1130
+     ],
+     "e": [
+      1,
+      "falsa"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: nobelprize.org",
+   "frases": [
+    [
+     "Alfred Nobel, o sueco que inventou a dinamite, assinou o testamento em 1895.",
+     "Álfred Nobél, o sueco que inventou a dinamite, assinou o testamento em mil oitocentos e noventa e cinco."
+    ],
+    [
+     "Ali, criou 5 prêmios: física, química, medicina, literatura e paz.",
+     "Ali, criou cinco prêmios: física, química, medicina, literatura e paz."
+    ],
+    [
+     "O de economia só veio em 1968, criado pelo banco central da Suécia.",
+     "O de economia só veio em mil novecentos e sessenta e oito, criado pelo banco central da Suécia."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "jornal",
+     "titulo": "TESTAMENTO",
+     "data": "PARIS · 1895",
+     "rodape": "ALFRED NOBEL",
+     "pos": [
+      330,
+      720
+     ],
+     "e": [
+      0,
+      "testamento"
+     ],
+     "w": 380,
+     "ang": -3
+    },
+    {
+     "t": "tira",
+     "txt": "física",
+     "pos": [
+      720,
+      520
+     ],
+     "e": [
+      1,
+      "física"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "química",
+     "pos": [
+      720,
+      620
+     ],
+     "e": [
+      1,
+      "química"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "medicina",
+     "pos": [
+      720,
+      720
+     ],
+     "e": [
+      1,
+      "medicina"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "literatura",
+     "pos": [
+      720,
+      820
+     ],
+     "e": [
+      1,
+      "literatura"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "paz",
+     "pos": [
+      720,
+      920
+     ],
+     "e": [
+      1,
+      "paz"
+     ],
+     "size": 44
+    },
+    {
+     "t": "tira",
+     "txt": "economia: só em 1968",
+     "pos": [
+      520,
+      1100
+     ],
+     "e": [
+      2,
+      "1968"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Snopes; Univ. de Waterloo",
+   "frases": [
+    [
+     "A fofoca diz que a esposa de Nobel o traiu com um matemático sueco, Gösta Mittag-Leffler.",
+     "A fofoca diz que a esposa de Nobél o traiu com um matemático sueco, Iêsta Mítag-Léfler."
+    ],
+    [
+     "E que, de vingança, ele deixou a matemática de fora.",
+     "E que, de vingança, ele deixou a matemática de fora."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "A FOFOCA",
+     "pos": [
+      520,
+      450
+     ],
+     "size": 56
+    },
+    {
+     "t": "bloco",
+     "txt": "a esposa\ntraiu?",
+     "pos": [
+      330,
+      660
+     ],
+     "e": [
+      0,
+      "esposa"
+     ],
+     "size": 70,
+     "cor": "tinta",
+     "maxw": 420
+    },
+    {
+     "t": "tira",
+     "txt": "MITTAG-LEFFLER",
+     "pos": [
+      660,
+      820
+     ],
+     "e": [
+      0,
+      "Mittag"
+     ],
+     "size": 44
+    },
+    {
+     "t": "nota",
+     "txt": "vingança!",
+     "pos": [
+      560,
+      1000
+     ],
+     "e": [
+      1,
+      "vingança"
+     ],
+     "cor": "laranja",
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Snopes; nobelprize.org",
+   "frases": [
+    [
+     "Só tem um problema: Alfred Nobel nunca se casou.",
+     "Só tem um problema: Álfred Nobél nunca se casou."
+    ],
+    [
+     "E não existe nenhuma prova histórica dessa história com o matemático.",
+     "E não existe nenhuma prova histórica dessa história com o matemático."
+    ]
+   ],
+   "camera": {
+    "congela": {
+     "de": [
+      0,
+      "nunca"
+     ],
+     "ate": [
+      1,
+      0.9
+     ]
+    }
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "NUNCA SE CASOU",
+     "pos": [
+      520,
+      560
+     ],
+     "e": [
+      0,
+      "nunca"
+     ],
+     "size": 86,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "risco",
+     "de": [
+      260,
+      760
+     ],
+     "ate": [
+      780,
+      760
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "casou"
+     ]
+    },
+    {
+     "t": "bloco",
+     "txt": "nenhuma prova",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "prova"
+     ],
+     "size": 78
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: Snopes; Univ. de Waterloo",
+   "frases": [
+    [
+     "O motivo real ninguém sabe com certeza.",
+     "O motivo real ninguém sabe com certeza."
+    ],
+    [
+     "A explicação mais citada é simples: Nobel premiou áreas que interessavam a ele.",
+     "A explicação mais citada é simples: Nobel premiou áreas que interessavam a ele."
+    ],
+    [
+     "E a matemática pura, ao que tudo indica, não era uma delas.",
+     "E a matemática pura, ao que tudo indica, não era uma delas."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "motivo real?",
+     "pos": [
+      520,
+      500
+     ],
+     "size": 84
+    },
+    {
+     "t": "nota",
+     "txt": "ninguém sabe\ncom certeza",
+     "pos": [
+      640,
+      700
+     ],
+     "e": [
+      0,
+      "ninguém"
+     ],
+     "cor": "laranja",
+     "size": 58
+    },
+    {
+     "t": "obj",
+     "nome": "lampada",
+     "pos": [
+      320,
+      960
+     ],
+     "e": [
+      1,
+      "interessavam"
+     ],
+     "w": 240
+    },
+    {
+     "t": "bloco",
+     "txt": "não era\numa delas",
+     "pos": [
+      700,
+      1000
+     ],
+     "e": [
+      2,
+      "não era"
+     ],
+     "size": 62,
+     "cor": "tinta",
+     "maxw": 380
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: Britannica; nobelprize.org",
+   "frases": [
+    [
+     "E hoje, 10 de dezembro, a entrega acontece no dia da morte de Nobel, em 1896.",
+     "E hoje, dez de dezembro, a entrega acontece no dia da morte de Nobél, em mil oitocentos e noventa e seis."
+    ],
+    [
+     "E os matemáticos? Ganharam os prêmios deles: a Medalha Fields, desde 1936, só pra quem tem menos de 40 anos.",
+     "E os matemáticos? Ganharam os prêmios deles: a Medalha Fílds, desde mil novecentos e trinta e seis, só pra quem tem menos de quarenta anos."
+    ],
+    [
+     "E o Prêmio Abel, entregue na Noruega desde 2003.",
+     "E o Prêmio Abél, entregue na Noruega desde dois mil e três."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "cal",
+     "titulo": "DEZEMBRO",
+     "inicio": 2,
+     "pos": [
+      520,
+      690
+     ],
+     "e": [
+      0,
+      "10 de"
+     ],
+     "ndias": 31,
+     "riscar": [
+      10
+     ],
+     "riscar_em": [
+      0,
+      "10 de"
+     ],
+     "escala": 0.5,
+     "ang": -2
+    },
+    {
+     "t": "tira",
+     "txt": "FIELDS · desde 1936 · até 40 anos",
+     "pos": [
+      520,
+      940
+     ],
+     "e": [
+      1,
+      "Fields"
+     ],
+     "size": 40
+    },
+    {
+     "t": "tira",
+     "txt": "ABEL · desde 2003",
+     "pos": [
+      520,
+      1080
+     ],
+     "e": [
+      2,
+      "Abel"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: não tem Nobel de matemática, e a culpa não é de nenhuma traição.",
+     "Então: não tem Nobel de matemática, e a culpa não é de nenhuma traição."
+    ],
+    [
+     "Se você pudesse criar um Nobel novo, seria de quê?",
+     "Se você pudesse criar um Nobel novo, seria de quê?"
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 320,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "um Nobel novo de quê?",
+     "pos": [
+      520,
+      1000
+     ],
+     "e": [
+      1,
+      "Nobel"
+     ],
+     "size": 68,
+     "maxw": 780
+    }
+   ]
+  }
+ ]
+}
