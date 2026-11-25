@@ -1,0 +1,141 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 84.953,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "A primeira mensagem de rádio a atravessar o Atlântico tinha uma letra só.",
+     "inicio": 0.1,
+     "dur": 4.651
+    },
+    {
+     "leg": "E até hoje tem gente que duvida que ela chegou.",
+     "inicio": 4.951,
+     "dur": 2.944
+    }
+   ],
+   "fim": 8.315
+  },
+  {
+   "id": "c2",
+   "inicio": 8.315,
+   "frases": [
+    {
+     "leg": "12 de dezembro de 1901. Signal Hill, na Terra Nova, hoje parte do Canadá.",
+     "inicio": 8.315,
+     "dur": 6.023
+    },
+    {
+     "leg": "O italiano Guglielmo Marconi, de 27 anos, esperava um sinal mandado da Inglaterra, de Poldhu, na Cornualha.",
+     "inicio": 14.537,
+     "dur": 6.805
+    }
+   ],
+   "fim": 21.763
+  },
+  {
+   "id": "c3",
+   "inicio": 21.763,
+   "frases": [
+    {
+     "leg": "Eram uns 3.500 quilômetros de oceano.",
+     "inicio": 21.763,
+     "dur": 3.008
+    },
+    {
+     "leg": "Pra antena ficar bem alta, ele prendeu um fio de uns 150 metros numa pipa.",
+     "inicio": 24.971,
+     "dur": 5.184
+    },
+    {
+     "leg": "Antes disso, os balões falharam e uma pipa foi levada pelo vento.",
+     "inicio": 30.355,
+     "dur": 4.032
+    }
+   ],
+   "fim": 34.807
+  },
+  {
+   "id": "c4",
+   "inicio": 34.807,
+   "frases": [
+    {
+     "leg": "A mensagem combinada era a letra S do código Morse: só 3 pontinhos.",
+     "inicio": 34.807,
+     "dur": 4.8
+    },
+    {
+     "leg": "E Marconi e o assistente, George Kemp, disseram ter ouvido os cliques no fone.",
+     "inicio": 39.807,
+     "dur": 4.565
+    }
+   ],
+   "fim": 44.792
+  },
+  {
+   "id": "c5",
+   "inicio": 44.792,
+   "frases": [
+    {
+     "leg": "Só que o sinal era fraco demais pra ser registrado em fita.",
+     "inicio": 44.792,
+     "dur": 3.392
+    },
+    {
+     "leg": "As únicas testemunhas foram os dois. Por isso, até hoje tem físico que duvida que ele ouviu mesmo.",
+     "inicio": 48.384,
+     "dur": 6.172
+    }
+   ],
+   "fim": 54.976
+  },
+  {
+   "id": "c6",
+   "inicio": 54.976,
+   "frases": [
+    {
+     "leg": "Dúvida ou não, a ideia pegou. Em 1909, Marconi dividiu o Nobel de Física pelo telégrafo sem fio.",
+     "inicio": 54.976,
+     "dur": 7.58
+    },
+    {
+     "leg": "E hoje, 12 de dezembro, aquele S faz 125 anos.",
+     "inicio": 62.756,
+     "dur": 4.224
+    },
+    {
+     "leg": "Celular, wi-fi e rádio do carro funcionam com ondas de rádio, atravessando o ar do mesmo jeito.",
+     "inicio": 67.18,
+     "dur": 5.973
+    }
+   ],
+   "fim": 73.573
+  },
+  {
+   "id": "c7",
+   "inicio": 73.573,
+   "frases": [
+    {
+     "leg": "Então: 125 anos atrás, um oceano foi atravessado por 3 pontinhos.",
+     "inicio": 73.573,
+     "dur": 5.163
+    },
+    {
+     "leg": "Agora você sabe que toda conversa sem fio começou com um S.",
+     "inicio": 78.936,
+     "dur": 3.968
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 83.104,
+     "dur": 1.429
+    }
+   ],
+   "fim": 84.953
+  }
+ ]
+}

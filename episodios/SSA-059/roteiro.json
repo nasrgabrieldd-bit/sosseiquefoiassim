@@ -1,0 +1,524 @@
+{
+ "id": "SSA-059",
+ "chamada": "SÓ 3 PONTINHOS",
+ "materia": "FÍSICA",
+ "titulo": "A primeira mensagem de rádio a cruzar o Atlântico era só a letra S",
+ "fontes": [
+  "IEEE / ETHW, 'Milestones: Reception of Transatlantic Radio Signals, 1901'.",
+  "Museum of the History of Science (Oxford), 'Marconi: the Atlantic crossing'.",
+  "Parks Canada, 'Signal Hill National Historic Site: communications'.",
+  "The Canadian Encyclopedia, 'Guglielmo Marconi'.",
+  "Nobelprize.org, 'The Nobel Prize in Physics 1909' e biografia de Marconi."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "pipa",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 400,
+    "ang": -4
+   },
+   {
+    "t": "numero",
+    "txt": "• • •",
+    "pos": [
+     520,
+     1080
+    ],
+    "e": null,
+    "size": 200,
+    "cor": "tinta"
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "A primeira mensagem de rádio a atravessar o Atlântico tinha uma letra só.",
+     "A primeira mensagem de rádio a atravessar o Atlântico tinha uma letra só."
+    ],
+    [
+     "E até hoje tem gente que duvida que ela chegou.",
+     "E até hoje tem gente que duvida que ela chegou."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "radio",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 380,
+     "ang": -3,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "UMA LETRA SÓ",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 90,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "será que chegou?",
+     "pos": [
+      620,
+      1130
+     ],
+     "e": [
+      1,
+      "duvida"
+     ],
+     "cor": "laranja",
+     "size": 58
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: IEEE/ETHW; nobelprize.org",
+   "frases": [
+    [
+     "12 de dezembro de 1901. Signal Hill, na Terra Nova, hoje parte do Canadá.",
+     "Doze de dezembro de mil novecentos e um. Sígnal Ríl, na Terra Nova, hoje parte do Canadá."
+    ],
+    [
+     "O italiano Guglielmo Marconi, de 27 anos, esperava um sinal mandado da Inglaterra, de Poldhu, na Cornualha.",
+     "O italiano Guliélmo Marcôni, de vinte e sete anos, esperava um sinal mandado da Inglaterra, de Póldu, na Cornualha."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "carimbo",
+     "txt": "12 DEZ",
+     "data": "1901",
+     "pos": [
+      300,
+      540
+     ],
+     "r": 110,
+     "ang": -8
+    },
+    {
+     "t": "tira",
+     "txt": "SIGNAL HILL",
+     "pos": [
+      680,
+      560
+     ],
+     "size": 50
+    },
+    {
+     "t": "tira",
+     "txt": "MARCONI · 27 anos",
+     "pos": [
+      520,
+      800
+     ],
+     "e": [
+      1,
+      "Marconi"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "POLDHU · CORNUALHA",
+     "pos": [
+      520,
+      960
+     ],
+     "e": [
+      1,
+      "Poldhu"
+     ],
+     "size": 46
+    },
+    {
+     "t": "seta",
+     "de": [
+      260,
+      1100
+     ],
+     "ate": [
+      800,
+      1100
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      1,
+      "Inglaterra"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Parks Canada; IEEE/ETHW; Museu de Oxford",
+   "frases": [
+    [
+     "Eram uns 3.500 quilômetros de oceano.",
+     "Eram uns três mil e quinhentos quilômetros de oceano."
+    ],
+    [
+     "Pra antena ficar bem alta, ele prendeu um fio de uns 150 metros numa pipa.",
+     "Pra antena ficar bem alta, ele prendeu um fio de uns cento e cinquenta metros numa pipa."
+    ],
+    [
+     "Antes disso, os balões falharam e uma pipa foi levada pelo vento.",
+     "Antes disso, os balões falharam e uma pipa foi levada pelo vento."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "numero",
+     "txt": "3.500 km",
+     "pos": [
+      520,
+      520
+     ],
+     "e": [
+      0,
+      "3.500"
+     ],
+     "size": 150
+    },
+    {
+     "t": "obj",
+     "nome": "pipa",
+     "pos": [
+      330,
+      860
+     ],
+     "e": [
+      1,
+      "pipa"
+     ],
+     "w": 320,
+     "ang": -6
+    },
+    {
+     "t": "tira",
+     "txt": "fio de ~150 m",
+     "pos": [
+      700,
+      800
+     ],
+     "e": [
+      1,
+      "150"
+     ],
+     "size": 46
+    },
+    {
+     "t": "nota",
+     "txt": "levada\npelo vento",
+     "pos": [
+      700,
+      1040
+     ],
+     "e": [
+      2,
+      "vento"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: Museu de História da Ciência de Oxford",
+   "frases": [
+    [
+     "A mensagem combinada era a letra S do código Morse: só 3 pontinhos.",
+     "A mensagem combinada era a letra S do código Morse: só três pontinhos."
+    ],
+    [
+     "E Marconi e o assistente, George Kemp, disseram ter ouvido os cliques no fone.",
+     "E Marcôni e o assistente, Djórdj Kémp, disseram ter ouvido os cliques no fone."
+    ]
+   ],
+   "camera": {
+    "push": 0.06,
+    "zooms": [
+     {
+      "e": [
+       0,
+       "3 pontinhos"
+      ],
+      "escala": 1.12,
+      "alvo": [
+       520,
+       640
+      ],
+      "dur": 0.7
+     }
+    ]
+   },
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "S",
+     "pos": [
+      520,
+      480
+     ],
+     "size": 120,
+     "cor": "tinta"
+    },
+    {
+     "t": "numero",
+     "txt": "• • •",
+     "pos": [
+      520,
+      660
+     ],
+     "e": [
+      0,
+      "3 pontinhos"
+     ],
+     "size": 220
+    },
+    {
+     "t": "tira",
+     "txt": "código Morse",
+     "pos": [
+      520,
+      860
+     ],
+     "e": [
+      0,
+      "Morse"
+     ],
+     "size": 48
+    },
+    {
+     "t": "tira",
+     "txt": "GEORGE KEMP",
+     "pos": [
+      520,
+      1040
+     ],
+     "e": [
+      1,
+      "Kemp"
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: IEEE/ETHW; The Canadian Encyclopedia",
+   "frases": [
+    [
+     "Só que o sinal era fraco demais pra ser registrado em fita.",
+     "Só que o sinal era fraco demais pra ser registrado em fita."
+    ],
+    [
+     "As únicas testemunhas foram os dois. Por isso, até hoje tem físico que duvida que ele ouviu mesmo.",
+     "As únicas testemunhas foram os dois. Por isso, até hoje tem físico que duvida que ele ouviu mesmo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "bloco",
+     "txt": "sem registro",
+     "pos": [
+      520,
+      520
+     ],
+     "size": 84,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "tira",
+     "txt": "testemunhas: 2",
+     "pos": [
+      520,
+      760
+     ],
+     "e": [
+      1,
+      "testemunhas"
+     ],
+     "size": 52
+    },
+    {
+     "t": "nota",
+     "txt": "ouviu mesmo?",
+     "pos": [
+      600,
+      1000
+     ],
+     "e": [
+      1,
+      "duvida"
+     ],
+     "cor": "laranja",
+     "size": 70
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: nobelprize.org (1909)",
+   "frases": [
+    [
+     "Dúvida ou não, a ideia pegou. Em 1909, Marconi dividiu o Nobel de Física pelo telégrafo sem fio.",
+     "Dúvida ou não, a ideia pegou. Em mil novecentos e nove, Marcôni dividiu o Nobel de Física pelo telégrafo sem fio."
+    ],
+    [
+     "E hoje, 12 de dezembro, aquele S faz 125 anos.",
+     "E hoje, doze de dezembro, aquele S faz cento e vinte e cinco anos."
+    ],
+    [
+     "Celular, wi-fi e rádio do carro funcionam com ondas de rádio, atravessando o ar do mesmo jeito.",
+     "Celular, uai-fai e rádio do carro funcionam com ondas de rádio, atravessando o ar do mesmo jeito."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "medalha",
+     "pos": [
+      300,
+      560
+     ],
+     "e": [
+      0,
+      "Nobel"
+     ],
+     "w": 210
+    },
+    {
+     "t": "tira",
+     "txt": "NOBEL · 1909",
+     "pos": [
+      680,
+      560
+     ],
+     "e": [
+      0,
+      "1909"
+     ],
+     "size": 48
+    },
+    {
+     "t": "numero",
+     "txt": "125",
+     "pos": [
+      520,
+      860
+     ],
+     "e": [
+      1,
+      "125"
+     ],
+     "size": 200
+    },
+    {
+     "t": "obj",
+     "nome": "celular",
+     "pos": [
+      760,
+      1060
+     ],
+     "e": [
+      2,
+      "Celular"
+     ],
+     "w": 180,
+     "ang": 6
+    },
+    {
+     "t": "tira",
+     "txt": "ondas de rádio",
+     "pos": [
+      400,
+      1110
+     ],
+     "e": [
+      2,
+      "ondas"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: 125 anos atrás, um oceano foi atravessado por 3 pontinhos.",
+     "Então: cento e vinte e cinco anos atrás, um oceano foi atravessado por três pontinhos."
+    ],
+    [
+     "Agora você sabe que toda conversa sem fio começou com um S.",
+     "Agora você sabe que toda conversa sem fio começou com um S."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "radio",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 340,
+     "ang": 3
+    },
+    {
+     "t": "numero",
+     "txt": "• • •",
+     "pos": [
+      520,
+      940
+     ],
+     "e": [
+      0,
+      "3 pontinhos"
+     ],
+     "size": 180,
+     "cor": "tinta"
+    },
+    {
+     "t": "nota",
+     "txt": "começou com um S",
+     "pos": [
+      620,
+      1130
+     ],
+     "e": [
+      1,
+      "começou"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  }
+ ]
+}
