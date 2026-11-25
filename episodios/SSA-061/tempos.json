@@ -1,0 +1,141 @@
+{
+ "voz": "pm_alex+pm_santa:0.6",
+ "vel": 0.98,
+ "total": 76.721,
+ "cenas": [
+  {
+   "id": "c1",
+   "inicio": 0.1,
+   "frases": [
+    {
+     "leg": "O sal da sua comida junta um metal que pega fogo e um gás venenoso.",
+     "inicio": 0.1,
+     "dur": 4.032
+    },
+    {
+     "leg": "E mesmo assim você come isso todo dia.",
+     "inicio": 4.332,
+     "dur": 2.581
+    }
+   ],
+   "fim": 7.333
+  },
+  {
+   "id": "c2",
+   "inicio": 7.333,
+   "frases": [
+    {
+     "leg": "O primeiro ingrediente é o sódio. Um metal tão mole que dá pra cortar com faca.",
+     "inicio": 7.333,
+     "dur": 5.169
+    },
+    {
+     "leg": "Na água, ele reage com violência, solta hidrogênio e pode até pegar fogo.",
+     "inicio": 12.703,
+     "dur": 4.629
+    },
+    {
+     "leg": "Por isso, no laboratório, ele fica guardado no óleo.",
+     "inicio": 17.532,
+     "dur": 3.136
+    }
+   ],
+   "fim": 21.088
+  },
+  {
+   "id": "c3",
+   "inicio": 21.088,
+   "frases": [
+    {
+     "leg": "O segundo é o cloro: um gás amarelo-esverdeado, de cheiro sufocante.",
+     "inicio": 21.088,
+     "dur": 4.16
+    },
+    {
+     "leg": "E muito venenoso.",
+     "inicio": 25.448,
+     "dur": 1.429
+    }
+   ],
+   "fim": 27.297
+  },
+  {
+   "id": "c4",
+   "inicio": 27.297,
+   "frases": [
+    {
+     "leg": "Quando os dois se encontram, o sódio entrega um elétron pro cloro.",
+     "inicio": 27.297,
+     "dur": 3.797
+    },
+    {
+     "leg": "O sódio fica positivo, o cloro fica negativo, e os dois se atraem.",
+     "inicio": 31.295,
+     "dur": 4.267
+    },
+    {
+     "leg": "Isso é uma ligação iônica. E o resultado é o cloreto de sódio: o sal de cozinha.",
+     "inicio": 35.761,
+     "dur": 5.425
+    }
+   ],
+   "fim": 41.607
+  },
+  {
+   "id": "c5",
+   "inicio": 41.607,
+   "frases": [
+    {
+     "leg": "E tudo muda. Nem metal que pega fogo, nem gás venenoso: um cristal branco, estável, que vai na comida.",
+     "inicio": 41.607,
+     "dur": 6.727
+    },
+    {
+     "leg": "E o corpo precisa do sódio, por exemplo, pra transmitir os impulsos nervosos.",
+     "inicio": 48.533,
+     "dur": 4.949
+    }
+   ],
+   "fim": 53.903
+  },
+  {
+   "id": "c6",
+   "inicio": 53.903,
+   "frases": [
+    {
+     "leg": "E hoje? A OMS recomenda menos de 5 gramas de sal por dia.",
+     "inicio": 53.903,
+     "dur": 4.839
+    },
+    {
+     "leg": "Segundo a Pesquisa Nacional de Saúde, o brasileiro come em média 9,3 gramas. Quase o dobro.",
+     "inicio": 58.941,
+     "dur": 7.217
+    }
+   ],
+   "fim": 66.579
+  },
+  {
+   "id": "c7",
+   "inicio": 66.579,
+   "frases": [
+    {
+     "leg": "Então: o sal é um metal que pega fogo e um gás venenoso que, juntos, viraram tempero.",
+     "inicio": 66.579,
+     "dur": 4.779
+    },
+    {
+     "leg": "Salva esse pra lembrar de ligação iônica na prova.",
+     "inicio": 71.557,
+     "dur": 3.115
+    },
+    {
+     "leg": "A fonte tá na legenda. Só sei que foi assim!",
+     "inicio": 74.872,
+     "dur": 1.429
+    }
+   ],
+   "fim": 76.721
+  }
+ ]
+}

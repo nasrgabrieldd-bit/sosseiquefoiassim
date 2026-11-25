@@ -1,0 +1,524 @@
+{
+ "id": "SSA-061",
+ "chamada": "VOCÊ COME ISSO TODO DIA",
+ "materia": "QUÍMICA",
+ "titulo": "O sal de cozinha é um metal que pega fogo na água + um gás venenoso",
+ "fontes": [
+  "Royal Society of Chemistry, Periodic Table: 'Sodium' (podcast) e 'Chlorine'.",
+  "Royal Society of Chemistry (Education), 'Alkali metals'.",
+  "Encyclopaedia Britannica, 'Sodium: chemical properties'.",
+  "LibreTexts Chemistry, 'The Reaction of Sodium with Chlorine'.",
+  "OMS, 'Salt reduction' (fact sheet).",
+  "Agência Brasil (26/11/2019), com dados da Pesquisa Nacional de Saúde."
+ ],
+ "capa": {
+  "elementos": [
+   {
+    "t": "obj",
+    "nome": "saleiro",
+    "pos": [
+     520,
+     660
+    ],
+    "e": null,
+    "w": 380,
+    "ang": -4
+   },
+   {
+    "t": "bloco",
+    "txt": "metal que pega fogo + gás venenoso",
+    "pos": [
+     520,
+     1120
+    ],
+    "e": null,
+    "size": 60,
+    "maxw": 800
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "id": "c1",
+   "frases": [
+    [
+     "O sal da sua comida junta um metal que pega fogo e um gás venenoso.",
+     "O sal da sua comida junta um metal que pega fogo e um gás venenoso."
+    ],
+    [
+     "E mesmo assim você come isso todo dia.",
+     "E mesmo assim você come isso todo dia."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "saleiro",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 360,
+     "ang": -4,
+     "balanca": true
+    },
+    {
+     "t": "bloco",
+     "txt": "Na + Cl",
+     "pos": [
+      520,
+      960
+     ],
+     "size": 110,
+     "cor": "tinta",
+     "ang": -3
+    },
+    {
+     "t": "nota",
+     "txt": "todo dia!",
+     "pos": [
+      720,
+      1130
+     ],
+     "e": [
+      1,
+      "todo dia"
+     ],
+     "cor": "laranja",
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "fonte": "Fonte: Royal Society of Chemistry; Britannica",
+   "frases": [
+    [
+     "O primeiro ingrediente é o sódio. Um metal tão mole que dá pra cortar com faca.",
+     "O primeiro ingrediente é o sódio. Um metal tão mole que dá pra cortar com faca."
+    ],
+    [
+     "Na água, ele reage com violência, solta hidrogênio e pode até pegar fogo.",
+     "Na água, ele reage com violência, solta hidrogênio e pode até pegar fogo."
+    ],
+    [
+     "Por isso, no laboratório, ele fica guardado no óleo.",
+     "Por isso, no laboratório, ele fica guardado no óleo."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "verbete",
+     "palavra": "sódio (Na)",
+     "classe": "metal, subst. masc.",
+     "pos": [
+      520,
+      560
+     ],
+     "e": [
+      0,
+      "sódio"
+     ],
+     "w": 700,
+     "def": "macio, prateado; reage com violência com a água."
+    },
+    {
+     "t": "nota",
+     "txt": "pega fogo!",
+     "pos": [
+      330,
+      860
+     ],
+     "e": [
+      1,
+      "fogo"
+     ],
+     "cor": "laranja",
+     "size": 72
+    },
+    {
+     "t": "obj",
+     "nome": "frasco",
+     "pos": [
+      720,
+      920
+     ],
+     "e": [
+      2,
+      "óleo"
+     ],
+     "w": 230
+    },
+    {
+     "t": "tira",
+     "txt": "guardado no óleo",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      2,
+      "guardado"
+     ],
+     "size": 46
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "fonte": "Fonte: Royal Society of Chemistry",
+   "frases": [
+    [
+     "O segundo é o cloro: um gás amarelo-esverdeado, de cheiro sufocante.",
+     "O segundo é o cloro: um gás amarelo-esverdeado, de cheiro sufocante."
+    ],
+    [
+     "E muito venenoso.",
+     "E muito venenoso."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "verbete",
+     "palavra": "cloro (Cl)",
+     "classe": "gás, subst. masc.",
+     "pos": [
+      520,
+      600
+     ],
+     "w": 700,
+     "def": "amarelo-esverdeado, denso, de cheiro sufocante."
+    },
+    {
+     "t": "bloco",
+     "txt": "MUITO VENENOSO",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      1,
+      "venenoso"
+     ],
+     "size": 80,
+     "cor": "tinta",
+     "ang": -3
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "fonte": "Fonte: LibreTexts Chemistry",
+   "frases": [
+    [
+     "Quando os dois se encontram, o sódio entrega um elétron pro cloro.",
+     "Quando os dois se encontram, o sódio entrega um elétron pro cloro."
+    ],
+    [
+     "O sódio fica positivo, o cloro fica negativo, e os dois se atraem.",
+     "O sódio fica positivo, o cloro fica negativo, e os dois se atraem."
+    ],
+    [
+     "Isso é uma ligação iônica. E o resultado é o cloreto de sódio: o sal de cozinha.",
+     "Isso é uma ligação iônica. E o resultado é o cloreto de sódio: o sal de cozinha."
+    ]
+   ],
+   "camera": {
+    "push": 0.06
+   },
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "Na",
+     "pos": [
+      300,
+      520
+     ],
+     "size": 70
+    },
+    {
+     "t": "tira",
+     "txt": "Cl",
+     "pos": [
+      740,
+      520
+     ],
+     "size": 70
+    },
+    {
+     "t": "seta",
+     "de": [
+      380,
+      520
+     ],
+     "ate": [
+      660,
+      520
+     ],
+     "pos": [
+      0,
+      0
+     ],
+     "e": [
+      0,
+      "elétron"
+     ],
+     "cor": "laranja"
+    },
+    {
+     "t": "tira",
+     "txt": "Na+",
+     "pos": [
+      300,
+      720
+     ],
+     "e": [
+      1,
+      "positivo"
+     ],
+     "size": 60
+    },
+    {
+     "t": "tira",
+     "txt": "Cl-",
+     "pos": [
+      740,
+      720
+     ],
+     "e": [
+      1,
+      "negativo"
+     ],
+     "size": 60
+    },
+    {
+     "t": "bloco",
+     "txt": "LIGAÇÃO IÔNICA",
+     "pos": [
+      520,
+      940
+     ],
+     "e": [
+      2,
+      "ligação"
+     ],
+     "size": 72,
+     "cor": "tinta"
+    },
+    {
+     "t": "tira",
+     "txt": "NaCl = sal",
+     "pos": [
+      520,
+      1110
+     ],
+     "e": [
+      2,
+      "cloreto"
+     ],
+     "size": 52
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "fonte": "Fonte: OMS; Royal Society of Chemistry",
+   "frases": [
+    [
+     "E tudo muda. Nem metal que pega fogo, nem gás venenoso: um cristal branco, estável, que vai na comida.",
+     "E tudo muda. Nem metal que pega fogo, nem gás venenoso: um cristal branco, estável, que vai na comida."
+    ],
+    [
+     "E o corpo precisa do sódio, por exemplo, pra transmitir os impulsos nervosos.",
+     "E o corpo precisa do sódio, por exemplo, pra transmitir os impulsos nervosos."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "saleiro",
+     "pos": [
+      330,
+      680
+     ],
+     "w": 300,
+     "ang": -4
+    },
+    {
+     "t": "bloco",
+     "txt": "cristal\nestável",
+     "pos": [
+      720,
+      640
+     ],
+     "e": [
+      0,
+      "cristal"
+     ],
+     "size": 66,
+     "maxw": 360
+    },
+    {
+     "t": "obj",
+     "nome": "coracao",
+     "pos": [
+      700,
+      960
+     ],
+     "e": [
+      1,
+      "corpo"
+     ],
+     "w": 200
+    },
+    {
+     "t": "tira",
+     "txt": "impulsos nervosos",
+     "pos": [
+      400,
+      1080
+     ],
+     "e": [
+      1,
+      "impulsos"
+     ],
+     "size": 44
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "fonte": "Fonte: OMS; Pesquisa Nacional de Saúde (2019)",
+   "frases": [
+    [
+     "E hoje? A OMS recomenda menos de 5 gramas de sal por dia.",
+     "E hoje? A OMS recomenda menos de cinco gramas de sal por dia."
+    ],
+    [
+     "Segundo a Pesquisa Nacional de Saúde, o brasileiro come em média 9,3 gramas. Quase o dobro.",
+     "Segundo a Pesquisa Nacional de Saúde, o brasileiro come em média nove vírgula três gramas. Quase o dobro."
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "tira",
+     "txt": "OMS: menos de",
+     "pos": [
+      330,
+      460
+     ],
+     "size": 48
+    },
+    {
+     "t": "numero",
+     "txt": "5 g",
+     "pos": [
+      330,
+      640
+     ],
+     "e": [
+      0,
+      "5 gramas"
+     ],
+     "size": 170
+    },
+    {
+     "t": "tira",
+     "txt": "Brasil: média de",
+     "pos": [
+      720,
+      780
+     ],
+     "e": [
+      1,
+      "brasileiro"
+     ],
+     "size": 44
+    },
+    {
+     "t": "numero",
+     "txt": "9,3 g",
+     "pos": [
+      720,
+      960
+     ],
+     "e": [
+      1,
+      "9,3"
+     ],
+     "size": 170
+    },
+    {
+     "t": "nota",
+     "txt": "quase o dobro",
+     "pos": [
+      480,
+      1140
+     ],
+     "e": [
+      1,
+      "dobro"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "frases": [
+    [
+     "Então: o sal é um metal que pega fogo e um gás venenoso que, juntos, viraram tempero.",
+     "Então: o sal é um metal que pega fogo e um gás venenoso que, juntos, viraram tempero."
+    ],
+    [
+     "Salva esse pra lembrar de ligação iônica na prova.",
+     "Salva esse pra lembrar de ligação iônica na prova."
+    ],
+    [
+     "A fonte tá na legenda. Só sei que foi assim!",
+     "Só sei que foi assim!"
+    ]
+   ],
+   "elementos": [
+    {
+     "t": "obj",
+     "nome": "saleiro",
+     "pos": [
+      520,
+      620
+     ],
+     "w": 320,
+     "ang": 3
+    },
+    {
+     "t": "bloco",
+     "txt": "Na + Cl = tempero",
+     "pos": [
+      520,
+      980
+     ],
+     "e": [
+      0,
+      "tempero"
+     ],
+     "size": 72
+    },
+    {
+     "t": "nota",
+     "txt": "salva esse!",
+     "pos": [
+      740,
+      1140
+     ],
+     "e": [
+      1,
+      "Salva"
+     ],
+     "cor": "laranja",
+     "size": 56
+    }
+   ]
+  }
+ ]
+}
